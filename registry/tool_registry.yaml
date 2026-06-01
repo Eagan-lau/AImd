@@ -83,9 +83,14 @@ cluster_scoring:
       formula_config_key: clusterscore.formula
 
 pose_scoring:
-  current: metaboclip_family_yaml
+  current: metaboclip_unified_bridge
   adapters:
-    metaboclip_family_yaml:
+    metaboclip_unified_bridge:
       module: MetaBoClipBridge
       config: configs/MetaBoClip/metaboclip_bridge.yaml
-      family_rule_location: MetaBoClip/families/*/family.yaml
+      backend: third_party/metaboclip_unified
+      profile: third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
+      mechanism_location: third_party/metaboclip_unified/metaboclip/config/families/*/mechanism.yaml
+      outputs:
+        - data/metaboclip/results/metaboclip_final_ranking.csv
+        - data/metaboclip/results/metaboclip_run_manifest.csv

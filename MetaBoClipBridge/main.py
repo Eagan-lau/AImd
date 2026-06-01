@@ -20,7 +20,7 @@ def run_metaboclip_bridge(config_path: str | Path) -> Path:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run AImd MetaBoClipBridge: catalytic geometry gating and pose/protein scoring")
+    parser = argparse.ArgumentParser(description="Run AImd MetaBoClipBridge with the unified MetaboClip backend")
     parser.add_argument("--config", required=True, help="Path to configs/MetaBoClip/metaboclip_bridge.yaml")
     args = parser.parse_args()
     run_metaboclip_bridge(args.config)

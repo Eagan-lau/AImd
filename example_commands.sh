@@ -6,6 +6,10 @@ set -euo pipefail
 
 python validate_aimd_layout.py --root .
 
+# Deterministic MetaboClip bridge smoke test
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified \
+  python -m pytest tests/test_metaboclip_bridge_smoke.py -q
+
 # 1. Protein structure clustering
 python run_rgpc.py --config configs/RGPC/rgpc.yaml
 
@@ -21,7 +25,7 @@ python run_clusterscore.py --config configs/Scoring/cluster_score.yaml
 # 5. Refined top-cluster docking with ensemble/cofactor settings
 python run_refinement.py --config configs/Refinement/refine_from_clusterscore.yaml
 
-# 6. MetaBoClip family-specific gating and scoring
+# 6. Unified MetaboClip role handling, catalytic geometry scoring, and AImd result translation
 python run_metaboclip_bridge.py --config configs/MetaBoClip/metaboclip_bridge.yaml
 
 # Or run the full workflow:

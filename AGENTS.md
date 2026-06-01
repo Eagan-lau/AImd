@@ -4,15 +4,15 @@
 
 This repository is the AImd engineering package.
 
-The new MetaboClip core logic is located at:
+AImd treats MetaboClip as a core scientific component of the workflow.
+
+The active unified MetaboClip core logic is located at:
 
 third_party/metaboclip_unified
 
-The old MetaboClip implementation is preserved only as legacy code at:
+The old MetaboClip implementation has been removed from the clean deliverable package.
 
-third_party/MetaBoClip_legacy
-
-The task is to integrate the new MetaboClip logic into AImd through MetaBoClipBridge.
+The task is to keep the unified MetaboClip logic integrated into AImd through MetaBoClipBridge.
 
 ## Source-of-truth priority
 
@@ -92,17 +92,13 @@ MetaBoClipBridge must preserve as much AImd metadata as possible when adapting t
 
 Do not blindly overwrite source files.
 
-Use MetaBoClipBridge as the adapter layer between AImd and the new MetaboClip core.
+Use MetaBoClipBridge as the adapter layer between AImd and the unified MetaboClip core.
 
 Keep third_party/metaboclip_unified as a standalone core module.
 
 Do not modify third_party/metaboclip_unified unless a minimal compatibility wrapper, import fix, or packaging fix is strictly required.
 
-Do not restore or reintroduce the old MetaBoClip logic as the active workflow.
-
-Do not delete third_party/MetaBoClip_legacy unless explicitly instructed.
-
-The old implementation may be inspected for backward compatibility, but it must not be used as the active backend.
+Do not restore or reintroduce the old MetaBoClip logic.
 
 ## New MetaboClip logic
 
@@ -227,7 +223,7 @@ Use minimal smoke tests only.
 
 Do not run commands that may modify user data unless the user explicitly approves them.
 
-Do not remove third_party/MetaBoClip_legacy unless explicitly instructed.
+Do not recreate the removed old MetaBoClip implementation unless explicitly instructed.
 
 All generated source code, comments, README text, configuration examples, YAML files, JSON files, CSV headers, plot labels, legends, titles, and documentation must be in English only.
 
@@ -322,6 +318,18 @@ After editing files, summarize:
 5. git diff summary
 
 Do not commit changes unless explicitly instructed.
+
+## GitHub delivery workflow
+
+For this project, the user has explicitly requested GitHub synchronization after completed engineering updates.
+
+After a controlled update is implemented and the relevant safe checks pass:
+
+1. Commit the completed change set.
+2. Push it to `origin/main`.
+3. Report the commit hash and push result.
+
+Do not push half-finished work, failed validation states, generated cache files, large data/output directories, model weights, or temporary files. If the user explicitly says not to commit or not to push for a task, follow that newer instruction.
 
 ## Minimal smoke-test policy
 

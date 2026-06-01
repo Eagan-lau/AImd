@@ -1,30 +1,38 @@
 # AImd
 
-AImd 是一个模块化的多工具蛋白-分子对接与构象打分工程包。
+AImd is a modular engineering package for protein clustering, pocket prediction, docking, cluster scoring, refined docking, and catalytic scoring.
 
-当前主流程：
+The current workflow is:
 
 ```text
-RGPC → TApocketBridge → DockingHub → ClusterScore → RefinementHub → refined DockingHub → MetaBoClipBridge
+RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
 ```
 
-## 快速开始
+MetaboClip is a core scientific component of the AImd workflow. `MetaBoClipBridge` calls the unified MetaboClip core under `third_party/metaboclip_unified`; the old implementation is not part of the clean deliverable package.
+
+## Quick Start
 
 ```bash
 cd AImd
 pip install -r requirements.txt
-
 python validate_aimd_layout.py --root .
 ```
 
-完整运行：
+Run the deterministic MetaboClip bridge smoke test:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified \
+  python -m pytest tests/test_metaboclip_bridge_smoke.py -q
+```
+
+Run the full workflow only after all required inputs and external tools are available:
 
 ```bash
 python run_full_iterative_metaboclip.py \
   --config configs/workflows/full_iterative_metaboclip.yaml
 ```
 
-单步运行：
+Run modules individually:
 
 ```bash
 python run_rgpc.py --config configs/RGPC/rgpc.yaml
@@ -35,54 +43,77 @@ python run_refinement.py --config configs/Refinement/refine_from_clusterscore.ya
 python run_metaboclip_bridge.py --config configs/MetaBoClip/metaboclip_bridge.yaml
 ```
 
-## 正式文档
+## MetaboClip Integration
 
-详细使用手册：
+The active MetaboClip configuration is:
 
 ```text
-docs/AImd_USER_MANUAL.md
+configs/MetaBoClip/metaboclip_bridge.yaml
 ```
 
-模块接口规范：
+The bridge consumes the refined docking manifest:
 
 ```text
-docs/MODULE_INTERFACE_SPEC.md
-```
-
-工程检查报告：
-
-```text
-docs/ENGINEERING_CHECK_REPORT.md
-```
-
-## 关键输入位置
-
-```text
-data/protein_structure/cleaned_pdb/     # 蛋白结构库
-data/ligand/ligand_manifest.csv         # ligand manifest
-data/ligand/file_*/                     # ligand PDBQT
-data/cofactor/file_*/                   # 可选 cofactor 模板
-```
-
-## 关键输出位置
-
-```text
-data/protein/protein_manifest.csv
-data/pocket/pocket_manifest.csv
-data/docking_out/docking_result_manifest.csv
-data/scoring/ClusterScore/clusterscore_results.xlsx
 data/refined/docking_out/docking_result_manifest.csv
+```
+
+It preserves AImd metadata, prepares unified backend inputs, handles ligand role tables, calls `metaboclip.core.workflow.run_directory`, and writes AImd-compatible outputs under:
+
+```text
+data/metaboclip/results/
+```
+
+The stable final ranking path is:
+
+```text
 data/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
-## v4 third-party layer
+Unified backend run artifacts are written under:
 
-AImd now includes `third_party/` for external command and model management. Before running the workflow, execute:
+```text
+data/metaboclip/unified_runs/
+```
+
+## Role Tables
+
+`role_tables.mode` supports:
+
+```text
+existing
+generate
+auto
+```
+
+`existing` reuses prebuilt role tables. `generate` builds role tables from original ligand source files and prepared ligand PDBQT files. `auto` reuses existing role tables and generates only missing ones when source inputs are available.
+
+Role generation uses the unified ligand role APIs and records:
+
+```text
+role_table_path
+annotation_json_path
+atom_map_json_path
+```
+
+Downstream catalytic geometry uses heavy atoms only. Ligand hydrogen atoms may be used by the unified role detector for functional-group recognition, but hydrogen coordinates are not used for downstream catalytic geometry.
+
+## Documentation
+
+Primary documents:
+
+```text
+docs/AImd_USER_MANUAL.md
+docs/MODULE_INTERFACE_SPEC.md
+docs/aimd_manifest_interface_spec.md
+docs/ENGINEERING_CHECK_REPORT.md
+```
+
+## Third-Party Tools
+
+AImd keeps external tool metadata under `third_party/`. To check command availability:
 
 ```bash
 python third_party/check_tools.py --config third_party/tools.yaml --root .
 ```
 
-Use `third_party/setup_links.py` to create stable local command entries under `third_party/bin`.
-
-RGPC now adds `-a` to Foldseek search by default (`require_backtrace: true`) and can skip HipMCL by creating singleton clusters when the filtered structural graph is empty.
+PyMOL is not required for core unified MetaboClip scoring. It is optional for visualization/export paths or other modules that explicitly use it.

@@ -78,4 +78,4 @@ def test_export_writes_candidate_selections(tmp_path: Path):
     assert "select CANDIDATE_PROTEIN_ATOMS" in text
     assert "create CANDIDATE_LIGAND_ATOMS_OBJECT" in text
     assert "distance DIST_attack_distance" in text
-    assert "save " in text
+    assert "cmd.save(_pse_path)" in text

@@ -3,5 +3,8 @@ biopython
 pandas
 numpy
 matplotlib
-# Optional for MetaBoClip catalytic geometry execution:
+scipy
+rdkit
+pytest
+# Optional for PyMOL export or visualization only:
 # pymol2 or a working PyMOL command-line installation

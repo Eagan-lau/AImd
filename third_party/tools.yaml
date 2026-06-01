@@ -35,7 +35,7 @@ tools:
     executable: pymol
     check_command: "{executable} -cq"
     check_timeout: 20
-    used_by: [DockingHub.ensemble_alignment, DockingHub.cofactor, MetaBoClip]
+    used_by: [DockingHub.ensemble_alignment, DockingHub.cofactor, MetaboClip.optional_pymol_export]
   alphaflow:
     enabled: false
     required: false

@@ -5,7 +5,7 @@
 This script does not run external tools. It checks:
 1. required module directories;
 2. required config files;
-3. key input/output folders;
+3. the active unified MetaboClip backend location;
 4. YAML parseability;
 5. Python importability of AImd wrapper modules;
 6. availability of common external executables when present in PATH.
@@ -27,8 +27,9 @@ except ImportError:
 
 REQUIRED_DIRS = [
     "RGPC", "TApocket", "TApocketBridge", "DockingHub",
-    "ScoringHub", "RefinementHub", "MetaBoClip", "MetaBoClipBridge",
-    "orchestrator", "configs", "data", "docs",
+    "ScoringHub", "RefinementHub", "MetaBoClipBridge",
+    "orchestrator", "configs", "data", "docs", "third_party",
+    "third_party/metaboclip_unified",
 ]
 
 REQUIRED_CONFIGS = [
@@ -52,7 +53,15 @@ IMPORT_MODULES = [
 ]
 
 EXTERNAL_TOOLS = [
-    "foldseek", "hipmcl", "pymol", "prepare_receptor", "vina",
+    "foldseek", "hipmcl", "prepare_receptor", "vina",
+]
+
+OPTIONAL_EXTERNAL_TOOLS = [
+    "pymol",
+]
+
+YAML_CHECK_DIRS = [
+    "configs",
 ]
 
 
@@ -71,23 +80,36 @@ def check_yaml(root: Path) -> list[str]:
     if yaml is None:
         return ["PyYAML is not installed; cannot parse YAML configs"]
     errors: list[str] = []
-    for path in root.rglob("*.yaml"):
-        try:
-            with path.open("r", encoding="utf-8") as handle:
-                yaml.safe_load(handle)
-        except Exception as exc:
-            errors.append(f"YAML parse error: {path.relative_to(root)} :: {exc}")
+    for rel_dir in YAML_CHECK_DIRS:
+        base = root / rel_dir
+        if not base.exists():
+            continue
+        for path in base.rglob("*.yaml"):
+            try:
+                with path.open("r", encoding="utf-8") as handle:
+                    yaml.safe_load(handle)
+            except Exception as exc:
+                errors.append(f"YAML parse error: {path.relative_to(root)} :: {exc}")
     return errors
 
 
 def check_imports(root: Path) -> list[str]:
     errors: list[str] = []
     sys.path.insert(0, str(root))
+    unified_root = root / "third_party" / "metaboclip_unified"
+    if str(unified_root) not in sys.path:
+        sys.path.insert(0, str(unified_root))
     for mod in IMPORT_MODULES:
         try:
             importlib.import_module(mod)
         except Exception as exc:
             errors.append(f"import failed: {mod} :: {exc}")
+    try:
+        workflow = importlib.import_module("metaboclip.core.workflow")
+        getattr(workflow, "run_directory")
+        getattr(workflow, "run_single_pair")
+    except Exception as exc:
+        errors.append(f"unified MetaboClip backend import failed :: {exc}")
     return errors
 
 
@@ -113,6 +135,12 @@ def main() -> None:
             errors.extend([f"missing external tool: {tool}" for tool in missing_tools])
     else:
         print("[AImd validate] all common external tools found in PATH")
+
+    missing_optional = [tool for tool in OPTIONAL_EXTERNAL_TOOLS if shutil.which(tool) is None]
+    if missing_optional:
+        print("[AImd validate] optional external tools not found in PATH:")
+        for tool in missing_optional:
+            print(f"  - {tool}")
 
     if errors:
         print("[AImd validate] FAILED")

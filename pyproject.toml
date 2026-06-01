@@ -5,9 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aimd-full-integrated"
 version = "0.3.0"
-description = "AImd integrated RGPC, TApocket, DockingHub, ClusterScore, refined docking, and MetaBoClip catalytic scoring workflow."
+description = "AImd integrated RGPC, TApocket, DockingHub, ClusterScore, refined docking, and unified MetaboClip catalytic scoring workflow."
 requires-python = ">=3.9"
-dependencies = ["PyYAML>=6.0", "pandas>=1.5", "numpy>=1.21", "biopython>=1.80"]
+dependencies = ["PyYAML>=6.0", "pandas>=1.5", "numpy>=1.21", "scipy>=1.8", "rdkit>=2022.9", "biopython>=1.80"]
 
 [project.scripts]
 aimd-rgpc = "RGPC.main:main"

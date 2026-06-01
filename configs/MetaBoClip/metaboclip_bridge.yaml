@@ -1,5 +1,6 @@
 module: MetaBoClipBridge
-name: Catalytic geometry gating and family-specific pose/protein scoring after refined docking
+name: Unified MetaboClip backend after refined docking
+backend: unified
 
 paths:
   aimd_root: .
@@ -7,12 +8,21 @@ paths:
   # Input from RefinementHub / refined DockingHub.
   refined_docking_manifest: data/refined/docking_out/docking_result_manifest.csv
 
-  # Bundled MetaBoClip project.
-  metaboclip_project_dir: MetaBoClip
+  # Unified MetaboClip backend and profile.
+  metaboclip_project_dir: third_party/metaboclip_unified
+  metaboclip_profile: third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
 
-  # Bridge-generated staging layout and final outputs.
+  # Bridge-generated staging layout, unified outputs, and final AImd-facing outputs.
   staging_dir: data/metaboclip/staging
+  unified_output_dir: data/metaboclip/unified_runs
   results_dir: data/metaboclip/results
+
+  # Ligand role-map inputs and outputs.
+  ligand_manifest: data/ligand/ligand_manifest.csv
+  ligand_source_manifest: data/ligand/ligand_source_manifest.csv
+  role_table_dir: data/metaboclip/ligand_roles/role_tables
+  annotation_dir: data/metaboclip/ligand_roles/annotations
+  atom_map_dir: data/metaboclip/ligand_roles/atom_maps
 
 filtering:
   require_success_status: true
@@ -43,27 +53,24 @@ family_assignment:
   # Used when mode = column.
   family_column: family
 
-# Optional external family specs; each may be a family.yaml, a family directory, or a directory containing many families.
-plugin_dirs: []
+mechanisms:
+  cyp450: third_party/metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
+  fe2og: third_party/metaboclip_unified/metaboclip/config/families/fe2og/mechanism.yaml
+  ugt: third_party/metaboclip_unified/metaboclip/config/families/ugt/mechanism.yaml
+  act: third_party/metaboclip_unified/metaboclip/config/families/act/mechanism.yaml
+  ach: third_party/metaboclip_unified/metaboclip/config/families/ach/mechanism.yaml
 
-# Built-in family overlays from MetaBoClip. These can be replaced by your own configs.
-family_instance_configs:
-  cyp450: MetaBoClip/configs/CYP450/instance.yaml
-  fe2og: MetaBoClip/configs/Fe2OG/instance.yaml
-  ugt: MetaBoClip/configs/UGT/instance.yaml
-  act: MetaBoClip/configs/ACT/instance.yaml
-  ach: MetaBoClip/configs/ACH/instance.yaml
-
-# Common overlay deep-merged into every family YAML before execution.
-metaboclip_config_overlay:
-  input:
-    affinity_threshold: -3.0
-  aggregation:
-    total_confs: 6
-    cover_t: 70.0
-    alpha: 0.3
-  output:
-    save_pse: true
+role_tables:
+  # existing | generate | auto
+  # existing reuses prebuilt role tables.
+  # generate builds role tables from ligand source files and prepared ligand PDBQT files.
+  # auto reuses existing role tables and generates only missing ones when source inputs are available.
+  mode: existing
+  rules: third_party/metaboclip_unified/rules/functional_groups.yaml
+  groups: []
+  ligand_source_column: ligand_source_path
+  prepared_pdbqt_column: ligand_pdbqt_path
+  max_dist: 0.5
 
 execution:
   run_metaboclip: true
