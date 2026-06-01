@@ -1,0 +1,88 @@
+# Default computational policy for MetaboClip.
+# Most users do not need to edit this file.
+
+runtime:
+  # OPTIONAL: Number of expected conformations per protein.
+  total_conformations: 6
+
+  # OPTIONAL: Maximum number of candidates retained per role expansion step.
+  max_candidates_per_role: 20
+
+  # OPTIONAL: Maximum number of site sets retained per pose.
+  max_site_sets_per_pose: 100
+
+input:
+  # OPTIONAL: File naming rules. Edit only if your input names differ.
+  protein_extension: .pdbqt
+  ligand_extension: .pdbqt
+  ligand_pose_pattern: "{ligand_id}@{protein_name}{ligand_extension}"
+  docking_output_pattern: "{ligand_id}_{protein_name}_cavity_1.out"
+  ligand_role_table_pattern: "{ligand_id}.role_table.csv"
+
+affinity:
+  source: vina_out
+  field: affinity_kcal
+  unit: kcal_per_mol
+  gate_threshold: -3.0
+  scoring:
+    # OPTIONAL: AffinityScore = 1.0 at or below full, 0.0 at or above zero.
+    transform: energy_linear
+    full: -7.0
+    zero: -3.0
+    weight: 0.30
+
+scoring:
+  affinity:
+    full: -7.0
+    zero: -3.0
+    weight: 0.30
+
+  geometry:
+    # OPTIONAL: HierarchicalGeometryScore weight in CandidateScore.
+    weight: 0.70
+
+    # OPTIONAL: Level weights for role-chain geometry.
+    # Level 1: ligand site to first protein role.
+    # Level 2: first protein role to second protein role.
+    # Level 3: second protein role to third protein role.
+    level_weights:
+      1: 0.60
+      2: 0.25
+      3: 0.15
+
+    # OPTIONAL: Use only declared and available levels for weight normalization.
+    normalize_declared_levels: true
+    missing_optional_policy: ignore
+
+aggregation:
+  pose:
+    method: max_candidate_score
+
+  conformation:
+    method: max_pose_score
+
+  protein:
+    method: coverage_weighted_conformation_score
+    total_conformations: 6
+    coverage_threshold: 70.0
+    coverage_target: 0.70
+    alpha: 0.30
+    quality_method: max_conformation_score
+    normalize_to: 100.0
+
+output:
+  save_passing_candidates: true
+  save_failed_candidates: false
+  save_pose_scores: true
+  save_conformation_scores: true
+  save_protein_scores: true
+  files:
+    resolved_ligand_sites: resolved_ligand_sites.csv
+    resolved_protein_roles: resolved_protein_roles.csv
+    geometry_features: geometry_features.csv
+    passing_candidates: passing_candidates.csv
+    candidate_scores: candidate_scores.csv
+    pose_scores: pose_scores.csv
+    conformation_scores: conformation_scores.csv
+    protein_scores: protein_scores.csv
+    summary: summary.json

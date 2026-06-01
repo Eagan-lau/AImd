@@ -1,0 +1,127 @@
+# ACH or hydrolase-like carbonyl attack mechanism file.
+# This default version is ligand-seeded. A template-seeded version can be made by changing
+# the nucleophile role to from: template.<template_name>.
+
+ligand_sites:
+  carbonyl_c:
+    # EDIT: Carbonyl carbon atoms from ester, lactone, acetyl, benzoyl, or related acyl groups.
+    atom_classes:
+      - acyl_carbonyl_c
+      - ester_carbonyl_c
+    required: true
+
+  carbonyl_o:
+    # EDIT: Carbonyl oxygen from the same group instance as carbonyl_c.
+    linked_to: carbonyl_c
+    atom_classes:
+      - carbonyl_oxygen
+    required: true
+
+# OPTIONAL: Add protein_templates when template-seeded role mapping is needed.
+# Example:
+# protein_templates:
+#   ach_template:
+#     path: resources/ach_template.pdb
+#     align_to_protein: true
+#     align_method: structure_global
+#     align_backend: tmalign
+#     executable: TMalign
+#     required: true
+protein_templates: {}
+
+protein_roles:
+  - role: nucleophile
+    # EDIT: First protein-side role near ligand carbonyl C.
+    from: ligand.carbonyl_c
+    radius: 6.0
+    required: true
+    residues:
+      SER: [OG]
+      CYS: [SG]
+      ASP: [OD1, OD2]
+      GLU: [OE1, OE2]
+
+  - role: base
+    # EDIT: Supporting catalytic base near nucleophile.
+    from: protein.nucleophile
+    radius: 5.0
+    required: true
+    residues:
+      HIS: [ND1, NE2]
+
+  - role: acid
+    # OPTIONAL: Acid residue near base.
+    from: protein.base
+    radius: 5.5
+    required: false
+    residues:
+      ASP: [OD1, OD2]
+      GLU: [OE1, OE2]
+
+features:
+  attack_distance:
+    type: distance
+    atoms:
+      - protein.nucleophile
+      - ligand.carbonyl_c
+    gate:
+      min: 2.0
+      max: 5.5
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.5
+      weight: 0.65
+
+  attack_angle:
+    # EDIT: Nucleophile - carbonyl C - carbonyl O angle.
+    type: angle_3pt
+    enabled: true
+    a: protein.nucleophile
+    vertex: ligand.carbonyl_c
+    c: ligand.carbonyl_o
+    gate:
+      min: 90.0
+      max: 140.0
+      required: true
+    score:
+      level: 1
+      transform: angle_gaussian
+      target: 107.0
+      sigma: 20.0
+      weight: 0.35
+
+  base_distance:
+    type: distance
+    atoms:
+      - protein.nucleophile
+      - protein.base
+    gate:
+      min: 2.5
+      max: 5.0
+      required: true
+    score:
+      level: 2
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.0
+      weight: 1.0
+
+  acid_distance:
+    type: distance
+    enabled: true
+    atoms:
+      - protein.base
+      - protein.acid
+    gate:
+      min: 2.5
+      max: 5.5
+      required: false
+    score:
+      level: 3
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.5
+      weight: 1.0

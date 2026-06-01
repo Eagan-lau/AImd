@@ -1,0 +1,722 @@
+schema:
+  name: metaboclip.ligand_atom_role_rules
+  version: 3
+
+policy:
+  geometry_atom_policy: heavy_atoms_only
+  hydrogen_policy: hydrogen_is_used_for_recognition_only
+  atom_map_scope: heavy_atoms_only
+  semantic_policy: ligand_rules_describe_chemical_facts_only
+
+atom_labels:
+  hydroxyl.o:
+    group_id: hydroxyl
+    atom_role: o
+    atom_class: hydroxyl_oxygen
+    element: O
+    description: Hydroxyl oxygen atom.
+  hydroxyl.parent_atom:
+    group_id: hydroxyl
+    atom_role: parent_atom
+    atom_class: hydroxyl_parent_atom
+    element: "*"
+    description: Heavy atom attached to the hydroxyl oxygen.
+  protic_nucleophile.atom:
+    group_id: protic_nucleophile
+    atom_role: atom
+    atom_class: protic_heteroatom
+    element: "*"
+    description: Protic O, N, or S atom.
+  protic_nucleophile.parent_atom:
+    group_id: protic_nucleophile
+    atom_role: parent_atom
+    atom_class: protic_heteroatom_parent_atom
+    element: "*"
+    description: Heavy atom attached to the protic heteroatom.
+  carbonyl.c:
+    group_id: carbonyl
+    atom_role: c
+    atom_class: carbonyl_carbon
+    element: C
+    description: Carbonyl carbon atom.
+  carbonyl.o:
+    group_id: carbonyl
+    atom_role: o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Carbonyl oxygen atom.
+  ester.carbonyl_c:
+    group_id: ester
+    atom_role: carbonyl_c
+    atom_class: ester_carbonyl_c
+    element: C
+    description: Ester carbonyl carbon atom.
+  ester.carbonyl_o:
+    group_id: ester
+    atom_role: carbonyl_o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Ester carbonyl oxygen atom.
+  ester.ester_o:
+    group_id: ester
+    atom_role: ester_o
+    atom_class: ester_oxygen
+    element: O
+    description: Single-bond ester oxygen atom.
+  ester.attachment_atom:
+    group_id: ester
+    atom_role: attachment_atom
+    atom_class: ester_attachment_atom
+    element: "*"
+    description: Heavy atom attached to the ester oxygen.
+  lactone.carbonyl_c:
+    group_id: lactone
+    atom_role: carbonyl_c
+    atom_class: ester_carbonyl_c
+    element: C
+    description: Lactone carbonyl carbon atom.
+  lactone.carbonyl_o:
+    group_id: lactone
+    atom_role: carbonyl_o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Lactone carbonyl oxygen atom.
+  lactone.ring_ester_o:
+    group_id: lactone
+    atom_role: ring_ester_o
+    atom_class: ester_oxygen
+    element: O
+    description: Ring ester oxygen atom in a lactone.
+  acetyl.acyl_c:
+    group_id: acetyl
+    atom_role: acyl_c
+    atom_class: acyl_carbonyl_c
+    element: C
+    description: Acetyl carbonyl carbon atom.
+  acetyl.carbonyl_o:
+    group_id: acetyl
+    atom_role: carbonyl_o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Acetyl carbonyl oxygen atom.
+  acetyl.attachment_atom:
+    group_id: acetyl
+    atom_role: attachment_atom
+    atom_class: acyl_attachment_atom
+    element: "*"
+    description: Atom attached to the acetyl carbonyl carbon outside the methyl group.
+  acetyl.methyl_c:
+    group_id: acetyl
+    atom_role: methyl_c
+    atom_class: acetyl_methyl_c
+    element: C
+    description: Acetyl methyl carbon atom.
+  acetoxy.acyl_c:
+    group_id: acetoxy
+    atom_role: acyl_c
+    atom_class: acyl_carbonyl_c
+    element: C
+    description: Acetoxy carbonyl carbon atom.
+  acetoxy.carbonyl_o:
+    group_id: acetoxy
+    atom_role: carbonyl_o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Acetoxy carbonyl oxygen atom.
+  acetoxy.ester_o:
+    group_id: acetoxy
+    atom_role: ester_o
+    atom_class: ester_oxygen
+    element: O
+    description: Acetoxy ester oxygen atom.
+  acetoxy.attachment_atom:
+    group_id: acetoxy
+    atom_role: attachment_atom
+    atom_class: ester_attachment_atom
+    element: "*"
+    description: Heavy atom attached to the acetoxy ester oxygen.
+  acetoxy.methyl_c:
+    group_id: acetoxy
+    atom_role: methyl_c
+    atom_class: acetyl_methyl_c
+    element: C
+    description: Acetoxy methyl carbon atom.
+  benzoyl.acyl_c:
+    group_id: benzoyl
+    atom_role: acyl_c
+    atom_class: acyl_carbonyl_c
+    element: C
+    description: Benzoyl carbonyl carbon atom.
+  benzoyl.carbonyl_o:
+    group_id: benzoyl
+    atom_role: carbonyl_o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Benzoyl carbonyl oxygen atom.
+  benzoyl.aryl_c:
+    group_id: benzoyl
+    atom_role: aryl_c
+    atom_class: aryl_carbon
+    element: C
+    description: Aryl carbon attached to the benzoyl carbonyl carbon.
+  benzoyl.attachment_atom:
+    group_id: benzoyl
+    atom_role: attachment_atom
+    atom_class: acyl_attachment_atom
+    element: "*"
+    description: Atom attached to the benzoyl carbonyl carbon outside the aryl group.
+  benzoyloxy.acyl_c:
+    group_id: benzoyloxy
+    atom_role: acyl_c
+    atom_class: acyl_carbonyl_c
+    element: C
+    description: Benzoyloxy carbonyl carbon atom.
+  benzoyloxy.carbonyl_o:
+    group_id: benzoyloxy
+    atom_role: carbonyl_o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Benzoyloxy carbonyl oxygen atom.
+  benzoyloxy.ester_o:
+    group_id: benzoyloxy
+    atom_role: ester_o
+    atom_class: ester_oxygen
+    element: O
+    description: Benzoyloxy ester oxygen atom.
+  benzoyloxy.aryl_c:
+    group_id: benzoyloxy
+    atom_role: aryl_c
+    atom_class: aryl_carbon
+    element: C
+    description: Aryl carbon attached to the benzoyloxy carbonyl carbon.
+  benzoyloxy.attachment_atom:
+    group_id: benzoyloxy
+    atom_role: attachment_atom
+    atom_class: ester_attachment_atom
+    element: "*"
+    description: Heavy atom attached to the benzoyloxy ester oxygen.
+  amine_nh.n:
+    group_id: amine_nh
+    atom_role: n
+    atom_class: amine_nitrogen
+    element: N
+    description: Amine nitrogen with at least one hydrogen in the source ligand.
+  amide_nh.n:
+    group_id: amide_nh
+    atom_role: n
+    atom_class: amide_nitrogen
+    element: N
+    description: Amide nitrogen with at least one hydrogen in the source ligand.
+  amide_nh.carbonyl_c:
+    group_id: amide_nh
+    atom_role: carbonyl_c
+    atom_class: amide_carbonyl_c
+    element: C
+    description: Amide carbonyl carbon atom.
+  amide_nh.carbonyl_o:
+    group_id: amide_nh
+    atom_role: carbonyl_o
+    atom_class: carbonyl_oxygen
+    element: O
+    description: Amide carbonyl oxygen atom.
+  alkene.c1:
+    group_id: alkene
+    atom_role: c1
+    atom_class: alkene_carbon
+    element: C
+    description: First alkene carbon atom.
+  alkene.c2:
+    group_id: alkene
+    atom_role: c2
+    atom_class: alkene_carbon
+    element: C
+    description: Second alkene carbon atom.
+  epoxide.o:
+    group_id: epoxide
+    atom_role: o
+    atom_class: epoxide_oxygen
+    element: O
+    description: Epoxide oxygen atom.
+  epoxide.c1:
+    group_id: epoxide
+    atom_role: c1
+    atom_class: epoxide_carbon
+    element: C
+    description: First epoxide carbon atom.
+  epoxide.c2:
+    group_id: epoxide
+    atom_role: c2
+    atom_class: epoxide_carbon
+    element: C
+    description: Second epoxide carbon atom.
+  glycosyl_pyranose.c1:
+    group_id: glycosyl_pyranose
+    atom_role: c1
+    atom_class: glycosyl_anomeric_c
+    element: C
+    description: Canonically numbered C1 anomeric carbon of a pyranose glycosyl motif.
+  glycosyl_pyranose.c2:
+    group_id: glycosyl_pyranose
+    atom_role: c2
+    atom_class: sugar_ring_carbon
+    element: C
+    description: Canonically numbered C2 ring carbon.
+  glycosyl_pyranose.c3:
+    group_id: glycosyl_pyranose
+    atom_role: c3
+    atom_class: sugar_ring_carbon
+    element: C
+    description: Canonically numbered C3 ring carbon.
+  glycosyl_pyranose.c4:
+    group_id: glycosyl_pyranose
+    atom_role: c4
+    atom_class: sugar_ring_carbon
+    element: C
+    description: Canonically numbered C4 ring carbon.
+  glycosyl_pyranose.c5:
+    group_id: glycosyl_pyranose
+    atom_role: c5
+    atom_class: sugar_ring_carbon
+    element: C
+    description: Canonically numbered C5 ring carbon.
+  glycosyl_pyranose.c6:
+    group_id: glycosyl_pyranose
+    atom_role: c6
+    atom_class: sugar_exocyclic_carbon
+    element: C
+    description: Canonically numbered C6 exocyclic carbon.
+  glycosyl_pyranose.o2:
+    group_id: glycosyl_pyranose
+    atom_role: o2
+    atom_class: sugar_hydroxyl_oxygen
+    element: O
+    description: Oxygen substituent attached to C2.
+  glycosyl_pyranose.o3:
+    group_id: glycosyl_pyranose
+    atom_role: o3
+    atom_class: sugar_hydroxyl_oxygen
+    element: O
+    description: Oxygen substituent attached to C3.
+  glycosyl_pyranose.o4:
+    group_id: glycosyl_pyranose
+    atom_role: o4
+    atom_class: sugar_hydroxyl_oxygen
+    element: O
+    description: Oxygen substituent attached to C4.
+  glycosyl_pyranose.o6:
+    group_id: glycosyl_pyranose
+    atom_role: o6
+    atom_class: sugar_hydroxyl_oxygen
+    element: O
+    description: Oxygen substituent attached to C6.
+  glycosyl_pyranose.ring_o:
+    group_id: glycosyl_pyranose
+    atom_role: ring_o
+    atom_class: sugar_ring_oxygen
+    element: O
+    description: Pyranose ring oxygen atom.
+  glycosyl_pyranose.glycosidic_atom:
+    group_id: glycosyl_pyranose
+    atom_role: glycosidic_atom
+    atom_class: glycosidic_heteroatom
+    element: "*"
+    description: Exocyclic heteroatom attached to C1.
+  glycosyl_pyranose.glycosidic_o:
+    group_id: glycosyl_pyranose
+    atom_role: glycosidic_o
+    atom_class: glycosidic_oxygen
+    element: O
+    description: Exocyclic oxygen attached to C1.
+  c_h_site.c:
+    group_id: c_h_site
+    atom_role: c
+    atom_class: hydrogen_bearing_carbon
+    element: C
+    description: Carbon atom that bears at least one hydrogen in the source ligand.
+
+functional_groups:
+  hydroxyl:
+    priority: 50
+    detector:
+      type: smarts
+      pattern: "[OX2H]"
+    roles:
+      o:
+        match_atom: 0
+        atom_label: hydroxyl.o
+        atom_class: hydroxyl_oxygen
+        element: O
+      parent_atom:
+        rule: heavy_neighbor_of
+        role: o
+        required: true
+        atom_label: hydroxyl.parent_atom
+        atom_class: hydroxyl_parent_atom
+    evidence:
+      has_attached_h:
+        role: o
+        min_total_h: 1
+        required: true
+
+  protic_nucleophile:
+    priority: 40
+    detector:
+      type: smarts
+      pattern: "[O,N,S;H1,H2]"
+    roles:
+      atom:
+        match_atom: 0
+        atom_label: protic_nucleophile.atom
+        atom_class: protic_heteroatom
+      parent_atom:
+        rule: heavy_neighbor_of
+        role: atom
+        required: false
+        atom_label: protic_nucleophile.parent_atom
+        atom_class: protic_heteroatom_parent_atom
+    evidence:
+      has_attached_h:
+        role: atom
+        min_total_h: 1
+        required: true
+
+  carbonyl:
+    priority: 30
+    detector:
+      type: smarts
+      pattern: "[CX3]=[OX1]"
+    roles:
+      c:
+        match_atom: 0
+        atom_label: carbonyl.c
+        atom_class: carbonyl_carbon
+        element: C
+      o:
+        match_atom: 1
+        atom_label: carbonyl.o
+        atom_class: carbonyl_oxygen
+        element: O
+
+  ester:
+    priority: 70
+    detector:
+      type: smarts
+      pattern: "[CX3](=[OX1])[OX2][#6]"
+    roles:
+      carbonyl_c:
+        match_atom: 0
+        atom_label: ester.carbonyl_c
+        atom_class: ester_carbonyl_c
+        element: C
+      carbonyl_o:
+        match_atom: 1
+        atom_label: ester.carbonyl_o
+        atom_class: carbonyl_oxygen
+        element: O
+      ester_o:
+        match_atom: 2
+        atom_label: ester.ester_o
+        atom_class: ester_oxygen
+        element: O
+      attachment_atom:
+        match_atom: 3
+        atom_label: ester.attachment_atom
+        atom_class: ester_attachment_atom
+
+  lactone:
+    priority: 80
+    detector:
+      type: smarts
+      pattern: "[C;R](=[OX1])[O;R]"
+    roles:
+      carbonyl_c:
+        match_atom: 0
+        atom_label: lactone.carbonyl_c
+        atom_class: ester_carbonyl_c
+        element: C
+      carbonyl_o:
+        match_atom: 1
+        atom_label: lactone.carbonyl_o
+        atom_class: carbonyl_oxygen
+        element: O
+      ring_ester_o:
+        match_atom: 2
+        atom_label: lactone.ring_ester_o
+        atom_class: ester_oxygen
+        element: O
+
+  acetyl:
+    priority: 88
+    detector:
+      type: smarts
+      pattern: "[CH3][CX3](=[OX1])[!#1]"
+    roles:
+      methyl_c:
+        match_atom: 0
+        atom_label: acetyl.methyl_c
+        atom_class: acetyl_methyl_c
+        element: C
+      acyl_c:
+        match_atom: 1
+        atom_label: acetyl.acyl_c
+        atom_class: acyl_carbonyl_c
+        element: C
+      carbonyl_o:
+        match_atom: 2
+        atom_label: acetyl.carbonyl_o
+        atom_class: carbonyl_oxygen
+        element: O
+      attachment_atom:
+        match_atom: 3
+        atom_label: acetyl.attachment_atom
+        atom_class: acyl_attachment_atom
+
+  acetoxy:
+    priority: 90
+    detector:
+      type: smarts
+      pattern: "[CH3][CX3](=[OX1])[OX2][#6]"
+    roles:
+      methyl_c:
+        match_atom: 0
+        atom_label: acetoxy.methyl_c
+        atom_class: acetyl_methyl_c
+        element: C
+      acyl_c:
+        match_atom: 1
+        atom_label: acetoxy.acyl_c
+        atom_class: acyl_carbonyl_c
+        element: C
+      carbonyl_o:
+        match_atom: 2
+        atom_label: acetoxy.carbonyl_o
+        atom_class: carbonyl_oxygen
+        element: O
+      ester_o:
+        match_atom: 3
+        atom_label: acetoxy.ester_o
+        atom_class: ester_oxygen
+        element: O
+      attachment_atom:
+        match_atom: 4
+        atom_label: acetoxy.attachment_atom
+        atom_class: ester_attachment_atom
+
+  benzoyl:
+    priority: 88
+    detector:
+      type: smarts
+      pattern: "[c][CX3](=[OX1])[!#1]"
+    roles:
+      aryl_c:
+        match_atom: 0
+        atom_label: benzoyl.aryl_c
+        atom_class: aryl_carbon
+        element: C
+      acyl_c:
+        match_atom: 1
+        atom_label: benzoyl.acyl_c
+        atom_class: acyl_carbonyl_c
+        element: C
+      carbonyl_o:
+        match_atom: 2
+        atom_label: benzoyl.carbonyl_o
+        atom_class: carbonyl_oxygen
+        element: O
+      attachment_atom:
+        match_atom: 3
+        atom_label: benzoyl.attachment_atom
+        atom_class: acyl_attachment_atom
+
+  benzoyloxy:
+    priority: 90
+    detector:
+      type: smarts
+      pattern: "[c][CX3](=[OX1])[OX2][#6]"
+    roles:
+      aryl_c:
+        match_atom: 0
+        atom_label: benzoyloxy.aryl_c
+        atom_class: aryl_carbon
+        element: C
+      acyl_c:
+        match_atom: 1
+        atom_label: benzoyloxy.acyl_c
+        atom_class: acyl_carbonyl_c
+        element: C
+      carbonyl_o:
+        match_atom: 2
+        atom_label: benzoyloxy.carbonyl_o
+        atom_class: carbonyl_oxygen
+        element: O
+      ester_o:
+        match_atom: 3
+        atom_label: benzoyloxy.ester_o
+        atom_class: ester_oxygen
+        element: O
+      attachment_atom:
+        match_atom: 4
+        atom_label: benzoyloxy.attachment_atom
+        atom_class: ester_attachment_atom
+
+  amine_nh:
+    priority: 50
+    detector:
+      type: smarts
+      pattern: "[NX3;H1,H2;!$(NC=O)]"
+    roles:
+      n:
+        match_atom: 0
+        atom_label: amine_nh.n
+        atom_class: amine_nitrogen
+        element: N
+    evidence:
+      has_attached_h:
+        role: n
+        min_total_h: 1
+        required: true
+
+  amide_nh:
+    priority: 50
+    detector:
+      type: smarts
+      pattern: "[NX3;H1,H2][CX3](=[OX1])"
+    roles:
+      n:
+        match_atom: 0
+        atom_label: amide_nh.n
+        atom_class: amide_nitrogen
+        element: N
+      carbonyl_c:
+        match_atom: 1
+        atom_label: amide_nh.carbonyl_c
+        atom_class: amide_carbonyl_c
+        element: C
+      carbonyl_o:
+        match_atom: 2
+        atom_label: amide_nh.carbonyl_o
+        atom_class: carbonyl_oxygen
+        element: O
+    evidence:
+      has_attached_h:
+        role: n
+        min_total_h: 1
+        required: true
+
+  alkene:
+    priority: 35
+    detector:
+      type: smarts
+      pattern: "[CX3]=[CX3]"
+    roles:
+      c1:
+        match_atom: 0
+        atom_label: alkene.c1
+        atom_class: alkene_carbon
+        element: C
+      c2:
+        match_atom: 1
+        atom_label: alkene.c2
+        atom_class: alkene_carbon
+        element: C
+
+  epoxide:
+    priority: 80
+    detector:
+      type: smarts
+      pattern: "[OX2r3]1[CX4r3][CX4r3]1"
+    roles:
+      o:
+        match_atom: 0
+        atom_label: epoxide.o
+        atom_class: epoxide_oxygen
+        element: O
+      c1:
+        match_atom: 1
+        atom_label: epoxide.c1
+        atom_class: epoxide_carbon
+        element: C
+      c2:
+        match_atom: 2
+        atom_label: epoxide.c2
+        atom_class: epoxide_carbon
+        element: C
+
+  glycosyl_pyranose:
+    priority: 120
+    detector:
+      type: graph_resolver
+      resolver: glycosyl_pyranose_resolver
+      params:
+        ring_size: 6
+        ring_heteroatoms:
+          O: 1
+        ring_carbons: 5
+        require_exocyclic_glycosidic_atom: true
+        allowed_glycosidic_atoms:
+          - O
+          - N
+          - S
+    roles:
+      c1:
+        atom_label: glycosyl_pyranose.c1
+        atom_class: glycosyl_anomeric_c
+        element: C
+      c2:
+        atom_label: glycosyl_pyranose.c2
+        atom_class: sugar_ring_carbon
+        element: C
+      c3:
+        atom_label: glycosyl_pyranose.c3
+        atom_class: sugar_ring_carbon
+        element: C
+      c4:
+        atom_label: glycosyl_pyranose.c4
+        atom_class: sugar_ring_carbon
+        element: C
+      c5:
+        atom_label: glycosyl_pyranose.c5
+        atom_class: sugar_ring_carbon
+        element: C
+      c6:
+        atom_label: glycosyl_pyranose.c6
+        atom_class: sugar_exocyclic_carbon
+        element: C
+      o2:
+        atom_label: glycosyl_pyranose.o2
+        atom_class: sugar_hydroxyl_oxygen
+        element: O
+      o3:
+        atom_label: glycosyl_pyranose.o3
+        atom_class: sugar_hydroxyl_oxygen
+        element: O
+      o4:
+        atom_label: glycosyl_pyranose.o4
+        atom_class: sugar_hydroxyl_oxygen
+        element: O
+      o6:
+        atom_label: glycosyl_pyranose.o6
+        atom_class: sugar_hydroxyl_oxygen
+        element: O
+      ring_o:
+        atom_label: glycosyl_pyranose.ring_o
+        atom_class: sugar_ring_oxygen
+        element: O
+      glycosidic_atom:
+        atom_label: glycosyl_pyranose.glycosidic_atom
+        atom_class: glycosidic_heteroatom
+      glycosidic_o:
+        atom_label: glycosyl_pyranose.glycosidic_o
+        atom_class: glycosidic_oxygen
+        element: O
+
+  c_h_site:
+    priority: 20
+    detector:
+      type: graph_resolver
+      resolver: ch_site_resolver
+    roles:
+      c:
+        atom_label: c_h_site.c
+        atom_class: hydrogen_bearing_carbon
+        element: C

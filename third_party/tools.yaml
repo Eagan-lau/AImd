@@ -1,0 +1,54 @@
+# AImd third-party tool registry.
+# Executables can be absolute paths, commands in PATH, or symlinks under third_party/bin.
+tools:
+  foldseek:
+    enabled: true
+    required: true
+    executable: foldseek
+    check_command: "{executable} version"
+    check_timeout: 20
+    used_by: [RGPC, DockingHub.cofactor]
+  hipmcl:
+    enabled: true
+    required: false
+    executable: hipmcl
+    check_command: "{executable} --help"
+    check_timeout: 20
+    used_by: [RGPC]
+  vina:
+    enabled: true
+    required: false
+    executable: vina
+    check_command: "{executable} --help"
+    check_timeout: 20
+    used_by: [DockingHub]
+  prepare_receptor:
+    enabled: true
+    required: false
+    executable: prepare_receptor
+    check_command: "{executable} -h"
+    check_timeout: 20
+    used_by: [DockingHub]
+  pymol:
+    enabled: true
+    required: false
+    executable: pymol
+    check_command: "{executable} -cq"
+    check_timeout: 20
+    used_by: [DockingHub.ensemble_alignment, DockingHub.cofactor, MetaBoClip]
+  alphaflow:
+    enabled: false
+    required: false
+    executable: alphaflow
+    check_command: "{executable} --help"
+    check_timeout: 20
+    command_template: "alphaflow predict --input {input_pdb} --out_dir {output_dir} --threads {threads}"
+    used_by: [DockingHub.ensemble]
+  tapocket:
+    enabled: true
+    required: false
+    executable: "python -m TApocket"
+    check_command: "{executable} --help"
+    check_timeout: 20
+    model_dir: third_party/resources/tapocket_models
+    used_by: [TApocketBridge]

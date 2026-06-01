@@ -1,0 +1,8 @@
+tool,enabled,required,executable,status,return_code,message
+alphaflow,False,False,alphaflow,disabled,,disabled
+foldseek,True,True,/home/yugengliu/protein/foldseek/bin/foldseek,ok,0,1cb3a80d9566820bc223bdf4d34d30d85ffbc4f4
+hipmcl,True,False,/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/third_party/bin/hipmcl,failed,255,No protocol specified
+prepare_receptor,True,False,/media/yugengliu/DATA2/whli/Software/ADFRsuite_x86_64Linux_1.0/bin/prepare_receptor,ok,0,Usage: prepare_receptor4.py -r filename
+pymol,True,False,/home/yugengliu/software/PyMOL/pymol/bin/pymol,ok,0,
+tapocket,True,False,/home/yugengliu/anaconda3/envs/aimd/bin/python -m TApocket,failed,127,/bin/sh: 1: /home/yugengliu/anaconda3/envs/aimd/bin/python -m TApocket: not found
+vina,True,False,/home/yugengliu/software/vina/vina,ok,0,AutoDock Vina v1.2.3

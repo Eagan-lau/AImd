@@ -1,0 +1,108 @@
+# Minimal generic mechanism file.
+# Edit ligand_sites, protein_roles, and features for a new enzyme family.
+
+ligand_sites:
+  carbonyl_c:
+    atom_classes:
+      - acyl_carbonyl_c
+      - ester_carbonyl_c
+    required: true
+
+  carbonyl_o:
+    linked_to: carbonyl_c
+    atom_classes:
+      - carbonyl_oxygen
+    required: true
+
+protein_roles:
+  - role: nucleophile
+    from: ligand.carbonyl_c
+    radius: 6.0
+    required: true
+    residues:
+      SER: [OG]
+      CYS: [SG]
+      ASP: [OD1, OD2]
+      GLU: [OE1, OE2]
+
+  - role: base
+    from: protein.nucleophile
+    radius: 5.0
+    required: true
+    residues:
+      HIS: [ND1, NE2]
+
+  - role: acid
+    from: protein.base
+    radius: 5.5
+    required: false
+    residues:
+      ASP: [OD1, OD2]
+      GLU: [OE1, OE2]
+
+features:
+  attack_distance:
+    type: distance
+    atoms:
+      - protein.nucleophile
+      - ligand.carbonyl_c
+    gate:
+      min: 2.0
+      max: 5.5
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.5
+      weight: 0.65
+
+  attack_angle:
+    type: angle_3pt
+    enabled: true
+    a: protein.nucleophile
+    vertex: ligand.carbonyl_c
+    c: ligand.carbonyl_o
+    gate:
+      min: 90.0
+      max: 140.0
+      required: true
+    score:
+      level: 1
+      transform: angle_gaussian
+      target: 107.0
+      sigma: 20.0
+      weight: 0.35
+
+  base_distance:
+    type: distance
+    atoms:
+      - protein.nucleophile
+      - protein.base
+    gate:
+      min: 2.5
+      max: 5.0
+      required: true
+    score:
+      level: 2
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.0
+      weight: 1.0
+
+  acid_distance:
+    type: distance
+    enabled: true
+    atoms:
+      - protein.base
+      - protein.acid
+    gate:
+      min: 2.5
+      max: 5.5
+      required: false
+    score:
+      level: 3
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.5
+      weight: 1.0

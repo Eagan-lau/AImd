@@ -1,0 +1,113 @@
+# Template-seeded hydrolase example.
+# This example uses TMalign to align a template structure to the target protein.
+# The template residue ID is used only inside the template structure.
+
+ligand_sites:
+  carbonyl_c:
+    atom_classes:
+      - acyl_carbonyl_c
+      - ester_carbonyl_c
+    required: true
+
+  carbonyl_o:
+    linked_to: carbonyl_c
+    atom_classes:
+      - carbonyl_oxygen
+    required: true
+
+protein_templates:
+  hydrolase_template:
+    path: resources/hydrolase_template.pdb
+    align_to_protein: true
+    align_method: structure_global
+    align_backend: tmalign
+    executable: TMalign
+    required: true
+    quality:
+      min_tm_score: 0.45
+      max_rmsd: 5.0
+      min_aligned_length: 80
+
+protein_roles:
+  - role: nucleophile
+    from: template.hydrolase_template
+    required: true
+    template_atom:
+      residue_name: SER
+      residue_id: 171
+      atom_name: OG
+    target_search:
+      residues:
+        SER: [OG]
+        CYS: [SG]
+      search_radius: 4.0
+      choose: nearest
+      require_residue_type_match: false
+    validate:
+      from: ligand.carbonyl_c
+      radius: 6.0
+
+  - role: base
+    from: protein.nucleophile
+    radius: 5.0
+    required: true
+    residues:
+      HIS: [ND1, NE2]
+
+  - role: acid
+    from: protein.base
+    radius: 5.5
+    required: false
+    residues:
+      ASP: [OD1, OD2]
+      GLU: [OE1, OE2]
+
+features:
+  attack_distance:
+    type: distance
+    atoms:
+      - protein.nucleophile
+      - ligand.carbonyl_c
+    gate:
+      min: 2.0
+      max: 5.5
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.5
+      weight: 0.65
+
+  attack_angle:
+    type: angle_3pt
+    enabled: true
+    a: protein.nucleophile
+    vertex: ligand.carbonyl_c
+    c: ligand.carbonyl_o
+    gate:
+      min: 90.0
+      max: 140.0
+      required: true
+    score:
+      level: 1
+      transform: angle_gaussian
+      target: 107.0
+      sigma: 20.0
+      weight: 0.35
+
+  base_distance:
+    type: distance
+    atoms:
+      - protein.nucleophile
+      - protein.base
+    gate:
+      min: 2.5
+      max: 5.0
+      required: true
+    score:
+      level: 2
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.0
+      weight: 1.0

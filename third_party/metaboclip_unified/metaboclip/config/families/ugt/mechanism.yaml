@@ -1,0 +1,93 @@
+# UGT mechanism file.
+# Edit ligand_sites, protein_roles, and features when adapting this file.
+
+ligand_sites:
+  acceptor_o:
+    # EDIT: Hydroxyl oxygen atoms detected by LigandRoleMap.
+    atom_labels:
+      - hydroxyl.o
+    required: true
+
+protein_roles:
+  - role: donor_c1
+    # EDIT: Find UDP-sugar donor C1 near the ligand acceptor O.
+    from: ligand.acceptor_o
+    radius: 6.0
+    required: true
+    residues:
+      UDP: [C1]
+      U2F: [C1]
+      UDG: [C1]
+      UGP: [C1]
+
+  - role: donor_o1
+    # EDIT: Reference oxygen attached to donor C1, used for SN2-like angle.
+    from: protein.donor_c1
+    radius: 2.0
+    required: true
+    residues:
+      UDP: [O1]
+      U2F: [O1]
+      UDG: [O1]
+      UGP: [O1]
+
+  - role: catalytic_base
+    # EDIT: Catalytic base candidate near the ligand acceptor O.
+    from: ligand.acceptor_o
+    radius: 6.0
+    required: true
+    residues:
+      HIS: [ND1, NE2]
+
+features:
+  donor_distance:
+    # EDIT: Donor C1 to ligand acceptor O distance.
+    type: distance
+    atoms:
+      - protein.donor_c1
+      - ligand.acceptor_o
+    gate:
+      min: 2.0
+      max: 5.5
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.5
+      weight: 0.40
+
+  base_distance:
+    # EDIT: Catalytic base to ligand acceptor O distance.
+    type: distance
+    atoms:
+      - protein.catalytic_base
+      - ligand.acceptor_o
+    gate:
+      min: 2.0
+      max: 6.0
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 6.0
+      weight: 0.35
+
+  sn2_angle:
+    # EDIT: Donor O1 - donor C1 - acceptor O angle.
+    type: angle_3pt
+    enabled: true
+    a: protein.donor_o1
+    vertex: protein.donor_c1
+    c: ligand.acceptor_o
+    gate:
+      min: 100.0
+      max: 180.0
+      required: true
+    score:
+      level: 1
+      transform: angle_gaussian
+      target: 180.0
+      sigma: 30.0
+      weight: 0.25

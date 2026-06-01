@@ -1,0 +1,64 @@
+manifest_version: 1
+families:
+  ugt:
+    display_name: UGT
+    source_dir: UGT
+    gating_script: 6_20250810_score.py
+    scoring_script: 7_score_UGT-20250901.py
+    gating_range_arg: --file-range
+    scoring_args: []
+    expected_sha256:
+      6_20250810_score.py: ed9706f4bb53cb802912b7b4f4056c86af28afd3a6092e4b3a7ae5a1474c7845
+      7_score_UGT-20250901.py: ae5074ab631a8fcc0f4a8e721ee9594918b159d8f007979c9256f7df82d7f20e
+      6_1_gating.sh: 132af82919c74e1dc050a913e4f9592ce775030c29e019225f96cf4980bf79bd
+      7.sh: a7e0a70f92e55c344ff3b48b34c7ed46b404f0a1e74b3adb20fa52feb7b23e88
+  act:
+    display_name: ACT
+    source_dir: ACT
+    gating_script: 6_20250812.py
+    scoring_script: 7_score.py
+    gating_range_arg: --file-range
+    scoring_args: []
+    expected_sha256:
+      6_20250812.py: 071c32185ae70a394a10d85584e36d9a6e5c08aa6b75c4c3d8a063616c993206
+      7_score.py: c5ce940fbd9bad2656fd0d7846c6fa211dd64c1a2a83457c3b37541ad0848457
+      acetyl-CoA.pdb: 223773ac655db5d9a11c6d9018329e9203f26efb4a0b56886e105b61c0455613
+      6_1_gating.sh: 4fac9aaf8979f5b6f3f6e498859170113076a8c4eed5d610f1c770854593b5a4
+      7.sh: 6155221ee5469ffd57cc32973647fd39442e4dd7f916beb5f19b77626388bc47
+  cyp450:
+    display_name: CYP450
+    source_dir: P450
+    gating_script: 6_20250815_CH_only.py
+    scoring_script: 7_score_cyp450.py
+    gating_range_arg: --file-range
+    scoring_args: []
+    expected_sha256:
+      6_20250815_CH_only.py: 2da878c2601cfa23641c22bf11a25276c76b1090da724722955dcb4eccd72c90
+      7_score_cyp450.py: 35e64a5efbae74d81d201254208ccf016e8d461a1bcc89db92f6a1aca9ed0221
+      6_1_gating.sh: ef33e9932e5ca7b9820daadbf79d3017459caa3be3851f8820a8fe8fca4b4b0e
+      7.sh: 5f52b26ed2788a326b79d01d459540566bb9cd82e780f7da89429c92fce28c02
+  fe2og:
+    display_name: Fe2OG
+    source_dir: 2-ODD
+    gating_script: 6_faxianliang.py
+    scoring_script: 7_score_2OG_20250901.py
+    gating_range_arg: --file-range
+    gating_docking_base_arg: --docking-base-dir
+    scoring_args: []
+    expected_sha256:
+      6_faxianliang.py: 231979c3b7bd9a1752ad4a6fba10d50fcc3bba0ef79ca0d3e1c2e72093e973a5
+      7_score_2OG_20250901.py: 6491ac4723843df1cb07067e12dee8dc0b85f15d8376519b2ef54ec3920250e4
+      6_1_gating.sh: 1e52946d1965c9dc95ad03440cdf7475dc54110df54115085f2eff75803f33a9
+  ach:
+    display_name: ACH
+    source_dir: ACH
+    gating_script: 6_20250818_score.py
+    scoring_script: 7_score_dAC__20250901.py
+    gating_range_arg: --range
+    scoring_args: []
+    expected_sha256:
+      6_20250818_score.py: 9cdd2d69489863ac75d32cca8a9298444b11656f631092de489225e882712135
+      7_score_dAC__20250901.py: cda9d4fc92f77147420fa7d55442a96bd898a616e0c69d30e8389623110b247f
+      dAC-T.pdb: 6d8184c12166994c6bee19d0eaa2182047fad5c23822c758d3c19957e6495a71
+      6_1_gating.sh: 566c0a6d0614fc8e97c8b6330f213e7bf70667e37744cf0c11543f9a9d6b3e92
+      7.sh: 7df499bb9356fc7768610486901dd3694e9b144c56d56060650dac44c66000d0

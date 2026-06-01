@@ -1,0 +1,19 @@
+[project]
+name = "metaboclip-unified"
+version = "2.5.0"
+description = "MetaboClip unified catalytic geometry toolkit"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "PyYAML"]
+
+[project.scripts]
+metaboclip = "metaboclip.cli:main"
+metaboclip-build-role-table = "metaboclip_ligand_roles.build_role_table:main"
+metaboclip-build-role-tables-batch = "metaboclip_ligand_roles.build_role_tables_batch:main"
+metaboclip-recover-atom-map = "metaboclip_ligand_roles.recover_atom_map:main"
+metaboclip-extract-role-coords = "metaboclip_ligand_roles.extract_role_pose_coords:main"
+metaboclip-list-atom-labels = "metaboclip_ligand_roles.list_atom_labels:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["metaboclip*", "metaboclip_ligand_roles*"]
+exclude = ["results*", "ligand_roles*", "rules*", "examples*", "docs*", "tests*", "paper_locked_originals*", "data_input*", "data_output*"]

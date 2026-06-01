@@ -1,0 +1,98 @@
+# ACT or BAHD-like acyltransferase mechanism file.
+# Edit ligand nucleophile labels and acyl donor residue names if your cofactor naming differs.
+
+ligand_sites:
+  nucleophile:
+    # EDIT: Ligand nucleophile heavy atoms.
+    # Use precise labels when possible, or broader classes for exploratory runs.
+    atom_labels:
+      - hydroxyl.o
+      #- amine_nh.n
+      #- protic_nucleophile.atom
+    atom_classes:
+      - hydroxyl_oxygen
+      #- amine_nitrogen
+      #- protic_heteroatom
+    required: true
+
+protein_roles:
+  - role: acyl_donor_c
+    # EDIT: Acyl donor carbonyl carbon near the ligand nucleophile.
+    from: ligand.nucleophile
+    radius: 6.0
+    required: true
+    residues:
+      H5L: [S1P]
+      #ACO: [C, C1, C9]
+      #ACT: [C, C1, C9]
+      #A2C: [C, C1, C9]
+
+  - role: acyl_donor_o
+    # EDIT: Acyl donor carbonyl oxygen used for attack angle.
+    from: protein.acyl_donor_c
+    radius: 2.0
+    required: true
+    residues:
+      H5L: [C2P]
+      #ACO: [O, O1, O10, OM2]
+      #ACT: [O, O1, O10, OM2]
+      #A2C: [O, O1, O10, OM2]
+
+  - role: catalytic_base
+    # EDIT: Catalytic base candidate near the ligand nucleophile.
+    from: ligand.nucleophile
+    radius: 6.0
+    required: true
+    residues:
+      HIS: [ND1, NE2]
+
+features:
+  donor_distance:
+    type: distance
+    atoms:
+      - ligand.nucleophile
+      - protein.acyl_donor_c
+    gate:
+      min: 2.0
+      max: 5.5
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 5.5
+      weight: 0.45
+
+  base_distance:
+    type: distance
+    atoms:
+      - protein.catalytic_base
+      - ligand.nucleophile
+    gate:
+      min: 2.0
+      max: 6.0
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 6.0
+      weight: 0.30
+
+  attack_angle:
+    # EDIT: Ligand nucleophile - acyl donor C - donor carbonyl O angle.
+    type: angle_3pt
+    enabled: true
+    a: ligand.nucleophile
+    vertex: protein.acyl_donor_c
+    c: protein.acyl_donor_o
+    gate:
+      min: 85.0
+      max: 130.0
+      required: true
+    score:
+      level: 1
+      transform: angle_gaussian
+      target: 105.0
+      sigma: 20.0
+      weight: 0.25

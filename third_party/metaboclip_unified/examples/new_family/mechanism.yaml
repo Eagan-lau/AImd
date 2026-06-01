@@ -1,0 +1,129 @@
+# Minimal MetaboClip mechanism template for a new family.
+# Edit ligand_sites, protein_roles, and features.
+# Keep runtime, output, and global scoring parameters in profile.yaml.
+
+ligand_sites:
+  # REQUIRED: Primary ligand atom used to start protein role search.
+  # Use atom_labels for exact labels, or atom_classes for broader classes.
+  target:
+    atom_labels: []
+    atom_classes:
+      - acyl_carbonyl_c
+    required: true
+
+  # OPTIONAL: Ligand atom used for angle calculation.
+  # This atom must come from the same functional group instance as target.
+  angle_atom:
+    linked_to: target
+    atom_labels: []
+    atom_classes:
+      - carbonyl_oxygen
+    required: false
+
+protein_templates: {}
+
+protein_roles:
+  # REQUIRED: First protein-side role.
+  # Usually searched from ligand.target.
+  - role: atom1
+    from: ligand.target
+    radius: 6.0
+    required: true
+    residues:
+      SER: [OG]
+      CYS: [SG]
+      ASP: [OD1, OD2]
+      GLU: [OE1, OE2]
+
+  # OPTIONAL: Second protein-side role.
+  # Usually searched from protein.atom1.
+  - role: atom2
+    from: protein.atom1
+    radius: 5.0
+    required: false
+    residues:
+      HIS: [ND1, NE2]
+
+  # OPTIONAL: Third protein-side role.
+  - role: atom3
+    from: protein.atom2
+    radius: 5.5
+    required: false
+    residues:
+      ASP: [OD1, OD2]
+      GLU: [OE1, OE2]
+
+geometry_refs: {}
+
+features:
+  # REQUIRED: Primary ligand-protein distance.
+  primary_distance:
+    type: distance
+    atoms:
+      - protein.atom1
+      - ligand.target
+    gate:
+      min: 2.0
+      max: 6.0
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 6.0
+      weight: 1.0
+
+  # OPTIONAL: Primary three-point angle.
+  # Enable only if the mechanism needs an angle gate or score.
+  primary_angle:
+    type: angle_3pt
+    enabled: false
+    a: protein.atom1
+    vertex: ligand.target
+    c: ligand.angle_atom
+    gate:
+      min: 90.0
+      max: 140.0
+      required: false
+    score:
+      level: 1
+      transform: angle_gaussian
+      target: 107.0
+      sigma: 20.0
+      weight: 0.35
+
+  # OPTIONAL: atom1 to atom2 support distance.
+  support_distance:
+    type: distance
+    enabled: true
+    atoms:
+      - protein.atom1
+      - protein.atom2
+    gate:
+      min: 2.0
+      max: 6.0
+      required: false
+    score:
+      level: 2
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 6.0
+      weight: 1.0
+
+  # OPTIONAL: atom2 to atom3 support distance.
+  deep_support_distance:
+    type: distance
+    enabled: true
+    atoms:
+      - protein.atom2
+      - protein.atom3
+    gate:
+      min: 2.0
+      max: 6.5
+      required: false
+    score:
+      level: 3
+      transform: distance_piecewise
+      best: 3.2
+      cutoff: 6.5
+      weight: 1.0

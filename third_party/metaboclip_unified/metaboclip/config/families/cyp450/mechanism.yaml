@@ -1,0 +1,93 @@
+# CYP450 C-H oxidation mechanism file.
+# Generic mode uses ligand heavy atom geometry: Fe to reactive carbon.
+
+ligand_sites:
+  reactive_c:
+    # EDIT: Carbon atoms bearing hydrogen in the source ligand.
+    atom_classes:
+      - hydrogen_bearing_carbon
+    required: true
+
+protein_roles:
+  - role: catalytic_fe
+    # EDIT: Find catalytic Fe near ligand reactive C.
+    from: ligand.reactive_c
+    radius: 7.0
+    required: true
+    atoms:
+      - elem Fe
+      - name FE
+
+  - role: heme_n_atoms
+    # EDIT: Heme nitrogens used to define the heme plane.
+    from: protein.catalytic_fe
+    radius: 3.0
+    required: true
+    collection: true
+    min_count: 3
+    preferred_count: 4
+    same_residue: true
+    residues:
+      HEM: [NA, NB, NC, ND]
+      HEME: [NA, NB, NC, ND]
+      HEC: [NA, NB, NC, ND]
+
+  - role: proximal_cys
+    # OPTIONAL: Proximal cysteine used to orient the distal heme axis.
+    from: protein.catalytic_fe
+    radius: 4.0
+    required: false
+    residues:
+      CYS: [SG]
+
+geometry_refs:
+  heme_plane:
+    # EDIT only if your heme atom names differ.
+    type: best_fit_plane
+    atoms_from_collection: protein.heme_n_atoms
+    min_atoms: 3
+
+  distal_axis:
+    # Distal axis is the heme plane normal oriented away from proximal cysteine.
+    type: oriented_axis
+    origin: protein.catalytic_fe
+    direction:
+      type: plane_normal
+      plane: geometry.heme_plane
+    orient:
+      method: away_from
+      reference: protein.proximal_cys
+
+features:
+  fe_c_distance:
+    type: distance
+    atoms:
+      - protein.catalytic_fe
+      - ligand.reactive_c
+    gate:
+      min: 2.5
+      max: 7.0
+      required: true
+    score:
+      level: 1
+      transform: distance_piecewise
+      best: 4.5
+      cutoff: 7.0
+      weight: 0.70
+
+  heme_axis_deviation:
+    # EDIT: Axis deviation between Fe->reactive C and distal heme axis.
+    type: axis_deviation
+    axis: geometry.distal_axis
+    vector:
+      from: protein.catalytic_fe
+      to: ligand.reactive_c
+    gate:
+      min: 0.0
+      max: 60.0
+      required: false
+    score:
+      level: 1
+      transform: angle_deviation_linear
+      cutoff: 60.0
+      weight: 0.30
