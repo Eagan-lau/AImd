@@ -8,7 +8,7 @@ AImd treats MetaboClip as a core scientific component of the workflow.
 
 The active unified MetaboClip core logic is located at:
 
-third_party/metaboclip_unified
+metaboclip_unified
 
 The old MetaboClip implementation has been removed from the clean deliverable package.
 
@@ -94,9 +94,9 @@ Do not blindly overwrite source files.
 
 Use MetaBoClipBridge as the adapter layer between AImd and the unified MetaboClip core.
 
-Keep third_party/metaboclip_unified as a standalone core module.
+Keep metaboclip_unified as a standalone core module.
 
-Do not modify third_party/metaboclip_unified unless a minimal compatibility wrapper, import fix, or packaging fix is strictly required.
+Do not modify metaboclip_unified unless a minimal compatibility wrapper, import fix, or packaging fix is strictly required.
 
 Do not restore or reintroduce the old MetaBoClip logic.
 
@@ -232,7 +232,7 @@ All generated source code, comments, README text, configuration examples, YAML f
 For integration work:
 
 1. Inspect the current AImd MetaBoClip-related code first.
-2. Inspect third_party/metaboclip_unified first.
+2. Inspect metaboclip_unified first.
 3. Do not modify files during the first analysis step.
 4. Report the current AImd MetaBoClip interface.
 5. Report the new MetaboClip CLI or Python API.
@@ -284,7 +284,7 @@ Documentation must describe the current new MetaboClip integration, not the old 
 README and example commands must explain:
 
 1. How AImd calls MetaBoClipBridge.
-2. How MetaBoClipBridge calls third_party/metaboclip_unified.
+2. How MetaBoClipBridge calls metaboclip_unified.
 3. Required input files.
 4. Required configuration files.
 5. Expected output files.

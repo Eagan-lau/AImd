@@ -120,11 +120,11 @@ def _resolve_config_path(config: dict[str, Any], key: str, default: str) -> Path
 
 def _unified_paths(config: dict[str, Any]) -> dict[str, Path]:
     return {
-        "metaboclip_project_dir": _resolve_config_path(config, "metaboclip_project_dir", "third_party/metaboclip_unified"),
+        "metaboclip_project_dir": _resolve_config_path(config, "metaboclip_project_dir", "metaboclip_unified"),
         "metaboclip_profile": _resolve_config_path(
             config,
             "metaboclip_profile",
-            "third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml",
+            "metaboclip_unified/metaboclip/config/profiles/default_profile.yaml",
         ),
         "role_table_dir": _resolve_config_path(config, "role_table_dir", "data/metaboclip/ligand_roles/role_tables"),
         "annotation_dir": _resolve_config_path(config, "annotation_dir", "data/metaboclip/ligand_roles/annotations"),
@@ -152,7 +152,7 @@ def _detect_unified_backend_api(config: dict[str, Any]) -> tuple[Any, Any]:
         raise RuntimeError(
             "Could not import unified MetaboClip Python APIs "
             "metaboclip.core.workflow.run_directory and run_single_pair "
-            f"from {meta_root}. Ensure third_party/metaboclip_unified is present "
+            f"from {meta_root}. Ensure metaboclip_unified is present "
             "and its Python dependencies are installed."
         ) from exc
     return run_directory, run_single_pair
@@ -214,7 +214,7 @@ def _validate_mechanism_paths(config: dict[str, Any], families: list[str]) -> di
 
 def _role_rules_path(config: dict[str, Any]) -> Path:
     role_cfg = config.get("role_tables", {}) or {}
-    raw = role_cfg.get("rules", "third_party/metaboclip_unified/rules/functional_groups.yaml")
+    raw = role_cfg.get("rules", "metaboclip_unified/rules/functional_groups.yaml")
     path = resolve_path(raw, _root(config))
     assert path is not None
     return path

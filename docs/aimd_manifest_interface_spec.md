@@ -105,8 +105,8 @@ Required unified backend paths:
 
 ```yaml
 paths:
-  metaboclip_project_dir: third_party/metaboclip_unified
-  metaboclip_profile: third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
+  metaboclip_project_dir: metaboclip_unified
+  metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
   unified_output_dir: data/metaboclip/unified_runs
   ligand_manifest: data/ligand/ligand_manifest.csv
   ligand_source_manifest: data/ligand/ligand_source_manifest.csv
@@ -119,11 +119,11 @@ Required mechanism mapping:
 
 ```yaml
 mechanisms:
-  cyp450: third_party/metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
-  fe2og: third_party/metaboclip_unified/metaboclip/config/families/fe2og/mechanism.yaml
-  ugt: third_party/metaboclip_unified/metaboclip/config/families/ugt/mechanism.yaml
-  act: third_party/metaboclip_unified/metaboclip/config/families/act/mechanism.yaml
-  ach: third_party/metaboclip_unified/metaboclip/config/families/ach/mechanism.yaml
+  cyp450: metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
+  fe2og: metaboclip_unified/metaboclip/config/families/fe2og/mechanism.yaml
+  ugt: metaboclip_unified/metaboclip/config/families/ugt/mechanism.yaml
+  act: metaboclip_unified/metaboclip/config/families/act/mechanism.yaml
+  ach: metaboclip_unified/metaboclip/config/families/ach/mechanism.yaml
 ```
 
 Role-table modes:

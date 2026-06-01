@@ -10,7 +10,7 @@ Current workflow:
 RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
 ```
 
-MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` is the active adapter for the unified MetaboClip backend under `third_party/metaboclip_unified`; the old implementation is not part of the clean deliverable package.
+MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` is the active adapter for the unified MetaboClip backend under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
 
 ## Environment
 
@@ -82,8 +82,8 @@ Core fields:
 ```yaml
 backend: unified
 paths:
-  metaboclip_project_dir: third_party/metaboclip_unified
-  metaboclip_profile: third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
+  metaboclip_project_dir: metaboclip_unified
+  metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
   unified_output_dir: data/metaboclip/unified_runs
   role_table_dir: data/metaboclip/ligand_roles/role_tables
   annotation_dir: data/metaboclip/ligand_roles/annotations
@@ -161,14 +161,14 @@ protein_score_norm,max_s_r
 The repository includes a deterministic MetaboClip bridge smoke test that uses tiny unified-backend fixtures and writes only to pytest temporary directories:
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified \
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified \
   python -m pytest tests/test_metaboclip_bridge_smoke.py -q
 ```
 
 A smoke test should use tiny inputs only. It should verify:
 
 1. `MetaBoClipBridge` imports.
-2. `third_party/metaboclip_unified` can be located.
+2. `metaboclip_unified` can be located.
 3. mechanism YAML and profile YAML paths resolve.
 4. role-table paths, annotation JSON paths, and atom-map JSON paths are handled.
 5. the bridge can write an AImd-compatible final ranking or dry-run report.

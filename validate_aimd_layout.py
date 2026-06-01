@@ -29,7 +29,7 @@ REQUIRED_DIRS = [
     "RGPC", "TApocket", "TApocketBridge", "DockingHub",
     "ScoringHub", "RefinementHub", "MetaBoClipBridge",
     "orchestrator", "configs", "data", "docs", "third_party",
-    "third_party/metaboclip_unified",
+    "metaboclip_unified",
 ]
 
 REQUIRED_CONFIGS = [
@@ -96,7 +96,7 @@ def check_yaml(root: Path) -> list[str]:
 def check_imports(root: Path) -> list[str]:
     errors: list[str] = []
     sys.path.insert(0, str(root))
-    unified_root = root / "third_party" / "metaboclip_unified"
+    unified_root = root / "metaboclip_unified"
     if str(unified_root) not in sys.path:
         sys.path.insert(0, str(unified_root))
     for mod in IMPORT_MODULES:

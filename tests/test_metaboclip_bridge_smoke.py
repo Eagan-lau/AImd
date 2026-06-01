@@ -57,7 +57,7 @@ def _write_yaml(path: Path, config: dict) -> None:
 
 def test_metaboclip_bridge_runs_unified_backend_with_tiny_fixture(tmp_path: Path) -> None:
     root = Path(__file__).resolve().parents[1]
-    fixture_root = root / "third_party" / "metaboclip_unified" / "tests" / "data"
+    fixture_root = root / "metaboclip_unified" / "tests" / "data"
     manifest = tmp_path / "docking_result_manifest.csv"
     receptor = fixture_root / "proteins" / "ProteinA_conf1.pdbqt"
     pose = fixture_root / "docking" / "lig001@ProteinA_conf1.pdbqt"
@@ -109,14 +109,14 @@ def test_metaboclip_bridge_runs_unified_backend_with_tiny_fixture(tmp_path: Path
             "paths": {
                 "aimd_root": str(root),
                 "refined_docking_manifest": str(manifest),
-                "metaboclip_project_dir": "third_party/metaboclip_unified",
-                "metaboclip_profile": "third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml",
+                "metaboclip_project_dir": "metaboclip_unified",
+                "metaboclip_profile": "metaboclip_unified/metaboclip/config/profiles/default_profile.yaml",
                 "staging_dir": str(tmp_path / "staging"),
                 "unified_output_dir": str(tmp_path / "unified_runs"),
                 "results_dir": str(tmp_path / "results"),
                 "ligand_manifest": str(tmp_path / "missing_ligand_manifest.csv"),
                 "ligand_source_manifest": str(tmp_path / "missing_ligand_source_manifest.csv"),
-                "role_table_dir": "third_party/metaboclip_unified/tests/data/ligand_roles",
+                "role_table_dir": "metaboclip_unified/tests/data/ligand_roles",
                 "annotation_dir": str(tmp_path / "annotations"),
                 "atom_map_dir": str(tmp_path / "atom_maps"),
             },
@@ -131,11 +131,11 @@ def test_metaboclip_bridge_runs_unified_backend_with_tiny_fixture(tmp_path: Path
                 "all_families": ["hydrolase"],
             },
             "mechanisms": {
-                "hydrolase": "third_party/metaboclip_unified/examples/generic_hydrolase/mechanism.yaml",
+                "hydrolase": "metaboclip_unified/examples/generic_hydrolase/mechanism.yaml",
             },
             "role_tables": {
                 "mode": "existing",
-                "rules": "third_party/metaboclip_unified/rules/functional_groups.yaml",
+                "rules": "metaboclip_unified/rules/functional_groups.yaml",
                 "groups": [],
                 "ligand_source_column": "ligand_source_path",
                 "prepared_pdbqt_column": "ligand_pdbqt_path",

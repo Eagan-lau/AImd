@@ -88,9 +88,9 @@ pose_scoring:
     metaboclip_unified_bridge:
       module: MetaBoClipBridge
       config: configs/MetaBoClip/metaboclip_bridge.yaml
-      backend: third_party/metaboclip_unified
-      profile: third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
-      mechanism_location: third_party/metaboclip_unified/metaboclip/config/families/*/mechanism.yaml
+      backend: metaboclip_unified
+      profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
+      mechanism_location: metaboclip_unified/metaboclip/config/families/*/mechanism.yaml
       outputs:
         - data/metaboclip/results/metaboclip_final_ranking.csv
         - data/metaboclip/results/metaboclip_run_manifest.csv

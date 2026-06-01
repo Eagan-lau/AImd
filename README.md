@@ -8,7 +8,7 @@ The current workflow is:
 RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
 ```
 
-MetaboClip is a core scientific component of the AImd workflow. `MetaBoClipBridge` calls the unified MetaboClip core under `third_party/metaboclip_unified`; the old implementation is not part of the clean deliverable package.
+MetaboClip is a core scientific component of the AImd workflow. `MetaBoClipBridge` calls the unified MetaboClip core under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
 
 ## Quick Start
 
@@ -21,7 +21,7 @@ python validate_aimd_layout.py --root .
 Run the deterministic MetaboClip bridge smoke test:
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified \
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified \
   python -m pytest tests/test_metaboclip_bridge_smoke.py -q
 ```
 

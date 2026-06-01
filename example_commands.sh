@@ -7,7 +7,7 @@ set -euo pipefail
 python validate_aimd_layout.py --root .
 
 # Deterministic MetaboClip bridge smoke test
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified \
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified \
   python -m pytest tests/test_metaboclip_bridge_smoke.py -q
 
 # 1. Protein structure clustering

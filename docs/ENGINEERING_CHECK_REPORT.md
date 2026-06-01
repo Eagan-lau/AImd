@@ -2,7 +2,7 @@
 
 ## Current Integration State
 
-The active MetaboClip integration uses `MetaBoClipBridge` as the adapter layer and `third_party/metaboclip_unified` as the backend. The old implementation has been removed from the clean deliverable package.
+The active MetaboClip integration uses `MetaBoClipBridge` as the adapter layer and `metaboclip_unified` as the backend. The old implementation has been removed from the clean deliverable package.
 
 The bridge preserves the refined docking manifest interface and writes AImd-compatible outputs under:
 
@@ -21,7 +21,7 @@ data/metaboclip/results/metaboclip_final_ranking.csv
 Expected active backend:
 
 ```text
-third_party/metaboclip_unified
+metaboclip_unified
 ```
 
 Expected Python APIs:
@@ -93,8 +93,8 @@ Unified role-table generation may use ligand hydrogens for functional-group reco
 
 ```bash
 python validate_aimd_layout.py --root .
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified python3 -c "from MetaBoClipBridge.main import run_metaboclip_bridge; from metaboclip.core.workflow import run_directory, run_single_pair; print('imports ok')"
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified python3 -c "from MetaBoClipBridge.utils import load_yaml; from MetaBoClipBridge.bridge import validate_unified_bridge_config; cfg = load_yaml('configs/MetaBoClip/metaboclip_bridge.yaml'); print(validate_unified_bridge_config(cfg)['backend'])"
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified python3 -c "from MetaBoClipBridge.main import run_metaboclip_bridge; from metaboclip.core.workflow import run_directory, run_single_pair; print('imports ok')"
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified python3 -c "from MetaBoClipBridge.utils import load_yaml; from MetaBoClipBridge.bridge import validate_unified_bridge_config; cfg = load_yaml('configs/MetaBoClip/metaboclip_bridge.yaml'); print(validate_unified_bridge_config(cfg)['backend'])"
 ```
 
 Use tiny fixtures or dry-run mode for smoke tests. Do not run full docking or full production workflows as validation checks.
@@ -102,5 +102,5 @@ Use tiny fixtures or dry-run mode for smoke tests. Do not run full docking or fu
 Deterministic MetaboClip bridge smoke test:
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:third_party/metaboclip_unified python -m pytest tests/test_metaboclip_bridge_smoke.py -q
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified python -m pytest tests/test_metaboclip_bridge_smoke.py -q
 ```

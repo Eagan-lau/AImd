@@ -14,7 +14,7 @@ RGPC
   -> MetaBoClipBridge
 ```
 
-MetaboClip is a core scientific component of the workflow. The active backend is `third_party/metaboclip_unified`, called through `MetaBoClipBridge`; the old implementation is not part of the clean deliverable package.
+MetaboClip is a core scientific component of the workflow. The active backend is `metaboclip_unified`, called through `MetaBoClipBridge`; the old implementation is not part of the clean deliverable package.
 
 ## protein_manifest.csv
 
@@ -101,8 +101,8 @@ Configured in `configs/MetaBoClip/metaboclip_bridge.yaml`:
 ```yaml
 backend: unified
 paths:
-  metaboclip_project_dir: third_party/metaboclip_unified
-  metaboclip_profile: third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
+  metaboclip_project_dir: metaboclip_unified
+  metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
   unified_output_dir: data/metaboclip/unified_runs
   ligand_manifest: data/ligand/ligand_manifest.csv
   ligand_source_manifest: data/ligand/ligand_source_manifest.csv
@@ -110,7 +110,7 @@ paths:
   annotation_dir: data/metaboclip/ligand_roles/annotations
   atom_map_dir: data/metaboclip/ligand_roles/atom_maps
 mechanisms:
-  cyp450: third_party/metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
+  cyp450: metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
 ```
 
 Role generation requires an original ligand source file and a prepared ligand PDBQT file. Role generation writes role tables, annotation JSON, and atom-map JSON. The atom map is heavy-atom only.

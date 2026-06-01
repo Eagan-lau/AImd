@@ -9,8 +9,8 @@ paths:
   refined_docking_manifest: data/refined/docking_out/docking_result_manifest.csv
 
   # Unified MetaboClip backend and profile.
-  metaboclip_project_dir: third_party/metaboclip_unified
-  metaboclip_profile: third_party/metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
+  metaboclip_project_dir: metaboclip_unified
+  metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
 
   # Bridge-generated staging layout, unified outputs, and final AImd-facing outputs.
   staging_dir: data/metaboclip/staging
@@ -54,11 +54,11 @@ family_assignment:
   family_column: family
 
 mechanisms:
-  cyp450: third_party/metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
-  fe2og: third_party/metaboclip_unified/metaboclip/config/families/fe2og/mechanism.yaml
-  ugt: third_party/metaboclip_unified/metaboclip/config/families/ugt/mechanism.yaml
-  act: third_party/metaboclip_unified/metaboclip/config/families/act/mechanism.yaml
-  ach: third_party/metaboclip_unified/metaboclip/config/families/ach/mechanism.yaml
+  cyp450: metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
+  fe2og: metaboclip_unified/metaboclip/config/families/fe2og/mechanism.yaml
+  ugt: metaboclip_unified/metaboclip/config/families/ugt/mechanism.yaml
+  act: metaboclip_unified/metaboclip/config/families/act/mechanism.yaml
+  ach: metaboclip_unified/metaboclip/config/families/ach/mechanism.yaml
 
 role_tables:
   # existing | generate | auto
@@ -66,7 +66,7 @@ role_tables:
   # generate builds role tables from ligand source files and prepared ligand PDBQT files.
   # auto reuses existing role tables and generates only missing ones when source inputs are available.
   mode: existing
-  rules: third_party/metaboclip_unified/rules/functional_groups.yaml
+  rules: metaboclip_unified/rules/functional_groups.yaml
   groups: []
   ligand_source_column: ligand_source_path
   prepared_pdbqt_column: ligand_pdbqt_path
