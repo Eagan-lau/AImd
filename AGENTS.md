@@ -14,13 +14,25 @@ third_party/MetaBoClip_legacy
 
 The task is to integrate the new MetaboClip logic into AImd through MetaBoClipBridge.
 
+## Source-of-truth priority
+
+When project documents or code comments conflict, use this AGENTS.md file as the highest-priority project instruction.
+
+The old README, old MetaBoClip documentation, and legacy comments may describe outdated behavior. Do not restore old behavior unless explicitly instructed.
+
 ## Integration principle
 
 Do not blindly overwrite source files.
 
 Use MetaBoClipBridge as the adapter layer between AImd and the new MetaboClip core.
 
+Keep third_party/metaboclip_unified as a standalone core module.
+
+Do not modify third_party/metaboclip_unified unless a minimal compatibility wrapper or import fix is strictly required.
+
 Do not restore or reintroduce the old MetaboClip logic as the active workflow.
+
+Do not delete third_party/MetaBoClip_legacy unless explicitly instructed.
 
 ## New MetaboClip logic
 
@@ -40,7 +52,7 @@ The new MetaboClip logic includes:
 
 Catalytic geometry calculations must use heavy atoms only.
 
-Ligand hydrogen atoms may be used only during functional-group detection to identify atom eligibility and avoid misclassification.
+Ligand hydrogen atoms may be used only during functional-group detection to identify atom eligibility and avoid misclassification, such as distinguishing hydroxyl oxygen from carbonyl oxygen or identifying carbon atoms bearing hydrogen for CH sites.
 
 After the functional group or reactive site is confirmed, downstream catalytic geometry must be computed using heavy atoms, not ligand hydrogen atoms.
 
@@ -61,13 +73,33 @@ MetaBoClipBridge must preserve and correctly pass:
 11. catalytic geometry outputs
 12. final ranking outputs
 
+The integrated AImd workflow must keep stable downstream output conventions unless explicitly instructed.
+
+## Path and configuration rules
+
+Do not introduce hard-coded local paths into reusable source code.
+
+Do not hard-code paths such as:
+
+/media/yugengliu
+DATA3
+AImd_integrated_clean_manual_v4_third_party
+
+Use project-root-relative paths, configuration files, or command-line arguments.
+
+If an absolute path is needed for a local test, keep it only in temporary notes or user-specific examples, not in reusable source code.
+
 ## Safety constraints
 
 Do not change the core scientific scoring logic unless explicitly instructed.
 
 Do not delete, rewrite, or batch-format large data directories.
 
-Do not introduce hard-coded local paths into reusable source code.
+Do not scan or modify large docking output directories unless explicitly instructed.
+
+Do not run full-scale docking, full-scale screening, or full AImd production workflows unless explicitly instructed.
+
+Use minimal smoke tests only.
 
 All generated source code, comments, README text, configuration examples, YAML files, JSON files, CSV headers, plot labels, legends, titles, and documentation must be in English only.
 
@@ -80,7 +112,39 @@ For integration work:
 3. Do not modify files during the first analysis step.
 4. Report the current AImd MetaBoClip interface.
 5. Report the new MetaboClip CLI or Python API.
-6. Propose the smallest integration plan.
-7. List files that need modification before editing.
-8. After editing, run a minimal smoke test.
+6. Compare current AImd expectations with the new MetaboClip input and output schema.
+7. Report old MetaBoClip assumptions that remain in AImd.
+8. Propose the smallest integration plan.
+9. List files that need modification before editing.
+10. Wait for explicit confirmation before editing files.
+11. After editing, run a minimal smoke test.
+12. Summarize the exact commands used.
+13. Summarize git diff.
+
+## Bug-fixing workflow
+
+For bug fixing:
+
+1. Reproduce the bug using the exact command provided by the user.
+2. Identify the smallest failing module.
+3. Report the root cause before editing files.
+4. Propose the smallest safe fix.
+5. Modify only the necessary files.
+6. Preserve the new MetaboClip logic.
+7. Preserve the output schema unless explicitly instructed.
+8. Run the smallest possible smoke test.
 9. Summarize git diff.
+
+## Documentation requirements
+
+Documentation must describe the current new MetaboClip integration, not the old legacy implementation.
+
+README and example commands must explain:
+
+1. How AImd calls MetaBoClipBridge.
+2. How MetaBoClipBridge calls third_party/metaboclip_unified.
+3. Required input files.
+4. Required configuration files.
+5. Expected output files.
+6. Minimal smoke-test commands.
+7. Troubleshooting for common path, manifest, and dependency errors.
