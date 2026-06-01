@@ -47,3 +47,23 @@ cache/
 .DS_Store
 Thumbs.db
 .Trash-*/
+
+# Python cache and build artifacts
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/*.egg-info/
+build/
+dist/
+
+# Local virtual environments
+**/.venv/
+**/venv/
+**/env/
+
+# Third-party local caches
+third_party/**/__pycache__/
+third_party/**/.pytest_cache/
+third_party/**/.venv/
+third_party/**/*.egg-info/
