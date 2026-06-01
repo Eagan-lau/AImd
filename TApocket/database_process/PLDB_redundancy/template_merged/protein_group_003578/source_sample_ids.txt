@@ -1,0 +1,2 @@
+scPDB:2iod_8:accepted_dominant_chain
+scPDB:3c1t_8:accepted_dominant_chain

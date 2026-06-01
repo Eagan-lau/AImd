@@ -1,0 +1,2 @@
+PDBbind2020:2vl8:accepted
+scPDB:2vkd_2:accepted

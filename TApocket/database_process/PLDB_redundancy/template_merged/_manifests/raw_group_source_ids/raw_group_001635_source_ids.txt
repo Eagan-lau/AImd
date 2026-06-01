@@ -1,0 +1,4 @@
+PDBbind2020:4hp0:accepted
+PDBbind2020:4hpi:accepted
+PDBbind2020:4tun:accepted
+PDBbind2020:4z46:accepted

@@ -1,0 +1,8 @@
+PDBbind2020:5csp:accepted
+PDBbind2020:5cu4:accepted
+PDBbind2020:5os8:accepted
+PDBbind2020:5osl:accepted
+PDBbind2020:5otr:accepted
+PDBbind2020:5otz:accepted
+PDBbind2020:6gih:accepted
+scPDB:5cu6_1:accepted

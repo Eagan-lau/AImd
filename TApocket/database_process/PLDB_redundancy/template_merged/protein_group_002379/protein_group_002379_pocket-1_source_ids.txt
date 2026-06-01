@@ -1,0 +1,3 @@
+PDBbind2020:5ewk:accepted
+PDBbind2020:5ewy:accepted
+scPDB:5ewk_1:accepted

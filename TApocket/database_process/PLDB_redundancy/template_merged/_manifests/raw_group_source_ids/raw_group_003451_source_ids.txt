@@ -1,0 +1,2 @@
+scPDB:2zsh_1:accepted
+scPDB:2zsi_1:accepted

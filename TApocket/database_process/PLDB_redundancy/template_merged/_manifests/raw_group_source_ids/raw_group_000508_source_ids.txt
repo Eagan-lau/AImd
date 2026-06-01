@@ -1,0 +1,9 @@
+scPDB:1owl_1:accepted
+scPDB:1owm_1:accepted
+scPDB:1own_1:accepted
+scPDB:1owo_1:accepted
+scPDB:1owp_1:accepted
+scPDB:1qnf_1:accepted
+scPDB:1qnf_2:accepted
+scPDB:1tez_4:accepted
+scPDB:1tez_8:accepted

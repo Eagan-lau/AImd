@@ -1,0 +1,14 @@
+PDBbind2020:3i7b:accepted
+PDBbind2020:3n51:accepted
+PDBbind2020:3sx9:accepted
+PDBbind2020:3sxf:accepted
+PDBbind2020:3t3u:accepted
+PDBbind2020:3t3v:accepted
+PDBbind2020:3upx:accepted
+PDBbind2020:3v51:accepted
+PDBbind2020:3v5p:accepted
+PDBbind2020:3v5t:accepted
+PDBbind2020:4m84:accepted
+PDBbind2020:4ona:accepted
+PDBbind2020:4yjn:accepted
+PDBbind2020:6bfa:accepted

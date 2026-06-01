@@ -1,0 +1,2 @@
+PDBbind2020:4ggz:accepted_dominant_chain
+scPDB:4ggz_2:accepted

@@ -1,0 +1,5 @@
+scPDB:2ign_5:accepted
+scPDB:2igo_1:accepted
+scPDB:3lsm_1:accepted
+scPDB:3pl8_1:accepted
+scPDB:4mok_3:accepted

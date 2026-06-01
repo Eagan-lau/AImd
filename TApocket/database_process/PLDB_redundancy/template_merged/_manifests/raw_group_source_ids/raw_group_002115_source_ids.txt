@@ -1,0 +1,3 @@
+scPDB:3mey_1:accepted
+scPDB:3pzc_1:accepted
+scPDB:4h2u_1:accepted

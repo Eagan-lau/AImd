@@ -1,0 +1,3 @@
+scPDB:3eva_1:accepted
+scPDB:3evb_1:accepted
+scPDB:3evc_1:accepted

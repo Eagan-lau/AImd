@@ -1,0 +1,7 @@
+PDBbind2020:4bfy:accepted
+PDBbind2020:4bfz:accepted
+scPDB:2zsd_1:accepted
+scPDB:4bft_2:accepted
+scPDB:4bfu_1:accepted
+scPDB:4bfv_1:accepted
+scPDB:4bfx_2:accepted

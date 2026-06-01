@@ -1,0 +1,4 @@
+PDBbind2020:4l4z:accepted
+PDBbind2020:4l50:accepted
+PDBbind2020:4l51:accepted
+PDBbind2020:4l5j:accepted

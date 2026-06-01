@@ -1,0 +1,3 @@
+PDBbind2020:4dpu:accepted
+PDBbind2020:4dpy:accepted
+scPDB:4dpy_1:accepted

@@ -1,0 +1,2 @@
+scPDB:4dja_1:accepted
+scPDB:4dja_2:accepted

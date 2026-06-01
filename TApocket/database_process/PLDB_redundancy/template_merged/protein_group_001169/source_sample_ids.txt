@@ -1,0 +1,5 @@
+PDBbind2020:1oe0:accepted
+scPDB:1oe0_2:accepted
+scPDB:2vp0_1:accepted
+scPDB:2vp2_1:accepted
+scPDB:2vp4_3:accepted

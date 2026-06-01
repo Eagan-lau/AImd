@@ -1,0 +1,5 @@
+PDBbind2020:2jk7:accepted
+PDBbind2020:2vsl:accepted
+PDBbind2020:4hy0:accepted_dominant_chain
+PDBbind2020:5c0k:accepted
+scPDB:4hy0_4:accepted_dominant_chain

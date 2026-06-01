@@ -1,0 +1,2 @@
+PDBbind2020:3frz:accepted
+scPDB:3frz_1:accepted

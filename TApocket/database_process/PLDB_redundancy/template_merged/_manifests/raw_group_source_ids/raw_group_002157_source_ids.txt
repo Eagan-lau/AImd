@@ -1,0 +1,3 @@
+scPDB:3kh5_2:accepted
+scPDB:3lfz_1:accepted
+scPDB:3lfz_2:accepted

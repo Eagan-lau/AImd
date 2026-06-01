@@ -1,0 +1,3 @@
+PDBbind2020:4x7k:accepted
+PDBbind2020:4x7l:accepted
+PDBbind2020:4x7n:accepted

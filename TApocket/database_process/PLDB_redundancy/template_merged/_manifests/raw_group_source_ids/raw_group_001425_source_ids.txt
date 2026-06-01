@@ -1,0 +1,4 @@
+scPDB:1ah0_1:accepted
+scPDB:1ah3_1:accepted
+scPDB:1ah4_1:accepted
+scPDB:1eko_1:accepted

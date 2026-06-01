@@ -1,0 +1,3 @@
+PDBbind2020:1yvm:accepted
+PDBbind2020:4a6w:accepted
+PDBbind2020:4pnc:accepted

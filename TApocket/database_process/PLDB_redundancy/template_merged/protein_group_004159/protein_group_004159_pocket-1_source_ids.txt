@@ -1,0 +1,2 @@
+scPDB:3cbp_1:accepted
+scPDB:3vuz_1:accepted

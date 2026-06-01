@@ -1,0 +1,12 @@
+scPDB:1b4v_1:accepted
+scPDB:1mxt_1:accepted
+scPDB:1n1p_1:accepted
+scPDB:1n4u_1:accepted
+scPDB:1n4v_1:accepted
+scPDB:1n4w_1:accepted
+scPDB:2gew_1:accepted
+scPDB:4rek_1:accepted
+scPDB:4u2l_1:accepted
+scPDB:4u2t_1:accepted
+scPDB:4xwr_1:accepted
+scPDB:4xxg_1:accepted

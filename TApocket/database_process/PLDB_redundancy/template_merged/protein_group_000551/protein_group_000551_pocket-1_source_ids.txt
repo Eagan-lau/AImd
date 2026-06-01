@@ -1,0 +1,9 @@
+PDBbind2020:4yqm:accepted
+PDBbind2020:4yqu:accepted
+PDBbind2020:4yqv:accepted
+PDBbind2020:6mhb:accepted
+PDBbind2020:6mhc:accepted
+PDBbind2020:6mhd:accepted
+PDBbind2020:6pnm:accepted
+PDBbind2020:6pnn:accepted
+PDBbind2020:6pno:accepted

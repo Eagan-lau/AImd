@@ -1,0 +1,3 @@
+scPDB:1az1_2:accepted
+scPDB:1az2_1:accepted
+scPDB:2isf_1:accepted

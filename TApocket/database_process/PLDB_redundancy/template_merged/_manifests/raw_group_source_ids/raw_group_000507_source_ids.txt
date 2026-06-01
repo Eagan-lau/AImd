@@ -1,0 +1,9 @@
+PDBbind2020:4nyi:accepted_dominant_chain
+PDBbind2020:4nyj:accepted_dominant_chain
+PDBbind2020:4nym:accepted_dominant_chain
+PDBbind2020:4urx:accepted_dominant_chain
+PDBbind2020:5ove:accepted
+PDBbind2020:5ovf:accepted
+PDBbind2020:5ovg:accepted
+PDBbind2020:5ovi:accepted
+PDBbind2020:6d5w:accepted_dominant_chain

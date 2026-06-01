@@ -1,0 +1,3 @@
+PDBbind2020:1xm6:accepted
+PDBbind2020:1xn0:accepted
+PDBbind2020:1xos:accepted

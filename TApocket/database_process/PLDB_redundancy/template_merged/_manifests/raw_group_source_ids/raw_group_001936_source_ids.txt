@@ -1,0 +1,3 @@
+PDBbind2020:3oka:accepted
+PDBbind2020:3okc:accepted
+PDBbind2020:3okp:accepted

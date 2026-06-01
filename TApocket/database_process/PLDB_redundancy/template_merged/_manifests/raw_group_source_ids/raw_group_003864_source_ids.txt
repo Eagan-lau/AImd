@@ -1,0 +1,2 @@
+scPDB:1fvt_1:accepted
+scPDB:1ke8_1:accepted

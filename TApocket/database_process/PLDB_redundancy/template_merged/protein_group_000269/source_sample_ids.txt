@@ -1,0 +1,15 @@
+PDBbind2020:3arp:accepted
+PDBbind2020:3arq:accepted
+PDBbind2020:3arr:accepted
+PDBbind2020:3arv:accepted
+PDBbind2020:3arw:accepted
+PDBbind2020:3arx:accepted
+PDBbind2020:3ary:accepted
+PDBbind2020:3arz:accepted
+scPDB:3arp_1:accepted
+scPDB:3arq_1:accepted
+scPDB:3arv_2:accepted
+scPDB:3arw_1:accepted
+scPDB:3arx_1:accepted
+scPDB:3ary_1:accepted
+scPDB:3arz_1:accepted

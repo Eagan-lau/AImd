@@ -1,0 +1,4 @@
+scPDB:1x3n_1:accepted
+scPDB:2e1z_1:accepted
+scPDB:2e20_1:accepted
+scPDB:4fwn_1:accepted

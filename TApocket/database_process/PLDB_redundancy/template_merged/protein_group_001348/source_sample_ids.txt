@@ -1,0 +1,4 @@
+scPDB:2xnu_1:accepted_pseudo_chainA
+scPDB:2xnv_9:accepted_pseudo_chainA
+scPDB:2xys_2:accepted_pseudo_chainA
+scPDB:4bqt_3:accepted_pseudo_chainA

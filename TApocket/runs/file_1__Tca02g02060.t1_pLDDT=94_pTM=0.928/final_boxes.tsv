@@ -1,0 +1,2 @@
+pocket_id	source	center_x	center_y	center_z	size_x	size_y	size_z	padding_angstrom	final_score	mcsa_matched	ai_confidence
+pocket_cluster_001	foldseek_template	7.724	-5.1785	4.7565	38.144	36.693	41.989	2.0	0.9435	True	

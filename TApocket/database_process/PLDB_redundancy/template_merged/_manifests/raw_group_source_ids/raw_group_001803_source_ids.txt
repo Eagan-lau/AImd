@@ -1,0 +1,3 @@
+scPDB:1qzf_2:accepted
+scPDB:1qzf_7:accepted_dominant_chain
+scPDB:1sej_9:accepted

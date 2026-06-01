@@ -1,0 +1,5 @@
+PDBbind2020:4hy4:accepted_dominant_chain
+PDBbind2020:4lge:accepted
+PDBbind2020:4lgu:accepted_dominant_chain
+PDBbind2020:4mti:accepted_dominant_chain
+PDBbind2020:4mu7:accepted

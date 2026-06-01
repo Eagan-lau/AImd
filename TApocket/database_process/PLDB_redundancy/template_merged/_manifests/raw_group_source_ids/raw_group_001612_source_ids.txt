@@ -1,0 +1,4 @@
+PDBbind2020:4nah:accepted_dominant_chain
+PDBbind2020:4nat:accepted_dominant_chain
+PDBbind2020:4nau:accepted_dominant_chain
+scPDB:4nau_2:accepted_dominant_chain

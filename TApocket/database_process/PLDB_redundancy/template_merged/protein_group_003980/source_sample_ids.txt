@@ -1,0 +1,2 @@
+scPDB:2hux_1:accepted_dominant_chain
+scPDB:2pci_1:accepted_dominant_chain

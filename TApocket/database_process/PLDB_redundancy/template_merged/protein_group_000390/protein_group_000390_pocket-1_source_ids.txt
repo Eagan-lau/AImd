@@ -1,0 +1,8 @@
+PDBbind2020:1cqp:accepted
+PDBbind2020:1xdd:accepted
+PDBbind2020:1xdg:accepted
+PDBbind2020:1xuo:accepted
+PDBbind2020:3bqn:accepted_dominant_chain
+PDBbind2020:3e2m:accepted_dominant_chain
+PDBbind2020:3f78:accepted
+scPDB:1xuo_1:accepted_dominant_chain

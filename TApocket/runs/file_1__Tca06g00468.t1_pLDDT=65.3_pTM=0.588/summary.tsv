@@ -1,0 +1,2 @@
+pocket_id	query_id	source	final_score	query_residue_count	mapping_coverage	mapping_method	supporting_pocket_count	supporting_template_count	mcsa_matched	mcsa_match_basis	mcsa_atoms_in_box	mcsa_fraction_in_box	mcsa_min_distance_angstrom	box_center	box_size	mapped_pocket_path
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	0.7359	20	0.952381	ca_distance	10	10	True	box_overlap	52	1.0	0.1732	[2.969, -3.0875, -2.0875]	[25.206, 25.335, 23.783]	final_pockets.pdb

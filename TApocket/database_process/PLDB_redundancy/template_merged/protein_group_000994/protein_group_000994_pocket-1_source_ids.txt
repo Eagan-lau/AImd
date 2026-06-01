@@ -1,0 +1,4 @@
+PDBbind2020:2xgs:accepted_dominant_chain
+scPDB:2jlb_2:accepted
+scPDB:2xgo_1:accepted
+scPDB:2xgs_2:accepted

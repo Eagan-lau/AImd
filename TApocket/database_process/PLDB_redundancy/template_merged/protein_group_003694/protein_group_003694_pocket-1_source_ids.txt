@@ -1,0 +1,2 @@
+PDBbind2020:5yr5:accepted
+PDBbind2020:5yr6:accepted

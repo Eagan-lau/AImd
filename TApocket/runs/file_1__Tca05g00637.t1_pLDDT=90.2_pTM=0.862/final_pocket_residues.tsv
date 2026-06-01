@@ -1,0 +1,26 @@
+pocket_id	query_id	source	template_id	template_pocket_id	chain	resi	icode	resn	min_distance_to_mapped_pocket
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	85		ALA	0.3814
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	88		GLN	0.1221
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	191		HIS	0.123
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	192		PHE	0.0438
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	236		ASN	0.3345
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	237		GLU	0.1567
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	239		TYR	0.339
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	240		ALA	0.3894
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	244		PHE	0.5031
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	251		LEU	0.3953
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	296		THR	0.1951
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	298		PRO	0.3563
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	322		MET	0.4844
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	368		ASN	0.3221
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	370		TYR	0.7277
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	414		TRP	1.4475
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	415		LEU	0.9722
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	442		GLU	0.2647
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	491		TRP	0.3757
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	492		SER	0.7448
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	496		ASN	0.3007
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	497		TYR	0.2645
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	498		GLU	0.4561
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	499		TRP	0.3252
+pocket_cluster_001	Tca05g00637.t1_pLDDT=90.2_pTM=0.862	foldseek_template	protein_group_007069	pocket-1	A	507		PHE	0.4184

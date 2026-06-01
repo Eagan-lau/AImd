@@ -1,0 +1,8 @@
+PDBbind2020:3rwc:accepted_dominant_chain
+PDBbind2020:3rwd:accepted_dominant_chain
+PDBbind2020:3rwe:accepted_dominant_chain
+PDBbind2020:3rwf:accepted_dominant_chain
+PDBbind2020:3rwg:accepted_dominant_chain
+PDBbind2020:3rwh:accepted_dominant_chain
+PDBbind2020:3rwi:accepted_dominant_chain
+PDBbind2020:3rwj:accepted_dominant_chain

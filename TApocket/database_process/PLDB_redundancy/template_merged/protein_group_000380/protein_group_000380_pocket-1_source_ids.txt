@@ -1,0 +1,11 @@
+PDBbind2020:1owd:accepted
+PDBbind2020:1owi:accepted
+PDBbind2020:1owj:accepted
+PDBbind2020:1owk:accepted
+PDBbind2020:1sqt:accepted
+PDBbind2020:1u6q:accepted
+PDBbind2020:2vnt:accepted
+scPDB:1owd_1:accepted
+scPDB:1owi_1:accepted
+scPDB:1owk_1:accepted
+scPDB:1u6q_1:accepted

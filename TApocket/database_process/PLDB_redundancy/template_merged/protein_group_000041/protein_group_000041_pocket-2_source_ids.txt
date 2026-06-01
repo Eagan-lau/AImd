@@ -1,0 +1,6 @@
+scPDB:2d82_1:accepted
+scPDB:2l84_1:accepted
+scPDB:2l85_1:accepted
+scPDB:3p1d_1:accepted
+scPDB:4nyv_1:accepted_dominant_chain
+scPDB:4nyw_1:accepted

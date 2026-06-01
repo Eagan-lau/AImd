@@ -1,0 +1,3 @@
+scPDB:1djn_2:accepted
+scPDB:1o94_2:accepted
+scPDB:2tmd_2:accepted

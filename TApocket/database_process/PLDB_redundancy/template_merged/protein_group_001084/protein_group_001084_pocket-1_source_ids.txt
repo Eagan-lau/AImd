@@ -1,0 +1,5 @@
+PDBbind2020:4pin:accepted
+PDBbind2020:6fnq:accepted
+PDBbind2020:6fnr:accepted
+PDBbind2020:6fns:accepted
+PDBbind2020:6fnt:accepted

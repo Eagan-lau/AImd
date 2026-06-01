@@ -1,0 +1,3 @@
+PDBbind2020:5jsq:accepted_dominant_chain
+PDBbind2020:6apt:accepted_dominant_chain
+PDBbind2020:6apu:accepted_dominant_chain

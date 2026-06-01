@@ -1,0 +1,10 @@
+scPDB:1qpe_1:accepted
+scPDB:1qpj_1:accepted
+scPDB:2zm1_1:accepted
+scPDB:2zm4_1:accepted
+scPDB:2zyb_1:accepted
+scPDB:3ac1_1:accepted
+scPDB:3ac2_1:accepted
+scPDB:3ac3_1:accepted
+scPDB:3ac4_1:accepted
+scPDB:3ad6_1:accepted

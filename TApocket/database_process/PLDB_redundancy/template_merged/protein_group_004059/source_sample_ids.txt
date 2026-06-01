@@ -1,0 +1,2 @@
+PDBbind2020:3kig:accepted
+scPDB:3kig_1:accepted

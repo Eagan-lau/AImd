@@ -1,0 +1,4 @@
+PDBbind2020:5khg:accepted
+PDBbind2020:5khh:accepted
+PDBbind2020:5khi:accepted
+PDBbind2020:5khk:accepted

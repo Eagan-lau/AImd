@@ -1,0 +1,3 @@
+PDBbind2020:4gzt:accepted
+PDBbind2020:4gzw:accepted
+PDBbind2020:4gzx:accepted

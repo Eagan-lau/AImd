@@ -1,0 +1,2 @@
+scPDB:1q97_1:accepted
+scPDB:1q99_2:accepted

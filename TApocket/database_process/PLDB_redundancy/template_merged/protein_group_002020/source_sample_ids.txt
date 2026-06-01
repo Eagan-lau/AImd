@@ -1,0 +1,3 @@
+PDBbind2020:2qyk:accepted
+PDBbind2020:3tvx:accepted
+scPDB:3tvx_1:accepted

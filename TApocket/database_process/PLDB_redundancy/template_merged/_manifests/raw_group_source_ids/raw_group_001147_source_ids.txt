@@ -1,0 +1,5 @@
+PDBbind2020:1qan:accepted
+PDBbind2020:1qaq:accepted
+scPDB:1qan_1:accepted
+scPDB:1qao_1:accepted
+scPDB:1qaq_1:accepted

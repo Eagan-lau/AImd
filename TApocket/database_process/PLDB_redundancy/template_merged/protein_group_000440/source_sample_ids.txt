@@ -1,0 +1,10 @@
+PDBbind2020:1lqf:accepted
+PDBbind2020:1q6p:accepted
+PDBbind2020:1t49:accepted
+PDBbind2020:1t4j:accepted
+PDBbind2020:2cmb:accepted
+PDBbind2020:2cmc:accepted
+PDBbind2020:2cne:accepted
+PDBbind2020:3eax:accepted
+scPDB:1jf7_1:accepted_dominant_chain
+scPDB:1q6p_1:accepted_pseudo_chainA

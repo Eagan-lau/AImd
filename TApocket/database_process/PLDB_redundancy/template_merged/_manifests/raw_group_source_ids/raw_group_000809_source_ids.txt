@@ -1,0 +1,6 @@
+PDBbind2020:3sur:accepted
+PDBbind2020:3sus:accepted
+PDBbind2020:3sut:accepted
+PDBbind2020:3suu:accepted
+PDBbind2020:3suv:accepted
+PDBbind2020:3suw:accepted

@@ -1,0 +1,3 @@
+scPDB:4njs_2:accepted_pseudo_chainA
+scPDB:4nju_2:accepted_pseudo_chainA
+scPDB:4rvj_2:accepted_pseudo_chainA

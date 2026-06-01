@@ -1,0 +1,3 @@
+PDBbind2020:3w2p:accepted
+PDBbind2020:3w2q:accepted
+PDBbind2020:3w2r:accepted

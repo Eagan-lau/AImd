@@ -1,0 +1,9 @@
+PDBbind2020:1jje:accepted_dominant_chain
+PDBbind2020:1jjt:accepted_dominant_chain
+PDBbind2020:4c1f:accepted
+PDBbind2020:4c1g:accepted
+PDBbind2020:5ev8:accepted
+PDBbind2020:5ewa:accepted
+scPDB:1dd6_2:accepted
+scPDB:1jje_2:accepted
+scPDB:1jjt_1:accepted

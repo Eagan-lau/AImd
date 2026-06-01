@@ -1,0 +1,5 @@
+PDBbind2020:3ikd:accepted
+PDBbind2020:3ikg:accepted
+PDBbind2020:3jyj:accepted
+PDBbind2020:3kac:accepted
+PDBbind2020:4tyo:accepted

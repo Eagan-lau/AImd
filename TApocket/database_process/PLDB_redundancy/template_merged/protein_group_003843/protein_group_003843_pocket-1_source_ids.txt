@@ -1,0 +1,2 @@
+scPDB:2wtc_1:accepted
+scPDB:2wtd_1:accepted

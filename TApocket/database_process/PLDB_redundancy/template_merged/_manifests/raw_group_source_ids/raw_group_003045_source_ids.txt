@@ -1,0 +1,2 @@
+scPDB:1e32_1:accepted
+scPDB:1s3s_1:accepted_dominant_chain

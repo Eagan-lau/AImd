@@ -1,0 +1,2 @@
+PDBbind2020:3jzr:accepted
+PDBbind2020:5oai:accepted

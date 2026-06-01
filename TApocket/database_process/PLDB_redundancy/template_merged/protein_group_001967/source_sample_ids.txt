@@ -1,0 +1,3 @@
+scPDB:3eku_1:accepted
+scPDB:3eku_2:accepted
+scPDB:3el2_1:accepted

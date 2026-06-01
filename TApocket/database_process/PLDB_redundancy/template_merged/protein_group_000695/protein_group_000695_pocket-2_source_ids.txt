@@ -1,0 +1,3 @@
+scPDB:1lny_2:accepted_dominant_chain
+scPDB:1lon_1:accepted
+scPDB:2dgn_1:accepted

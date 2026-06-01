@@ -1,0 +1,5 @@
+PDBbind2020:1hee:accepted
+PDBbind2020:1iy7:accepted
+PDBbind2020:6cpa:accepted
+PDBbind2020:7cpa:accepted
+PDBbind2020:8cpa:accepted

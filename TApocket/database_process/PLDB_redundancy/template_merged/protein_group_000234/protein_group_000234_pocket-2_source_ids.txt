@@ -1,0 +1,2 @@
+PDBbind2020:4j24:accepted
+PDBbind2020:4j26:accepted

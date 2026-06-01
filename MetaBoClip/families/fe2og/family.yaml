@@ -1,0 +1,133 @@
+version: 1
+family:
+  key: fe2og
+  plugin: fe2og
+  runner: fe2og
+  name: Fe2OG
+  version: 2.0.0
+  description: Pure YAML family spec for Fe/2OG oxygenases.
+input:
+  protein_extension: .pdbqt
+  ligand_extension: .pdbqt
+  ligand_pattern: '{ligand_id}@{protein_name}{ligand_extension}'
+  out_pattern: '{ligand_id}_{protein_name}_cavity_1.out'
+  protein_object: protein
+  ligand_object: ligand
+  affinity_threshold: -3.0
+aggregation:
+  total_confs: 6
+  cover_t: 70.0
+  alpha: 0.3
+output:
+  save_pse: true
+  row_fields:
+    - name: lig_atom_id
+      ref: lig_h_atom
+      attr: atom_id
+    - name: parent_atom_id
+      ref: parent_atom
+      attr: atom_id
+    - name: fe_atom_id
+      ref: fe_atom
+      attr: atom_id
+    - name: o_ref_atom_id
+      ref: akg_o5
+      attr: atom_id
+    - name: anchor_atom_id
+      ref: anchor_a
+      attr: atom_id
+    - name: anchor_tag
+      ref: anchor_a
+      attr: name
+resources: {}
+globals:
+  fe_atom:
+    op: select_first_atom_any
+    selectors:
+      - '{protein_obj} and name FE'
+      - '{protein_obj} and elem Fe'
+  akg_o5:
+    op: select_first_atom
+    selector: '{protein_obj} and resn AKG and name O5'
+  anchor_a:
+    op: select_first_atom_any
+    selectors:
+      - '{protein_obj} and resn AKG and name O1'
+      - '{protein_obj} and resn AKG and name O2'
+      - '{protein_obj} and resn AKG and name C1'
+      - '{protein_obj} and resn AKG and name C2'
+  axis:
+    op: plane_normal
+    a: fe_atom
+    b: akg_o5
+    c: anchor_a
+pose:
+  add_hydrogens: true
+  objects:
+    ch_sites:
+      op: collect_ch_pairs
+      h_cutoff: 1.25
+    pose_clash:
+      op: pose_clash
+      cutoff: 2.0
+candidates:
+  op: source
+  collection: ch_sites
+features:
+  - name: dist_FE_H
+    op: distance
+    a: fe_atom
+    b: lig_h_atom
+  - name: angle_deg
+    op: axis_deviation
+    axis: axis
+    origin: fe_atom
+    target: lig_h_atom
+  - name: clash_flag
+    op: alias
+    source: pose_clash
+gating:
+  logic: all
+  rules:
+    - feature: dist_FE_H
+      op: between
+      min: 2.5
+      max: 5.0
+    - feature: angle_deg
+      op: <=
+      value: 60.0
+    - feature: clash_flag
+      op: ==
+      value: false
+scoring:
+  transforms:
+    - name: affinity_score
+      op: energy_linear
+      source: affinity_kcal
+      full: -7.0
+      zero: -3.0
+    - name: dist_score
+      op: piecewise_linear
+      source: dist_FE_H
+      points:
+        - [0.0, 1.0]
+        - [3.5, 1.0]
+        - [5.0, 0.0]
+    - name: angle_score
+      op: piecewise_linear
+      source: angle_deg
+      points:
+        - [0.0, 1.0]
+        - [30.0, 1.0]
+        - [60.0, 0.0]
+  intermediates: []
+  pose_score:
+    op: weighted_sum
+    scale: 100.0
+    terms:
+      - source: affinity_score
+        weight: 0.3
+      - source: dist_score
+        weight: 0.5
+      - source: angle_score
+        weight: 0.2

@@ -1,0 +1,4 @@
+PDBbind2020:6dyn:accepted
+PDBbind2020:6dyo:accepted
+PDBbind2020:6dyr:accepted
+PDBbind2020:6dys:accepted

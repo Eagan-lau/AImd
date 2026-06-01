@@ -1,0 +1,2 @@
+PDBbind2020:3su1:accepted
+PDBbind2020:3su5:accepted

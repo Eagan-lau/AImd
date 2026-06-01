@@ -1,0 +1,2 @@
+PDBbind2020:1pzp:accepted
+scPDB:1pzp_1:accepted

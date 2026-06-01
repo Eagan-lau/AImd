@@ -1,0 +1,16 @@
+scPDB:1adb_1:accepted_dominant_chain
+scPDB:1adc_1:accepted_dominant_chain
+scPDB:1adf_1:accepted
+scPDB:1het_1:accepted_dominant_chain
+scPDB:1heu_1:accepted_dominant_chain
+scPDB:1hf3_1:accepted_dominant_chain
+scPDB:1hld_2:accepted_dominant_chain
+scPDB:1lde_5:accepted_dominant_chain
+scPDB:2jhf_1:accepted_dominant_chain
+scPDB:2ohx_1:accepted_dominant_chain
+scPDB:2oxi_2:accepted_dominant_chain
+scPDB:4dwv_3:accepted_dominant_chain
+scPDB:4dxh_1:accepted_dominant_chain
+scPDB:4xd2_2:accepted_dominant_chain
+scPDB:5adh_1:accepted
+scPDB:6adh_2:accepted_dominant_chain

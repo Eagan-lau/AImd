@@ -1,0 +1,2 @@
+PDBbind2020:2gkl:accepted
+scPDB:2qds_1:accepted

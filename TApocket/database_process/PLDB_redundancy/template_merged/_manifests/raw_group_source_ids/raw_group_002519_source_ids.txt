@@ -1,0 +1,2 @@
+scPDB:1wyg_1:accepted
+scPDB:1wyg_2:accepted

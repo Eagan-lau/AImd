@@ -1,0 +1,5 @@
+PDBbind2020:2lo6:accepted
+PDBbind2020:2mow:accepted
+PDBbind2020:6o3w:accepted
+PDBbind2020:6o3x:accepted
+PDBbind2020:6o3y:accepted

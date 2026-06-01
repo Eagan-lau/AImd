@@ -1,0 +1,2 @@
+scPDB:2gir_2:accepted
+scPDB:3mf5_1:accepted

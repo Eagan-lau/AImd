@@ -1,0 +1,3 @@
+PDBbind2020:3e3b:accepted_dominant_chain
+PDBbind2020:6hmb:accepted
+scPDB:3ofm_1:accepted

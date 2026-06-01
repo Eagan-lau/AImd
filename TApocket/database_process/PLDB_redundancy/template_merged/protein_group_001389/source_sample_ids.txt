@@ -1,0 +1,4 @@
+PDBbind2020:6iyv:accepted
+PDBbind2020:6iyw:accepted
+PDBbind2020:6rrm:accepted
+scPDB:4gsu_2:accepted_dominant_chain

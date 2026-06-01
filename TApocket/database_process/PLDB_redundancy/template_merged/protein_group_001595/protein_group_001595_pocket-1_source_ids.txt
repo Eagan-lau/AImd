@@ -1,0 +1,4 @@
+PDBbind2020:6njz:accepted_dominant_chain
+PDBbind2020:6nk0:accepted
+PDBbind2020:6nk1:accepted
+PDBbind2020:6nkp:accepted

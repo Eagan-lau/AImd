@@ -1,0 +1,2 @@
+scPDB:4ynt_1:accepted
+scPDB:4ynu_1:accepted

@@ -1,0 +1,4 @@
+scPDB:2vhw_5:accepted
+scPDB:2vhx_2:accepted
+scPDB:2vhz_2:accepted
+scPDB:2voj_3:accepted

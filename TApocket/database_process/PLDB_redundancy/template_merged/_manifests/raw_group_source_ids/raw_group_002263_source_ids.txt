@@ -1,0 +1,3 @@
+PDBbind2020:4ymg:accepted
+PDBbind2020:4ymh:accepted
+scPDB:4ymg_1:accepted

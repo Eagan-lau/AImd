@@ -1,0 +1,3 @@
+scPDB:1wma_1:accepted
+scPDB:3bhj_1:accepted
+scPDB:3bhm_2:accepted

@@ -1,0 +1,1 @@
+scPDB:2nyr_1:accepted_pseudo_chainA

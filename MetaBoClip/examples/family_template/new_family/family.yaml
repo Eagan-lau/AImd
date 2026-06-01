@@ -1,0 +1,40 @@
+version: 1
+family:
+  key: new_family
+  plugin: new_family
+  runner: new_family
+  name: NewFamily
+  version: 1.0.0
+  description: Starter template for a new YAML-only family spec.
+input:
+  protein_extension: .pdbqt
+  ligand_extension: .pdbqt
+  ligand_pattern: '{ligand_id}@{protein_name}{ligand_extension}'
+  out_pattern: '{ligand_id}_{protein_name}_cavity_1.out'
+  protein_object: protein
+  ligand_object: ligand
+  affinity_threshold: -3.0
+aggregation:
+  total_confs: 6
+  cover_t: 70.0
+  alpha: 0.3
+output:
+  save_pse: true
+  row_fields: []
+resources: {}
+globals: {}
+pose:
+  add_hydrogens: false
+  objects: {}
+candidates: {}
+features: []
+gating:
+  logic: all
+  rules: []
+scoring:
+  transforms: []
+  intermediates: []
+  pose_score:
+    op: weighted_sum
+    scale: 100.0
+    terms: []

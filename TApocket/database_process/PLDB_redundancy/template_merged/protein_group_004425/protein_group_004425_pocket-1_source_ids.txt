@@ -1,0 +1,2 @@
+PDBbind2020:3p2k:accepted
+scPDB:3p2k_2:accepted

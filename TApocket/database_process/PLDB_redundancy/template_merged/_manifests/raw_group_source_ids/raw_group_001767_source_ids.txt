@@ -1,0 +1,3 @@
+PDBbind2020:1hk2:accepted
+PDBbind2020:1hk5:accepted
+scPDB:1hk5_1:accepted

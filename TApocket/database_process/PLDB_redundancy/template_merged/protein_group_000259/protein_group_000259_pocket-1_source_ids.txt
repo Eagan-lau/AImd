@@ -1,0 +1,13 @@
+PDBbind2020:3nzc:accepted
+scPDB:1cd2_1:accepted
+scPDB:1daj_1:accepted
+scPDB:1e26_1:accepted
+scPDB:1klk_1:accepted
+scPDB:1ly3_1:accepted
+scPDB:1ly4_1:accepted
+scPDB:1vj3_1:accepted
+scPDB:2cd2_1:accepted
+scPDB:2fzh_1:accepted
+scPDB:2fzi_1:accepted
+scPDB:3cd2_1:accepted
+scPDB:4cd2_1:accepted

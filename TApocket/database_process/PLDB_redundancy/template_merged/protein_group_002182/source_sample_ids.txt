@@ -1,0 +1,3 @@
+scPDB:1tqm_1:accepted
+scPDB:1tqp_1:accepted
+scPDB:1zar_1:accepted

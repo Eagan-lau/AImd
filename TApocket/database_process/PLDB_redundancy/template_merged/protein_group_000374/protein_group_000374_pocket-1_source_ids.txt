@@ -1,0 +1,9 @@
+PDBbind2020:5u0w:accepted
+PDBbind2020:5u0y:accepted
+PDBbind2020:5u0z:accepted
+PDBbind2020:5u11:accepted
+PDBbind2020:5u12:accepted
+PDBbind2020:5u13:accepted
+PDBbind2020:5u14:accepted
+PDBbind2020:5v79:accepted_dominant_chain
+PDBbind2020:5v7a:accepted_dominant_chain

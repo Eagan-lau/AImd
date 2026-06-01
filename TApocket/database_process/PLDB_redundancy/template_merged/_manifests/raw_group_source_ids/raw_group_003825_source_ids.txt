@@ -1,0 +1,2 @@
+PDBbind2020:5hes:accepted
+scPDB:5hes_1:accepted_dominant_chain

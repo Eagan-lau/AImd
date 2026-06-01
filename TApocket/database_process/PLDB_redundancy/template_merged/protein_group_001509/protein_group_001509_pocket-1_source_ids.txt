@@ -1,0 +1,3 @@
+scPDB:5dos_1:accepted
+scPDB:5drd_1:accepted
+scPDB:5dt4_1:accepted

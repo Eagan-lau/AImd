@@ -1,0 +1,6 @@
+scPDB:2zx5_2:accepted
+scPDB:2zx6_2:accepted
+scPDB:2zx7_1:accepted
+scPDB:2zx8_1:accepted
+scPDB:2zx9_2:accepted
+scPDB:2zxb_2:accepted

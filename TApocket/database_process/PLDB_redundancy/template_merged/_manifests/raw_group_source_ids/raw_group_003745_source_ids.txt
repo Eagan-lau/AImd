@@ -1,0 +1,2 @@
+PDBbind2020:3nhi:accepted
+PDBbind2020:3nht:accepted

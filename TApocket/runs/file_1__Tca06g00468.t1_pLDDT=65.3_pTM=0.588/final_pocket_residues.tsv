@@ -1,0 +1,21 @@
+pocket_id	query_id	source	template_id	template_pocket_id	chain	resi	icode	resn	min_distance_to_mapped_pocket
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	76		ILE	1.5748
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	78		ASN	1.9852
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	98		PHE	0.211
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	100		ASP	0.808
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	114		ALA	0.4574
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	115		PHE	0.6689
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	118		LEU	1.1377
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	125		GLY	1.2932
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	127		MET	1.2628
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	146		ILE	1.0662
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	148		ASN	0.8584
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	150		GLN	1.463
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	152		TYR	1.5311
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	159		ILE	0.5541
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	161		LEU	0.578
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	163		SER	0.0746
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	165		ILE	0.8098
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	177		HIS	0.4913
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	179		ASP	0.8362
+pocket_cluster_001	Tca06g00468.t1_pLDDT=65.3_pTM=0.588	foldseek_template	protein_group_015395	pocket-1	A	181		TRP	1.1371

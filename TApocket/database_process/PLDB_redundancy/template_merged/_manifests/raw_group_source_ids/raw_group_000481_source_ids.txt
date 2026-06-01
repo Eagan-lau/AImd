@@ -1,0 +1,10 @@
+PDBbind2020:1erb:accepted
+scPDB:1erb_1:accepted
+scPDB:1fel_1:accepted
+scPDB:1fem_1:accepted
+scPDB:1hbp_1:accepted
+scPDB:1kt3_1:accepted
+scPDB:1kt4_1:accepted
+scPDB:1kt5_1:accepted
+scPDB:1kt6_1:accepted
+scPDB:1kt7_1:accepted

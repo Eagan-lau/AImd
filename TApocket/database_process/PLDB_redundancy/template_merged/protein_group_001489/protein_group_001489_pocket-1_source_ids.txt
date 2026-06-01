@@ -1,0 +1,4 @@
+PDBbind2020:3hf8:accepted
+PDBbind2020:3hfb:accepted
+scPDB:3hf8_1:accepted
+scPDB:3hfb_1:accepted

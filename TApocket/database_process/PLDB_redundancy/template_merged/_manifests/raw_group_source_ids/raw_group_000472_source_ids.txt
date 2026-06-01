@@ -1,0 +1,10 @@
+PDBbind2020:1zky:accepted
+PDBbind2020:2b1v:accepted
+PDBbind2020:2b1z:accepted
+PDBbind2020:2fai:accepted
+PDBbind2020:4mg7:accepted
+PDBbind2020:4mga:accepted
+PDBbind2020:4mgc:accepted
+PDBbind2020:5dxe:accepted
+PDBbind2020:5dxg:accepted
+scPDB:1zky_2:accepted

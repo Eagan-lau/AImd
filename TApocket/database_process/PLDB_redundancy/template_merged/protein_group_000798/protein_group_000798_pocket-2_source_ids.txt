@@ -1,0 +1,3 @@
+PDBbind2020:1gpy:accepted_dominant_chain
+PDBbind2020:1pyg:accepted_dominant_chain
+PDBbind2020:2amv:accepted

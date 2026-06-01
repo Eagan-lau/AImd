@@ -1,0 +1,2 @@
+scPDB:1fmj_1:accepted
+scPDB:1fml_2:accepted

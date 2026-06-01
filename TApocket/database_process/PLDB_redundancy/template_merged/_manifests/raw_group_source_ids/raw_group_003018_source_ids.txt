@@ -1,0 +1,2 @@
+scPDB:2xlr_1:accepted
+scPDB:2xlr_8:accepted

@@ -1,0 +1,2537 @@
+[
+  {
+    "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+    "pocket_id": "AI_P1",
+    "cluster_id": null,
+    "source": "deeppocket_db_basic31",
+    "template_id": "deeppocket_db_basic31",
+    "template_pocket_id": "AI_P1",
+    "mapped_pocket_path": "final_pockets.pdb",
+    "template_protein_path": "",
+    "template_pocket_path": "",
+    "foldseek_hit": {},
+    "query_pocket_residues": [
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "37",
+        "icode": "",
+        "resn": "PHE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "38",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "39",
+        "icode": "",
+        "resn": "PHE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "40",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "41",
+        "icode": "",
+        "resn": "THR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "42",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "43",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "44",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "45",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "46",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "47",
+        "icode": "",
+        "resn": "GLN",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "48",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "49",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "50",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "51",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "52",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "53",
+        "icode": "",
+        "resn": "PHE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "55",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "56",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "57",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "58",
+        "icode": "",
+        "resn": "TRP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "59",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "60",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "61",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "62",
+        "icode": "",
+        "resn": "TRP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "63",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "64",
+        "icode": "",
+        "resn": "THR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "65",
+        "icode": "",
+        "resn": "PHE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "66",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "71",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "77",
+        "icode": "",
+        "resn": "ASN",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "78",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "79",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "80",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "81",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "82",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "83",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "84",
+        "icode": "",
+        "resn": "GLN",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "85",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "86",
+        "icode": "",
+        "resn": "HIS",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "87",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "88",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "89",
+        "icode": "",
+        "resn": "GLN",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "90",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "91",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "92",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "93",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "94",
+        "icode": "",
+        "resn": "MET",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "95",
+        "icode": "",
+        "resn": "MET",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "96",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "97",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "98",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "99",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "100",
+        "icode": "",
+        "resn": "MET",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "101",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "102",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "103",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "104",
+        "icode": "",
+        "resn": "HIS",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "105",
+        "icode": "",
+        "resn": "PHE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "106",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "107",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "108",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "109",
+        "icode": "",
+        "resn": "TRP",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "110",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "111",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "112",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "113",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "114",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "115",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "116",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "117",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "119",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "120",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "121",
+        "icode": "",
+        "resn": "ASN",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "122",
+        "icode": "",
+        "resn": "HIS",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "123",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "124",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "125",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "126",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "127",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "128",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "129",
+        "icode": "",
+        "resn": "ASN",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "130",
+        "icode": "",
+        "resn": "ASN",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "131",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "132",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "134",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "135",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "136",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "137",
+        "icode": "",
+        "resn": "LYS",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "138",
+        "icode": "",
+        "resn": "HIS",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "139",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "140",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.0
+      },
+      {
+        "query_id": "Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+        "template_id": "deeppocket_db_basic31",
+        "template_pocket_id": "AI_P1",
+        "chain": "A",
+        "resi": "141",
+        "icode": "",
+        "resn": "GLN",
+        "min_distance_to_mapped_pocket": 0.0
+      }
+    ],
+    "mapping_quality": {
+      "method": "ai_model",
+      "query_residue_count": 93
+    },
+    "mcsa_support": {},
+    "ai_support": {
+      "model_name": "deeppocket_db_basic31",
+      "confidence": 25.871686,
+      "raw": {
+        "pocket_id": "AI_P1",
+        "source": "deeppocket_db",
+        "variant": "basic31",
+        "rank": 1,
+        "score": 25.871686,
+        "confidence": 25.871686,
+        "cluster_id": "0",
+        "box": {
+          "center": [
+            -0.47,
+            0.117,
+            -3.72
+          ],
+          "size": [
+            93.0,
+            93.0,
+            93.0
+          ],
+          "padding_angstrom": ""
+        },
+        "pocket_pdb": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/ai_features/basic31/deeppocket_db_work/clusters_basic31/query/query_pocket_rank1_cluster0.pdb",
+        "residues": [
+          {
+            "chain": "A",
+            "resi": "37",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.3915773928165436
+          },
+          {
+            "chain": "A",
+            "resi": "38",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.521336019039154
+          },
+          {
+            "chain": "A",
+            "resi": "39",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.5647905468940735
+          },
+          {
+            "chain": "A",
+            "resi": "40",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5876638889312744
+          },
+          {
+            "chain": "A",
+            "resi": "41",
+            "icode": "",
+            "resn": "THR",
+            "distance": 0.0,
+            "probability": 0.5842995047569275
+          },
+          {
+            "chain": "A",
+            "resi": "42",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.6664719581604004
+          },
+          {
+            "chain": "A",
+            "resi": "43",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6865496635437012
+          },
+          {
+            "chain": "A",
+            "resi": "44",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.7120679616928101
+          },
+          {
+            "chain": "A",
+            "resi": "45",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.7080705165863037
+          },
+          {
+            "chain": "A",
+            "resi": "46",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.6587887406349182
+          },
+          {
+            "chain": "A",
+            "resi": "47",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.6651800274848938
+          },
+          {
+            "chain": "A",
+            "resi": "48",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.6619647741317749
+          },
+          {
+            "chain": "A",
+            "resi": "49",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.6684202551841736
+          },
+          {
+            "chain": "A",
+            "resi": "50",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5210795402526855
+          },
+          {
+            "chain": "A",
+            "resi": "51",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.3722417056560516
+          },
+          {
+            "chain": "A",
+            "resi": "52",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5062869191169739
+          },
+          {
+            "chain": "A",
+            "resi": "53",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.2753542363643646
+          },
+          {
+            "chain": "A",
+            "resi": "55",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.316249132156372
+          },
+          {
+            "chain": "A",
+            "resi": "56",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.3411035537719726
+          },
+          {
+            "chain": "A",
+            "resi": "57",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.5285876393318176
+          },
+          {
+            "chain": "A",
+            "resi": "58",
+            "icode": "",
+            "resn": "TRP",
+            "distance": 0.0,
+            "probability": 0.6320736408233643
+          },
+          {
+            "chain": "A",
+            "resi": "59",
+            "icode": "",
+            "resn": "PRO",
+            "distance": 0.0,
+            "probability": 0.5185186862945557
+          },
+          {
+            "chain": "A",
+            "resi": "60",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6293843984603882
+          },
+          {
+            "chain": "A",
+            "resi": "61",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.6058568358421326
+          },
+          {
+            "chain": "A",
+            "resi": "62",
+            "icode": "",
+            "resn": "TRP",
+            "distance": 0.0,
+            "probability": 0.6286678314208984
+          },
+          {
+            "chain": "A",
+            "resi": "63",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.4907677769660949
+          },
+          {
+            "chain": "A",
+            "resi": "64",
+            "icode": "",
+            "resn": "THR",
+            "distance": 0.0,
+            "probability": 0.4523698091506958
+          },
+          {
+            "chain": "A",
+            "resi": "65",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.4719095230102539
+          },
+          {
+            "chain": "A",
+            "resi": "66",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.4335401058197021
+          },
+          {
+            "chain": "A",
+            "resi": "71",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.3068041205406189
+          },
+          {
+            "chain": "A",
+            "resi": "77",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.3700091540813446
+          },
+          {
+            "chain": "A",
+            "resi": "78",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.5640369057655334
+          },
+          {
+            "chain": "A",
+            "resi": "79",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.2814102470874786
+          },
+          {
+            "chain": "A",
+            "resi": "80",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.3968172967433929
+          },
+          {
+            "chain": "A",
+            "resi": "81",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.5716592073440552
+          },
+          {
+            "chain": "A",
+            "resi": "82",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.58162921667099
+          },
+          {
+            "chain": "A",
+            "resi": "83",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.4256064891815185
+          },
+          {
+            "chain": "A",
+            "resi": "84",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.6086899638175964
+          },
+          {
+            "chain": "A",
+            "resi": "85",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.536799430847168
+          },
+          {
+            "chain": "A",
+            "resi": "86",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.3435150384902954
+          },
+          {
+            "chain": "A",
+            "resi": "87",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.4244914352893829
+          },
+          {
+            "chain": "A",
+            "resi": "88",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.4586780965328216
+          },
+          {
+            "chain": "A",
+            "resi": "89",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.3244171440601349
+          },
+          {
+            "chain": "A",
+            "resi": "90",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.3518759310245514
+          },
+          {
+            "chain": "A",
+            "resi": "91",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.5744370222091675
+          },
+          {
+            "chain": "A",
+            "resi": "92",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.4264360070228576
+          },
+          {
+            "chain": "A",
+            "resi": "93",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.4459660947322845
+          },
+          {
+            "chain": "A",
+            "resi": "94",
+            "icode": "",
+            "resn": "MET",
+            "distance": 0.0,
+            "probability": 0.5644463300704956
+          },
+          {
+            "chain": "A",
+            "resi": "95",
+            "icode": "",
+            "resn": "MET",
+            "distance": 0.0,
+            "probability": 0.5720087885856628
+          },
+          {
+            "chain": "A",
+            "resi": "96",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.4649760127067566
+          },
+          {
+            "chain": "A",
+            "resi": "97",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.5181102752685547
+          },
+          {
+            "chain": "A",
+            "resi": "98",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5706396102905273
+          },
+          {
+            "chain": "A",
+            "resi": "99",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5408341884613037
+          },
+          {
+            "chain": "A",
+            "resi": "100",
+            "icode": "",
+            "resn": "MET",
+            "distance": 0.0,
+            "probability": 0.5606927871704102
+          },
+          {
+            "chain": "A",
+            "resi": "101",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.5607475638389587
+          },
+          {
+            "chain": "A",
+            "resi": "102",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.5807126760482788
+          },
+          {
+            "chain": "A",
+            "resi": "103",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.6223477125167847
+          },
+          {
+            "chain": "A",
+            "resi": "104",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.6735243797302246
+          },
+          {
+            "chain": "A",
+            "resi": "105",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.7063774466514587
+          },
+          {
+            "chain": "A",
+            "resi": "106",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.7341983914375305
+          },
+          {
+            "chain": "A",
+            "resi": "107",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.7531014084815979
+          },
+          {
+            "chain": "A",
+            "resi": "108",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6760140061378479
+          },
+          {
+            "chain": "A",
+            "resi": "109",
+            "icode": "",
+            "resn": "TRP",
+            "distance": 0.0,
+            "probability": 0.7430443167686462
+          },
+          {
+            "chain": "A",
+            "resi": "110",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6222127079963684
+          },
+          {
+            "chain": "A",
+            "resi": "111",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.6370238065719604
+          },
+          {
+            "chain": "A",
+            "resi": "112",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.6757466197013855
+          },
+          {
+            "chain": "A",
+            "resi": "113",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5730540156364441
+          },
+          {
+            "chain": "A",
+            "resi": "114",
+            "icode": "",
+            "resn": "PRO",
+            "distance": 0.0,
+            "probability": 0.4927487671375274
+          },
+          {
+            "chain": "A",
+            "resi": "115",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.4605449140071869
+          },
+          {
+            "chain": "A",
+            "resi": "116",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.532913088798523
+          },
+          {
+            "chain": "A",
+            "resi": "117",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.421917974948883
+          },
+          {
+            "chain": "A",
+            "resi": "119",
+            "icode": "",
+            "resn": "PRO",
+            "distance": 0.0,
+            "probability": 0.2992987930774688
+          },
+          {
+            "chain": "A",
+            "resi": "120",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.4744912087917328
+          },
+          {
+            "chain": "A",
+            "resi": "121",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.477782666683197
+          },
+          {
+            "chain": "A",
+            "resi": "122",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.3586094379425049
+          },
+          {
+            "chain": "A",
+            "resi": "123",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.3307530879974365
+          },
+          {
+            "chain": "A",
+            "resi": "124",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5402394533157349
+          },
+          {
+            "chain": "A",
+            "resi": "125",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.4003432095050812
+          },
+          {
+            "chain": "A",
+            "resi": "126",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.3294869065284729
+          },
+          {
+            "chain": "A",
+            "resi": "127",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.57110595703125
+          },
+          {
+            "chain": "A",
+            "resi": "128",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.6514860391616821
+          },
+          {
+            "chain": "A",
+            "resi": "129",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.3419062793254852
+          },
+          {
+            "chain": "A",
+            "resi": "130",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.348380833864212
+          },
+          {
+            "chain": "A",
+            "resi": "131",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.5279639363288879
+          },
+          {
+            "chain": "A",
+            "resi": "132",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.3918134272098541
+          },
+          {
+            "chain": "A",
+            "resi": "134",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.3257924616336822
+          },
+          {
+            "chain": "A",
+            "resi": "135",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.497067928314209
+          },
+          {
+            "chain": "A",
+            "resi": "136",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.3769627809524536
+          },
+          {
+            "chain": "A",
+            "resi": "137",
+            "icode": "",
+            "resn": "LYS",
+            "distance": 0.0,
+            "probability": 0.3475410342216491
+          },
+          {
+            "chain": "A",
+            "resi": "138",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.4770793318748474
+          },
+          {
+            "chain": "A",
+            "resi": "139",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.4795962274074554
+          },
+          {
+            "chain": "A",
+            "resi": "140",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5527767539024353
+          },
+          {
+            "chain": "A",
+            "resi": "141",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.5371992588043213
+          }
+        ],
+        "center_x": -0.47,
+        "center_y": 0.117,
+        "center_z": -3.72,
+        "size_x": 93.0,
+        "size_y": 93.0,
+        "size_z": 93.0,
+        "predicted_pocket_pdb": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/ai_features/basic31/deeppocket_db_work/clusters_basic31/query/query_pocket_rank1_cluster0.pdb",
+        "residue_clusters_csv": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/ai_features/basic31/deeppocket_db_work/clusters_basic31/query/query.residue_clusters.csv"
+      },
+      "adapter_type": "deeppocket_db",
+      "variant": "basic31",
+      "feature_type": "basic31"
+    },
+    "box": {
+      "center": [
+        -0.47,
+        0.117,
+        -3.72
+      ],
+      "size": [
+        93.0,
+        93.0,
+        93.0
+      ],
+      "padding_angstrom": ""
+    },
+    "final_score": 25.871686,
+    "kept": true,
+    "drop_reason": null,
+    "supporting_pockets": [],
+    "extra": {
+      "ai_raw": {
+        "pocket_id": "AI_P1",
+        "source": "deeppocket_db",
+        "variant": "basic31",
+        "rank": 1,
+        "score": 25.871686,
+        "confidence": 25.871686,
+        "cluster_id": "0",
+        "box": {
+          "center": [
+            -0.47,
+            0.117,
+            -3.72
+          ],
+          "size": [
+            93.0,
+            93.0,
+            93.0
+          ],
+          "padding_angstrom": ""
+        },
+        "pocket_pdb": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/ai_features/basic31/deeppocket_db_work/clusters_basic31/query/query_pocket_rank1_cluster0.pdb",
+        "residues": [
+          {
+            "chain": "A",
+            "resi": "37",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.3915773928165436
+          },
+          {
+            "chain": "A",
+            "resi": "38",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.521336019039154
+          },
+          {
+            "chain": "A",
+            "resi": "39",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.5647905468940735
+          },
+          {
+            "chain": "A",
+            "resi": "40",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5876638889312744
+          },
+          {
+            "chain": "A",
+            "resi": "41",
+            "icode": "",
+            "resn": "THR",
+            "distance": 0.0,
+            "probability": 0.5842995047569275
+          },
+          {
+            "chain": "A",
+            "resi": "42",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.6664719581604004
+          },
+          {
+            "chain": "A",
+            "resi": "43",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6865496635437012
+          },
+          {
+            "chain": "A",
+            "resi": "44",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.7120679616928101
+          },
+          {
+            "chain": "A",
+            "resi": "45",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.7080705165863037
+          },
+          {
+            "chain": "A",
+            "resi": "46",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.6587887406349182
+          },
+          {
+            "chain": "A",
+            "resi": "47",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.6651800274848938
+          },
+          {
+            "chain": "A",
+            "resi": "48",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.6619647741317749
+          },
+          {
+            "chain": "A",
+            "resi": "49",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.6684202551841736
+          },
+          {
+            "chain": "A",
+            "resi": "50",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5210795402526855
+          },
+          {
+            "chain": "A",
+            "resi": "51",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.3722417056560516
+          },
+          {
+            "chain": "A",
+            "resi": "52",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5062869191169739
+          },
+          {
+            "chain": "A",
+            "resi": "53",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.2753542363643646
+          },
+          {
+            "chain": "A",
+            "resi": "55",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.316249132156372
+          },
+          {
+            "chain": "A",
+            "resi": "56",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.3411035537719726
+          },
+          {
+            "chain": "A",
+            "resi": "57",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.5285876393318176
+          },
+          {
+            "chain": "A",
+            "resi": "58",
+            "icode": "",
+            "resn": "TRP",
+            "distance": 0.0,
+            "probability": 0.6320736408233643
+          },
+          {
+            "chain": "A",
+            "resi": "59",
+            "icode": "",
+            "resn": "PRO",
+            "distance": 0.0,
+            "probability": 0.5185186862945557
+          },
+          {
+            "chain": "A",
+            "resi": "60",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6293843984603882
+          },
+          {
+            "chain": "A",
+            "resi": "61",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.6058568358421326
+          },
+          {
+            "chain": "A",
+            "resi": "62",
+            "icode": "",
+            "resn": "TRP",
+            "distance": 0.0,
+            "probability": 0.6286678314208984
+          },
+          {
+            "chain": "A",
+            "resi": "63",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.4907677769660949
+          },
+          {
+            "chain": "A",
+            "resi": "64",
+            "icode": "",
+            "resn": "THR",
+            "distance": 0.0,
+            "probability": 0.4523698091506958
+          },
+          {
+            "chain": "A",
+            "resi": "65",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.4719095230102539
+          },
+          {
+            "chain": "A",
+            "resi": "66",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.4335401058197021
+          },
+          {
+            "chain": "A",
+            "resi": "71",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.3068041205406189
+          },
+          {
+            "chain": "A",
+            "resi": "77",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.3700091540813446
+          },
+          {
+            "chain": "A",
+            "resi": "78",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.5640369057655334
+          },
+          {
+            "chain": "A",
+            "resi": "79",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.2814102470874786
+          },
+          {
+            "chain": "A",
+            "resi": "80",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.3968172967433929
+          },
+          {
+            "chain": "A",
+            "resi": "81",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.5716592073440552
+          },
+          {
+            "chain": "A",
+            "resi": "82",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.58162921667099
+          },
+          {
+            "chain": "A",
+            "resi": "83",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.4256064891815185
+          },
+          {
+            "chain": "A",
+            "resi": "84",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.6086899638175964
+          },
+          {
+            "chain": "A",
+            "resi": "85",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.536799430847168
+          },
+          {
+            "chain": "A",
+            "resi": "86",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.3435150384902954
+          },
+          {
+            "chain": "A",
+            "resi": "87",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.4244914352893829
+          },
+          {
+            "chain": "A",
+            "resi": "88",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.4586780965328216
+          },
+          {
+            "chain": "A",
+            "resi": "89",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.3244171440601349
+          },
+          {
+            "chain": "A",
+            "resi": "90",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.3518759310245514
+          },
+          {
+            "chain": "A",
+            "resi": "91",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.5744370222091675
+          },
+          {
+            "chain": "A",
+            "resi": "92",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.4264360070228576
+          },
+          {
+            "chain": "A",
+            "resi": "93",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.4459660947322845
+          },
+          {
+            "chain": "A",
+            "resi": "94",
+            "icode": "",
+            "resn": "MET",
+            "distance": 0.0,
+            "probability": 0.5644463300704956
+          },
+          {
+            "chain": "A",
+            "resi": "95",
+            "icode": "",
+            "resn": "MET",
+            "distance": 0.0,
+            "probability": 0.5720087885856628
+          },
+          {
+            "chain": "A",
+            "resi": "96",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.4649760127067566
+          },
+          {
+            "chain": "A",
+            "resi": "97",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.5181102752685547
+          },
+          {
+            "chain": "A",
+            "resi": "98",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5706396102905273
+          },
+          {
+            "chain": "A",
+            "resi": "99",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5408341884613037
+          },
+          {
+            "chain": "A",
+            "resi": "100",
+            "icode": "",
+            "resn": "MET",
+            "distance": 0.0,
+            "probability": 0.5606927871704102
+          },
+          {
+            "chain": "A",
+            "resi": "101",
+            "icode": "",
+            "resn": "ASP",
+            "distance": 0.0,
+            "probability": 0.5607475638389587
+          },
+          {
+            "chain": "A",
+            "resi": "102",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.5807126760482788
+          },
+          {
+            "chain": "A",
+            "resi": "103",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.6223477125167847
+          },
+          {
+            "chain": "A",
+            "resi": "104",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.6735243797302246
+          },
+          {
+            "chain": "A",
+            "resi": "105",
+            "icode": "",
+            "resn": "PHE",
+            "distance": 0.0,
+            "probability": 0.7063774466514587
+          },
+          {
+            "chain": "A",
+            "resi": "106",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.7341983914375305
+          },
+          {
+            "chain": "A",
+            "resi": "107",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.7531014084815979
+          },
+          {
+            "chain": "A",
+            "resi": "108",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6760140061378479
+          },
+          {
+            "chain": "A",
+            "resi": "109",
+            "icode": "",
+            "resn": "TRP",
+            "distance": 0.0,
+            "probability": 0.7430443167686462
+          },
+          {
+            "chain": "A",
+            "resi": "110",
+            "icode": "",
+            "resn": "SER",
+            "distance": 0.0,
+            "probability": 0.6222127079963684
+          },
+          {
+            "chain": "A",
+            "resi": "111",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.6370238065719604
+          },
+          {
+            "chain": "A",
+            "resi": "112",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.6757466197013855
+          },
+          {
+            "chain": "A",
+            "resi": "113",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5730540156364441
+          },
+          {
+            "chain": "A",
+            "resi": "114",
+            "icode": "",
+            "resn": "PRO",
+            "distance": 0.0,
+            "probability": 0.4927487671375274
+          },
+          {
+            "chain": "A",
+            "resi": "115",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.4605449140071869
+          },
+          {
+            "chain": "A",
+            "resi": "116",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.532913088798523
+          },
+          {
+            "chain": "A",
+            "resi": "117",
+            "icode": "",
+            "resn": "ARG",
+            "distance": 0.0,
+            "probability": 0.421917974948883
+          },
+          {
+            "chain": "A",
+            "resi": "119",
+            "icode": "",
+            "resn": "PRO",
+            "distance": 0.0,
+            "probability": 0.2992987930774688
+          },
+          {
+            "chain": "A",
+            "resi": "120",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.4744912087917328
+          },
+          {
+            "chain": "A",
+            "resi": "121",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.477782666683197
+          },
+          {
+            "chain": "A",
+            "resi": "122",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.3586094379425049
+          },
+          {
+            "chain": "A",
+            "resi": "123",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.3307530879974365
+          },
+          {
+            "chain": "A",
+            "resi": "124",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.5402394533157349
+          },
+          {
+            "chain": "A",
+            "resi": "125",
+            "icode": "",
+            "resn": "VAL",
+            "distance": 0.0,
+            "probability": 0.4003432095050812
+          },
+          {
+            "chain": "A",
+            "resi": "126",
+            "icode": "",
+            "resn": "GLU",
+            "distance": 0.0,
+            "probability": 0.3294869065284729
+          },
+          {
+            "chain": "A",
+            "resi": "127",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.57110595703125
+          },
+          {
+            "chain": "A",
+            "resi": "128",
+            "icode": "",
+            "resn": "TYR",
+            "distance": 0.0,
+            "probability": 0.6514860391616821
+          },
+          {
+            "chain": "A",
+            "resi": "129",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.3419062793254852
+          },
+          {
+            "chain": "A",
+            "resi": "130",
+            "icode": "",
+            "resn": "ASN",
+            "distance": 0.0,
+            "probability": 0.348380833864212
+          },
+          {
+            "chain": "A",
+            "resi": "131",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.5279639363288879
+          },
+          {
+            "chain": "A",
+            "resi": "132",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.3918134272098541
+          },
+          {
+            "chain": "A",
+            "resi": "134",
+            "icode": "",
+            "resn": "ALA",
+            "distance": 0.0,
+            "probability": 0.3257924616336822
+          },
+          {
+            "chain": "A",
+            "resi": "135",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.497067928314209
+          },
+          {
+            "chain": "A",
+            "resi": "136",
+            "icode": "",
+            "resn": "LEU",
+            "distance": 0.0,
+            "probability": 0.3769627809524536
+          },
+          {
+            "chain": "A",
+            "resi": "137",
+            "icode": "",
+            "resn": "LYS",
+            "distance": 0.0,
+            "probability": 0.3475410342216491
+          },
+          {
+            "chain": "A",
+            "resi": "138",
+            "icode": "",
+            "resn": "HIS",
+            "distance": 0.0,
+            "probability": 0.4770793318748474
+          },
+          {
+            "chain": "A",
+            "resi": "139",
+            "icode": "",
+            "resn": "GLY",
+            "distance": 0.0,
+            "probability": 0.4795962274074554
+          },
+          {
+            "chain": "A",
+            "resi": "140",
+            "icode": "",
+            "resn": "ILE",
+            "distance": 0.0,
+            "probability": 0.5527767539024353
+          },
+          {
+            "chain": "A",
+            "resi": "141",
+            "icode": "",
+            "resn": "GLN",
+            "distance": 0.0,
+            "probability": 0.5371992588043213
+          }
+        ],
+        "center_x": -0.47,
+        "center_y": 0.117,
+        "center_z": -3.72,
+        "size_x": 93.0,
+        "size_y": 93.0,
+        "size_z": 93.0,
+        "predicted_pocket_pdb": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/ai_features/basic31/deeppocket_db_work/clusters_basic31/query/query_pocket_rank1_cluster0.pdb",
+        "residue_clusters_csv": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/ai_features/basic31/deeppocket_db_work/clusters_basic31/query/query.residue_clusters.csv"
+      },
+      "deeppocket_db": {
+        "variant": "basic31",
+        "input_dim": 31,
+        "feature_type": "basic31"
+      },
+      "final_pdb_model_index": 1
+    }
+  }
+]

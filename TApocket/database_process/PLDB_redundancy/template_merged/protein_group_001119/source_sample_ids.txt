@@ -1,0 +1,5 @@
+PDBbind2020:6oin:accepted
+PDBbind2020:6oio:accepted
+PDBbind2020:6oip:accepted
+PDBbind2020:6oiq:accepted
+PDBbind2020:6oir:accepted

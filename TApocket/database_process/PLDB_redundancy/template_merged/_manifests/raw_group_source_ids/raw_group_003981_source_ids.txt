@@ -1,0 +1,2 @@
+scPDB:2wmv_1:accepted
+scPDB:4ft5_1:accepted

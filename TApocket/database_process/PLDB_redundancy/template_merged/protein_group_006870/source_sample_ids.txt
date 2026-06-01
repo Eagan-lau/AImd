@@ -1,0 +1,1 @@
+scPDB:2wme_5:accepted_dominant_chain

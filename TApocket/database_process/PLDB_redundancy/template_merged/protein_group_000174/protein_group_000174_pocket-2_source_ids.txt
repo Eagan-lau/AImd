@@ -1,0 +1,6 @@
+PDBbind2020:2who:accepted
+PDBbind2020:3cj3:accepted
+PDBbind2020:3cj4:accepted
+PDBbind2020:3cj5:accepted
+PDBbind2020:3mf5:accepted
+scPDB:2who_1:accepted

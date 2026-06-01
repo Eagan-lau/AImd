@@ -1,0 +1,9 @@
+PDBbind2020:3k5k:accepted
+PDBbind2020:3rjw:accepted
+PDBbind2020:4nvq:accepted
+PDBbind2020:5jin:accepted
+PDBbind2020:5jiy:accepted
+PDBbind2020:5ttf:accepted
+PDBbind2020:5tuy:accepted
+PDBbind2020:5vsc:accepted
+PDBbind2020:5vse:accepted

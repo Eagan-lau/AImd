@@ -1,0 +1,4 @@
+PDBbind2020:4p72:accepted_dominant_chain
+PDBbind2020:4p73:accepted_dominant_chain
+PDBbind2020:4p74:accepted_dominant_chain
+PDBbind2020:4p75:accepted_dominant_chain

@@ -1,0 +1,7 @@
+scPDB:1qrq_2:accepted
+scPDB:2r9r_1:accepted
+scPDB:3lnm_2:accepted
+scPDB:3lut_1:accepted
+scPDB:4jta_1:accepted
+scPDB:4jtc_2:accepted
+scPDB:4jtd_2:accepted

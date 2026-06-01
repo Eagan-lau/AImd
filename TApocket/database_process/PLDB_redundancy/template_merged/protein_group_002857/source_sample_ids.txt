@@ -1,0 +1,2 @@
+scPDB:4ykg_1:accepted
+scPDB:4ykg_2:accepted

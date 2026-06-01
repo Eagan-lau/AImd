@@ -1,0 +1,7 @@
+PDBbind2020:2opy:accepted
+PDBbind2020:3eyl:accepted
+PDBbind2020:5c3k:accepted
+PDBbind2020:5c7a:accepted
+PDBbind2020:5c7b:accepted
+PDBbind2020:5c7d:accepted
+PDBbind2020:5oqw:accepted_dominant_chain

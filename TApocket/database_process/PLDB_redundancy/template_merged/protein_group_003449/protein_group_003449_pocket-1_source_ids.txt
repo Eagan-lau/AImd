@@ -1,0 +1,2 @@
+PDBbind2020:5ful:accepted
+PDBbind2020:5fwa:accepted

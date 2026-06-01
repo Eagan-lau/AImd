@@ -1,0 +1,1 @@
+scPDB:1fx1_1:accepted

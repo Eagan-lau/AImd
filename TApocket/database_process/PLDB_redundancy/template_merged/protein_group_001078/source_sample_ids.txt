@@ -1,0 +1,5 @@
+PDBbind2020:5yia:accepted
+PDBbind2020:5yib:accepted
+PDBbind2020:5yic:accepted
+PDBbind2020:5yid:accepted
+PDBbind2020:5yie:accepted

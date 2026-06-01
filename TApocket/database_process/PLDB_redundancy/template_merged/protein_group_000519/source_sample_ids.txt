@@ -1,0 +1,9 @@
+scPDB:1ezv_1:accepted
+scPDB:1ezv_2:accepted_dominant_chain
+scPDB:1kb9_1:accepted
+scPDB:1kb9_2:accepted_dominant_chain
+scPDB:1kyo_2:accepted_dominant_chain
+scPDB:1p84_1:accepted
+scPDB:1p84_2:accepted_dominant_chain
+scPDB:2ibz_1:accepted_dominant_chain
+scPDB:2ibz_2:accepted

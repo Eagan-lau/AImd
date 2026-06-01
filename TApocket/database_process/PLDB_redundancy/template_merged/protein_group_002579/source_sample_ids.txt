@@ -1,0 +1,2 @@
+scPDB:3ete_11:accepted
+scPDB:3ete_4:accepted_pseudo_chainA

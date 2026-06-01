@@ -1,0 +1,3 @@
+PDBbind2020:3wax:accepted
+PDBbind2020:3way:accepted
+PDBbind2020:5olb:accepted

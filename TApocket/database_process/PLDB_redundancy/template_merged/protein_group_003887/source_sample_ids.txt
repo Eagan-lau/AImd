@@ -1,0 +1,2 @@
+PDBbind2020:2xyn:accepted_dominant_chain
+PDBbind2020:3gvu:accepted

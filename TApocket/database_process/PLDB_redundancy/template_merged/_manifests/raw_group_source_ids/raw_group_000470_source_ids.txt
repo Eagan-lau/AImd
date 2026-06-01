@@ -1,0 +1,10 @@
+scPDB:3qwf_7:accepted
+scPDB:3qwh_3:accepted
+scPDB:3qwi_2:accepted
+scPDB:4fiz_1:accepted
+scPDB:4fj0_2:accepted
+scPDB:4fj0_3:accepted
+scPDB:4fj1_1:accepted
+scPDB:4fj1_3:accepted
+scPDB:4fj2_1:accepted
+scPDB:4fj2_3:accepted

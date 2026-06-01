@@ -1,0 +1,2 @@
+PDBbind2020:2wzm:accepted
+scPDB:2wzm_1:accepted

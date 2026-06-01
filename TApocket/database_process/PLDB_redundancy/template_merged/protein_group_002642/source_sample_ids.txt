@@ -1,0 +1,2 @@
+scPDB:4jse_3:accepted
+scPDB:4jse_4:accepted_pseudo_chainA

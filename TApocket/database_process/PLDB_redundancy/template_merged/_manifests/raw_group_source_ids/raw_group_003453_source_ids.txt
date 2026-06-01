@@ -1,0 +1,2 @@
+PDBbind2020:2xml:accepted
+PDBbind2020:4xdo:accepted

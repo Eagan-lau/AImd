@@ -1,0 +1,6 @@
+PDBbind2020:2obf:accepted
+PDBbind2020:2onz:accepted
+PDBbind2020:2opb:accepted
+scPDB:2obf_2:accepted
+scPDB:2onz_1:accepted
+scPDB:2opb_1:accepted

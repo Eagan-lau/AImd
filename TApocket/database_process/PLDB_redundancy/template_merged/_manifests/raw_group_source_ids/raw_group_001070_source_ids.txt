@@ -1,0 +1,5 @@
+PDBbind2020:2uzv:accepted_dominant_chain
+scPDB:2uzt_1:accepted_dominant_chain
+scPDB:2uzu_1:accepted_dominant_chain
+scPDB:2uzv_1:accepted_dominant_chain
+scPDB:2uzw_1:accepted_dominant_chain

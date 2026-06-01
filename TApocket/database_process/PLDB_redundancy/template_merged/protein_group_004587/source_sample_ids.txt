@@ -1,0 +1,2 @@
+PDBbind2020:1ws1:accepted
+scPDB:1ws1_1:accepted

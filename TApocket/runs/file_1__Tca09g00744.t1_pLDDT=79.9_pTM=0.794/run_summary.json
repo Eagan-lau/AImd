@@ -1,0 +1,14 @@
+{
+  "run_id": "file_1__Tca09g00744.t1_pLDDT=79.9_pTM=0.794",
+  "query_id": "Tca09g00744.t1_pLDDT=79.9_pTM=0.794",
+  "query_path": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca09g00744.t1_pLDDT=79.9_pTM=0.794.pdb",
+  "selected_template_count": 10,
+  "candidate_pocket_count": 2,
+  "final_pocket_count": 2,
+  "mcsa_enabled": true,
+  "mcsa_action": "keep_matching_pockets_only",
+  "ai_enabled": false,
+  "ai_used": false,
+  "output_mode": "compact",
+  "run_dir": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/runs/file_1__Tca09g00744.t1_pLDDT=79.9_pTM=0.794"
+}

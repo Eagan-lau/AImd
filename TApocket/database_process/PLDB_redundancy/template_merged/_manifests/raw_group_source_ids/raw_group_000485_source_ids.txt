@@ -1,0 +1,10 @@
+PDBbind2020:4qip:accepted
+scPDB:4a80_1:accepted
+scPDB:4a81_1:accepted
+scPDB:4a81_2:accepted
+scPDB:4a83_2:accepted
+scPDB:4a85_1:accepted
+scPDB:4a86_1:accepted
+scPDB:4a86_2:accepted
+scPDB:4a87_1:accepted
+scPDB:4a8g_1:accepted

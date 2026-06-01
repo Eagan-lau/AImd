@@ -1,0 +1,8 @@
+PDBbind2020:1bxl:accepted
+PDBbind2020:1ysg:accepted
+PDBbind2020:1ysi:accepted
+PDBbind2020:2lp8:accepted
+PDBbind2020:3qkd:accepted
+PDBbind2020:3wiz:accepted_dominant_chain
+PDBbind2020:3zln:accepted
+PDBbind2020:3zlo:accepted

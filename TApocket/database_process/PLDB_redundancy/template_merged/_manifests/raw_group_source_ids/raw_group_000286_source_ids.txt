@@ -1,0 +1,15 @@
+PDBbind2020:4b2i:accepted
+PDBbind2020:4b2l:accepted
+PDBbind2020:4b32:accepted
+PDBbind2020:4b33:accepted
+PDBbind2020:4b34:accepted
+PDBbind2020:4b35:accepted
+PDBbind2020:4b3b:accepted
+PDBbind2020:4b3c:accepted
+PDBbind2020:4b3d:accepted
+PDBbind2020:5fos:accepted
+PDBbind2020:5fot:accepted
+PDBbind2020:5fou:accepted
+PDBbind2020:5fov:accepted
+PDBbind2020:5fow:accepted
+PDBbind2020:5fox:accepted

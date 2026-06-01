@@ -1,0 +1,2 @@
+scPDB:3axs_1:accepted
+scPDB:3axt_1:accepted

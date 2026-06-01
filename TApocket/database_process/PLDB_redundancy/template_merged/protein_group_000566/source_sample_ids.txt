@@ -1,0 +1,9 @@
+PDBbind2020:4ibb:accepted
+PDBbind2020:4ibc:accepted
+PDBbind2020:4ibd:accepted
+PDBbind2020:4ibe:accepted
+PDBbind2020:4ibf:accepted
+PDBbind2020:4ibg:accepted_dominant_chain
+PDBbind2020:4ibi:accepted
+PDBbind2020:4ibj:accepted
+PDBbind2020:4ibk:accepted

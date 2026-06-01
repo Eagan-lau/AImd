@@ -1,0 +1,2 @@
+scPDB:1f20_2:accepted
+scPDB:1tll_3:accepted

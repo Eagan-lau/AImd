@@ -1,0 +1,3 @@
+PDBbind2020:2xuz:accepted
+PDBbind2020:2xv1:accepted
+scPDB:2xuz_1:accepted

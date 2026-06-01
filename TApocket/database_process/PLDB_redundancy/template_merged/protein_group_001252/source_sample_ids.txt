@@ -1,0 +1,4 @@
+PDBbind2020:1kyv:accepted_pseudo_chainA
+scPDB:1kyv_3:accepted_pseudo_chainA
+scPDB:1kyx_4:accepted_dominant_chain
+scPDB:1kyy_2:accepted_dominant_chain

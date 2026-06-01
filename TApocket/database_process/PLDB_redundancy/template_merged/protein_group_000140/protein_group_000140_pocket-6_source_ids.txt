@@ -1,0 +1,3 @@
+scPDB:5dx1_3:accepted
+scPDB:5dx8_1:accepted
+scPDB:5dxj_1:accepted

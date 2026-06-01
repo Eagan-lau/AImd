@@ -1,0 +1,2 @@
+PDBbind2020:2osc:accepted
+PDBbind2020:6mwe:accepted

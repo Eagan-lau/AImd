@@ -1,0 +1,3 @@
+PDBbind2020:2yof:accepted
+PDBbind2020:2yog:accepted_dominant_chain
+PDBbind2020:2yoh:accepted_dominant_chain

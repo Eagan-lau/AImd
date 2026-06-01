@@ -1,0 +1,2 @@
+PDBbind2020:5iu8:accepted
+scPDB:5iu8_1:accepted

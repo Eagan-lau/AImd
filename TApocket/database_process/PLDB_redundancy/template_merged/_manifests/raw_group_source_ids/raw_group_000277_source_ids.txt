@@ -1,0 +1,15 @@
+PDBbind2020:4h4d:accepted
+PDBbind2020:4h4e:accepted
+scPDB:3ke8_1:accepted
+scPDB:3ke9_2:accepted
+scPDB:3kem_1:accepted
+scPDB:3utc_1:accepted
+scPDB:3utd_2:accepted
+scPDB:3uv3_1:accepted
+scPDB:3uv6_1:accepted
+scPDB:3zgl_1:accepted
+scPDB:3zgn_2:accepted
+scPDB:4eb3_2:accepted
+scPDB:4h4c_1:accepted
+scPDB:4h4d_2:accepted
+scPDB:4h4e_2:accepted

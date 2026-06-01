@@ -1,0 +1,5 @@
+scPDB:1p6k_1:accepted_pseudo_chainA
+scPDB:1zzq_3:accepted_pseudo_chainA
+scPDB:1zzq_4:accepted_dominant_chain
+scPDB:3jx0_2:accepted_dominant_chain
+scPDB:3n62_1:accepted_dominant_chain

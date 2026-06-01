@@ -1,0 +1,112 @@
+module: DockingHub
+third_party:
+  tools_config: third_party/tools.yaml
+
+name: Ensemble/cofactor-aware docking hub for AImd
+
+paths:
+  aimd_root: .
+
+  # Inputs from upstream modules.
+  protein_manifest: data/protein/protein_manifest.csv
+  pocket_manifest: data/pocket/pocket_manifest.csv
+  ligand_manifest: data/ligand/ligand_manifest.csv
+  ligand_dir: data/ligand
+
+  # Optional cofactor template library. Use one folder per batch: data/cofactor/file_1/*.pdb
+  cofactor_dir: data/cofactor
+
+  # Standard outputs.
+  ensemble_dir: data/ensemble
+  cofactor_mapped_dir: data/cofactor_mapped
+  receptor_dir: data/receptor
+  docking_config_dir: data/docking_configs
+  docking_task_dir: data/docking_tasks
+  docking_out_dir: data/docking_out
+
+input:
+  require_existing_files: true
+
+selection:
+  # all | representatives_only
+  protein_mode: all
+  max_proteins: null
+  top_n_pockets_per_protein: 1
+
+pairing:
+  # all_vs_all | by_batch | explicit_pairs
+  mode: all_vs_all
+  pairs_csv: data/input/docking_pairs.csv
+
+ensemble:
+  enabled: false
+  # Example; modify according to your AlphaFlow command.
+  # command_template: "alphaflow predict --input {input_pdb} --out_dir {output_dir} --threads {threads}"
+  command_template: ""
+  threads: 1
+  timeout: 86400
+  max_conformers_per_protein: 6
+  collect_patterns:
+    - "*.pdb"
+  fallback_to_input: true
+
+  # Important AImd rule:
+  # TApocket is run only on the original protein structure. When ensemble docking
+  # is enabled, each sampled conformer is aligned back to the original structure
+  # coordinate frame, and the original TApocket pocket box is reused.
+  align_to_reference:
+    enabled: true
+    pymol_executable: auto
+    timeout: 3600
+    fallback_to_unaligned: false
+
+cofactor:
+  enabled: false
+  # If true, select the most structurally similar cofactor template by Foldseek from data/cofactor/file_*.
+  # If false, the first template in the corresponding batch folder is used.
+  use_foldseek: false
+  fallback_to_first: true
+  continue_without_cofactor_on_error: true
+
+  # Examples: CYP450: [HEM]; Fe2OG: [FE, AKG]; UGT donor template: [UDP, U2F]
+  cofactor_residue_names:
+    - HEM
+
+  foldseek:
+    executable: auto
+    threads: 8
+    timeout: 86400
+
+  alignment:
+    # Requires PyMOL command-line executable.
+    pymol_executable: auto
+    timeout: 3600
+
+receptor_preparation:
+  enabled: true
+  executable: auto
+  command_template: "{executable} -r {input_pdb} -o {output_pdbqt} -A hydrogens {extra_options}"
+  extra_options: ""
+  timeout: 3600
+
+docking:
+  engine: vina
+  run: true
+  vina:
+    executable: auto
+    exhaustiveness: 8
+    cpu_per_job: 4
+    additional_params: ""
+    timeout: 3600
+
+execution:
+  threads: 32
+  workers: null
+  continue_on_error: true
+
+postprocess:
+  num_affinities: 9
+
+output:
+  overwrite: false
+  file_action: copy

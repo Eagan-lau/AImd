@@ -1,0 +1,11 @@
+PDBbind2020:2x4z:accepted
+PDBbind2020:4app:accepted
+PDBbind2020:4o0v:accepted
+PDBbind2020:4o0x:accepted
+PDBbind2020:4o0y:accepted
+PDBbind2020:5bms:accepted
+PDBbind2020:5i0b:accepted
+PDBbind2020:5vee:accepted
+PDBbind2020:5xva:accepted
+PDBbind2020:5xvf:accepted
+PDBbind2020:5xvg:accepted

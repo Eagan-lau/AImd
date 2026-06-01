@@ -1,0 +1,16 @@
+PDBbind2020:2yak:accepted
+PDBbind2020:4txc:accepted
+PDBbind2020:5aut:accepted
+PDBbind2020:5auu:accepted
+PDBbind2020:5auv:accepted
+PDBbind2020:5auw:accepted
+PDBbind2020:5aux:accepted
+PDBbind2020:5auy:accepted
+PDBbind2020:5auz:accepted
+PDBbind2020:5av0:accepted
+scPDB:1ig1_1:accepted
+scPDB:1jkk_1:accepted
+scPDB:1jkl_1:accepted
+scPDB:1wvy_1:accepted
+scPDB:2w4j_1:accepted
+scPDB:2w4k_1:accepted

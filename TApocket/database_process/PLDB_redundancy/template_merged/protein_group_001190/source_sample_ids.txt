@@ -1,0 +1,5 @@
+PDBbind2020:4w52:accepted
+PDBbind2020:4w53:accepted
+PDBbind2020:4w54:accepted
+PDBbind2020:4w55:accepted
+PDBbind2020:4w57:accepted

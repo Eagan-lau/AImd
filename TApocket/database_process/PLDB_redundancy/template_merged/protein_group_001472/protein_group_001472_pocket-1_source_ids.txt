@@ -1,0 +1,4 @@
+PDBbind2020:4bbe:accepted
+PDBbind2020:4bbf:accepted
+scPDB:4bbe_2:accepted_dominant_chain
+scPDB:4bbf_1:accepted_dominant_chain

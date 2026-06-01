@@ -1,0 +1,4 @@
+PDBbind2020:5wic:accepted
+PDBbind2020:5wii:accepted
+PDBbind2020:5wio:accepted_dominant_chain
+PDBbind2020:5wip:accepted

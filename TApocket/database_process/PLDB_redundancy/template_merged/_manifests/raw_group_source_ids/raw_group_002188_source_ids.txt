@@ -1,0 +1,3 @@
+scPDB:5jhn_3:accepted
+scPDB:5jin_2:accepted
+scPDB:5jj0_2:accepted

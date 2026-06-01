@@ -1,0 +1,6 @@
+scPDB:3ute_2:accepted
+scPDB:3utf_2:accepted
+scPDB:3utg_4:accepted
+scPDB:3uth_4:accepted
+scPDB:3uth_6:accepted
+scPDB:4gde_1:accepted

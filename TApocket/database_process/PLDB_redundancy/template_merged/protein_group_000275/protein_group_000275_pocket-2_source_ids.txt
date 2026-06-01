@@ -1,0 +1,2 @@
+PDBbind2020:5cu2:accepted
+scPDB:5cvh_2:accepted

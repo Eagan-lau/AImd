@@ -1,0 +1,8 @@
+PDBbind2020:3drs:accepted_dominant_chain
+PDBbind2020:3lp0:accepted_pseudo_chainA
+PDBbind2020:3lp2:accepted_dominant_chain
+PDBbind2020:3t1a:accepted_dominant_chain
+PDBbind2020:3tam:accepted_dominant_chain
+scPDB:3lp0_2:accepted_dominant_chain
+scPDB:3med_1:accepted_dominant_chain
+scPDB:3meg_1:accepted_dominant_chain

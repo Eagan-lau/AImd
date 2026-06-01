@@ -1,0 +1,3 @@
+scPDB:1mbb_1:accepted
+scPDB:1mbt_1:accepted
+scPDB:2q85_1:accepted

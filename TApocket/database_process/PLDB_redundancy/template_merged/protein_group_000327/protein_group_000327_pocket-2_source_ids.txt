@@ -1,0 +1,4 @@
+scPDB:3wd1_1:accepted
+scPDB:3wd2_1:accepted
+scPDB:3wd3_1:accepted
+scPDB:3wd4_1:accepted

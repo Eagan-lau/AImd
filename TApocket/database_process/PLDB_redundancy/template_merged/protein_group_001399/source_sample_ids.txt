@@ -1,0 +1,4 @@
+PDBbind2020:4uc5:accepted_dominant_chain
+PDBbind2020:4uma:accepted_dominant_chain
+PDBbind2020:4umb:accepted_dominant_chain
+PDBbind2020:4umc:accepted_dominant_chain

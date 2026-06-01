@@ -1,0 +1,4 @@
+PDBbind2020:5fqp:accepted
+PDBbind2020:5fqs:accepted
+PDBbind2020:5fqt:accepted
+PDBbind2020:5fqv:accepted

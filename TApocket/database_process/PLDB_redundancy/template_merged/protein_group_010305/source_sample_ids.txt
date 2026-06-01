@@ -1,0 +1,1 @@
+scPDB:1sxj_5:accepted_dominant_chain

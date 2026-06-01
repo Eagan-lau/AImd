@@ -1,0 +1,1 @@
+scPDB:1cx4_1:accepted

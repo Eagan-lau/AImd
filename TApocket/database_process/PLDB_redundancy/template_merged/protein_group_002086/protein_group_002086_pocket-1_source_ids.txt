@@ -1,0 +1,2 @@
+scPDB:2x6t_2:accepted
+scPDB:2x86_7:accepted

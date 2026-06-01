@@ -1,0 +1,2 @@
+scPDB:2hiz_3:accepted
+scPDB:2p83_3:accepted

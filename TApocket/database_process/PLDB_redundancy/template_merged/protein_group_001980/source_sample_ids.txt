@@ -1,0 +1,3 @@
+PDBbind2020:5eou:accepted
+scPDB:5eox_1:accepted
+scPDB:5eoy_1:accepted

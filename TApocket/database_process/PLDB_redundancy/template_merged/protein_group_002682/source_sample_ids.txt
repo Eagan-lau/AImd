@@ -1,0 +1,2 @@
+scPDB:2jir_2:accepted
+scPDB:2nap_1:accepted

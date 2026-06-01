@@ -1,0 +1,4 @@
+PDBbind2020:3ipq:accepted
+PDBbind2020:3ips:accepted
+PDBbind2020:3ipu:accepted
+PDBbind2020:5avi:accepted

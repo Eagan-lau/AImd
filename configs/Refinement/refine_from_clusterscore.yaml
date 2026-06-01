@@ -1,0 +1,134 @@
+module: RefinementHub
+third_party:
+  tools_config: third_party/tools.yaml
+
+name: Top-Cluster refined ensemble/cofactor docking after ClusterScore
+
+paths:
+  aimd_root: .
+
+  # ClusterScore outputs from the first broad docking round.
+  clusterscore_top_csv: data/scoring/ClusterScore/top10_clusters.csv
+  clusterscore_all_csv: data/scoring/ClusterScore/cluster_binding_statistics.csv
+
+  # Original RGPC protein manifest and selected output manifest.
+  source_protein_manifest: data/protein/protein_manifest.csv
+  selected_protein_manifest: data/refinement/selected_protein_manifest.csv
+  selected_clusters_csv: data/refinement/selected_clusters.csv
+
+  # Base DockingHub config and generated refined-docking config.
+  base_docking_config: configs/Docking/docking.yaml
+  generated_docking_config: data/refinement/refined_docking.generated.yaml
+  report_json: data/refinement/refinement_report.json
+
+selection:
+  # Select top N ClusterScore clusters/families for refined docking.
+  top_n_clusters: 10
+  sort_by: rank
+  sort_ascending: true
+
+  # all | representatives_only
+  protein_mode: all
+  max_proteins_per_cluster: null
+
+  # Optional manual override, e.g. [C000001, C000012]. Empty means use top_n_clusters.
+  include_clusters: []
+
+run:
+  run_dockinghub: true
+
+# These overrides are deep-merged into configs/Docking/docking.yaml.
+docking_overrides:
+  paths:
+    protein_manifest: data/refinement/selected_protein_manifest.csv
+    pocket_manifest: data/pocket/pocket_manifest.csv
+    ligand_manifest: data/ligand/ligand_manifest.csv
+    cofactor_dir: data/cofactor
+
+    ensemble_dir: data/refined/ensemble
+    cofactor_mapped_dir: data/refined/cofactor_mapped
+    receptor_dir: data/refined/receptor
+    docking_config_dir: data/refined/docking_configs
+    docking_task_dir: data/refined/docking_tasks
+    docking_out_dir: data/refined/docking_out
+
+  selection:
+    protein_mode: all
+    # For refined docking, increase this if you want top 2-3 predicted pockets per protein.
+    top_n_pockets_per_protein: 1
+
+  pairing:
+    mode: all_vs_all
+
+  ensemble:
+    enabled: true
+    # Modify to your AlphaFlow command. Placeholders available:
+    # {input_pdb}, {output_dir}, {threads}, {protein_id}, {batch_id}
+    command_template: ""
+    threads: 1
+    timeout: 86400
+    max_conformers_per_protein: 6
+    collect_patterns: ["*.pdb"]
+    fallback_to_input: true
+
+    # TApocket is not rerun for ensemble conformers. Refined ensemble docking
+    # reuses the original pocket box after aligning each sampled conformer back
+    # to the original structure coordinate frame.
+    align_to_reference:
+      enabled: true
+      pymol_executable: auto
+      timeout: 3600
+      fallback_to_unaligned: false
+
+  cofactor:
+    enabled: true
+    use_foldseek: true
+    fallback_to_first: true
+    continue_without_cofactor_on_error: true
+    cofactor_residue_names:
+      - HEM
+      - HEC
+      - HEME
+      - FE
+      - AKG
+      - UDP
+      - U2F
+      - H5L
+      - MLC
+      - COA
+    foldseek:
+      executable: auto
+      threads: 8
+      timeout: 86400
+    alignment:
+      pymol_executable: auto
+      timeout: 3600
+
+  receptor_preparation:
+    enabled: true
+    executable: auto
+    command_template: "{executable} -r {input_pdb} -o {output_pdbqt} -A hydrogens {extra_options}"
+    extra_options: ""
+    timeout: 3600
+
+  docking:
+    engine: vina
+    run: true
+    vina:
+      executable: auto
+      exhaustiveness: 16
+      cpu_per_job: 4
+      additional_params: ""
+      timeout: 7200
+
+  execution:
+    threads: 32
+    workers: null
+    continue_on_error: true
+
+  postprocess:
+    num_affinities: 9
+
+  output:
+    overwrite: false
+    file_action: copy

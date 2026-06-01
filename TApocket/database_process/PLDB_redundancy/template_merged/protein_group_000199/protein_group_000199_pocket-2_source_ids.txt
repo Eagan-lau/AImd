@@ -1,0 +1,14 @@
+scPDB:1aoe_2:accepted
+scPDB:1ia1_2:accepted
+scPDB:1ia2_2:accepted
+scPDB:1ia3_2:accepted
+scPDB:1ia4_2:accepted
+scPDB:1m78_2:accepted
+scPDB:1m79_2:accepted
+scPDB:1m7a_2:accepted
+scPDB:3qlr_2:accepted
+scPDB:3qls_1:accepted
+scPDB:3qlw_2:accepted
+scPDB:4h95_1:accepted
+scPDB:4h96_1:accepted
+scPDB:4h97_2:accepted

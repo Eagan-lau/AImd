@@ -1,0 +1,3 @@
+scPDB:4fvz_2:accepted
+scPDB:4fw0_2:accepted
+scPDB:4gqe_2:accepted

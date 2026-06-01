@@ -1,0 +1,4 @@
+scPDB:1suw_3:accepted_dominant_chain
+scPDB:1z0s_2:accepted_pseudo_chainA
+scPDB:1z0u_1:accepted
+scPDB:1z0z_2:accepted_dominant_chain

@@ -1,0 +1,3 @@
+PDBbind2020:3hbo:accepted_pseudo_chainA
+PDBbind2020:3hdk:accepted_pseudo_chainA
+scPDB:3nyg_1:accepted_pseudo_chainA

@@ -1,0 +1,8 @@
+PDBbind2020:2vwx:accepted
+PDBbind2020:2vwy:accepted
+PDBbind2020:2vwz:accepted
+PDBbind2020:2vx0:accepted
+PDBbind2020:2vx1:accepted
+PDBbind2020:2x9f:accepted
+PDBbind2020:2xvd:accepted
+PDBbind2020:4bb4:accepted

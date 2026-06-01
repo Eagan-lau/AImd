@@ -1,0 +1,4 @@
+PDBbind2020:3oay:accepted
+PDBbind2020:6msy:accepted_dominant_chain
+PDBbind2020:6mu3:accepted_dominant_chain
+PDBbind2020:6mub:accepted_dominant_chain

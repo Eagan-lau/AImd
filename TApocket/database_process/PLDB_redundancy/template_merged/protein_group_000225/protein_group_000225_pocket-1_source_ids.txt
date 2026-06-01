@@ -1,0 +1,13 @@
+PDBbind2020:3h21:accepted
+PDBbind2020:3h22:accepted
+PDBbind2020:3h26:accepted
+PDBbind2020:3h2a:accepted
+PDBbind2020:3h2f:accepted
+PDBbind2020:3h2m:accepted
+PDBbind2020:3h2n:accepted
+PDBbind2020:3h2o:accepted
+PDBbind2020:4d8z:accepted
+PDBbind2020:4d9p:accepted
+PDBbind2020:4daf:accepted
+PDBbind2020:4dai:accepted
+PDBbind2020:4db7:accepted

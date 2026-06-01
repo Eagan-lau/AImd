@@ -1,0 +1,1 @@
+PDBbind2020:3upy:accepted_dominant_chain

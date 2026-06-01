@@ -1,0 +1,4 @@
+PDBbind2020:4wgi:accepted
+PDBbind2020:4wmu:accepted
+PDBbind2020:4wmv:accepted
+PDBbind2020:4wmx:accepted

@@ -1,0 +1,14 @@
+PDBbind2020:5n53:accepted
+PDBbind2020:5nzo:accepted
+PDBbind2020:5nzp:accepted
+PDBbind2020:5nzq:accepted
+PDBbind2020:5ofv:accepted
+PDBbind2020:5ofw:accepted
+PDBbind2020:6plf:accepted
+PDBbind2020:6plg:accepted
+PDBbind2020:6rih:accepted
+PDBbind2020:6rj2:accepted
+PDBbind2020:6rj3:accepted
+PDBbind2020:6rj5:accepted
+PDBbind2020:6rj6:accepted
+scPDB:2g76_1:accepted_dominant_chain

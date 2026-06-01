@@ -1,0 +1,4 @@
+scPDB:4mp7_1:accepted
+scPDB:4mpc_1:accepted
+scPDB:4mpe_1:accepted
+scPDB:4mpn_1:accepted

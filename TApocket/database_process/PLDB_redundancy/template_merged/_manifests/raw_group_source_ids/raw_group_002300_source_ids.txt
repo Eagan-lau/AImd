@@ -1,0 +1,3 @@
+PDBbind2020:4lrh:accepted
+PDBbind2020:5izq:accepted
+scPDB:4lrh_4:accepted

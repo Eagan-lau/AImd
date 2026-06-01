@@ -1,0 +1,11 @@
+scPDB:1jhv_1:accepted
+scPDB:1jhx_1:accepted
+scPDB:1jhy_1:accepted
+scPDB:1l4f_1:accepted
+scPDB:1l4g_1:accepted
+scPDB:1l4h_1:accepted
+scPDB:1l4k_1:accepted
+scPDB:1l4l_1:accepted
+scPDB:1l4m_1:accepted
+scPDB:1l5f_1:accepted
+scPDB:1l5o_1:accepted

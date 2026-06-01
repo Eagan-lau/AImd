@@ -1,0 +1,4 @@
+scPDB:3uka_3:accepted
+scPDB:3ukf_3:accepted
+scPDB:3ukf_8:accepted
+scPDB:3ukl_4:accepted

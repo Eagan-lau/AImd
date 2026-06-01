@@ -1,0 +1,7 @@
+scPDB:1d7y_1:accepted
+scPDB:1f3p_1:accepted
+scPDB:2gqw_1:accepted
+scPDB:2gr0_1:accepted
+scPDB:2gr1_1:accepted
+scPDB:2yvf_1:accepted
+scPDB:2yvj_1:accepted

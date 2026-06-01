@@ -1,0 +1,2 @@
+scPDB:1n35_1:accepted
+scPDB:1n38_1:accepted

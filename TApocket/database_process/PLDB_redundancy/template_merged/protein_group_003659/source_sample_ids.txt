@@ -1,0 +1,2 @@
+PDBbind2020:2psj:accepted
+scPDB:2pse_1:accepted

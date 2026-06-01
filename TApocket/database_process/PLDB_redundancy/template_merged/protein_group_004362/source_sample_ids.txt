@@ -1,0 +1,2 @@
+scPDB:5fkm_1:accepted
+scPDB:5fkn_2:accepted_dominant_chain

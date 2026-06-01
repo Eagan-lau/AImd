@@ -1,0 +1,10 @@
+PDBbind2020:1bsk:accepted
+PDBbind2020:1g27:accepted
+PDBbind2020:1g2a:accepted
+PDBbind2020:1icj:accepted
+PDBbind2020:2ai8:accepted
+scPDB:1g27_3:accepted
+scPDB:1g2a_2:accepted
+scPDB:1lru_3:accepted
+scPDB:2kmn_1:accepted
+scPDB:3k6l_2:accepted_dominant_chain

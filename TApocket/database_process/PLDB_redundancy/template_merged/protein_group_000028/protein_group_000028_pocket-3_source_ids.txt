@@ -1,0 +1,6 @@
+PDBbind2020:2pix:accepted
+PDBbind2020:2ylo:accepted
+PDBbind2020:2ylp:accepted
+PDBbind2020:2ylq:accepted
+PDBbind2020:3zqt:accepted
+PDBbind2020:4hlw:accepted

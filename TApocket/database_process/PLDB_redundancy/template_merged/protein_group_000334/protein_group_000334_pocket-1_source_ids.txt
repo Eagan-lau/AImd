@@ -1,0 +1,4 @@
+scPDB:2hdj_2:accepted
+scPDB:4jq3_3:accepted
+scPDB:4jtq_3:accepted
+scPDB:4xo7_3:accepted

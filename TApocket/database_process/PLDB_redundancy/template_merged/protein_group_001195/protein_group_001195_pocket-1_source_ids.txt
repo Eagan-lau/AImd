@@ -1,0 +1,5 @@
+PDBbind2020:4uof:accepted_dominant_chain
+PDBbind2020:4uoh:accepted_dominant_chain
+scPDB:4uof_3:accepted_dominant_chain
+scPDB:4uog_3:accepted_dominant_chain
+scPDB:4uoh_2:accepted_dominant_chain

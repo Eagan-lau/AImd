@@ -1,0 +1,2 @@
+scPDB:3ruc_2:accepted
+scPDB:3ruc_5:accepted

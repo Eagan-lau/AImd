@@ -1,0 +1,9 @@
+PDBbind2020:5oot:accepted
+PDBbind2020:5op2:accepted
+PDBbind2020:5op4:accepted
+PDBbind2020:5op5:accepted
+PDBbind2020:5opb:accepted
+PDBbind2020:5opr:accepted
+PDBbind2020:5ops:accepted
+PDBbind2020:5opu:accepted
+PDBbind2020:5opv:accepted

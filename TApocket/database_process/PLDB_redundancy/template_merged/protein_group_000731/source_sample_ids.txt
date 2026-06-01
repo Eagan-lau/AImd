@@ -1,0 +1,7 @@
+PDBbind2020:1c83:accepted
+PDBbind2020:1c84:accepted
+PDBbind2020:1c85:accepted
+PDBbind2020:1c87:accepted
+PDBbind2020:1c88:accepted
+PDBbind2020:1ecv:accepted
+PDBbind2020:1l8g:accepted

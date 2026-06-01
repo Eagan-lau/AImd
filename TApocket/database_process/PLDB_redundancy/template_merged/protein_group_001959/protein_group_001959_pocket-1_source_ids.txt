@@ -1,0 +1,2 @@
+scPDB:4aws_1:accepted
+scPDB:4awt_1:accepted

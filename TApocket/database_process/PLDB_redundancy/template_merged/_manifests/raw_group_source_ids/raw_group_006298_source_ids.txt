@@ -1,0 +1,1 @@
+scPDB:3mec_1:accepted_dominant_chain

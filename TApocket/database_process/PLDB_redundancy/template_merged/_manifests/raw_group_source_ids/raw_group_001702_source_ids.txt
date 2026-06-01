@@ -1,0 +1,3 @@
+scPDB:1y56_1:accepted_pseudo_chainA
+scPDB:1y56_2:accepted
+scPDB:1y56_3:accepted

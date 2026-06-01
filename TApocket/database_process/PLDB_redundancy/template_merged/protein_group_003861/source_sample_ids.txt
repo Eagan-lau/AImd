@@ -1,0 +1,2 @@
+PDBbind2020:4usj:accepted_dominant_chain
+scPDB:2rd5_1:accepted

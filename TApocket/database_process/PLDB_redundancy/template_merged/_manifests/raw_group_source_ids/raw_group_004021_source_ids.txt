@@ -1,0 +1,2 @@
+scPDB:2ijm_1:accepted
+scPDB:2ijm_2:accepted

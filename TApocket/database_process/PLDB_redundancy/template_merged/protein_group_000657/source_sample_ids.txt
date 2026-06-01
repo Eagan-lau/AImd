@@ -1,0 +1,8 @@
+PDBbind2020:1py1:accepted_dominant_chain
+PDBbind2020:1ujj:accepted
+PDBbind2020:1ujk:accepted
+PDBbind2020:3g2s:accepted
+PDBbind2020:3g2t:accepted
+PDBbind2020:3g2u:accepted
+PDBbind2020:3g2v:accepted
+PDBbind2020:3g2w:accepted

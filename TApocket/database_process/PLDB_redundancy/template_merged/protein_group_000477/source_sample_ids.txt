@@ -1,0 +1,10 @@
+PDBbind2020:3ask:accepted_dominant_chain
+PDBbind2020:3asl:accepted
+PDBbind2020:3shb:accepted
+PDBbind2020:3sou:accepted
+PDBbind2020:3sow:accepted
+PDBbind2020:3t6r:accepted
+PDBbind2020:3zvy:accepted
+PDBbind2020:4gy5:accepted
+PDBbind2020:5xpi:accepted
+PDBbind2020:6iiw:accepted

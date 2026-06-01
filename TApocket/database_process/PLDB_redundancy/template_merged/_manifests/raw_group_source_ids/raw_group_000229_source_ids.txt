@@ -1,0 +1,17 @@
+PDBbind2020:2ves:accepted_dominant_chain
+PDBbind2020:3u1y:accepted
+PDBbind2020:3uhm:accepted
+PDBbind2020:4lch:accepted
+PDBbind2020:4okg:accepted
+PDBbind2020:5drq:accepted
+PDBbind2020:5drr:accepted
+PDBbind2020:6moo:accepted
+scPDB:2ves_1:accepted
+scPDB:3p3e_1:accepted
+scPDB:3u1y_1:accepted_dominant_chain
+scPDB:3uhm_1:accepted
+scPDB:4fw3_2:accepted
+scPDB:4fw4_2:accepted_dominant_chain
+scPDB:4lcf_1:accepted
+scPDB:4lcg_1:accepted
+scPDB:4lch_1:accepted

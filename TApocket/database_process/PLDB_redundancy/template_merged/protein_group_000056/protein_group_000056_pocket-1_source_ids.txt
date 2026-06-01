@@ -1,0 +1,8 @@
+PDBbind2020:2agv:accepted
+PDBbind2020:2o9j:accepted
+PDBbind2020:2oa0:accepted
+PDBbind2020:3nan:accepted
+PDBbind2020:4j2t:accepted
+PDBbind2020:4ycl:accepted
+PDBbind2020:4ycm:accepted
+PDBbind2020:4ycn:accepted

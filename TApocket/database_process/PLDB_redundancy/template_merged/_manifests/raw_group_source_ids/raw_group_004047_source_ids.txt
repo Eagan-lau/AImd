@@ -1,0 +1,2 @@
+PDBbind2020:5swh:accepted
+PDBbind2020:5sys:accepted_dominant_chain

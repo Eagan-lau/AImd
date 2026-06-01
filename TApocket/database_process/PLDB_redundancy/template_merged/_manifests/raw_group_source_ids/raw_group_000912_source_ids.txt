@@ -1,0 +1,6 @@
+PDBbind2020:5c4o:accepted
+PDBbind2020:5c4s:accepted
+PDBbind2020:5c4t:accepted
+PDBbind2020:5c4u:accepted
+PDBbind2020:5w4v:accepted_dominant_chain
+PDBbind2020:6sal:accepted

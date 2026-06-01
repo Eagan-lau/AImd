@@ -1,0 +1,2 @@
+PDBbind2020:2lct:accepted
+PDBbind2020:2mc1:accepted

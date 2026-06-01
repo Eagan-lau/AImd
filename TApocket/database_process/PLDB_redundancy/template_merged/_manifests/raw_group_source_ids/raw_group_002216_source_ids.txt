@@ -1,0 +1,3 @@
+PDBbind2020:4r6w:accepted
+PDBbind2020:4r6x:accepted
+scPDB:4r6x_3:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:1aqi:accepted
+PDBbind2020:2adm:accepted

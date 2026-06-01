@@ -1,0 +1,16 @@
+PDBbind2020:5cgv:accepted
+PDBbind2020:5ega:accepted
+PDBbind2020:5w3i:accepted
+PDBbind2020:5w44:accepted
+PDBbind2020:5w73:accepted
+PDBbind2020:5w7u:accepted
+PDBbind2020:5w92:accepted
+PDBbind2020:5w9g:accepted
+PDBbind2020:5wa6:accepted
+PDBbind2020:5wa7:accepted
+PDBbind2020:5wap:accepted
+PDBbind2020:5wb3:accepted
+PDBbind2020:5wdc:accepted
+PDBbind2020:5wdw:accepted
+PDBbind2020:5we9:accepted
+PDBbind2020:5web:accepted

@@ -1,0 +1,2 @@
+scPDB:1ifu_1:accepted
+scPDB:4mx1_1:accepted

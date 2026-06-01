@@ -1,0 +1,10 @@
+PDBbind2020:2ynd:accepted
+PDBbind2020:2yne:accepted
+PDBbind2020:4a95:accepted
+PDBbind2020:4bbh:accepted
+PDBbind2020:4cae:accepted
+PDBbind2020:4caf:accepted
+PDBbind2020:5g1z:accepted
+PDBbind2020:5g22:accepted
+PDBbind2020:5o48:accepted
+scPDB:2yne_4:accepted

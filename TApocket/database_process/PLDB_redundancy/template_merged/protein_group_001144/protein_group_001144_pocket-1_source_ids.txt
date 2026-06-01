@@ -1,0 +1,5 @@
+PDBbind2020:3fv7:accepted
+PDBbind2020:3fyz:accepted
+PDBbind2020:3fzc:accepted
+PDBbind2020:3mbz:accepted
+PDBbind2020:5vfd:accepted

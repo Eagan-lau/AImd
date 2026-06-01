@@ -1,0 +1,4 @@
+PDBbind2020:1xge:accepted_dominant_chain
+PDBbind2020:2eg7:accepted_dominant_chain
+PDBbind2020:2eg8:accepted_dominant_chain
+scPDB:2eg8_1:accepted

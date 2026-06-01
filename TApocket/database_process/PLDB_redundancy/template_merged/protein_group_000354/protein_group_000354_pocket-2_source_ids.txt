@@ -1,0 +1,7 @@
+scPDB:3d91_2:accepted
+scPDB:3g6z_2:accepted
+scPDB:3g70_1:accepted
+scPDB:3g72_1:accepted
+scPDB:3o9l_2:accepted_dominant_chain
+scPDB:3vye_2:accepted
+scPDB:3vyf_1:accepted

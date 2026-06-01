@@ -1,0 +1,5 @@
+PDBbind2020:3v2o:accepted
+PDBbind2020:3v2x:accepted
+PDBbind2020:3v31:accepted
+PDBbind2020:4lg6:accepted
+PDBbind2020:4qqi:accepted

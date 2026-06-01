@@ -1,0 +1,5 @@
+PDBbind2020:4ayp:accepted
+PDBbind2020:4ayq:accepted
+PDBbind2020:4ayr:accepted
+PDBbind2020:5meh:accepted
+PDBbind2020:5ne5:accepted

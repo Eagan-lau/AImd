@@ -1,0 +1,4 @@
+PDBbind2020:6j9w:accepted
+PDBbind2020:6j9y:accepted
+PDBbind2020:6jad:accepted
+PDBbind2020:6jag:accepted

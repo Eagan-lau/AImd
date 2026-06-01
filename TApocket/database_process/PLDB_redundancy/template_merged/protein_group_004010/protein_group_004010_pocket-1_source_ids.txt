@@ -1,0 +1,2 @@
+scPDB:1mq4_1:accepted
+scPDB:2dwb_1:accepted

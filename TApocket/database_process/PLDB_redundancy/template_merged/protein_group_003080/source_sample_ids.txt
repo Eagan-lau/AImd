@@ -1,0 +1,2 @@
+scPDB:5xra_1:accepted
+scPDB:5xra_2:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:1wur:accepted_pseudo_chainA
+scPDB:1wur_4:accepted_pseudo_chainA

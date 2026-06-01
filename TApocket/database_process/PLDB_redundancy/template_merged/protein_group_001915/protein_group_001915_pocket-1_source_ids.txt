@@ -1,0 +1,2 @@
+PDBbind2020:1toj:accepted_dominant_chain
+PDBbind2020:1tok:accepted_dominant_chain

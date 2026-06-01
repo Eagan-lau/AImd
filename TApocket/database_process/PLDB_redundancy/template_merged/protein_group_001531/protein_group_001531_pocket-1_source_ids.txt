@@ -1,0 +1,4 @@
+PDBbind2020:1xap:accepted
+scPDB:1xdk_2:accepted
+scPDB:4dm6_2:accepted
+scPDB:4dm8_2:accepted

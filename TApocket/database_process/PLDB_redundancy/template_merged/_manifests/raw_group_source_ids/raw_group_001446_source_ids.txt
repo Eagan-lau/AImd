@@ -1,0 +1,4 @@
+PDBbind2020:1b42:accepted
+PDBbind2020:1bky:accepted
+PDBbind2020:3mag:accepted
+PDBbind2020:3mct:accepted

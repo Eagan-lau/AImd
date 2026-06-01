@@ -1,0 +1,4 @@
+PDBbind2020:1fpy:accepted_dominant_chain
+scPDB:1f1h_9:accepted_dominant_chain
+scPDB:1f52_4:accepted_dominant_chain
+scPDB:1fpy_6:accepted_dominant_chain

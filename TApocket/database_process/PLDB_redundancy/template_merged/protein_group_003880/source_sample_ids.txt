@@ -1,0 +1,2 @@
+PDBbind2020:1nw5:accepted
+PDBbind2020:1nw7:accepted

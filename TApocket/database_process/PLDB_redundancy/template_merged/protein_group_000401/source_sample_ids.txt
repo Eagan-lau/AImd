@@ -1,0 +1,11 @@
+PDBbind2020:4kqo:accepted
+PDBbind2020:4kqq:accepted
+PDBbind2020:4kqr:accepted
+PDBbind2020:4l0l:accepted
+PDBbind2020:4ool:accepted
+PDBbind2020:6un1:accepted
+PDBbind2020:6un3:accepted
+scPDB:4kqq_1:accepted
+scPDB:4kqq_2:accepted
+scPDB:4kqr_1:accepted
+scPDB:4kqr_2:accepted

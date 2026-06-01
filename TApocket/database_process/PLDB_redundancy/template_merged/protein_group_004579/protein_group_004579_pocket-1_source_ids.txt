@@ -1,0 +1,2 @@
+scPDB:1rvv_25:accepted_dominant_chain
+scPDB:1zis_3:accepted_dominant_chain

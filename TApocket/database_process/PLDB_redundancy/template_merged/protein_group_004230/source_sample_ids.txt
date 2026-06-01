@@ -1,0 +1,2 @@
+PDBbind2020:1xnx:accepted
+scPDB:1xnx_2:accepted

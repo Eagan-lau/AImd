@@ -1,0 +1,2 @@
+scPDB:2vet_1:accepted
+scPDB:2vf0_1:accepted_dominant_chain

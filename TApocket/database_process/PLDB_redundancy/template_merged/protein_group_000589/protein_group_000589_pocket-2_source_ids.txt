@@ -1,0 +1,5 @@
+scPDB:3mvw_1:accepted
+scPDB:3mvz_2:accepted
+scPDB:3mw0_2:accepted
+scPDB:3mz9_2:accepted
+scPDB:3mzb_2:accepted

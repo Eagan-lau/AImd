@@ -1,0 +1,3 @@
+PDBbind2020:4epy:accepted
+scPDB:4epx_1:accepted
+scPDB:4epx_2:accepted

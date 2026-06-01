@@ -1,0 +1,4 @@
+PDBbind2020:4mp7:accepted
+PDBbind2020:4mpc:accepted
+PDBbind2020:4mpe:accepted
+PDBbind2020:4mpn:accepted

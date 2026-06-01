@@ -1,0 +1,2 @@
+scPDB:1i7g_1:accepted
+scPDB:1i7g_2:accepted

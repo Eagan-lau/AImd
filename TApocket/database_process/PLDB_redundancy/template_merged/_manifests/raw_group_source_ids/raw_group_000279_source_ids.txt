@@ -1,0 +1,15 @@
+PDBbind2020:3v0l:accepted
+PDBbind2020:3v0p:accepted
+PDBbind2020:4kc1:accepted
+PDBbind2020:4kc2:accepted
+PDBbind2020:4kc4:accepted
+PDBbind2020:4y62:accepted
+PDBbind2020:4y63:accepted
+PDBbind2020:4y64:accepted
+scPDB:3v0n_1:accepted
+scPDB:3v0o_1:accepted
+scPDB:3v0p_1:accepted
+scPDB:3zgf_1:accepted
+scPDB:4kc1_1:accepted
+scPDB:4kc2_1:accepted
+scPDB:4kc4_1:accepted

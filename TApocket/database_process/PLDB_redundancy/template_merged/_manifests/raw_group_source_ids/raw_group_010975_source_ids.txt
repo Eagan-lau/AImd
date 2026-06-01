@@ -1,0 +1,1 @@
+PDBbind2020:3lpu:accepted_pseudo_chainA

@@ -1,0 +1,6 @@
+PDBbind2020:6ak5:accepted
+PDBbind2020:6iph:accepted
+PDBbind2020:6ipi:accepted
+PDBbind2020:6ipj:accepted
+PDBbind2020:6ipl:accepted
+PDBbind2020:6ipm:accepted

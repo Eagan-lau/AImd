@@ -1,0 +1,2 @@
+PDBbind2020:6bau:accepted
+PDBbind2020:6bmi:accepted

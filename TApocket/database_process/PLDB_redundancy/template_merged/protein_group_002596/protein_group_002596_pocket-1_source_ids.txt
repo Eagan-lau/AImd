@@ -1,0 +1,2 @@
+PDBbind2020:3dp0:accepted_pseudo_chainA
+PDBbind2020:3dp2:accepted_pseudo_chainA

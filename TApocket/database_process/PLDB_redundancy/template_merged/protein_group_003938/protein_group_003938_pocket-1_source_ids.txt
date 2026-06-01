@@ -1,0 +1,2 @@
+PDBbind2020:3b1m:accepted
+PDBbind2020:6avi:accepted

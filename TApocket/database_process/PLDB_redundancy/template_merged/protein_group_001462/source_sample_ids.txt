@@ -1,0 +1,4 @@
+scPDB:2zvp_2:accepted
+scPDB:2zyt_1:accepted
+scPDB:2zyv_3:accepted
+scPDB:2zyw_2:accepted

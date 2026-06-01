@@ -1,0 +1,2 @@
+PDBbind2020:1fkw:accepted
+scPDB:1fkw_1:accepted

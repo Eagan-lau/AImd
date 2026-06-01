@@ -1,0 +1,9 @@
+PDBbind2020:6qqu:accepted_pseudo_chainA
+PDBbind2020:6qqv:accepted_pseudo_chainA
+PDBbind2020:6qr0:accepted_pseudo_chainA
+PDBbind2020:6qr1:accepted_pseudo_chainA
+PDBbind2020:6qr2:accepted_pseudo_chainA
+PDBbind2020:6qr4:accepted_pseudo_chainA
+PDBbind2020:6qr7:accepted_pseudo_chainA
+PDBbind2020:6qrc:accepted_pseudo_chainA
+PDBbind2020:6qrf:accepted_dominant_chain

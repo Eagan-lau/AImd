@@ -1,0 +1,2 @@
+scPDB:1rx0_1:accepted_dominant_chain
+scPDB:1rx0_4:accepted_pseudo_chainA

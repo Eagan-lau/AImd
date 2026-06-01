@@ -1,0 +1,7 @@
+PDBbind2020:4j73:accepted
+PDBbind2020:4j77:accepted
+PDBbind2020:4j78:accepted
+PDBbind2020:4j81:accepted
+PDBbind2020:4j82:accepted
+PDBbind2020:4j84:accepted
+PDBbind2020:4j86:accepted

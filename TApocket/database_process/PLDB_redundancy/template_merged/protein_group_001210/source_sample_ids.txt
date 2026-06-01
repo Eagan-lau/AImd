@@ -1,0 +1,5 @@
+PDBbind2020:3d78:accepted
+scPDB:3d75_1:accepted
+scPDB:3d76_1:accepted
+scPDB:3d77_1:accepted
+scPDB:3d78_1:accepted

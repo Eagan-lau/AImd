@@ -1,0 +1,4 @@
+PDBbind2020:3qvu:accepted
+PDBbind2020:3qvv:accepted
+scPDB:3qvu_2:accepted
+scPDB:3qvv_2:accepted

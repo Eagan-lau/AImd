@@ -1,0 +1,11 @@
+PDBbind2020:1hmr:accepted
+PDBbind2020:1hms:accepted
+PDBbind2020:1hmt:accepted
+PDBbind2020:2hmb:accepted
+PDBbind2020:3wvm:accepted
+PDBbind2020:4tjz:accepted
+PDBbind2020:4tkb:accepted
+PDBbind2020:4tkh:accepted
+PDBbind2020:4tkj:accepted
+PDBbind2020:5hz9:accepted_dominant_chain
+scPDB:3wbg_3:accepted

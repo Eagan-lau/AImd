@@ -1,0 +1,2 @@
+scPDB:3ihg_1:accepted
+scPDB:3ihg_4:accepted

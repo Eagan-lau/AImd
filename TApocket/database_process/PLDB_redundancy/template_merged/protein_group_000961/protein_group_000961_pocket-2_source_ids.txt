@@ -1,0 +1,2 @@
+scPDB:4amw_1:accepted
+scPDB:4amx_1:accepted

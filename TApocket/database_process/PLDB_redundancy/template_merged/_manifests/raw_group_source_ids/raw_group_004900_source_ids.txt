@@ -1,0 +1,1 @@
+scPDB:2jiz_2:accepted_pseudo_chainA

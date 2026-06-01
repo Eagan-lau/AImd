@@ -1,0 +1,1 @@
+scPDB:1fgx_1:accepted_pseudo_chainA

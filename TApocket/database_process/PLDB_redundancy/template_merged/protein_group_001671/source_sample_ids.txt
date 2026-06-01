@@ -1,0 +1,3 @@
+scPDB:1udy_4:accepted_pseudo_chainA
+scPDB:3mdd_1:accepted_pseudo_chainA
+scPDB:3mde_2:accepted_dominant_chain

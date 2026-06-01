@@ -1,0 +1,2 @@
+PDBbind2020:4cpy:accepted
+PDBbind2020:4cpz:accepted

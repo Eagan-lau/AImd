@@ -1,0 +1,12 @@
+PDBbind2020:2xb7:accepted
+PDBbind2020:2xp2:accepted
+PDBbind2020:3aox:accepted
+PDBbind2020:4cli:accepted
+PDBbind2020:4cmo:accepted
+PDBbind2020:4cmu:accepted
+PDBbind2020:4cnh:accepted
+PDBbind2020:5fto:accepted
+PDBbind2020:5ftq:accepted
+PDBbind2020:5kz0:accepted
+PDBbind2020:6ebw:accepted
+PDBbind2020:6mx8:accepted

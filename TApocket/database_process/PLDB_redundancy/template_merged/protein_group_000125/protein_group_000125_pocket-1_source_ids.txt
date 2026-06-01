@@ -1,0 +1,13 @@
+PDBbind2020:1gsz:accepted
+PDBbind2020:1h35:accepted
+PDBbind2020:1h36:accepted
+PDBbind2020:1h37:accepted
+PDBbind2020:1h39:accepted
+PDBbind2020:1h3a:accepted
+PDBbind2020:1h3b:accepted
+PDBbind2020:1h3c:accepted
+PDBbind2020:1o6h:accepted
+PDBbind2020:1o6q:accepted
+PDBbind2020:1o6r:accepted
+PDBbind2020:1o79:accepted
+PDBbind2020:1sqc:accepted

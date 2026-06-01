@@ -1,0 +1,3 @@
+PDBbind2020:5odu:accepted
+PDBbind2020:5ofi:accepted
+PDBbind2020:5ofx:accepted

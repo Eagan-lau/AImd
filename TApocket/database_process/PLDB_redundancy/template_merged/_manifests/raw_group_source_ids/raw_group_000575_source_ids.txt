@@ -1,0 +1,8 @@
+PDBbind2020:3zim:accepted
+PDBbind2020:4tv3:accepted
+PDBbind2020:5dxt:accepted
+PDBbind2020:6gvf:accepted
+PDBbind2020:6gvg:accepted
+PDBbind2020:6gvh:accepted
+PDBbind2020:6gvi:accepted
+PDBbind2020:6pys:accepted

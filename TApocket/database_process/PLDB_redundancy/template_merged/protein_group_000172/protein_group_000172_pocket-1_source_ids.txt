@@ -1,0 +1,10 @@
+PDBbind2020:2x8z:accepted
+PDBbind2020:2x91:accepted
+PDBbind2020:2x95:accepted
+PDBbind2020:2x96:accepted
+PDBbind2020:2x97:accepted
+PDBbind2020:2xhm:accepted
+PDBbind2020:4aa1:accepted
+PDBbind2020:4aa2:accepted
+PDBbind2020:4ca7:accepted
+PDBbind2020:4ca8:accepted

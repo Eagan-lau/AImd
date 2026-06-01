@@ -1,0 +1,4 @@
+PDBbind2020:3sv6:accepted
+PDBbind2020:5epn:accepted
+PDBbind2020:5voj:accepted
+PDBbind2020:5vp9:accepted

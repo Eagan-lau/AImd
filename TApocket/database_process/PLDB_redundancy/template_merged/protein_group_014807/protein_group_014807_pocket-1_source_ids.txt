@@ -1,0 +1,1 @@
+scPDB:4mdk_3:accepted_dominant_chain

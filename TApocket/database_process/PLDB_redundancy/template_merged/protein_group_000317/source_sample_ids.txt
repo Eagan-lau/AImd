@@ -1,0 +1,14 @@
+PDBbind2020:1std:accepted
+PDBbind2020:2std:accepted
+PDBbind2020:3std:accepted_dominant_chain
+PDBbind2020:4std:accepted_dominant_chain
+PDBbind2020:5std:accepted_dominant_chain
+PDBbind2020:6std:accepted_dominant_chain
+PDBbind2020:7std:accepted_dominant_chain
+scPDB:1std_1:accepted
+scPDB:2std_1:accepted
+scPDB:3std_1:accepted
+scPDB:4std_3:accepted
+scPDB:5std_1:accepted
+scPDB:6std_3:accepted
+scPDB:7std_3:accepted

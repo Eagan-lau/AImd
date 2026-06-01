@@ -1,0 +1,11 @@
+PDBbind2020:4kil:accepted
+PDBbind2020:4ln7:accepted
+PDBbind2020:4m4q:accepted
+PDBbind2020:4m5o:accepted
+PDBbind2020:4m5u:accepted
+PDBbind2020:4mk1:accepted
+PDBbind2020:4mk2:accepted
+PDBbind2020:4mk5:accepted
+PDBbind2020:4w9s:accepted
+PDBbind2020:6nel:accepted
+PDBbind2020:6nem:accepted

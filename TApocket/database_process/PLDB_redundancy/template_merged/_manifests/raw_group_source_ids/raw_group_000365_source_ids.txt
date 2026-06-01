@@ -1,0 +1,12 @@
+scPDB:2ij7_2:accepted
+scPDB:3g5h_1:accepted
+scPDB:4g2g_1:accepted
+scPDB:4g47_1:accepted
+scPDB:4g48_1:accepted
+scPDB:4ict_1:accepted
+scPDB:4ips_1:accepted
+scPDB:4ipw_1:accepted
+scPDB:4iq7_1:accepted
+scPDB:4ktf_1:accepted
+scPDB:4ktk_1:accepted
+scPDB:4ktl_1:accepted

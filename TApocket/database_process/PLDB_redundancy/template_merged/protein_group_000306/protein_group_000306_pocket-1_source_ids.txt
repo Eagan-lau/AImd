@@ -1,0 +1,14 @@
+PDBbind2020:2pvh:accepted
+PDBbind2020:2pvj:accepted
+PDBbind2020:2pvk:accepted
+PDBbind2020:2pvl:accepted
+PDBbind2020:2pvm:accepted
+PDBbind2020:2pvn:accepted
+PDBbind2020:3be9:accepted
+scPDB:2pvh_1:accepted
+scPDB:2pvj_1:accepted
+scPDB:2pvk_1:accepted
+scPDB:2pvl_1:accepted
+scPDB:2pvm_1:accepted
+scPDB:2pvn_1:accepted
+scPDB:3be9_1:accepted

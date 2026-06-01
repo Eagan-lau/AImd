@@ -1,0 +1,3 @@
+scPDB:2pub_1:accepted
+scPDB:2puc_1:accepted
+scPDB:2pud_1:accepted

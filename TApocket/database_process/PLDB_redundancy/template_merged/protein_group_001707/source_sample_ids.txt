@@ -1,0 +1,3 @@
+PDBbind2020:1jzs:accepted
+scPDB:1jzq_1:accepted
+scPDB:1jzs_1:accepted

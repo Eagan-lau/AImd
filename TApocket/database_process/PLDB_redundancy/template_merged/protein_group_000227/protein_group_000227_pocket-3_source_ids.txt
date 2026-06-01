@@ -1,0 +1,3 @@
+scPDB:3erk_1:accepted
+scPDB:4erk_1:accepted
+scPDB:4s32_1:accepted

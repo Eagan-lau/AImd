@@ -1,0 +1,3 @@
+scPDB:1nup_2:accepted_dominant_chain
+scPDB:1nuq_2:accepted_dominant_chain
+scPDB:1nuu_2:accepted_dominant_chain

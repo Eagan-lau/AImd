@@ -1,0 +1,2 @@
+scPDB:4gut_1:accepted
+scPDB:4guu_1:accepted

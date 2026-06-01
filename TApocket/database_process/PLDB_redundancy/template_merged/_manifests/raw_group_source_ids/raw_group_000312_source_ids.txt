@@ -1,0 +1,14 @@
+PDBbind2020:4bvb:accepted
+PDBbind2020:4fz3:accepted
+PDBbind2020:4jsr:accepted
+PDBbind2020:4jt8:accepted
+PDBbind2020:4jt9:accepted
+PDBbind2020:6iso:accepted
+scPDB:3glu_1:accepted
+scPDB:4bvb_1:accepted
+scPDB:4bvb_2:accepted
+scPDB:4bvh_2:accepted
+scPDB:4bvh_3:accepted
+scPDB:4jsr_1:accepted
+scPDB:4jt8_1:accepted
+scPDB:4jt9_1:accepted

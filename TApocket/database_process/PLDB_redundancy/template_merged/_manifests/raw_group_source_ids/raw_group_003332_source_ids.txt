@@ -1,0 +1,2 @@
+scPDB:2q36_1:accepted
+scPDB:2q36_2:accepted

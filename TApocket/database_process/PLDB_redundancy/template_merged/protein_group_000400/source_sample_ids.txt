@@ -1,0 +1,11 @@
+scPDB:1acj_1:accepted
+scPDB:1dx6_1:accepted
+scPDB:1h22_1:accepted
+scPDB:1odc_1:accepted
+scPDB:1ut6_1:accepted
+scPDB:1w6r_1:accepted
+scPDB:1zgb_1:accepted
+scPDB:1zgc_1:accepted
+scPDB:2ckm_1:accepted
+scPDB:2cmf_1:accepted
+scPDB:2w6c_1:accepted

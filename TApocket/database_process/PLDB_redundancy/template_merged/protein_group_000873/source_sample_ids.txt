@@ -1,0 +1,6 @@
+PDBbind2020:2yac:accepted
+PDBbind2020:4a4l:accepted
+PDBbind2020:4a4o:accepted
+scPDB:2yac_1:accepted
+scPDB:4a4l_1:accepted
+scPDB:4a4o_1:accepted

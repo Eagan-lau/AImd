@@ -1,0 +1,4 @@
+PDBbind2020:3mbl:accepted
+PDBbind2020:3pp1:accepted
+PDBbind2020:4ark:accepted
+PDBbind2020:5eym:accepted

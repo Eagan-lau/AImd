@@ -1,0 +1,4 @@
+scPDB:3lzw_1:accepted
+scPDB:3lzw_2:accepted
+scPDB:3lzx_3:accepted_dominant_chain
+scPDB:3lzx_4:accepted

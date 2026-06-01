@@ -1,0 +1,2 @@
+scPDB:4ymu_1:accepted_dominant_chain
+scPDB:4ymv_2:accepted_dominant_chain

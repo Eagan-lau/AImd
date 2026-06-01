@@ -1,0 +1,2 @@
+PDBbind2020:1y8o:accepted
+PDBbind2020:1y8p:accepted

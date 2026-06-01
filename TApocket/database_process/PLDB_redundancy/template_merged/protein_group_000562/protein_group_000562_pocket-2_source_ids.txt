@@ -1,0 +1,3 @@
+PDBbind2020:3oz1:accepted
+PDBbind2020:4hy5:accepted
+scPDB:3mup_1:accepted_dominant_chain

@@ -1,0 +1,2 @@
+scPDB:3dy8_2:accepted
+scPDB:3dyl_2:accepted

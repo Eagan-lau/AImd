@@ -1,0 +1,3 @@
+PDBbind2020:4pl3:accepted
+PDBbind2020:4pl4:accepted
+PDBbind2020:4pl5:accepted

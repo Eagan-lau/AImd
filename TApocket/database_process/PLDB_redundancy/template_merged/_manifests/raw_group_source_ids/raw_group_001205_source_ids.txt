@@ -1,0 +1,5 @@
+PDBbind2020:2axi:accepted
+PDBbind2020:2gv2:accepted
+PDBbind2020:2lzg:accepted
+PDBbind2020:4zfi:accepted_dominant_chain
+scPDB:2lzg_1:accepted

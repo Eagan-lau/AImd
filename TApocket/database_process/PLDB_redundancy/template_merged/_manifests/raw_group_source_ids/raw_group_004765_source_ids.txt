@@ -1,0 +1,2 @@
+PDBbind2020:1gbq:accepted
+PDBbind2020:3gbq:accepted

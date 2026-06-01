@@ -1,0 +1,2 @@
+scPDB:4ga8_1:accepted
+scPDB:4gab_1:accepted

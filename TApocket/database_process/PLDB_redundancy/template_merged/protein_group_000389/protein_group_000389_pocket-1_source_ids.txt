@@ -1,0 +1,12 @@
+PDBbind2020:4awm:accepted
+PDBbind2020:6dcy:accepted
+PDBbind2020:6dcz:accepted
+PDBbind2020:6dzq:accepted
+PDBbind2020:6e0q:accepted
+PDBbind2020:6e3m:accepted
+PDBbind2020:6e3n:accepted
+PDBbind2020:6e3o:accepted
+PDBbind2020:6e3p:accepted
+PDBbind2020:6e4c:accepted
+PDBbind2020:6e6v:accepted
+PDBbind2020:6e6w:accepted

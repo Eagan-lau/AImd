@@ -1,0 +1,3 @@
+PDBbind2020:2w12:accepted
+scPDB:2w13_1:accepted
+scPDB:2w14_1:accepted

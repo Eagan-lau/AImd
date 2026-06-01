@@ -1,0 +1,14 @@
+PDBbind2020:3fpd:accepted
+PDBbind2020:3mo0:accepted
+PDBbind2020:3mo2:accepted
+PDBbind2020:3mo5:accepted
+PDBbind2020:5ttg:accepted
+PDBbind2020:5tuz:accepted
+PDBbind2020:5vsd:accepted
+PDBbind2020:5vsf:accepted
+PDBbind2020:6mbo:accepted
+PDBbind2020:6mbp:accepted
+scPDB:2rfi_2:accepted
+scPDB:3fpd_3:accepted
+scPDB:3hna_1:accepted
+scPDB:3swc_2:accepted_dominant_chain

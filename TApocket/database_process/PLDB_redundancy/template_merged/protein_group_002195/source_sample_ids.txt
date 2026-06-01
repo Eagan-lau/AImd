@@ -1,0 +1,3 @@
+scPDB:3grr_1:accepted
+scPDB:3grv_1:accepted
+scPDB:3gry_1:accepted

@@ -1,0 +1,7 @@
+PDBbind2020:1m83:accepted
+PDBbind2020:1mau:accepted
+PDBbind2020:1maw:accepted
+PDBbind2020:2ov4:accepted
+scPDB:1i6k_1:accepted
+scPDB:1i6l_1:accepted
+scPDB:1maw_4:accepted

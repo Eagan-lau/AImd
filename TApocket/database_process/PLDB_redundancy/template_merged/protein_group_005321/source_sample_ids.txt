@@ -1,0 +1,1 @@
+PDBbind2020:5myo:accepted_pseudo_chainA

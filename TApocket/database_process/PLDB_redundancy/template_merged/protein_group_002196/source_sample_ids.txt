@@ -1,0 +1,3 @@
+scPDB:4ftk_1:accepted
+scPDB:4ftl_1:accepted
+scPDB:4ftm_1:accepted

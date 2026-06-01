@@ -1,0 +1,2 @@
+scPDB:2xui_2:accepted
+scPDB:2xuk_2:accepted

@@ -1,0 +1,3 @@
+PDBbind2020:3arq:accepted
+PDBbind2020:3arr:accepted
+PDBbind2020:3arx:accepted

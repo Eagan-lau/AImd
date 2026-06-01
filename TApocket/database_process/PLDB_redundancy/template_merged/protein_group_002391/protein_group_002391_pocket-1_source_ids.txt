@@ -1,0 +1,2 @@
+PDBbind2020:4kvm:accepted_dominant_chain
+scPDB:4kvm_3:accepted_dominant_chain

@@ -1,0 +1,7 @@
+scPDB:2e9n_1:accepted
+scPDB:2e9o_1:accepted
+scPDB:2e9p_1:accepted
+scPDB:2e9u_1:accepted
+scPDB:2ydi_1:accepted
+scPDB:2yer_1:accepted
+scPDB:2yex_1:accepted

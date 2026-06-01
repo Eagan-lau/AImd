@@ -1,0 +1,11 @@
+PDBbind2020:1w9u:accepted
+PDBbind2020:1w9v:accepted
+PDBbind2020:2a3a:accepted
+PDBbind2020:2a3b:accepted
+PDBbind2020:2a3c:accepted
+PDBbind2020:2iuz:accepted
+PDBbind2020:3ch9:accepted
+PDBbind2020:3chc:accepted
+PDBbind2020:3chd:accepted
+PDBbind2020:3che:accepted
+PDBbind2020:3chf:accepted

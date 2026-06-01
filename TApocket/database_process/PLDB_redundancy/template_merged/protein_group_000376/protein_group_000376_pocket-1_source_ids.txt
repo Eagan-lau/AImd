@@ -1,0 +1,12 @@
+PDBbind2020:4utn:accepted
+PDBbind2020:4utr:accepted
+PDBbind2020:4utx:accepted
+PDBbind2020:4uu7:accepted
+PDBbind2020:4uu8:accepted
+PDBbind2020:4uua:accepted
+PDBbind2020:4uub:accepted
+PDBbind2020:6enx:accepted
+PDBbind2020:6eo0:accepted
+PDBbind2020:6fky:accepted
+PDBbind2020:6fkz:accepted
+PDBbind2020:6flg:accepted

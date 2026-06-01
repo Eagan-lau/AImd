@@ -1,0 +1,2 @@
+scPDB:3img_4:accepted
+scPDB:3iod_2:accepted

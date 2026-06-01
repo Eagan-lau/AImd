@@ -1,0 +1,4 @@
+PDBbind2020:3nba:accepted_dominant_chain
+scPDB:3lcj_1:accepted
+scPDB:3pnb_2:accepted
+scPDB:3rba_1:accepted

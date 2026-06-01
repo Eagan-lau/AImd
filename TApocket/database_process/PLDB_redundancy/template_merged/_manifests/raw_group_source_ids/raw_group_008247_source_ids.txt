@@ -1,0 +1,1 @@
+scPDB:4uux_2:accepted_dominant_chain

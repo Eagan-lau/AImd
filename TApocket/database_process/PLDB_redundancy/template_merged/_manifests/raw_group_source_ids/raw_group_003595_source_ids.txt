@@ -1,0 +1,2 @@
+scPDB:1cl0_1:accepted
+scPDB:1tde_1:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:2ya6:accepted
+PDBbind2020:2ya7:accepted
+PDBbind2020:2ya8:accepted
+PDBbind2020:6qzh:accepted

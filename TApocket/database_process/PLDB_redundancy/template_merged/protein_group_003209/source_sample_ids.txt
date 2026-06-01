@@ -1,0 +1,2 @@
+scPDB:2gms_2:accepted_dominant_chain
+scPDB:2gmu_2:accepted_dominant_chain

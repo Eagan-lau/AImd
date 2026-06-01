@@ -1,0 +1,6 @@
+scPDB:3dbu_1:accepted
+scPDB:3dc3_1:accepted
+scPDB:3dcc_1:accepted
+scPDB:3dcs_1:accepted
+scPDB:3dcw_1:accepted
+scPDB:3oik_1:accepted

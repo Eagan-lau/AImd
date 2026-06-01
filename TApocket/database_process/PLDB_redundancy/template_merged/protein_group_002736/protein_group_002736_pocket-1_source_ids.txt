@@ -1,0 +1,2 @@
+scPDB:1khb_1:accepted
+scPDB:1khe_1:accepted

@@ -1,0 +1,6 @@
+scPDB:3k5c_3:accepted
+scPDB:3k5g_3:accepted
+scPDB:3pi5_3:accepted
+scPDB:4lxa_3:accepted
+scPDB:4lxk_3:accepted
+scPDB:4lxm_3:accepted

@@ -1,0 +1,3 @@
+PDBbind2020:2jup:accepted
+PDBbind2020:2rly:accepted
+PDBbind2020:2rm0:accepted

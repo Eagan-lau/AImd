@@ -1,0 +1,3 @@
+protein_group_id,global_sample_id,sample_id,source_dataset,source_status,sample_type,protein_pdb,pocket_pdb,mapped_pocket_residue_count
+protein_group_003825,PDBbind2020:5hes:accepted,5hes,PDBbind2020,accepted,accepted,/public/share/yanjianbin/liuyugeng/PLDB/PDBbind2020_process/5hes/5hes_protein_clean_single_chain.pdb,/public/share/yanjianbin/liuyugeng/PLDB/PDBbind2020_process/5hes/5hes_pocket_clean_single_chain.pdb,97
+protein_group_003825,scPDB:5hes_1:accepted_dominant_chain,5hes_1,scPDB,accepted_dominant_chain,accepted_dominant_chain,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_process/5hes_1/5hes_1_protein_clean_single_chain.pdb,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_process/5hes_1/5hes_1_pocket_clean_single_chain.pdb,42

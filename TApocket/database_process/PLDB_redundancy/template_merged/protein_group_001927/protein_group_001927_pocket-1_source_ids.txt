@@ -1,0 +1,3 @@
+PDBbind2020:3tia:accepted
+PDBbind2020:3tib:accepted
+PDBbind2020:3tic:accepted

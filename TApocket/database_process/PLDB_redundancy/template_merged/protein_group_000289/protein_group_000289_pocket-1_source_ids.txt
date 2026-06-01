@@ -1,0 +1,15 @@
+PDBbind2020:4ijh:accepted
+PDBbind2020:4ijl:accepted
+PDBbind2020:4luo:accepted
+PDBbind2020:4luv:accepted
+PDBbind2020:4luz:accepted
+PDBbind2020:4lw1:accepted
+PDBbind2020:4lwc:accepted
+PDBbind2020:4nb3:accepted
+PDBbind2020:4o0a:accepted
+PDBbind2020:4r4c:accepted
+PDBbind2020:4r4i:accepted
+PDBbind2020:4r4o:accepted
+PDBbind2020:4r4q:accepted
+PDBbind2020:4r4t:accepted
+PDBbind2020:5e7n:accepted

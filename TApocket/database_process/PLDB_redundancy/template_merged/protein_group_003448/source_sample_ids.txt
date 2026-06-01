@@ -1,0 +1,2 @@
+scPDB:4kqs_1:accepted
+scPDB:4kqs_2:accepted

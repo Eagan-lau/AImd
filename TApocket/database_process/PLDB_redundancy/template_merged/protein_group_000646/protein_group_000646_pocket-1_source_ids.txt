@@ -1,0 +1,5 @@
+PDBbind2020:4kmz:accepted
+PDBbind2020:4kn0:accepted
+PDBbind2020:4kn1:accepted
+PDBbind2020:4kn2:accepted
+scPDB:4kmz_1:accepted

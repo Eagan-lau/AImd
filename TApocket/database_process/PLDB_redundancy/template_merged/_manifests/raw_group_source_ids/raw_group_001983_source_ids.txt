@@ -1,0 +1,3 @@
+scPDB:1bn5_1:accepted
+scPDB:1qzy_1:accepted
+scPDB:2oaz_1:accepted

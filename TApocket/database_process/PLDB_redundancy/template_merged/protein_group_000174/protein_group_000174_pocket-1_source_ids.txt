@@ -1,0 +1,13 @@
+PDBbind2020:3fqk:accepted
+PDBbind2020:3g86:accepted
+PDBbind2020:3h59:accepted
+PDBbind2020:3h5s:accepted
+PDBbind2020:3h5u:accepted
+PDBbind2020:3h98:accepted
+PDBbind2020:4ih6:accepted
+PDBbind2020:4ih7:accepted
+PDBbind2020:4mib:accepted
+PDBbind2020:4mk7:accepted
+PDBbind2020:4mk8:accepted
+PDBbind2020:4mk9:accepted
+PDBbind2020:4mka:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:1xlz:accepted
+PDBbind2020:1xmy:accepted

@@ -1,0 +1,6 @@
+scPDB:3pcb_2:accepted_pseudo_chainA
+scPDB:3pcc_4:accepted_pseudo_chainA
+scPDB:3pce_2:accepted_dominant_chain
+scPDB:3pcf_2:accepted_pseudo_chainA
+scPDB:3pci_1:accepted_dominant_chain
+scPDB:3pcn_6:accepted_dominant_chain

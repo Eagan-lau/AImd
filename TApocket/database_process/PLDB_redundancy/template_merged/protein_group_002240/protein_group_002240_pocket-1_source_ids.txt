@@ -1,0 +1,3 @@
+scPDB:2wmu_1:accepted
+scPDB:2xf0_1:accepted
+scPDB:2ym3_1:accepted

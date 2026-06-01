@@ -1,0 +1,6 @@
+PDBbind2020:2rk7:accepted
+PDBbind2020:2rk8:accepted
+PDBbind2020:2rka:accepted
+PDBbind2020:2rkd:accepted
+PDBbind2020:2rke:accepted
+PDBbind2020:6p5o:accepted

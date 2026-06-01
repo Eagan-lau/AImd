@@ -1,0 +1,5 @@
+PDBbind2020:1eoj:accepted
+PDBbind2020:1eol:accepted
+PDBbind2020:1nt1:accepted
+PDBbind2020:1sl3:accepted
+PDBbind2020:2bdy:accepted

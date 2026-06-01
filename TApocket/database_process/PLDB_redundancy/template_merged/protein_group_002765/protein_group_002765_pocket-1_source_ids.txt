@@ -1,0 +1,2 @@
+scPDB:3lsh_4:accepted
+scPDB:3lsi_1:accepted

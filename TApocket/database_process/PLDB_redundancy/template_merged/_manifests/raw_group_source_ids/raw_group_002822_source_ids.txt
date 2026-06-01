@@ -1,0 +1,2 @@
+PDBbind2020:4kv9:accepted_pseudo_chainA
+PDBbind2020:4kva:accepted_dominant_chain

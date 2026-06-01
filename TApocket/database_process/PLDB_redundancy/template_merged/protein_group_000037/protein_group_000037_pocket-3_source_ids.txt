@@ -1,0 +1,11 @@
+PDBbind2020:1t4e:accepted_dominant_chain
+PDBbind2020:4ere:accepted
+PDBbind2020:5lav:accepted
+PDBbind2020:5law:accepted
+PDBbind2020:5lay:accepted
+PDBbind2020:5laz:accepted
+PDBbind2020:6ggn:accepted
+PDBbind2020:6i3s:accepted
+PDBbind2020:6q96:accepted
+PDBbind2020:6q9l:accepted
+scPDB:1t4e_1:accepted

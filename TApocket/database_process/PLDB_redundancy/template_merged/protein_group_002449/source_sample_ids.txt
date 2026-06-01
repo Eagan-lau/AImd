@@ -1,0 +1,3 @@
+PDBbind2020:4gne:accepted
+PDBbind2020:4gnf:accepted
+PDBbind2020:4gng:accepted

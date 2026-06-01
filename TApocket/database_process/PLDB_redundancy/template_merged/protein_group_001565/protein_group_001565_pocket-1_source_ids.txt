@@ -1,0 +1,4 @@
+scPDB:1eyq_1:accepted
+scPDB:1fm7_2:accepted
+scPDB:1fm8_1:accepted
+scPDB:1jep_2:accepted

@@ -1,0 +1,2 @@
+scPDB:1ng3_2:accepted
+scPDB:1ng4_2:accepted

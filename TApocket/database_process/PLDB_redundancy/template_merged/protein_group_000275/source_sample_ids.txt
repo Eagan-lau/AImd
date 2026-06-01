@@ -1,0 +1,15 @@
+PDBbind2020:5cs6:accepted
+PDBbind2020:5csh:accepted
+PDBbind2020:5cu2:accepted
+PDBbind2020:5mo8:accepted
+PDBbind2020:5mod:accepted
+PDBbind2020:5moe:accepted
+PDBbind2020:5oqu:accepted
+PDBbind2020:5orh:accepted
+PDBbind2020:5orj:accepted
+PDBbind2020:5ork:accepted
+PDBbind2020:5os7:accepted
+PDBbind2020:6gmd:accepted
+PDBbind2020:6q38:accepted
+PDBbind2020:6q4q:accepted_dominant_chain
+scPDB:5cvh_2:accepted

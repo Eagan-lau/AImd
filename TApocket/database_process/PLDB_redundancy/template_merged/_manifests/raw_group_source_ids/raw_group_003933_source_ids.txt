@@ -1,0 +1,2 @@
+PDBbind2020:6nvg:accepted
+PDBbind2020:6nvj:accepted

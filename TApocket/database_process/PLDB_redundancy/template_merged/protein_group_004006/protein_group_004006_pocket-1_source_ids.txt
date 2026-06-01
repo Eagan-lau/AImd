@@ -1,0 +1,2 @@
+PDBbind2020:2ogy:accepted
+scPDB:2ogy_1:accepted

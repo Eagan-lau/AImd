@@ -1,0 +1,4 @@
+PDBbind2020:1mpl:accepted
+scPDB:1ikg_1:accepted
+scPDB:1iki_1:accepted
+scPDB:1pw1_1:accepted

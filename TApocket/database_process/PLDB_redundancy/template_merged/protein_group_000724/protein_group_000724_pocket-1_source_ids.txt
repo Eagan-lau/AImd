@@ -1,0 +1,6 @@
+PDBbind2020:3iqg:accepted
+PDBbind2020:3iqh:accepted
+PDBbind2020:3iqi:accepted
+scPDB:1y7l_1:accepted
+scPDB:3iqg_1:accepted
+scPDB:3iqi_1:accepted

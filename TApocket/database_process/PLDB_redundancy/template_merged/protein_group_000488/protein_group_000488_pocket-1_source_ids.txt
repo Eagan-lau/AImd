@@ -1,0 +1,10 @@
+PDBbind2020:4rr6:accepted_dominant_chain
+PDBbind2020:4rra:accepted_dominant_chain
+scPDB:4rr6_1:accepted
+scPDB:4rr7_1:accepted
+scPDB:4rr8_1:accepted
+scPDB:4rr9_1:accepted
+scPDB:4rra_1:accepted
+scPDB:4rrb_1:accepted
+scPDB:4rrc_1:accepted
+scPDB:4rrd_1:accepted

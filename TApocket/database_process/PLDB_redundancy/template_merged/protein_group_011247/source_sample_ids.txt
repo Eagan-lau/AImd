@@ -1,0 +1,1 @@
+scPDB:2buf_18:accepted_dominant_chain

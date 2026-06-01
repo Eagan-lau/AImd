@@ -1,0 +1,3 @@
+scPDB:1crb_1:accepted
+scPDB:1kgl_1:accepted
+scPDB:1mx8_1:accepted

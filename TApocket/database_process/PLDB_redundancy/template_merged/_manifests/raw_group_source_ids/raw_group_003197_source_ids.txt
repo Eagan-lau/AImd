@@ -1,0 +1,2 @@
+scPDB:1i24_1:accepted
+scPDB:1qrr_1:accepted

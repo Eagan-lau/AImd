@@ -1,0 +1,1 @@
+scPDB:1ivh_2:accepted_dominant_chain

@@ -1,0 +1,6 @@
+scPDB:4e5f_4:accepted
+scPDB:4e5g_4:accepted
+scPDB:4e5h_1:accepted
+scPDB:4e5i_3:accepted
+scPDB:4e5j_4:accepted
+scPDB:4e5l_3:accepted

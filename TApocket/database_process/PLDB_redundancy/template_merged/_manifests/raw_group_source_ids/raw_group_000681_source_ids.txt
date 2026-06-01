@@ -1,0 +1,7 @@
+scPDB:3gol_2:accepted
+scPDB:4iz0_2:accepted
+scPDB:4j0a_1:accepted
+scPDB:4ju4_1:accepted
+scPDB:4ju6_1:accepted
+scPDB:4ju7_1:accepted
+scPDB:4jy1_1:accepted

@@ -1,0 +1,3 @@
+scPDB:1h48_8:accepted_pseudo_chainA
+scPDB:1h48_9:accepted_dominant_chain
+scPDB:3elc_3:accepted_dominant_chain

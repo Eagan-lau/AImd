@@ -1,0 +1,2 @@
+PDBbind2020:4g8l:accepted
+scPDB:4oau_1:accepted

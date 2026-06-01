@@ -1,0 +1,2 @@
+scPDB:2yir_1:accepted
+scPDB:2yit_1:accepted

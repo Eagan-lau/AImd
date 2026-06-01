@@ -1,0 +1,4 @@
+scPDB:1reo_1:accepted
+scPDB:1tdk_1:accepted
+scPDB:1tdn_1:accepted
+scPDB:1tdo_1:accepted

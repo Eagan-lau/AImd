@@ -1,0 +1,14 @@
+PDBbind2020:2g6p:accepted
+PDBbind2020:2nq6:accepted
+PDBbind2020:2nq7:accepted
+PDBbind2020:4fli:accepted
+PDBbind2020:4flj:accepted
+PDBbind2020:4flk:accepted
+PDBbind2020:4fll:accepted
+PDBbind2020:4ikr:accepted
+PDBbind2020:4iks:accepted
+PDBbind2020:4ikt:accepted
+PDBbind2020:4iku:accepted
+PDBbind2020:4u1b:accepted
+PDBbind2020:4u69:accepted
+PDBbind2020:4u6c:accepted

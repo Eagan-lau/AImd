@@ -1,0 +1,6 @@
+PDBbind2020:3evc:accepted
+PDBbind2020:3evd:accepted
+PDBbind2020:3evf:accepted
+scPDB:3eva_1:accepted
+scPDB:3evb_1:accepted
+scPDB:3evc_1:accepted

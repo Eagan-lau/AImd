@@ -1,0 +1,5 @@
+scPDB:1uxn_1:accepted
+scPDB:1uxp_1:accepted
+scPDB:1uxr_1:accepted
+scPDB:1uxt_1:accepted
+scPDB:1uxu_1:accepted

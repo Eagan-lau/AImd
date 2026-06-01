@@ -1,0 +1,5 @@
+scPDB:3gf4_1:accepted
+scPDB:3gf4_2:accepted
+scPDB:3int_1:accepted
+scPDB:3kyb_2:accepted
+scPDB:3kyb_3:accepted

@@ -1,0 +1,2 @@
+scPDB:1mjt_2:accepted
+scPDB:1mjt_3:accepted_pseudo_chainA

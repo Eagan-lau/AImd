@@ -1,0 +1,2 @@
+scPDB:2bmu_2:accepted
+scPDB:2bri_2:accepted

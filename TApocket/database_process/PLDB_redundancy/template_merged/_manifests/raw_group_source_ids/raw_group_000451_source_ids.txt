@@ -1,0 +1,10 @@
+scPDB:3c5u_2:accepted
+scPDB:3gcu_2:accepted
+scPDB:3hll_1:accepted
+scPDB:3hll_2:accepted
+scPDB:3hp2_1:accepted
+scPDB:3kf7_1:accepted
+scPDB:3roc_1:accepted
+scPDB:3roc_2:accepted
+scPDB:4ehv_1:accepted
+scPDB:4zth_1:accepted

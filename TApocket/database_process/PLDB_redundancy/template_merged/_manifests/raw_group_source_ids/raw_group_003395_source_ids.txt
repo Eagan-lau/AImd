@@ -1,0 +1,2 @@
+PDBbind2020:1uv5:accepted
+scPDB:1uv5_1:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:3pyy:accepted
+PDBbind2020:6npe:accepted
+PDBbind2020:6npu:accepted
+PDBbind2020:6npv:accepted

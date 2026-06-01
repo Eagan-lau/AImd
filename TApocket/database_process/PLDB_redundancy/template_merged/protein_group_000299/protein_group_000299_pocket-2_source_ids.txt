@@ -1,0 +1,2 @@
+PDBbind2020:1hsh:accepted_pseudo_chainA
+PDBbind2020:2mip:accepted_pseudo_chainA

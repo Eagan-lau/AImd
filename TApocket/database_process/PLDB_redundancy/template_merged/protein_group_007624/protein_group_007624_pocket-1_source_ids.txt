@@ -1,0 +1,1 @@
+PDBbind2020:1gaf:accepted_pseudo_chainA

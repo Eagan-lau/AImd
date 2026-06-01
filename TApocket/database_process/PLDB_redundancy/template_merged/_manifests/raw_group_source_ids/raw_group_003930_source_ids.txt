@@ -1,0 +1,2 @@
+scPDB:4yag_1:accepted
+scPDB:4yai_1:accepted

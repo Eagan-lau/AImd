@@ -1,0 +1,2 @@
+PDBbind2020:1hk4:accepted
+scPDB:1hk4_1:accepted

@@ -1,0 +1,6 @@
+PDBbind2020:4ks1:accepted
+PDBbind2020:4ks2:accepted
+PDBbind2020:4ks3:accepted
+PDBbind2020:4ks4:accepted
+PDBbind2020:4ks5:accepted
+PDBbind2020:4m3m:accepted

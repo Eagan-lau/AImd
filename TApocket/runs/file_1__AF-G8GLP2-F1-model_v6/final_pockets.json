@@ -1,0 +1,951 @@
+[
+  {
+    "query_id": "AF-G8GLP2-F1-model_v6",
+    "pocket_id": "pocket_cluster_001",
+    "cluster_id": "pocket_cluster_001",
+    "source": "foldseek_template",
+    "template_id": "protein_group_001243",
+    "template_pocket_id": "pocket-1",
+    "mapped_pocket_path": "final_pockets.pdb",
+    "template_protein_path": "database_process/PLDB_redundancy/template_merged/protein_group_001243/protein_group_001243_protein.pdb",
+    "template_pocket_path": "database_process/PLDB_redundancy/template_merged/protein_group_001243/protein_group_001243_pocket-1.pdb",
+    "foldseek_hit": {
+      "query": "query.pdb",
+      "target": "protein_group_001243.pdb",
+      "normalized_target_id": "protein_group_001243",
+      "rank": 1,
+      "score": 0.8484,
+      "raw": {
+        "query": "query.pdb",
+        "target": "protein_group_001243.pdb",
+        "evalue": 6.711e-88,
+        "bits": 2885,
+        "alnlen": 861,
+        "qcov": 0.94,
+        "tcov": 0.989,
+        "qtmscore": 0.8484,
+        "ttmscore": 0.8126,
+        "alntmscore": 0.8126
+      }
+    },
+    "query_pocket_residues": [
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "85",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.5882
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "89",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 1.0368
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "90",
+        "icode": "",
+        "resn": "CYS",
+        "min_distance_to_mapped_pocket": 0.5428
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "91",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.7419
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "92",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.0541
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "93",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.2813
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "107",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.3476
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "108",
+        "icode": "",
+        "resn": "GLN",
+        "min_distance_to_mapped_pocket": 0.4484
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "109",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.3766
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "110",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.6465
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "111",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.4385
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "112",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.3575
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "113",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 1.3294
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "114",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.9021
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "115",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.6893
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "116",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 1.1144
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "149",
+        "icode": "",
+        "resn": "PHE",
+        "min_distance_to_mapped_pocket": 0.6968
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "154",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.5781
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "156",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.5191
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "157",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.4385
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "158",
+        "icode": "",
+        "resn": "LEU",
+        "min_distance_to_mapped_pocket": 0.4238
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "159",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.8439
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "160",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.7264
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "161",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.4459
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "164",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.5485
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "165",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.4028
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "173",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.8245
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "174",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.7507
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "176",
+        "icode": "",
+        "resn": "TRP",
+        "min_distance_to_mapped_pocket": 0.403
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "177",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.4597
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "178",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.4275
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "190",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 1.2932
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "204",
+        "icode": "",
+        "resn": "THR",
+        "min_distance_to_mapped_pocket": 0.9132
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "205",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.8391
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "206",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.4586
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "207",
+        "icode": "",
+        "resn": "LYS",
+        "min_distance_to_mapped_pocket": 0.4472
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "208",
+        "icode": "",
+        "resn": "HIS",
+        "min_distance_to_mapped_pocket": 0.5708
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "209",
+        "icode": "",
+        "resn": "TRP",
+        "min_distance_to_mapped_pocket": 0.5716
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "210",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.721
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "212",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 1.1477
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "214",
+        "icode": "",
+        "resn": "GLN",
+        "min_distance_to_mapped_pocket": 0.4412
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "215",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.5655
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "218",
+        "icode": "",
+        "resn": "ARG",
+        "min_distance_to_mapped_pocket": 0.6506
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "219",
+        "icode": "",
+        "resn": "ASN",
+        "min_distance_to_mapped_pocket": 0.9205
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "235",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 1.0074
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "253",
+        "icode": "",
+        "resn": "PHE",
+        "min_distance_to_mapped_pocket": 0.3253
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "263",
+        "icode": "",
+        "resn": "HIS",
+        "min_distance_to_mapped_pocket": 0.6659
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "264",
+        "icode": "",
+        "resn": "ILE",
+        "min_distance_to_mapped_pocket": 0.4268
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "265",
+        "icode": "",
+        "resn": "MET",
+        "min_distance_to_mapped_pocket": 0.4555
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "266",
+        "icode": "",
+        "resn": "CYS",
+        "min_distance_to_mapped_pocket": 0.3097
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "267",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.6072
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "268",
+        "icode": "",
+        "resn": "TYR",
+        "min_distance_to_mapped_pocket": 0.6435
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "269",
+        "icode": "",
+        "resn": "ASN",
+        "min_distance_to_mapped_pocket": 0.7487
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "277",
+        "icode": "",
+        "resn": "CYS",
+        "min_distance_to_mapped_pocket": 0.4888
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "298",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 0.2719
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "299",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.1769
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "300",
+        "icode": "",
+        "resn": "ASP",
+        "min_distance_to_mapped_pocket": 0.3745
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "301",
+        "icode": "",
+        "resn": "TRP",
+        "min_distance_to_mapped_pocket": 0.4334
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "302",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.7923
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "303",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.9552
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "304",
+        "icode": "",
+        "resn": "GLN",
+        "min_distance_to_mapped_pocket": 0.9392
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "305",
+        "icode": "",
+        "resn": "TRP",
+        "min_distance_to_mapped_pocket": 1.0783
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "318",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.3598
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "319",
+        "icode": "",
+        "resn": "MET",
+        "min_distance_to_mapped_pocket": 0.3039
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "320",
+        "icode": "",
+        "resn": "PRO",
+        "min_distance_to_mapped_pocket": 0.346
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "321",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 1.0651
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "323",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 1.4947
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "375",
+        "icode": "",
+        "resn": "VAL",
+        "min_distance_to_mapped_pocket": 1.4086
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "378",
+        "icode": "",
+        "resn": "THR",
+        "min_distance_to_mapped_pocket": 1.4473
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "447",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 1.9143
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "464",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.3677
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "465",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.7462
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "466",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.8578
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "467",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.6832
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "468",
+        "icode": "",
+        "resn": "SER",
+        "min_distance_to_mapped_pocket": 0.7289
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "469",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 0.78
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "528",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.8186
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "529",
+        "icode": "",
+        "resn": "GLU",
+        "min_distance_to_mapped_pocket": 0.3961
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "530",
+        "icode": "",
+        "resn": "GLY",
+        "min_distance_to_mapped_pocket": 0.6636
+      },
+      {
+        "query_id": "AF-G8GLP2-F1-model_v6",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "chain": "A",
+        "resi": "531",
+        "icode": "",
+        "resn": "ALA",
+        "min_distance_to_mapped_pocket": 1.731
+      }
+    ],
+    "mapping_quality": {
+      "method": "ca_distance",
+      "ca_distance_cutoff_angstrom": 2.0,
+      "template_pocket_ca_count": 88,
+      "matched_template_ca_count": 80,
+      "query_residue_count": 80,
+      "mapping_coverage": 0.909091,
+      "mean_ca_distance_angstrom": 0.6842,
+      "median_ca_distance_angstrom": 0.6253,
+      "quality_control_enabled": true,
+      "min_mapping_coverage": 0.4,
+      "min_query_residue_count": 5,
+      "mapping_pass": true,
+      "low_quality_action": "drop",
+      "deduplicated": true,
+      "supporting_pocket_count": 5,
+      "supporting_template_count": 5
+    },
+    "mcsa_support": {
+      "query_id": "AF-G8GLP2-F1-model_v6",
+      "pocket_id": "pocket_cluster_001",
+      "template_id": "protein_group_001243",
+      "template_pocket_id": "pocket-1",
+      "matched": true,
+      "match_method": "box_overlap",
+      "match_basis": "box_overlap",
+      "best_mcsa_id": "1ex1",
+      "min_distance_angstrom": 0.6486,
+      "matched_atom_pairs": 348,
+      "active_site_atoms_in_box": 17,
+      "active_site_fraction_in_box": 1.0,
+      "box_padding_angstrom": 2.0,
+      "pocket_box_center": [
+        10.4125,
+        3.562,
+        -9.2415
+      ],
+      "pocket_box_size": [
+        36.131,
+        36.588,
+        38.091
+      ]
+    },
+    "ai_support": {},
+    "box": {
+      "method": "mapped_pocket_atom_box",
+      "padding_angstrom": 2.0,
+      "center": [
+        10.4125,
+        3.562,
+        -9.2415
+      ],
+      "size": [
+        36.131,
+        36.588,
+        38.091
+      ],
+      "xmin": -7.653,
+      "xmax": 28.478,
+      "ymin": -14.732,
+      "ymax": 21.856,
+      "zmin": -28.287,
+      "zmax": 9.804
+    },
+    "final_score": 0.8484,
+    "kept": true,
+    "drop_reason": null,
+    "supporting_pockets": [
+      {
+        "pocket_id": "pocket_cluster_001",
+        "template_id": "protein_group_001243",
+        "template_pocket_id": "pocket-1",
+        "source": "foldseek_template",
+        "score": 0.8484,
+        "mapping_coverage": 0.909091,
+        "query_residue_count": 80
+      },
+      {
+        "pocket_id": "protein_group_005484:pocket-1",
+        "template_id": "protein_group_005484",
+        "template_pocket_id": "pocket-1",
+        "source": "foldseek_template",
+        "score": 0.8449,
+        "mapping_coverage": 0.958333,
+        "query_residue_count": 23
+      },
+      {
+        "pocket_id": "protein_group_002637:pocket-1",
+        "template_id": "protein_group_002637",
+        "template_pocket_id": "pocket-1",
+        "source": "foldseek_template",
+        "score": 0.842,
+        "mapping_coverage": 0.913043,
+        "query_residue_count": 21
+      },
+      {
+        "pocket_id": "protein_group_000976:pocket-1",
+        "template_id": "protein_group_000976",
+        "template_pocket_id": "pocket-1",
+        "source": "foldseek_template",
+        "score": 0.7357,
+        "mapping_coverage": 0.584158,
+        "query_residue_count": 59
+      },
+      {
+        "pocket_id": "protein_group_006202:pocket-1",
+        "template_id": "protein_group_006202",
+        "template_pocket_id": "pocket-1",
+        "source": "foldseek_template",
+        "score": 0.6468,
+        "mapping_coverage": 0.604938,
+        "query_residue_count": 49
+      }
+    ],
+    "extra": {
+      "final_pdb_model_index": 1
+    }
+  }
+]

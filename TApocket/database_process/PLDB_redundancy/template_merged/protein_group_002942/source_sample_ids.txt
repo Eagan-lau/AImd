@@ -1,0 +1,2 @@
+PDBbind2020:6cha:accepted_pseudo_chainA
+scPDB:1gmc_1:accepted_dominant_chain

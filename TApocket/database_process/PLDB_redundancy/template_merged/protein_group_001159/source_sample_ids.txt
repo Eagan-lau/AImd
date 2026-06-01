@@ -1,0 +1,5 @@
+PDBbind2020:5il1:accepted
+scPDB:5il1_1:accepted
+scPDB:5il2_1:accepted
+scPDB:5k7u_1:accepted
+scPDB:5k7w_1:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:1lan:accepted
+PDBbind2020:1lcp:accepted_dominant_chain
+PDBbind2020:2ewb:accepted_dominant_chain
+scPDB:2ewb_1:accepted

@@ -1,0 +1,3 @@
+scPDB:3mpi_1:accepted
+scPDB:3mpi_5:accepted_dominant_chain
+scPDB:3mpj_3:accepted_pseudo_chainA

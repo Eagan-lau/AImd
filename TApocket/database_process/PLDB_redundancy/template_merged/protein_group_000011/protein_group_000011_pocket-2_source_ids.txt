@@ -1,0 +1,2 @@
+PDBbind2020:5alu:accepted
+PDBbind2020:5mwa:accepted

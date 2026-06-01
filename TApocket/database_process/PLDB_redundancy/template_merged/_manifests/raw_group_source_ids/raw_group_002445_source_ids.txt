@@ -1,0 +1,3 @@
+PDBbind2020:4flp:accepted
+PDBbind2020:4kcx:accepted_dominant_chain
+scPDB:4flp_2:accepted

@@ -1,0 +1,3 @@
+scPDB:3ojx_1:accepted
+scPDB:3ojx_2:accepted
+scPDB:3ojx_3:accepted

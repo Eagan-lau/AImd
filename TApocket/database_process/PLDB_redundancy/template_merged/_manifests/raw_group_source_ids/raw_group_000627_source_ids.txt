@@ -1,0 +1,8 @@
+PDBbind2020:2xk3:accepted
+PDBbind2020:2xk8:accepted
+PDBbind2020:2xkd:accepted
+PDBbind2020:2xkf:accepted
+PDBbind2020:2xnm:accepted
+PDBbind2020:2xno:accepted
+PDBbind2020:2xnp:accepted
+PDBbind2020:4afe:accepted

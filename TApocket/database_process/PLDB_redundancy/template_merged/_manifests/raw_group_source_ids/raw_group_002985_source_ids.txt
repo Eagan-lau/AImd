@@ -1,0 +1,2 @@
+scPDB:1lvl_1:accepted
+scPDB:1lvl_2:accepted

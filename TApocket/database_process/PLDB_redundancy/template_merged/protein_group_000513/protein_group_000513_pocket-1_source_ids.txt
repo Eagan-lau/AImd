@@ -1,0 +1,9 @@
+PDBbind2020:6dhu:accepted
+PDBbind2020:6die:accepted
+PDBbind2020:6dih:accepted
+PDBbind2020:6dim:accepted
+PDBbind2020:6djd:accepted
+PDBbind2020:6dji:accepted
+PDBbind2020:6djj:accepted
+PDBbind2020:6n17:accepted
+PDBbind2020:6n19:accepted

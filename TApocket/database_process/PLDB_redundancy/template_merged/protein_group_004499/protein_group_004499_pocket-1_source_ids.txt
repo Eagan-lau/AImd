@@ -1,0 +1,2 @@
+PDBbind2020:3cph:accepted
+scPDB:3cph_1:accepted

@@ -1,0 +1,3 @@
+PDBbind2020:3drf:accepted
+PDBbind2020:3drg:accepted
+PDBbind2020:3dri:accepted

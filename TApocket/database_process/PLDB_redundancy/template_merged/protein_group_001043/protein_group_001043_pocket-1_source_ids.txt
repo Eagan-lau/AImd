@@ -1,0 +1,2 @@
+PDBbind2020:3hfj:accepted_pseudo_chainA
+PDBbind2020:3mlb:accepted_pseudo_chainA

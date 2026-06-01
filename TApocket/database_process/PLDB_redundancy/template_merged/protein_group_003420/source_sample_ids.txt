@@ -1,0 +1,2 @@
+scPDB:1zyk_6:accepted
+scPDB:2gvq_6:accepted

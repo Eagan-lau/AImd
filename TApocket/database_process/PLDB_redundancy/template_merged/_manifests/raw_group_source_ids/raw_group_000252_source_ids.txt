@@ -1,0 +1,16 @@
+scPDB:1ads_1:accepted
+scPDB:1ef3_1:accepted
+scPDB:1ef3_4:accepted
+scPDB:1el3_1:accepted
+scPDB:1t40_1:accepted
+scPDB:2acq_1:accepted
+scPDB:2acs_1:accepted
+scPDB:2f2k_1:accepted
+scPDB:2ine_1:accepted
+scPDB:2inz_1:accepted
+scPDB:2iq0_1:accepted
+scPDB:2iqd_1:accepted
+scPDB:3s3g_1:accepted
+scPDB:3v35_1:accepted
+scPDB:3v35_2:accepted
+scPDB:3v36_2:accepted

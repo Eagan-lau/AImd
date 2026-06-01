@@ -1,0 +1,1 @@
+scPDB:3int_3:accepted

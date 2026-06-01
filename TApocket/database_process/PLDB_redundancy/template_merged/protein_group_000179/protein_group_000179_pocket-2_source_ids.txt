@@ -1,0 +1,5 @@
+scPDB:1ppk_1:accepted
+scPDB:2wea_1:accepted
+scPDB:2web_1:accepted
+scPDB:2wec_1:accepted
+scPDB:2wed_1:accepted

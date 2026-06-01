@@ -1,0 +1,2 @@
+PDBbind2020:1gag:accepted
+scPDB:1ir3_1:accepted_dominant_chain

@@ -1,0 +1,3 @@
+scPDB:1jeh_1:accepted_dominant_chain
+scPDB:1v59_2:accepted
+scPDB:1v59_3:accepted_dominant_chain

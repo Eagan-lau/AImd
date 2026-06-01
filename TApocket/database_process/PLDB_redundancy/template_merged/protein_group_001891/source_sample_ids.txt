@@ -1,0 +1,3 @@
+scPDB:5hwp_1:accepted
+scPDB:5hwq_1:accepted
+scPDB:5hwr_1:accepted

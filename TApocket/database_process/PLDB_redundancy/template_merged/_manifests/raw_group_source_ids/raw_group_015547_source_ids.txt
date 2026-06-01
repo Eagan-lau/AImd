@@ -1,0 +1,1 @@
+scPDB:4x86_1:accepted_pseudo_chainA

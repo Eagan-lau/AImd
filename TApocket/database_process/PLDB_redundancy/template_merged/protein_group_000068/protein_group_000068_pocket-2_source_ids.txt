@@ -1,0 +1,11 @@
+scPDB:1bgq_1:accepted
+scPDB:2brc_1:accepted
+scPDB:2fxs_1:accepted
+scPDB:2iwu_1:accepted
+scPDB:2iwx_1:accepted
+scPDB:2vw5_2:accepted_dominant_chain
+scPDB:2xd6_1:accepted
+scPDB:2xx2_4:accepted
+scPDB:4ce1_1:accepted
+scPDB:4ce2_1:accepted
+scPDB:4ce3_1:accepted

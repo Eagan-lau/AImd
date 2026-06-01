@@ -1,0 +1,10 @@
+PDBbind2020:3q5u:accepted
+PDBbind2020:4mz5:accepted
+PDBbind2020:4mz6:accepted
+PDBbind2020:4u5l:accepted
+PDBbind2020:4u5n:accepted
+PDBbind2020:4u5o:accepted
+PDBbind2020:4u5s:accepted
+PDBbind2020:4u5v:accepted
+PDBbind2020:4zdu:accepted
+PDBbind2020:5b56:accepted_dominant_chain

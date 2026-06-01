@@ -1,0 +1,9 @@
+scPDB:2of0_1:accepted
+scPDB:2ohl_1:accepted
+scPDB:2ohm_1:accepted
+scPDB:2ohp_1:accepted
+scPDB:2ohq_1:accepted
+scPDB:2ohr_1:accepted
+scPDB:2oht_1:accepted
+scPDB:2ohu_1:accepted
+scPDB:3s2o_1:accepted

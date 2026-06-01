@@ -1,0 +1,9 @@
+scPDB:2evm_1:accepted
+scPDB:2evo_1:accepted
+scPDB:2gg2_1:accepted
+scPDB:2gg3_1:accepted
+scPDB:2p98_1:accepted
+scPDB:2p99_1:accepted
+scPDB:2p9a_1:accepted
+scPDB:2q93_1:accepted
+scPDB:2q96_1:accepted

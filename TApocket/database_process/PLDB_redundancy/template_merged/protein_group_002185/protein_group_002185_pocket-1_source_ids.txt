@@ -1,0 +1,3 @@
+PDBbind2020:3dog:accepted
+PDBbind2020:4cfv:accepted
+scPDB:3dog_2:accepted

@@ -1,0 +1,4 @@
+scPDB:4cx5_3:accepted_pseudo_chainA
+scPDB:5agk_2:accepted_pseudo_chainA
+scPDB:5agl_2:accepted_pseudo_chainA
+scPDB:5agp_2:accepted_pseudo_chainA

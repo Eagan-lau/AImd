@@ -1,0 +1,4 @@
+PDBbind2020:3c1x:accepted
+PDBbind2020:3ctj:accepted
+scPDB:3c1x_1:accepted
+scPDB:3ctj_1:accepted

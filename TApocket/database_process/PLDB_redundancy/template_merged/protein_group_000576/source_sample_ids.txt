@@ -1,0 +1,8 @@
+PDBbind2020:5esq:accepted_pseudo_chainA
+PDBbind2020:5etu:accepted_pseudo_chainA
+PDBbind2020:5ff6:accepted_pseudo_chainA
+PDBbind2020:5hpm:accepted_pseudo_chainA
+PDBbind2020:5icz:accepted_pseudo_chainA
+PDBbind2020:5iop:accepted_pseudo_chainA
+PDBbind2020:5itf:accepted_pseudo_chainA
+PDBbind2020:5th2:accepted_pseudo_chainA

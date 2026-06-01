@@ -1,0 +1,14 @@
+scPDB:1cgp_2:accepted_dominant_chain
+scPDB:1g6n_1:accepted_dominant_chain
+scPDB:1i5z_3:accepted_dominant_chain
+scPDB:1zrc_2:accepted_dominant_chain
+scPDB:1zrd_1:accepted_dominant_chain
+scPDB:2cgp_1:accepted
+scPDB:2gzw_7:accepted_dominant_chain
+scPDB:3n4m_1:accepted
+scPDB:3ryp_2:accepted_dominant_chain
+scPDB:3ryr_3:accepted_dominant_chain
+scPDB:4ft8_2:accepted_dominant_chain
+scPDB:4hzf_1:accepted_dominant_chain
+scPDB:4n9i_4:accepted_dominant_chain
+scPDB:4r8h_3:accepted_dominant_chain

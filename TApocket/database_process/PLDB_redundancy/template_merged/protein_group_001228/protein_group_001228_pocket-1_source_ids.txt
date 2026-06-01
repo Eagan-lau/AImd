@@ -1,0 +1,2 @@
+scPDB:3etd_15:accepted
+scPDB:3etg_11:accepted

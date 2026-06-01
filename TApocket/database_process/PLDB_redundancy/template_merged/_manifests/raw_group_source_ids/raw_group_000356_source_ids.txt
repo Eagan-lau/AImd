@@ -1,0 +1,12 @@
+PDBbind2020:2yoj:accepted
+PDBbind2020:3lkh:accepted
+PDBbind2020:3ska:accepted
+PDBbind2020:3ske:accepted
+PDBbind2020:3skh:accepted
+PDBbind2020:3tyq:accepted
+PDBbind2020:3tyv:accepted
+PDBbind2020:3u4o:accepted
+PDBbind2020:3u4r:accepted
+PDBbind2020:3uph:accepted
+PDBbind2020:3upi:accepted
+PDBbind2020:4mz4:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:2zoq:accepted
+scPDB:2zoq_1:accepted

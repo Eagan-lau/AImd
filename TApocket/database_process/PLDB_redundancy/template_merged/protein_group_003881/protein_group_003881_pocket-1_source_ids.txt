@@ -1,0 +1,2 @@
+PDBbind2020:4xoc:accepted
+PDBbind2020:4xoe:accepted

@@ -1,0 +1,3 @@
+PDBbind2020:2avm:accepted_pseudo_chainA
+PDBbind2020:2avo:accepted_pseudo_chainA
+scPDB:2avm_1:accepted_pseudo_chainA

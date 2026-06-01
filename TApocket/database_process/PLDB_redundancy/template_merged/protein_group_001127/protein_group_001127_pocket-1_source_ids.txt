@@ -1,0 +1,4 @@
+PDBbind2020:5aad:accepted
+PDBbind2020:5aae:accepted
+PDBbind2020:5aaf:accepted
+PDBbind2020:5aag:accepted

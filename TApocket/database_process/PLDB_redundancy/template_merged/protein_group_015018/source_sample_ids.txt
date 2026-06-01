@@ -1,0 +1,1 @@
+PDBbind2020:1jpl:accepted_dominant_chain

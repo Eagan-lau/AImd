@@ -1,0 +1,2 @@
+scPDB:3vth_1:accepted
+scPDB:3vth_3:accepted

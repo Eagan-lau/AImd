@@ -1,0 +1,3 @@
+scPDB:1py5_1:accepted
+scPDB:1rw8_1:accepted
+scPDB:2wou_1:accepted

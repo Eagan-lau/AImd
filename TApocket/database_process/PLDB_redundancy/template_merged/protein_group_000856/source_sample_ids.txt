@@ -1,0 +1,6 @@
+PDBbind2020:1jii:accepted
+PDBbind2020:1jij:accepted
+PDBbind2020:1jik:accepted
+PDBbind2020:1jil:accepted
+scPDB:1jik_1:accepted
+scPDB:1jil_1:accepted

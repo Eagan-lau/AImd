@@ -1,0 +1,2 @@
+scPDB:1ycf_2:accepted_dominant_chain
+scPDB:1ych_4:accepted_dominant_chain

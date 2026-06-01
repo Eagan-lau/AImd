@@ -1,0 +1,4 @@
+scPDB:2r59_1:accepted
+scPDB:3ftx_2:accepted
+scPDB:3fuf_2:accepted
+scPDB:3fuh_2:accepted

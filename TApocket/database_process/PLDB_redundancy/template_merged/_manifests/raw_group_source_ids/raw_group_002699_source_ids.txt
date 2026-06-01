@@ -1,0 +1,2 @@
+PDBbind2020:4fxy:accepted
+scPDB:4fxy_1:accepted

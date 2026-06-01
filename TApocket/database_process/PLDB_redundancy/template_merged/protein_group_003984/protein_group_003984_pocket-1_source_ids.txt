@@ -1,0 +1,2 @@
+PDBbind2020:2wib:accepted
+PDBbind2020:2wic:accepted_dominant_chain

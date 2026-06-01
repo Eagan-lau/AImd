@@ -1,0 +1,7 @@
+PDBbind2020:3q2j:accepted
+scPDB:1j7l_1:accepted
+scPDB:1j7u_2:accepted
+scPDB:1l8t_1:accepted
+scPDB:2b0q_1:accepted
+scPDB:3q2j_2:accepted
+scPDB:3tm0_1:accepted

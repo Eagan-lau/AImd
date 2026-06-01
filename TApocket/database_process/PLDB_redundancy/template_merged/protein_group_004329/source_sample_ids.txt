@@ -1,0 +1,2 @@
+scPDB:2iws_1:accepted
+scPDB:2xx4_1:accepted

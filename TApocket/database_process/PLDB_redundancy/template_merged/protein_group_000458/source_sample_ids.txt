@@ -1,0 +1,10 @@
+scPDB:5kf1_1:accepted_dominant_chain
+scPDB:5kf1_2:accepted
+scPDB:5kf2_1:accepted
+scPDB:5kf2_2:accepted
+scPDB:5kf8_1:accepted
+scPDB:5kf8_2:accepted
+scPDB:5kf9_1:accepted
+scPDB:5kf9_2:accepted
+scPDB:5kgj_2:accepted
+scPDB:5kgp_1:accepted_dominant_chain

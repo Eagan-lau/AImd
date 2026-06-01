@@ -1,0 +1,14 @@
+PDBbind2020:3avb:accepted_pseudo_chainA
+PDBbind2020:3avl:accepted_pseudo_chainA
+PDBbind2020:3nf6:accepted_pseudo_chainA
+PDBbind2020:3zsq:accepted_pseudo_chainA
+PDBbind2020:3zsx:accepted_pseudo_chainA
+PDBbind2020:3zsy:accepted_pseudo_chainA
+PDBbind2020:3zt2:accepted_pseudo_chainA
+PDBbind2020:3zt3:accepted_pseudo_chainA
+PDBbind2020:4ceb:accepted_pseudo_chainA
+PDBbind2020:4cgj:accepted_pseudo_chainA
+PDBbind2020:4cj4:accepted_pseudo_chainA
+PDBbind2020:4cjp:accepted_pseudo_chainA
+PDBbind2020:4cjq:accepted_pseudo_chainA
+PDBbind2020:4cjr:accepted_pseudo_chainA

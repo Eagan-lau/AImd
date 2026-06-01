@@ -1,0 +1,13 @@
+PDBbind2020:3erk:accepted
+PDBbind2020:4erk:accepted
+PDBbind2020:4qyy:accepted
+PDBbind2020:5ke0:accepted
+PDBbind2020:5nhh:accepted
+PDBbind2020:5nhj:accepted
+PDBbind2020:5nhl:accepted
+PDBbind2020:5nho:accepted
+PDBbind2020:5nhp:accepted
+PDBbind2020:5nhv:accepted
+PDBbind2020:6cpw:accepted
+PDBbind2020:6dcg:accepted
+PDBbind2020:6slg:accepted

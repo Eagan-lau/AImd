@@ -1,0 +1,3 @@
+PDBbind2020:5npf:accepted
+PDBbind2020:5o0s:accepted
+PDBbind2020:5ost:accepted

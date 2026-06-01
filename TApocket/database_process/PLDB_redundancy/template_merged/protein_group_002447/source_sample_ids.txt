@@ -1,0 +1,3 @@
+PDBbind2020:5vwk:accepted
+PDBbind2020:6ms1:accepted
+PDBbind2020:6mtu:accepted

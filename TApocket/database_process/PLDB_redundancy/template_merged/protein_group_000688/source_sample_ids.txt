@@ -1,0 +1,7 @@
+PDBbind2020:4mm4:accepted
+PDBbind2020:4mm5:accepted
+PDBbind2020:4mm6:accepted
+PDBbind2020:4mm7:accepted
+PDBbind2020:4mm8:accepted
+PDBbind2020:4mm9:accepted
+PDBbind2020:4mma:accepted

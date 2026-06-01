@@ -1,0 +1,4 @@
+scPDB:4ydd_1:accepted
+scPDB:4ydd_4:accepted
+scPDB:5ch7_1:accepted
+scPDB:5ch7_6:accepted

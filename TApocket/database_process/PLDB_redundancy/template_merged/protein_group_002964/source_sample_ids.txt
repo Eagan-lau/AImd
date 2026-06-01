@@ -1,0 +1,2 @@
+PDBbind2020:3odu:accepted
+scPDB:3odu_1:accepted

@@ -1,0 +1,6 @@
+PDBbind2020:4bvb:accepted
+PDBbind2020:4jsr:accepted
+PDBbind2020:4jt8:accepted
+PDBbind2020:4jt9:accepted
+PDBbind2020:6iso:accepted
+scPDB:4jsr_1:accepted

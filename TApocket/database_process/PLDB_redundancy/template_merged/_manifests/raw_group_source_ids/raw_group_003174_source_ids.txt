@@ -1,0 +1,2 @@
+scPDB:2jjo_1:accepted
+scPDB:2jjp_1:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:4hvs:accepted
+scPDB:4hvs_1:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:1dhi:accepted_dominant_chain
+scPDB:1dhi_1:accepted_dominant_chain

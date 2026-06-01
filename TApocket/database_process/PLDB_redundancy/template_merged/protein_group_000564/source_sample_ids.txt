@@ -1,0 +1,9 @@
+PDBbind2020:2cbs:accepted
+PDBbind2020:2fr3:accepted
+PDBbind2020:3cbs:accepted
+PDBbind2020:5ogb:accepted
+scPDB:1cbq_1:accepted
+scPDB:1cbs_1:accepted
+scPDB:2cbs_1:accepted
+scPDB:2fr3_1:accepted
+scPDB:3cbs_1:accepted

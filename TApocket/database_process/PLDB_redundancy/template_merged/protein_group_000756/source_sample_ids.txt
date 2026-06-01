@@ -1,0 +1,7 @@
+PDBbind2020:6m88:accepted
+PDBbind2020:6m89:accepted
+PDBbind2020:6m8a:accepted
+PDBbind2020:6m8b:accepted
+PDBbind2020:6m8c:accepted
+PDBbind2020:6m8d:accepted
+PDBbind2020:6m8e:accepted

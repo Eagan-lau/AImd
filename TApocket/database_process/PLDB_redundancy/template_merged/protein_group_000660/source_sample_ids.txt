@@ -1,0 +1,8 @@
+PDBbind2020:1bmb:accepted
+PDBbind2020:1x0n:accepted
+PDBbind2020:1zfp:accepted
+PDBbind2020:3ov1:accepted
+PDBbind2020:3ove:accepted
+PDBbind2020:3s8l:accepted
+PDBbind2020:3s8n:accepted
+PDBbind2020:3s8o:accepted

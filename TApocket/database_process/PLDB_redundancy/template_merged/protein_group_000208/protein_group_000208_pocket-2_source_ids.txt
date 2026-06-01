@@ -1,0 +1,2 @@
+scPDB:3bto_1:accepted_dominant_chain
+scPDB:4dwv_2:accepted_dominant_chain

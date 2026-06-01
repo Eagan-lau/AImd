@@ -1,0 +1,2 @@
+scPDB:3aty_2:accepted
+scPDB:3atz_6:accepted

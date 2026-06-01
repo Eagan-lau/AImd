@@ -1,0 +1,4 @@
+PDBbind2020:4iur:accepted
+PDBbind2020:4iut:accepted
+PDBbind2020:4iuu:accepted
+PDBbind2020:4iuv:accepted

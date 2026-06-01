@@ -1,0 +1,3 @@
+scPDB:3iob_2:accepted
+scPDB:3ioc_1:accepted
+scPDB:3ivg_1:accepted

@@ -1,0 +1,10 @@
+scPDB:3cho_1:accepted
+scPDB:3ftw_1:accepted
+scPDB:3ftx_1:accepted
+scPDB:3fty_1:accepted
+scPDB:3ftz_1:accepted
+scPDB:3fu0_1:accepted
+scPDB:3fuf_1:accepted
+scPDB:3fuh_1:accepted
+scPDB:3fuj_1:accepted
+scPDB:3fuk_1:accepted

@@ -1,0 +1,3 @@
+PDBbind2020:4few:accepted
+PDBbind2020:4gkh:accepted
+PDBbind2020:4gki:accepted

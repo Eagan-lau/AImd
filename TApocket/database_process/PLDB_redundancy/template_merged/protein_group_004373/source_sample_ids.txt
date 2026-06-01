@@ -1,0 +1,2 @@
+PDBbind2020:3sue:accepted
+PDBbind2020:3sv7:accepted

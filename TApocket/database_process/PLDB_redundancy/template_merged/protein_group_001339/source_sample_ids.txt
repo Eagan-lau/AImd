@@ -1,0 +1,4 @@
+scPDB:2c0i_2:accepted
+scPDB:2c0o_1:accepted
+scPDB:3vs1_2:accepted
+scPDB:3vs2_2:accepted

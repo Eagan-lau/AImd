@@ -1,0 +1,10 @@
+PDBbind2020:4yab:accepted
+PDBbind2020:4yad:accepted
+PDBbind2020:4yat:accepted
+PDBbind2020:4yax:accepted
+PDBbind2020:4ybs:accepted
+PDBbind2020:4ybt:accepted
+PDBbind2020:4yc9:accepted
+PDBbind2020:5h1t:accepted
+PDBbind2020:5h1u:accepted_dominant_chain
+PDBbind2020:5h1v:accepted

@@ -1,0 +1,14 @@
+scPDB:1bvr_2:accepted
+scPDB:1p44_1:accepted
+scPDB:1p45_2:accepted
+scPDB:2b36_1:accepted
+scPDB:2nsd_1:accepted
+scPDB:2x22_2:accepted
+scPDB:2x23_2:accepted
+scPDB:4bqp_4:accepted_dominant_chain
+scPDB:4bqr_1:accepted
+scPDB:4trj_1:accepted
+scPDB:4tzk_1:accepted
+scPDB:4tzt_1:accepted
+scPDB:4u0j_1:accepted
+scPDB:4u0k_1:accepted

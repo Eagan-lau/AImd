@@ -1,0 +1,2 @@
+scPDB:3ozc_1:accepted
+scPDB:3ozd_2:accepted

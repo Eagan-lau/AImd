@@ -1,0 +1,7 @@
+scPDB:13gs_1:accepted
+scPDB:19gs_1:accepted
+scPDB:20gs_2:accepted_dominant_chain
+scPDB:3csj_1:accepted
+scPDB:3dgq_1:accepted
+scPDB:3gus_2:accepted
+scPDB:3n9j_1:accepted

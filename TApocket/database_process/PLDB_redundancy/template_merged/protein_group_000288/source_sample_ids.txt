@@ -1,0 +1,15 @@
+scPDB:1ddr_2:accepted
+scPDB:1dds_2:accepted
+scPDB:3dau_1:accepted
+scPDB:4ej1_2:accepted
+scPDB:4fhb_1:accepted
+scPDB:4i13_1:accepted
+scPDB:4i1n_1:accepted
+scPDB:4nx6_1:accepted
+scPDB:4nx7_1:accepted
+scPDB:4x5f_1:accepted
+scPDB:4x5g_2:accepted
+scPDB:4x5h_1:accepted
+scPDB:4x5i_1:accepted
+scPDB:4x5j_1:accepted
+scPDB:5ccc_1:accepted

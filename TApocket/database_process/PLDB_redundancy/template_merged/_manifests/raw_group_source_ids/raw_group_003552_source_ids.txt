@@ -1,0 +1,2 @@
+scPDB:2ivn_1:accepted
+scPDB:2ivp_1:accepted

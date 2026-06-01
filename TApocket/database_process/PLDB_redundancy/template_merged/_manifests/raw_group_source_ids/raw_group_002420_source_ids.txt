@@ -1,0 +1,3 @@
+PDBbind2020:2lya:accepted
+PDBbind2020:2lyb:accepted
+PDBbind2020:4jmu:accepted

@@ -1,0 +1,41 @@
+[TApocket] run_id=file_1__Tca06g00468.t1_pLDDT=65.3_pTM=0.588
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca06g00468.t1_pLDDT=65.3_pTM=0.588.pdb
+[TApocket] output_mode=compact
+[TApocket] run_id=file_1__Tca06g00468.t1_pLDDT=65.3_pTM=0.588
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca06g00468.t1_pLDDT=65.3_pTM=0.588.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2][ERROR] template=protein_group_015395: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_015379: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_015414: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_015392: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_015338: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_015340: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_002424: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_015363: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_002431: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_015342: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2] candidate pockets=0 after QC, raw=0
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=7, action=keep_all_pockets, final=0
+[Step 5] AI model branch skipped: ai_disabled
+[Step 6] Export final results
+[TApocket] Done
+[TApocket] run_id=file_1__Tca06g00468.t1_pLDDT=65.3_pTM=0.588
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca06g00468.t1_pLDDT=65.3_pTM=0.588.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=10 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=1
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=7, action=keep_matching_pockets_only, final=1
+[Step 5] AI model branch skipped: ai_disabled
+[Step 6] Export final results
+[TApocket] Done

@@ -1,0 +1,2 @@
+scPDB:3kap_1:accepted
+scPDB:3kaq_1:accepted

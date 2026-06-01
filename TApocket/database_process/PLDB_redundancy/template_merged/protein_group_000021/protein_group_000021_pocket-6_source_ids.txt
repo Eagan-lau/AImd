@@ -1,0 +1,2 @@
+PDBbind2020:3ebo:accepted
+PDBbind2020:3ebp:accepted

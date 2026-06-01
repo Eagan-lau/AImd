@@ -1,0 +1,12 @@
+PDBbind2020:1xkk:accepted
+PDBbind2020:2ity:accepted
+PDBbind2020:2rgp:accepted
+PDBbind2020:3bel:accepted
+PDBbind2020:3poz:accepted
+PDBbind2020:3w2s:accepted
+PDBbind2020:3w32:accepted
+PDBbind2020:5em8:accepted
+PDBbind2020:5ugb:accepted
+PDBbind2020:6d8e:accepted
+PDBbind2020:6jz0:accepted
+scPDB:3w32_1:accepted

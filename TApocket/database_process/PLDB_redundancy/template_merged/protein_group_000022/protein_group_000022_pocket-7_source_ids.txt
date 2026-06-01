@@ -1,0 +1,9 @@
+scPDB:3chs_1:accepted
+scPDB:3fu3_1:accepted
+scPDB:3fu3_3:accepted
+scPDB:3fud_2:accepted
+scPDB:3fuf_3:accepted
+scPDB:3fui_2:accepted
+scPDB:3ful_3:accepted
+scPDB:3fun_2:accepted
+scPDB:4rsy_2:accepted

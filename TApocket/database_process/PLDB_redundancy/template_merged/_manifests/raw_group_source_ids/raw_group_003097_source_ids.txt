@@ -1,0 +1,2 @@
+scPDB:4hur_3:accepted_pseudo_chainA
+scPDB:4hus_1:accepted_pseudo_chainA

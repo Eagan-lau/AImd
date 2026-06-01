@@ -1,0 +1,3 @@
+PDBbind2020:3ery:accepted
+PDBbind2020:3tjh:accepted_pseudo_chainA
+PDBbind2020:3tpu:accepted_pseudo_chainA

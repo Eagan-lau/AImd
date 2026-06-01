@@ -1,0 +1,2 @@
+PDBbind2020:5c1m:accepted
+scPDB:5c1m_1:accepted

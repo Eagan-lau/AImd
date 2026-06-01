@@ -1,0 +1,2 @@
+scPDB:2vie_1:accepted
+scPDB:2vij_1:accepted

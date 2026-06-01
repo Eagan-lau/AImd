@@ -1,0 +1,4 @@
+scPDB:3itu_3:accepted
+scPDB:4c1i_1:accepted
+scPDB:4htx_1:accepted
+scPDB:4jib_3:accepted_dominant_chain

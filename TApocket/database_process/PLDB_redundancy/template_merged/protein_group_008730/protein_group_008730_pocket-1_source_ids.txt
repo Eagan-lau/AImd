@@ -1,0 +1,1 @@
+scPDB:1vhz_1:accepted_pseudo_chainA

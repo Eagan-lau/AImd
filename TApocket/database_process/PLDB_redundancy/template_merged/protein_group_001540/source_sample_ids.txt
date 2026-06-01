@@ -1,0 +1,4 @@
+PDBbind2020:1ax0:accepted
+PDBbind2020:1ax1:accepted
+PDBbind2020:1ax2:accepted
+PDBbind2020:1axz:accepted

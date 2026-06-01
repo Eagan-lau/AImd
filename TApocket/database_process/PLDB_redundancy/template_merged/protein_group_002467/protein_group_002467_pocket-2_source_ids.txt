@@ -1,0 +1,1 @@
+PDBbind2020:6cnj:accepted_pseudo_chainA

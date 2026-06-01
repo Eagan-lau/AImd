@@ -1,0 +1,2 @@
+scPDB:3sig_1:accepted
+scPDB:3sii_1:accepted

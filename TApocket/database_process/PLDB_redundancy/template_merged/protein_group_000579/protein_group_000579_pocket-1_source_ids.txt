@@ -1,0 +1,3 @@
+scPDB:2cvu_2:accepted
+scPDB:2cvw_2:accepted
+scPDB:3s87_2:accepted

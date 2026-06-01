@@ -1,0 +1,3 @@
+PDBbind2020:1df8:accepted_dominant_chain
+scPDB:1df8_2:accepted
+scPDB:1luq_2:accepted

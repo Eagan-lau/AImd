@@ -1,0 +1,6 @@
+PDBbind2020:1g9a:accepted
+PDBbind2020:1g9b:accepted
+PDBbind2020:1g9c:accepted
+PDBbind2020:1g9d:accepted
+PDBbind2020:1i1e:accepted
+PDBbind2020:2nm1:accepted

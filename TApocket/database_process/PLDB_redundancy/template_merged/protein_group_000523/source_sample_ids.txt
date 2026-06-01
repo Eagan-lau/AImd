@@ -1,0 +1,9 @@
+PDBbind2020:5cls:accepted
+PDBbind2020:5d6f:accepted
+PDBbind2020:5jfr:accepted
+PDBbind2020:5ji6:accepted
+PDBbind2020:5lyw:accepted
+PDBbind2020:5lyx:accepted
+PDBbind2020:6qed:accepted
+PDBbind2020:6qef:accepted
+PDBbind2020:6qeg:accepted

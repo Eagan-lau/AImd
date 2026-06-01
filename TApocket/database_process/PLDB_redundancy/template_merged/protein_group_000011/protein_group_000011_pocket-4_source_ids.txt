@@ -1,0 +1,15 @@
+PDBbind2020:4y2s:accepted
+PDBbind2020:5ai6:accepted
+PDBbind2020:5ai8:accepted
+PDBbind2020:5aib:accepted
+PDBbind2020:5aic:accepted
+PDBbind2020:5ak4:accepted
+PDBbind2020:5ak5:accepted
+PDBbind2020:5ale:accepted
+PDBbind2020:5am0:accepted
+PDBbind2020:5am2:accepted
+PDBbind2020:5am5:accepted
+PDBbind2020:6i5g:accepted
+scPDB:3i28_1:accepted
+scPDB:3otq_1:accepted
+scPDB:4hai_1:accepted

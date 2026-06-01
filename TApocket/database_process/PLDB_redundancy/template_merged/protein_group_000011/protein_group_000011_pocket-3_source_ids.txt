@@ -1,0 +1,9 @@
+PDBbind2020:3wkb:accepted
+PDBbind2020:3wkd:accepted
+PDBbind2020:5ai0:accepted
+PDBbind2020:5ak3:accepted
+PDBbind2020:5akg:accepted
+PDBbind2020:5akk:accepted
+PDBbind2020:5alo:accepted
+PDBbind2020:5alt:accepted
+scPDB:4j03_1:accepted

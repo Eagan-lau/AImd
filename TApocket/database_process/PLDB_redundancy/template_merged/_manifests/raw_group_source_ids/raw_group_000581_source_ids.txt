@@ -1,0 +1,8 @@
+PDBbind2020:6htc:accepted_pseudo_chainA
+PDBbind2020:6htd:accepted_pseudo_chainA
+PDBbind2020:6htp:accepted_pseudo_chainA
+PDBbind2020:6htr:accepted_pseudo_chainA
+PDBbind2020:6hub:accepted_pseudo_chainA
+PDBbind2020:6huc:accepted_pseudo_chainA
+PDBbind2020:6huq:accepted_pseudo_chainA
+PDBbind2020:6huu:accepted_pseudo_chainA

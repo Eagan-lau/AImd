@@ -1,0 +1,14 @@
+PDBbind2020:3n5k:accepted
+PDBbind2020:3nal:accepted
+PDBbind2020:3nam:accepted
+scPDB:1wpg_2:accepted
+scPDB:2agv_3:accepted
+scPDB:2c8k_1:accepted
+scPDB:2dqs_1:accepted
+scPDB:2eat_1:accepted
+scPDB:3ar3_1:accepted
+scPDB:3ar4_1:accepted
+scPDB:3ar5_1:accepted
+scPDB:3ar6_1:accepted
+scPDB:3ar7_1:accepted
+scPDB:3nal_1:accepted

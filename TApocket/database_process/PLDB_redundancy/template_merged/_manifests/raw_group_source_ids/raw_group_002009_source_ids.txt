@@ -1,0 +1,3 @@
+scPDB:3gwz_2:accepted
+scPDB:3gxo_4:accepted_dominant_chain
+scPDB:3gxo_5:accepted

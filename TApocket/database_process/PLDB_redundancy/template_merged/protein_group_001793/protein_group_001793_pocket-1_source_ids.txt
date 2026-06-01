@@ -1,0 +1,2 @@
+scPDB:4xp1_1:accepted
+scPDB:4xp4_3:accepted

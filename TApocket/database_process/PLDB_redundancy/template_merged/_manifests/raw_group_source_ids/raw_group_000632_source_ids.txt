@@ -1,0 +1,8 @@
+PDBbind2020:3vw6:accepted
+PDBbind2020:5uor:accepted
+PDBbind2020:5uox:accepted
+PDBbind2020:5up3:accepted
+PDBbind2020:5v19:accepted
+PDBbind2020:5v24:accepted
+PDBbind2020:5vil:accepted
+PDBbind2020:5vio:accepted

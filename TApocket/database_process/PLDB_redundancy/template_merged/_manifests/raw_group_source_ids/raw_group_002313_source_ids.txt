@@ -1,0 +1,3 @@
+PDBbind2020:5agr:accepted
+PDBbind2020:5ags:accepted
+PDBbind2020:5agt:accepted

@@ -1,0 +1,3 @@
+scPDB:3hll_2:accepted
+scPDB:3roc_2:accepted
+scPDB:4zth_1:accepted

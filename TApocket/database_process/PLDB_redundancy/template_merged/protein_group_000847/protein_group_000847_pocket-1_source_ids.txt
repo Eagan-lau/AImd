@@ -1,0 +1,2 @@
+scPDB:1nah_1:accepted
+scPDB:1nai_1:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:1t46:accepted
+PDBbind2020:4u0i:accepted
+PDBbind2020:6kla:accepted_dominant_chain
+PDBbind2020:6mob:accepted

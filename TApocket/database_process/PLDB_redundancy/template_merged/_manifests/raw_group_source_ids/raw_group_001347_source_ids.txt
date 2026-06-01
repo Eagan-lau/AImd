@@ -1,0 +1,4 @@
+scPDB:1giq_2:accepted
+scPDB:1gir_1:accepted
+scPDB:3buz_1:accepted_dominant_chain
+scPDB:4h03_2:accepted

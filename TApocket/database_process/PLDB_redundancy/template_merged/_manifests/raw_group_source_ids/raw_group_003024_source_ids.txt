@@ -1,0 +1,2 @@
+scPDB:2ga9_1:accepted
+scPDB:3er9_1:accepted

@@ -1,0 +1,2 @@
+scPDB:1buc_2:accepted_dominant_chain
+scPDB:1buc_3:accepted

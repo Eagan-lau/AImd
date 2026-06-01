@@ -1,0 +1,3 @@
+PDBbind2020:5aan:accepted
+PDBbind2020:5fyx:accepted
+PDBbind2020:6epa:accepted

@@ -1,0 +1,10 @@
+PDBbind2020:5v8o:accepted
+PDBbind2020:5vdp:accepted
+PDBbind2020:5vdq:accepted
+PDBbind2020:5vdt:accepted
+PDBbind2020:5vdu:accepted
+PDBbind2020:5vdv:accepted
+PDBbind2020:5vdw:accepted
+PDBbind2020:6nao:accepted
+PDBbind2020:6nfg:accepted
+PDBbind2020:6nfo:accepted

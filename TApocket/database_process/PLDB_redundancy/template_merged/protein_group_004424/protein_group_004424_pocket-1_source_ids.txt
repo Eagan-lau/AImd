@@ -1,0 +1,2 @@
+PDBbind2020:3otf:accepted
+scPDB:3otf_1:accepted

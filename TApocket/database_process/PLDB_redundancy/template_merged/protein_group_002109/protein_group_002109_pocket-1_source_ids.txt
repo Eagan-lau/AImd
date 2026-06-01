@@ -1,0 +1,2 @@
+scPDB:1eno_1:accepted
+scPDB:1enp_1:accepted

@@ -1,0 +1,2 @@
+scPDB:2pin_2:accepted
+scPDB:3d57_1:accepted

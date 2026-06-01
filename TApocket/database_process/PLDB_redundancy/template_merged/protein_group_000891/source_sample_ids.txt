@@ -1,0 +1,6 @@
+PDBbind2020:1n46:accepted
+PDBbind2020:1nax:accepted
+PDBbind2020:1q4x:accepted
+PDBbind2020:1xzx:accepted
+PDBbind2020:1y0x:accepted
+scPDB:1nax_1:accepted

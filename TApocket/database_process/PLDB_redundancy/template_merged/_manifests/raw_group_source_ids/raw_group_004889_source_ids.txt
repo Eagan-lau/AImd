@@ -1,0 +1,1 @@
+PDBbind2020:3cdb:accepted_pseudo_chainA

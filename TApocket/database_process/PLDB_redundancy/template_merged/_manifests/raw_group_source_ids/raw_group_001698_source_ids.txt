@@ -1,0 +1,3 @@
+PDBbind2020:5kls:accepted_pseudo_chainA
+PDBbind2020:5kmh:accepted_pseudo_chainA
+PDBbind2020:6keb:accepted_pseudo_chainA

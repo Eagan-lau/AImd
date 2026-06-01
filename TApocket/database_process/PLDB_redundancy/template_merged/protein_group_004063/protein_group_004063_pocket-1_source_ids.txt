@@ -1,0 +1,2 @@
+PDBbind2020:4m2v:accepted
+scPDB:4m2v_1:accepted

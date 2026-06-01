@@ -1,0 +1,1 @@
+scPDB:1rye_3:accepted_dominant_chain

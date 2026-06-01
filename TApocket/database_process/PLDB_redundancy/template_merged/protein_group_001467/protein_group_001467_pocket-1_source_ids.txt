@@ -1,0 +1,4 @@
+scPDB:1eir_1:accepted
+scPDB:1kw6_1:accepted
+scPDB:1kw8_1:accepted
+scPDB:1kw9_1:accepted

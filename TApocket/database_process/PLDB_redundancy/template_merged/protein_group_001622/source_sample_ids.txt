@@ -1,0 +1,4 @@
+PDBbind2020:1akq:accepted
+PDBbind2020:1aku:accepted
+PDBbind2020:1akv:accepted
+scPDB:1aku_1:accepted

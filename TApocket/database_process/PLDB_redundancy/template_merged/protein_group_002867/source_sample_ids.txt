@@ -1,0 +1,2 @@
+scPDB:3rus_4:accepted
+scPDB:3ruv_2:accepted

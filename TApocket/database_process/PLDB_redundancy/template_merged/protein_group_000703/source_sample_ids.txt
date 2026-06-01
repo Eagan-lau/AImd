@@ -1,0 +1,7 @@
+PDBbind2020:1ork:accepted_pseudo_chainA
+scPDB:1ork_1:accepted
+scPDB:2fj1_1:accepted
+scPDB:2o7o_1:accepted
+scPDB:2xpw_1:accepted
+scPDB:4d7m_1:accepted
+scPDB:4v2g_1:accepted_dominant_chain

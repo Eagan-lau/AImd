@@ -1,0 +1,6 @@
+PDBbind2020:4nrm:accepted
+PDBbind2020:4nro:accepted
+PDBbind2020:4nrp:accepted
+PDBbind2020:4nrq:accepted
+PDBbind2020:4o61:accepted
+PDBbind2020:4oct:accepted

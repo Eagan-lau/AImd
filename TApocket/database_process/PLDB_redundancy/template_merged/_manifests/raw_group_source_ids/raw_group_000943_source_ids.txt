@@ -1,0 +1,6 @@
+PDBbind2020:2ggu:accepted
+PDBbind2020:2ggx:accepted
+PDBbind2020:2ork:accepted
+PDBbind2020:2os9:accepted
+PDBbind2020:2ria:accepted
+PDBbind2020:2rib:accepted

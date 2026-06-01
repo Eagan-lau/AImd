@@ -1,0 +1,8 @@
+PDBbind2020:4wf4:accepted_pseudo_chainA
+PDBbind2020:4zij:accepted
+PDBbind2020:6pml:accepted
+PDBbind2020:6poh:accepted
+PDBbind2020:6poi:accepted
+PDBbind2020:6poq:accepted
+PDBbind2020:6pvy:accepted
+PDBbind2020:6pvz:accepted

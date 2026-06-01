@@ -1,0 +1,11 @@
+scPDB:2zs8_1:accepted
+scPDB:2zs9_1:accepted
+scPDB:2zsa_1:accepted
+scPDB:2zsb_1:accepted
+scPDB:2zse_1:accepted
+scPDB:3aez_1:accepted
+scPDB:3af0_1:accepted
+scPDB:3af1_1:accepted
+scPDB:3af2_1:accepted
+scPDB:3af3_1:accepted
+scPDB:3af4_1:accepted

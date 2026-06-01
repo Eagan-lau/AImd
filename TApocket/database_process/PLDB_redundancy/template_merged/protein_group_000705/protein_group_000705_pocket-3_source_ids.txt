@@ -1,0 +1,4 @@
+scPDB:1atn_1:accepted
+scPDB:2a41_1:accepted_dominant_chain
+scPDB:4pkg_1:accepted
+scPDB:4pki_1:accepted

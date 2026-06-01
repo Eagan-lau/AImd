@@ -1,0 +1,1 @@
+scPDB:4juf_4:accepted_pseudo_chainA

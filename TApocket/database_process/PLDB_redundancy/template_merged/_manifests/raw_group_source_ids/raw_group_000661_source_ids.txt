@@ -1,0 +1,8 @@
+PDBbind2020:1nlo:accepted
+PDBbind2020:1nlp:accepted
+PDBbind2020:1prl:accepted
+PDBbind2020:1prm:accepted
+PDBbind2020:1qwe:accepted
+PDBbind2020:1qwf:accepted
+PDBbind2020:1rlp:accepted
+PDBbind2020:1rlq:accepted

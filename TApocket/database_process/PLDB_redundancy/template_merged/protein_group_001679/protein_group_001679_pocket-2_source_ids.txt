@@ -1,0 +1,2 @@
+scPDB:3ssm_3:accepted_dominant_chain
+scPDB:3sso_1:accepted_dominant_chain

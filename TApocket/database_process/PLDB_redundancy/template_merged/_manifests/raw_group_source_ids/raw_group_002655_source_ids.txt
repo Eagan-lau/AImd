@@ -1,0 +1,2 @@
+scPDB:5ahs_7:accepted_dominant_chain
+scPDB:5ahs_8:accepted_pseudo_chainA

@@ -1,0 +1,11 @@
+PDBbind2020:3art:accepted
+PDBbind2020:3aru:accepted
+PDBbind2020:3as0:accepted
+PDBbind2020:3as1:accepted
+PDBbind2020:3as2:accepted
+PDBbind2020:3as3:accepted
+scPDB:3art_2:accepted
+scPDB:3aru_2:accepted
+scPDB:3as0_1:accepted
+scPDB:3as1_2:accepted
+scPDB:3as2_2:accepted

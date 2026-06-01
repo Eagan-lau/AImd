@@ -1,0 +1,1 @@
+scPDB:4nm9_1:accepted_dominant_chain

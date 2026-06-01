@@ -1,0 +1,2 @@
+scPDB:3mau_1:accepted_dominant_chain
+scPDB:3mau_4:accepted_dominant_chain

@@ -1,0 +1,7 @@
+PDBbind2020:5a5d:accepted
+PDBbind2020:5a5v:accepted
+PDBbind2020:5ad1:accepted
+PDBbind2020:5oah:accepted
+PDBbind2020:5od5:accepted
+scPDB:5a1j_1:accepted
+scPDB:5adv_4:accepted_pseudo_chainA

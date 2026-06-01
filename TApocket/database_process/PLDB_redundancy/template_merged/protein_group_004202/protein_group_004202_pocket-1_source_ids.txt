@@ -1,0 +1,2 @@
+PDBbind2020:4hva:accepted_dominant_chain
+scPDB:4hva_1:accepted

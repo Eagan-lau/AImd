@@ -1,0 +1,2 @@
+scPDB:4u15_2:accepted
+scPDB:4u16_2:accepted

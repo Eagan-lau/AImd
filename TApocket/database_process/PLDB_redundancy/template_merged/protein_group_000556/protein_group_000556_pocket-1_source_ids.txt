@@ -1,0 +1,9 @@
+scPDB:4d8v_1:accepted
+scPDB:4da0_1:accepted
+scPDB:4da6_1:accepted
+scPDB:4da7_1:accepted
+scPDB:4da8_1:accepted
+scPDB:4dab_1:accepted
+scPDB:4dae_1:accepted
+scPDB:4dan_2:accepted_dominant_chain
+scPDB:4dao_2:accepted

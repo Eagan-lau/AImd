@@ -1,0 +1,2 @@
+PDBbind2020:2lwi:accepted
+scPDB:2lwi_1:accepted

@@ -1,0 +1,16 @@
+scPDB:1rkg_1:accepted
+scPDB:1rkh_1:accepted
+scPDB:2zlc_1:accepted
+scPDB:3vrt_1:accepted
+scPDB:3vt6_1:accepted
+scPDB:3vtb_1:accepted
+scPDB:3vtc_1:accepted
+scPDB:3vtd_1:accepted
+scPDB:3w0g_1:accepted
+scPDB:3w0h_1:accepted
+scPDB:3w0i_1:accepted
+scPDB:3w0j_1:accepted
+scPDB:3w5p_1:accepted
+scPDB:3w5q_1:accepted
+scPDB:3w5r_1:accepted
+scPDB:3w5t_1:accepted

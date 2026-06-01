@@ -1,0 +1,1 @@
+scPDB:1icu_5:accepted_pseudo_chainA

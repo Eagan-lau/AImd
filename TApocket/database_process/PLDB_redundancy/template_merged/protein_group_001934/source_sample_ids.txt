@@ -1,0 +1,3 @@
+PDBbind2020:3atu:accepted
+PDBbind2020:3atv:accepted
+PDBbind2020:3ay9:accepted

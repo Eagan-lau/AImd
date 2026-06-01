@@ -1,0 +1,1 @@
+scPDB:2pks_1:accepted_dominant_chain

@@ -1,0 +1,2 @@
+PDBbind2020:4fak:accepted_dominant_chain
+scPDB:4fak_1:accepted

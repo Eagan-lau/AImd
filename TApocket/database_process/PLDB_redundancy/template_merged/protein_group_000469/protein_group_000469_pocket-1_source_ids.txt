@@ -1,0 +1,10 @@
+PDBbind2020:3rux:accepted
+PDBbind2020:4xtv:accepted
+PDBbind2020:4xtw:accepted
+PDBbind2020:4xtx:accepted
+PDBbind2020:4xty:accepted
+PDBbind2020:4xtz:accepted
+PDBbind2020:4xu0:accepted
+PDBbind2020:4xu1:accepted_dominant_chain
+PDBbind2020:4xu2:accepted
+PDBbind2020:4xu3:accepted

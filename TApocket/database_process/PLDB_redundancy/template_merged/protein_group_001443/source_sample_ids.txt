@@ -1,0 +1,4 @@
+PDBbind2020:1h01:accepted
+PDBbind2020:1oir:accepted
+PDBbind2020:4rj3:accepted
+PDBbind2020:5mhq:accepted

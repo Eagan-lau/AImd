@@ -1,0 +1,3 @@
+scPDB:2inx_1:accepted
+scPDB:2pzv_2:accepted
+scPDB:3cpo_1:accepted

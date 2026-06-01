@@ -1,0 +1,3 @@
+scPDB:1osv_1:accepted
+scPDB:1ot7_1:accepted
+scPDB:1ot7_2:accepted

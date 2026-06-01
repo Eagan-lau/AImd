@@ -1,0 +1,10 @@
+paths:
+  aimd_root: .
+  rgpc_config: configs/RGPC/rgpc.yaml
+  tapocket_batch_config: configs/TApocket/tapocket_batch.yaml
+  docking_config: configs/Docking/docking.yaml
+
+workflow:
+  run_rgpc: true
+  run_tapocket: true
+  run_docking: true

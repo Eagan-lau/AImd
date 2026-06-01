@@ -1,0 +1,2 @@
+PDBbind2020:4bgx:accepted
+PDBbind2020:4bgy:accepted

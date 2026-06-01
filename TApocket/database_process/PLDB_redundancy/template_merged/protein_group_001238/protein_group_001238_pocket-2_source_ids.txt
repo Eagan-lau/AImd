@@ -1,0 +1,1 @@
+scPDB:1z0s_2:accepted_pseudo_chainA

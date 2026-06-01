@@ -1,0 +1,1 @@
+scPDB:2xka_4:accepted_dominant_chain

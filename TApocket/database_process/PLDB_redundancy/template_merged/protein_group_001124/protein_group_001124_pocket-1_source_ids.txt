@@ -1,0 +1,5 @@
+PDBbind2020:6aad:accepted
+PDBbind2020:6aan:accepted
+PDBbind2020:6aao:accepted
+PDBbind2020:6aaq:accepted
+PDBbind2020:6abk:accepted

@@ -1,0 +1,6 @@
+PDBbind2020:3t3y:accepted
+PDBbind2020:3t4h:accepted
+PDBbind2020:3t4v:accepted
+PDBbind2020:4jht:accepted
+PDBbind2020:4rfr:accepted
+scPDB:3t4h_1:accepted

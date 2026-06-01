@@ -1,0 +1,1 @@
+scPDB:4ohf_2:accepted_pseudo_chainA

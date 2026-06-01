@@ -1,0 +1,6 @@
+scPDB:1ro6_2:accepted
+scPDB:1ro9_2:accepted
+scPDB:3w5e_1:accepted
+scPDB:3wd9_2:accepted
+scPDB:4kp6_1:accepted
+scPDB:4myq_1:accepted

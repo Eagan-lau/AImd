@@ -1,0 +1,9 @@
+scPDB:3cse_1:accepted
+scPDB:3eej_2:accepted
+scPDB:3eek_1:accepted
+scPDB:3eel_2:accepted
+scPDB:3eem_2:accepted
+scPDB:3qlx_2:accepted
+scPDB:3qly_1:accepted
+scPDB:3qlz_1:accepted
+scPDB:4h98_2:accepted

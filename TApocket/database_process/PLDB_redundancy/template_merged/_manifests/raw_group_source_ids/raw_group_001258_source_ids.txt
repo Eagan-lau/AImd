@@ -1,0 +1,4 @@
+PDBbind2020:5ypp:accepted_pseudo_chainA
+PDBbind2020:5ypw:accepted_pseudo_chainA
+PDBbind2020:5ypy:accepted_pseudo_chainA
+PDBbind2020:5yum:accepted_pseudo_chainA

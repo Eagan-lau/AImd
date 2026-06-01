@@ -1,0 +1,2 @@
+scPDB:3daf_1:accepted
+scPDB:3dag_1:accepted

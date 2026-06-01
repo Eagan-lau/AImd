@@ -1,0 +1,3 @@
+PDBbind2020:1tsl:accepted_dominant_chain
+scPDB:1tsl_1:accepted
+scPDB:1tsm_1:accepted

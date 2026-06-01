@@ -1,0 +1,5 @@
+scPDB:3uzx_1:accepted
+scPDB:3uzx_2:accepted
+scPDB:3uzy_2:accepted
+scPDB:3uzz_1:accepted
+scPDB:3uzz_2:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:2xyu:accepted
+PDBbind2020:2y6o:accepted
+scPDB:2xyu_1:accepted
+scPDB:2y6o_1:accepted

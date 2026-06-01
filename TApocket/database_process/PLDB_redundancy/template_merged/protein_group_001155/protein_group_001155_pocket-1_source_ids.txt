@@ -1,0 +1,5 @@
+PDBbind2020:2hxm:accepted
+PDBbind2020:3fcf:accepted
+PDBbind2020:3fci:accepted
+PDBbind2020:3fck:accepted
+PDBbind2020:3fcl:accepted

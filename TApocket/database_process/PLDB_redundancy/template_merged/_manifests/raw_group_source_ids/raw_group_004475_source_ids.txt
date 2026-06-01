@@ -1,0 +1,2 @@
+scPDB:5fli_7:accepted
+scPDB:5flj_6:accepted

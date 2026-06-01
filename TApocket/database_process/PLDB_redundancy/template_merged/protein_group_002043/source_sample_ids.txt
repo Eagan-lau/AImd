@@ -1,0 +1,3 @@
+scPDB:3ura_1:accepted
+scPDB:3urn_3:accepted
+scPDB:3urn_4:accepted

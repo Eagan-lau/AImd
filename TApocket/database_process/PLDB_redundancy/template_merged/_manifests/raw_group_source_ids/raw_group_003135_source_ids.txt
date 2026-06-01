@@ -1,0 +1,2 @@
+scPDB:4hms_1:accepted_pseudo_chainA
+scPDB:4hmv_1:accepted_pseudo_chainA

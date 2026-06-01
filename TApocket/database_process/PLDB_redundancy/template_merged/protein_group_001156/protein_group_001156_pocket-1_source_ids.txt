@@ -1,0 +1,5 @@
+PDBbind2020:2gst:accepted_dominant_chain
+PDBbind2020:3gst:accepted_dominant_chain
+scPDB:2gst_2:accepted_dominant_chain
+scPDB:3gst_1:accepted_dominant_chain
+scPDB:4gst_1:accepted_dominant_chain

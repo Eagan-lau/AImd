@@ -1,0 +1,5 @@
+scPDB:4rpg_1:accepted
+scPDB:4rpg_2:accepted
+scPDB:4rph_3:accepted
+scPDB:4rph_4:accepted
+scPDB:4rpj_1:accepted

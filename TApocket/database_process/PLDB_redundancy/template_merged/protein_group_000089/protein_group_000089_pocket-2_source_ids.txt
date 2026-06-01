@@ -1,0 +1,16 @@
+scPDB:2yy2_1:accepted
+scPDB:3dy8_1:accepted
+scPDB:3dyl_1:accepted
+scPDB:3dyn_1:accepted
+scPDB:3dyq_1:accepted
+scPDB:3dyq_2:accepted
+scPDB:3dys_1:accepted
+scPDB:3dys_2:accepted
+scPDB:3jsi_2:accepted
+scPDB:3jsw_2:accepted
+scPDB:3k3e_2:accepted
+scPDB:3k3h_1:accepted
+scPDB:4e90_1:accepted
+scPDB:4g2j_1:accepted
+scPDB:4g2l_2:accepted
+scPDB:4gh6_2:accepted

@@ -1,0 +1,3 @@
+scPDB:1vrq_1:accepted
+scPDB:3ad9_1:accepted
+scPDB:3ada_1:accepted

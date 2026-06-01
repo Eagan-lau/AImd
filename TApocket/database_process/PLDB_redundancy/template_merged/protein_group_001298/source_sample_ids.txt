@@ -1,0 +1,4 @@
+scPDB:3nwl_2:accepted
+scPDB:4blc_4:accepted
+scPDB:7cat_4:accepted
+scPDB:8cat_4:accepted

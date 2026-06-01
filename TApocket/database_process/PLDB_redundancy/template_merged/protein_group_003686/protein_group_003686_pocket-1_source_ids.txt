@@ -1,0 +1,2 @@
+PDBbind2020:4oth:accepted
+scPDB:4oth_1:accepted

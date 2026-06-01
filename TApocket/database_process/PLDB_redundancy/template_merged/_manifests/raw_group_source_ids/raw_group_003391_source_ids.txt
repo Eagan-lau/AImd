@@ -1,0 +1,2 @@
+scPDB:1uum_2:accepted
+scPDB:1uum_5:accepted

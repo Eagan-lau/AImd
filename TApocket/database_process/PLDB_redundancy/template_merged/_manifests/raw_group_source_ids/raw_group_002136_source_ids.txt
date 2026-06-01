@@ -1,0 +1,3 @@
+PDBbind2020:5fog:accepted_dominant_chain
+PDBbind2020:5fol:accepted_dominant_chain
+PDBbind2020:5fom:accepted_dominant_chain

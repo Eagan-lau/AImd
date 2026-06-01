@@ -1,0 +1,5 @@
+scPDB:4pb1_1:accepted
+scPDB:4pb2_1:accepted
+scPDB:4pd5_1:accepted
+scPDB:4pd6_1:accepted
+scPDB:4pda_1:accepted

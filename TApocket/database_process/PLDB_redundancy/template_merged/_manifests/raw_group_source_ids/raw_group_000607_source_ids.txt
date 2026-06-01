@@ -1,0 +1,8 @@
+PDBbind2020:4dst:accepted
+PDBbind2020:4dsu:accepted
+PDBbind2020:6gj6:accepted
+PDBbind2020:6gj7:accepted
+PDBbind2020:6gj8:accepted
+PDBbind2020:6quv:accepted_pseudo_chainA
+scPDB:4dsn_1:accepted
+scPDB:4dso_1:accepted

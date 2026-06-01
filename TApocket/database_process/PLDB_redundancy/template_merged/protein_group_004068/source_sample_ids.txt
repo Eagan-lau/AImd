@@ -1,0 +1,2 @@
+scPDB:3tub_1:accepted
+scPDB:3tuc_1:accepted

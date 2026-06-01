@@ -1,0 +1,5 @@
+PDBbind2020:4pow:accepted
+PDBbind2020:5itp:accepted
+PDBbind2020:5ot9:accepted
+PDBbind2020:5ota:accepted
+PDBbind2020:5otc:accepted

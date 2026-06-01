@@ -1,0 +1,3 @@
+scPDB:1mfz_3:accepted_pseudo_chainA
+scPDB:1muu_2:accepted_pseudo_chainA
+scPDB:1mv8_1:accepted_pseudo_chainA

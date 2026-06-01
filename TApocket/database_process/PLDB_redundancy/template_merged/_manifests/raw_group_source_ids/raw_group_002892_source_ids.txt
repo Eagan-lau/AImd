@@ -1,0 +1,2 @@
+scPDB:1coy_1:accepted
+scPDB:3cox_1:accepted

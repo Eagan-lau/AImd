@@ -1,0 +1,4 @@
+PDBbind2020:2kfx:accepted
+PDBbind2020:5w88:accepted
+PDBbind2020:5wcl:accepted
+PDBbind2020:6mv3:accepted

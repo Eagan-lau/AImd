@@ -1,0 +1,3 @@
+PDBbind2020:5hex:accepted
+PDBbind2020:5hfu:accepted
+PDBbind2020:5hg1:accepted

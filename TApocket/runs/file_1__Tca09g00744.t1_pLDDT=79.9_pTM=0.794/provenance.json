@@ -1,0 +1,189 @@
+{
+  "run_id": "file_1__Tca09g00744.t1_pLDDT=79.9_pTM=0.794",
+  "created_at_epoch": 1778127140.8720484,
+  "project_root": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket",
+  "config_path": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/configs/tapocket_template_v1.yaml",
+  "query_path": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca09g00744.t1_pLDDT=79.9_pTM=0.794.pdb",
+  "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "foldseek_version": "1cb3a80d9566820bc223bdf4d34d30d85ffbc4f4",
+  "extra": {
+    "mcsa_report": {
+      "mcsa_enabled": true,
+      "mcsa_hit_count": 10,
+      "mapped_active_sites": [
+        {
+          "mcsa_id": "1c4x",
+          "mcsa_hit": {
+            "query": "query.pdb",
+            "target": "1c4x.pdb",
+            "normalized_target_id": "1c4x",
+            "rank": 1,
+            "score": 0.7554,
+            "raw": {
+              "query": "query.pdb",
+              "target": "1c4x.pdb",
+              "evalue": 6.368e-14,
+              "bits": 420,
+              "alnlen": 345,
+              "qcov": 0.731,
+              "tcov": 0.996,
+              "qtmscore": 0.4941,
+              "ttmscore": 0.7554,
+              "alntmscore": 0.7554
+            }
+          },
+          "reference_protein_path": "database_process/MCSA/reference_active_sites/1c4x/1c4x_reference_clean.pdb",
+          "active_site_path": "database_process/MCSA/reference_active_sites/1c4x/1c4x_mcsa_active_site_all.pdb",
+          "mapped_active_site_path": "mcsa/mapped_active_sites/Tca09g00744.t1_pLDDT=79.9_pTM=0.794_1c4x_1c4x_mcsa_active_site_all_mapped.pdb"
+        },
+        {
+          "mcsa_id": "1uk7",
+          "mcsa_hit": {
+            "query": "query.pdb",
+            "target": "1uk7.pdb",
+            "normalized_target_id": "1uk7",
+            "rank": 6,
+            "score": 0.7119,
+            "raw": {
+              "query": "query.pdb",
+              "target": "1uk7.pdb",
+              "evalue": 1.833e-12,
+              "bits": 351,
+              "alnlen": 309,
+              "qcov": 0.666,
+              "tcov": 0.952,
+              "qtmscore": 0.4527,
+              "ttmscore": 0.7119,
+              "alntmscore": 0.7119
+            }
+          },
+          "reference_protein_path": "database_process/MCSA/reference_active_sites/1uk7/1uk7_reference_clean.pdb",
+          "active_site_path": "database_process/MCSA/reference_active_sites/1uk7/1uk7_mcsa_active_site_all.pdb",
+          "mapped_active_site_path": "mcsa/mapped_active_sites/Tca09g00744.t1_pLDDT=79.9_pTM=0.794_1uk7_1uk7_mcsa_active_site_all_mapped.pdb"
+        }
+      ],
+      "matches": [
+        {
+          "mcsa_target": "1a7u.pdb_A",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1zoi.pdb_C",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1ehy.pdb_A",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1ehy.pdb_D",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1ehy.pdb_B",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1ehy.pdb_C",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1r4z.pdb_B",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1r4z.pdb_A",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "query_id": "Tca09g00744.t1_pLDDT=79.9_pTM=0.794",
+          "pocket_id": "pocket_cluster_001",
+          "template_id": "protein_group_011847",
+          "template_pocket_id": "pocket-1",
+          "matched": true,
+          "match_method": "box_overlap",
+          "match_basis": "box_overlap",
+          "best_mcsa_id": "1c4x",
+          "min_distance_angstrom": 0.3945,
+          "matched_atom_pairs": 1004,
+          "active_site_atoms_in_box": 68,
+          "active_site_fraction_in_box": 0.985507,
+          "box_padding_angstrom": 2.0,
+          "pocket_box_center": [
+            0.031,
+            -6.096,
+            -7.8155
+          ],
+          "pocket_box_size": [
+            26.346,
+            31.68,
+            26.031
+          ]
+        },
+        {
+          "query_id": "Tca09g00744.t1_pLDDT=79.9_pTM=0.794",
+          "pocket_id": "pocket_cluster_002",
+          "template_id": "protein_group_012018",
+          "template_pocket_id": "pocket-1",
+          "matched": true,
+          "match_method": "box_overlap",
+          "match_basis": "box_overlap",
+          "best_mcsa_id": "1c4x",
+          "min_distance_angstrom": 0.2437,
+          "matched_atom_pairs": 144,
+          "active_site_atoms_in_box": 51,
+          "active_site_fraction_in_box": 0.73913,
+          "box_padding_angstrom": 2.0,
+          "pocket_box_center": [
+            5.915,
+            -12.5545,
+            -0.952
+          ],
+          "pocket_box_size": [
+            27.652,
+            27.477,
+            30.288
+          ]
+        }
+      ],
+      "active_site_in_candidate_pocket": true,
+      "filter_action": "keep_matching_pockets_only"
+    },
+    "dedup_report": {
+      "enabled": true,
+      "method": "query_residue_overlap",
+      "overlap_threshold": 0.7,
+      "input_pocket_count": 5,
+      "cluster_count": 2,
+      "clusters": [
+        {
+          "cluster_id": "pocket_cluster_001",
+          "representative_original_pocket_id": "protein_group_011847:pocket-1",
+          "supporting_pocket_count": 4,
+          "supporting_template_count": 4,
+          "members": [
+            "protein_group_011847:pocket-1",
+            "protein_group_003988:pocket-1",
+            "protein_group_012833:pocket-1",
+            "protein_group_012166:pocket-1"
+          ]
+        },
+        {
+          "cluster_id": "pocket_cluster_002",
+          "representative_original_pocket_id": "protein_group_012018:pocket-1",
+          "supporting_pocket_count": 1,
+          "supporting_template_count": 1,
+          "members": [
+            "protein_group_012018:pocket-1"
+          ]
+        }
+      ]
+    },
+    "ai_report": {
+      "enabled": false,
+      "used": false,
+      "trigger_reason": "ai_disabled"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+scPDB:1hy3_2:accepted
+scPDB:4jvl_2:accepted
+scPDB:4jvm_2:accepted
+scPDB:4jvn_1:accepted

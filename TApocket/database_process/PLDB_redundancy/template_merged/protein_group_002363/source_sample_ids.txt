@@ -1,0 +1,3 @@
+PDBbind2020:1nfs:accepted
+PDBbind2020:1ppw:accepted
+PDBbind2020:2vnp:accepted

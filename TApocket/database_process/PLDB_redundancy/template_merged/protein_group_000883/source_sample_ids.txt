@@ -1,0 +1,6 @@
+PDBbind2020:3ppo:accepted
+PDBbind2020:3ppp:accepted
+PDBbind2020:3ppq:accepted
+PDBbind2020:3ppr:accepted_dominant_chain
+scPDB:3ppo_1:accepted
+scPDB:3ppr_2:accepted

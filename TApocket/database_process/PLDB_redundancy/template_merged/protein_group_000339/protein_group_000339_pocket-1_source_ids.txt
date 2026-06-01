@@ -1,0 +1,7 @@
+PDBbind2020:1iep:accepted
+PDBbind2020:2hzn:accepted
+PDBbind2020:2qoh:accepted
+PDBbind2020:3kf4:accepted
+PDBbind2020:3kfa:accepted
+PDBbind2020:3oxz:accepted
+scPDB:1iep_1:accepted

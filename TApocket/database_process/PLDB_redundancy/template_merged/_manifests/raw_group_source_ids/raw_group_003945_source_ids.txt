@@ -1,0 +1,2 @@
+scPDB:2x8i_1:accepted
+scPDB:4fti_1:accepted

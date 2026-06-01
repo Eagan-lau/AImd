@@ -1,0 +1,6 @@
+PDBbind2020:5in9:accepted
+PDBbind2020:5wmt:accepted_dominant_chain
+PDBbind2020:6aol:accepted
+PDBbind2020:6aom:accepted
+PDBbind2020:6baw:accepted_dominant_chain
+PDBbind2020:6c91:accepted

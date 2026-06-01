@@ -1,0 +1,6 @@
+PDBbind2020:3fxz:accepted
+PDBbind2020:3fy0:accepted
+PDBbind2020:4daw:accepted
+PDBbind2020:4eqc:accepted
+PDBbind2020:5dfp:accepted
+scPDB:4eqc_1:accepted

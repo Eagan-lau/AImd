@@ -1,0 +1,2 @@
+scPDB:1kia_1:accepted
+scPDB:1nbh_1:accepted

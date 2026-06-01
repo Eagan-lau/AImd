@@ -1,0 +1,2 @@
+PDBbind2020:4m48:accepted
+scPDB:4m48_1:accepted

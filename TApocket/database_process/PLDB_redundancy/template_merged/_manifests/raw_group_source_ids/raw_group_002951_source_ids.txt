@@ -1,0 +1,2 @@
+scPDB:2iyp_1:accepted
+scPDB:2iyp_3:accepted_dominant_chain

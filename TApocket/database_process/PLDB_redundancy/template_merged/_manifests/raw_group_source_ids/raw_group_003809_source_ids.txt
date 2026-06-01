@@ -1,0 +1,2 @@
+scPDB:1wp4_3:accepted
+scPDB:2cvz_3:accepted

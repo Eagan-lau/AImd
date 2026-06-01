@@ -1,0 +1,6 @@
+PDBbind2020:4qps:accepted
+PDBbind2020:5lwm:accepted
+PDBbind2020:5lwn:accepted
+PDBbind2020:6gl9:accepted
+PDBbind2020:6gla:accepted
+PDBbind2020:6glb:accepted

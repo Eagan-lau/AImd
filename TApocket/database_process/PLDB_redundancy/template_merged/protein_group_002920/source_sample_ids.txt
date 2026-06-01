@@ -1,0 +1,2 @@
+PDBbind2020:2xg9:accepted
+scPDB:2xfy_1:accepted

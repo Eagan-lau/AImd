@@ -1,0 +1,10 @@
+PDBbind2020:4kmu:accepted_dominant_chain
+PDBbind2020:4kn4:accepted_dominant_chain
+PDBbind2020:4kn7:accepted_dominant_chain
+PDBbind2020:4xsx:accepted_pseudo_chainA
+PDBbind2020:4xsy:accepted_pseudo_chainA
+PDBbind2020:4xsz:accepted_pseudo_chainA
+PDBbind2020:4zh2:accepted_pseudo_chainA
+PDBbind2020:4zh3:accepted_pseudo_chainA
+PDBbind2020:4zh4:accepted_pseudo_chainA
+PDBbind2020:5uac:accepted_dominant_chain

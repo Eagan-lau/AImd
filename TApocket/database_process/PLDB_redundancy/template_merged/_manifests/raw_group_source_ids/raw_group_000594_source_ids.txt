@@ -1,0 +1,8 @@
+scPDB:4tlx_2:accepted
+scPDB:4tlz_3:accepted
+scPDB:4tlz_4:accepted_dominant_chain
+scPDB:4tm0_6:accepted_dominant_chain
+scPDB:4tm0_7:accepted
+scPDB:4tm1_2:accepted
+scPDB:4tm3_2:accepted
+scPDB:4tm4_4:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:3hit:accepted
+PDBbind2020:3hiv:accepted
+PDBbind2020:3hiw:accepted
+scPDB:3hiv_1:accepted

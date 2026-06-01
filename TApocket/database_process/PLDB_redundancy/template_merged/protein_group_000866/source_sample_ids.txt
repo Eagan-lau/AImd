@@ -1,0 +1,6 @@
+PDBbind2020:3qce:accepted
+PDBbind2020:3qcf:accepted
+PDBbind2020:3qch:accepted
+PDBbind2020:3qci:accepted
+PDBbind2020:3qcj:accepted
+PDBbind2020:3qck:accepted

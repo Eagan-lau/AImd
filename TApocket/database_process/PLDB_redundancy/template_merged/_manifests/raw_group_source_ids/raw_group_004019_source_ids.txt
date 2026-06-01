@@ -1,0 +1,2 @@
+PDBbind2020:4aw5:accepted
+scPDB:4aw5_1:accepted

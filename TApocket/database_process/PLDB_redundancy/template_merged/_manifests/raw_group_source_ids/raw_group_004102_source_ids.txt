@@ -1,0 +1,2 @@
+scPDB:3lga_1:accepted
+scPDB:3lhd_3:accepted

@@ -1,0 +1,5 @@
+PDBbind2020:4hwo:accepted
+PDBbind2020:4hwp:accepted
+PDBbind2020:4hwr:accepted
+PDBbind2020:4hws:accepted
+scPDB:1fyf_1:accepted

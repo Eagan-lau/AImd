@@ -1,0 +1,2 @@
+scPDB:4nke_1:accepted
+scPDB:4nke_2:accepted

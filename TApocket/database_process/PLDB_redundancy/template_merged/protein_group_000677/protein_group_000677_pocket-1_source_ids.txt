@@ -1,0 +1,7 @@
+PDBbind2020:4ccd:accepted
+PDBbind2020:4ufh:accepted
+PDBbind2020:4ufi:accepted
+PDBbind2020:4ufj:accepted
+PDBbind2020:4ufk:accepted
+PDBbind2020:4ufl:accepted
+PDBbind2020:4ufm:accepted

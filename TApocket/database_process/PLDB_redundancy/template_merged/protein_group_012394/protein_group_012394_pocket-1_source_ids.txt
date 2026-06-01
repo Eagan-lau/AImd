@@ -1,0 +1,1 @@
+scPDB:5coq_1:accepted

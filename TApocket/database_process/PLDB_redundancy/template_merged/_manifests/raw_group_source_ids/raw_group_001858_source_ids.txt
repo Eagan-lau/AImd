@@ -1,0 +1,3 @@
+scPDB:4qoe_1:accepted_pseudo_chainA
+scPDB:4qoh_2:accepted_pseudo_chainA
+scPDB:4qoi_2:accepted_pseudo_chainA

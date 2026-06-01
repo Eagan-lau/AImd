@@ -1,0 +1,3 @@
+scPDB:3cav_1:accepted
+scPDB:3cmf_2:accepted
+scPDB:3cot_1:accepted

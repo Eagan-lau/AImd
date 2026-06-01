@@ -1,0 +1,6 @@
+scPDB:2uv0_4:accepted
+scPDB:3ix3_1:accepted
+scPDB:3ix4_7:accepted
+scPDB:3ix8_2:accepted
+scPDB:3jpu_2:accepted
+scPDB:4ng2_1:accepted

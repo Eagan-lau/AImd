@@ -1,0 +1,3 @@
+PDBbind2020:5oug:accepted_dominant_chain
+PDBbind2020:5ouh:accepted_pseudo_chainA
+PDBbind2020:5oui:accepted

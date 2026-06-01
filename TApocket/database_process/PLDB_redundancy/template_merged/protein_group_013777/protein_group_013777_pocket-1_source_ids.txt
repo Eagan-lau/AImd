@@ -1,0 +1,1 @@
+PDBbind2020:6naf:accepted_pseudo_chainA

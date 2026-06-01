@@ -1,0 +1,14 @@
+PDBbind2020:2uxx:accepted
+PDBbind2020:2xaf:accepted
+PDBbind2020:2xag:accepted
+PDBbind2020:2xah:accepted
+PDBbind2020:2xaj:accepted
+PDBbind2020:2xaq:accepted
+PDBbind2020:2xas:accepted
+PDBbind2020:3abt:accepted
+PDBbind2020:3abu:accepted
+PDBbind2020:4uv8:accepted
+PDBbind2020:4uv9:accepted
+PDBbind2020:4uva:accepted
+PDBbind2020:4uvb:accepted
+PDBbind2020:4uvc:accepted

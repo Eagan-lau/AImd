@@ -1,0 +1,3 @@
+PDBbind2020:4heg:accepted_pseudo_chainA
+scPDB:1ebk_2:accepted_pseudo_chainA
+scPDB:4heg_1:accepted_pseudo_chainA

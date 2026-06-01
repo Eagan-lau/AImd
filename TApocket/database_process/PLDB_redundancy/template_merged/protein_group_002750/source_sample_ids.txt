@@ -1,0 +1,2 @@
+PDBbind2020:3wqm:accepted_pseudo_chainA
+scPDB:3wqm_2:accepted

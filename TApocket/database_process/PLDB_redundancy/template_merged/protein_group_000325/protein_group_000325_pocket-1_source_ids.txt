@@ -1,0 +1,8 @@
+PDBbind2020:4oty:accepted
+scPDB:1ddx_2:accepted
+scPDB:3ln0_1:accepted
+scPDB:3mqe_4:accepted
+scPDB:3ntg_4:accepted
+scPDB:4m10_2:accepted
+scPDB:4m11_2:accepted
+scPDB:4oty_2:accepted

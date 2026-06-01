@@ -1,0 +1,2 @@
+PDBbind2020:6mku:accepted
+PDBbind2020:6mkw:accepted

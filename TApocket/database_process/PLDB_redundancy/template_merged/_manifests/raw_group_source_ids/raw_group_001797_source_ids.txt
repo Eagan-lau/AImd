@@ -1,0 +1,3 @@
+PDBbind2020:3rx5:accepted
+PDBbind2020:3rx7:accepted
+PDBbind2020:3rx8:accepted

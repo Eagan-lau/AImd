@@ -1,0 +1,2 @@
+scPDB:2ylx_1:accepted
+scPDB:2ylx_2:accepted

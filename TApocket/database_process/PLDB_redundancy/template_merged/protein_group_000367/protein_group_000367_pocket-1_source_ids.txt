@@ -1,0 +1,8 @@
+PDBbind2020:1bmk:accepted
+PDBbind2020:3p78:accepted
+PDBbind2020:4loo:accepted_dominant_chain
+PDBbind2020:4lop:accepted_dominant_chain
+PDBbind2020:4loq:accepted_dominant_chain
+PDBbind2020:6sfi:accepted
+PDBbind2020:6sfj:accepted
+PDBbind2020:6sfk:accepted

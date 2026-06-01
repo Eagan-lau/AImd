@@ -1,0 +1,7 @@
+PDBbind2020:4nwm:accepted
+PDBbind2020:4otf:accepted
+PDBbind2020:6bik:accepted
+PDBbind2020:6bke:accepted
+PDBbind2020:6bkh:accepted
+PDBbind2020:6bkw:accepted
+PDBbind2020:6bln:accepted

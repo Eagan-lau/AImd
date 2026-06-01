@@ -1,0 +1,3 @@
+PDBbind2020:2mji:accepted
+scPDB:2mji_1:accepted
+scPDB:3akm_2:accepted_dominant_chain

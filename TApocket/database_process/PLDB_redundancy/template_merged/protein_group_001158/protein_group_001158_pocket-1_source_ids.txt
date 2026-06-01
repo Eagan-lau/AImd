@@ -1,0 +1,5 @@
+PDBbind2020:5nut:accepted_dominant_chain
+scPDB:4iue_1:accepted
+scPDB:4j21_1:accepted
+scPDB:4j22_1:accepted
+scPDB:4j3l_1:accepted

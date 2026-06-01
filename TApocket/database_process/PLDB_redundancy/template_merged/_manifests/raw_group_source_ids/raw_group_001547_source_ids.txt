@@ -1,0 +1,4 @@
+PDBbind2020:6d28:accepted
+scPDB:1qy5_1:accepted
+scPDB:1qy8_1:accepted
+scPDB:2fyp_2:accepted

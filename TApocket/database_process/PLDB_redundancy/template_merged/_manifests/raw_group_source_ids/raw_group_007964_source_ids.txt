@@ -1,0 +1,1 @@
+scPDB:3gag_2:accepted_pseudo_chainA

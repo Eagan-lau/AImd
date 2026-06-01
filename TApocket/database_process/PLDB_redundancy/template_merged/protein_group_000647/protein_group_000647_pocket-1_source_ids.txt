@@ -1,0 +1,8 @@
+PDBbind2020:5jf1:accepted
+PDBbind2020:5jf2:accepted
+PDBbind2020:5jf3:accepted
+PDBbind2020:5jf4:accepted
+PDBbind2020:5jf5:accepted
+PDBbind2020:5jf6:accepted
+PDBbind2020:5jf7:accepted
+PDBbind2020:5jf8:accepted

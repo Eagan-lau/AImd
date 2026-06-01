@@ -1,0 +1,6 @@
+scPDB:4dtj_1:accepted
+scPDB:4dtm_1:accepted
+scPDB:4dto_1:accepted
+scPDB:4dtp_1:accepted
+scPDB:4dtx_1:accepted
+scPDB:4fjm_1:accepted

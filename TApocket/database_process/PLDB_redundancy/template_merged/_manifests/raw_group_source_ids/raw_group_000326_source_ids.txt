@@ -1,0 +1,13 @@
+PDBbind2020:4mvy:accepted
+PDBbind2020:4mw0:accepted
+PDBbind2020:4mw1:accepted
+PDBbind2020:4mw2:accepted
+PDBbind2020:4mw4:accepted
+PDBbind2020:4mw5:accepted
+PDBbind2020:4mwe:accepted
+PDBbind2020:4zt2:accepted
+PDBbind2020:4zt3:accepted
+PDBbind2020:4zt4:accepted
+PDBbind2020:4zt5:accepted
+PDBbind2020:4zt6:accepted
+PDBbind2020:4zt7:accepted

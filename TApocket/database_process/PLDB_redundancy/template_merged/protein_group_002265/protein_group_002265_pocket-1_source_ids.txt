@@ -1,0 +1,3 @@
+PDBbind2020:4x6p:accepted
+PDBbind2020:5exn:accepted
+scPDB:3sor_1:accepted

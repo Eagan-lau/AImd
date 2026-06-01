@@ -1,0 +1,4 @@
+scPDB:3hdy_14:accepted
+scPDB:3hdy_3:accepted
+scPDB:3he3_5:accepted
+scPDB:3mj4_8:accepted

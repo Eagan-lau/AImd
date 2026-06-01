@@ -1,0 +1,9 @@
+PDBbind2020:5csh:accepted
+PDBbind2020:5mo8:accepted
+PDBbind2020:5mod:accepted
+PDBbind2020:5moe:accepted
+PDBbind2020:5oqu:accepted
+PDBbind2020:5orj:accepted
+PDBbind2020:5ork:accepted
+PDBbind2020:5os7:accepted
+PDBbind2020:6gmd:accepted

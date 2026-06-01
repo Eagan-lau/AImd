@@ -1,0 +1,2 @@
+PDBbind2020:4fvr:accepted
+scPDB:4fvr_1:accepted

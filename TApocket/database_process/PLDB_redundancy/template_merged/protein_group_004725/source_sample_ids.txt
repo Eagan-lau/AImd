@@ -1,0 +1,2 @@
+PDBbind2020:1rzx:accepted
+PDBbind2020:1x8s:accepted

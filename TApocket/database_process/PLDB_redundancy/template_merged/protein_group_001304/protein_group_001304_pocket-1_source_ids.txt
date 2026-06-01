@@ -1,0 +1,4 @@
+PDBbind2020:1uwt:accepted
+PDBbind2020:1uwu:accepted
+PDBbind2020:2ceq:accepted
+PDBbind2020:2cer:accepted

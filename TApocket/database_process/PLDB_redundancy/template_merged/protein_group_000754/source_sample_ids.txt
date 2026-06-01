@@ -1,0 +1,7 @@
+PDBbind2020:4x1n:accepted
+PDBbind2020:4x1p:accepted
+PDBbind2020:4x1q:accepted
+PDBbind2020:4x1r:accepted
+PDBbind2020:4x1s:accepted
+PDBbind2020:4zhl:accepted
+PDBbind2020:4zhm:accepted

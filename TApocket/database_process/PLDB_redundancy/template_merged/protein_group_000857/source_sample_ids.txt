@@ -1,0 +1,6 @@
+PDBbind2020:1fh7:accepted
+PDBbind2020:1fh8:accepted
+PDBbind2020:1fh9:accepted
+PDBbind2020:1fhd:accepted
+PDBbind2020:1j01:accepted
+scPDB:3cui_1:accepted

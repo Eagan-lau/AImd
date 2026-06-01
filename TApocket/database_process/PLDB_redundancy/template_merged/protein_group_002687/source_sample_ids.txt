@@ -1,0 +1,2 @@
+scPDB:3myk_1:accepted
+scPDB:3myk_2:accepted

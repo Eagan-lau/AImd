@@ -1,0 +1,2 @@
+scPDB:1ghe_1:accepted_dominant_chain
+scPDB:1j4j_1:accepted_dominant_chain

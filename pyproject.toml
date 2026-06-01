@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aimd-full-integrated"
+version = "0.3.0"
+description = "AImd integrated RGPC, TApocket, DockingHub, ClusterScore, refined docking, and MetaBoClip catalytic scoring workflow."
+requires-python = ">=3.9"
+dependencies = ["PyYAML>=6.0", "pandas>=1.5", "numpy>=1.21", "biopython>=1.80"]
+
+[project.scripts]
+aimd-rgpc = "RGPC.main:main"
+aimd-tapocket-batch = "TApocketBridge.main:main"
+aimd-docking = "DockingHub.main:main"
+aimd-clusterscore = "ScoringHub.main:main"
+aimd-refinement = "RefinementHub.main:main"
+aimd-metaboclip-bridge = "MetaBoClipBridge.main:main"
+aimd-full-integrated = "orchestrator.full_iterative_metaboclip:main"
+
+[tool.setuptools.packages.find]
+include = ["RGPC*", "TApocketBridge*", "DockingHub*", "ScoringHub*", "RefinementHub*", "MetaBoClipBridge*", "orchestrator*"]

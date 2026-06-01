@@ -1,0 +1,5 @@
+PDBbind2020:3ika:accepted
+PDBbind2020:5gmp:accepted
+PDBbind2020:5gnk:accepted
+PDBbind2020:5gty:accepted
+PDBbind2020:5yu9:accepted

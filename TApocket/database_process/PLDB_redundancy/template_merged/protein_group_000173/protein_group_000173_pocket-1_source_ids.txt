@@ -1,0 +1,5 @@
+PDBbind2020:3cso:accepted
+PDBbind2020:3gnv:accepted
+PDBbind2020:3gnw:accepted
+PDBbind2020:3gol:accepted
+PDBbind2020:3hky:accepted

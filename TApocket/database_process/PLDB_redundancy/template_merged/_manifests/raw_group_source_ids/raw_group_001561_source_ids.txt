@@ -1,0 +1,4 @@
+PDBbind2020:2weq:accepted
+PDBbind2020:2wer:accepted_dominant_chain
+scPDB:2wep_1:accepted
+scPDB:2wer_2:accepted

@@ -1,0 +1,76 @@
+module: RGPC
+name: Representative Graph-based Protein Clustering
+
+third_party:
+  tools_config: third_party/tools.yaml
+
+paths:
+  # All paths can be absolute or relative to the AImd root directory.
+  aimd_root: .
+  structure_dir: data/protein_structure/cleaned_pdb
+  structure_manifest: data/protein_structure/structure_manifest.csv
+  out_dir: data/cluster/RGPC
+  protein_out_dir: data/protein
+
+input:
+  file_extensions: [".pdb", ".cif", ".mmcif"]
+  require_existing_files: true
+
+foldseek:
+  executable: auto
+  mode: all_vs_all     # all_vs_all or per_query
+  threads: 32
+  tmp_dir: data/cluster/RGPC/tmp
+  createdb:
+    enabled: true
+    db_prefix: data/cluster/RGPC/foldseek_db/protein_db
+  search:
+    result_db: data/cluster/RGPC/foldseek_search/result_db
+    raw_tsv: data/cluster/RGPC/foldseek_search/all_vs_all.tsv
+    sensitivity: null      # example: 7.5. Keep null to omit.
+    require_backtrace: true  # required for qtmscore/ttmscore in many Foldseek builds
+    extra_args: []         # example: ["--max-seqs", "10000"]
+  convertalis:
+    format_output: "query,target,qtmscore,ttmscore"
+
+filter:
+  remove_self_hits: true
+  min_qtmscore: 0.5
+  min_ttmscore: 0.5
+  weight_method: min_qtmscore_ttmscore  # min_qtmscore_ttmscore, mean_qtmscore_ttmscore, geometric_mean, alntmscore
+
+# Build an undirected graph for HipMCL/MCL-style clustering.
+graph:
+  make_symmetric: true
+  duplicate_edge_method: min   # min, max, mean
+  write_header_tsv: true
+
+hipmcl:
+  enabled: true
+  executable: auto
+  inflation: 2.0
+  threads: 32
+  input_abc: data/cluster/RGPC/graph/structure_edges.abc
+  output: data/cluster/RGPC/hipmcl/hipmcl_output.txt
+  log: data/cluster/RGPC/hipmcl/hipmcl.log
+  # Modify this line if your HipMCL command differs.
+  command_template: "mpirun -np 4 {executable} -M {input} -I {inflation} -o {output} -t {threads}"
+
+representative:
+  method: highest_mean_similarity  # highest_mean_similarity or first
+
+batching:
+  enabled: true
+  output_to_protein_dir: true
+  mode: by_cluster
+  max_proteins_per_batch: 500
+  keep_cluster_together: true
+  output_pattern: file_{index}
+  file_action: copy     # copy or symlink
+  include_only_representatives: false
+
+resume:
+  enabled: true
+  skip_existing: true
+
+dry_run: false

@@ -1,0 +1,6 @@
+PDBbind2020:1t46:accepted
+PDBbind2020:3g0e:accepted
+PDBbind2020:4u0i:accepted
+PDBbind2020:6kla:accepted_dominant_chain
+PDBbind2020:6mob:accepted
+scPDB:3g0e_1:accepted

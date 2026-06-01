@@ -1,0 +1,3 @@
+PDBbind2020:4qij:accepted_pseudo_chainA
+scPDB:4qii_12:accepted_dominant_chain
+scPDB:4qij_3:accepted_dominant_chain

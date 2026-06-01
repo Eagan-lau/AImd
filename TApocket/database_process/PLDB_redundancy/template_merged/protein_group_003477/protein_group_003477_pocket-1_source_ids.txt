@@ -1,0 +1,2 @@
+PDBbind2020:2gu8:accepted_dominant_chain
+scPDB:2gu8_1:accepted_dominant_chain

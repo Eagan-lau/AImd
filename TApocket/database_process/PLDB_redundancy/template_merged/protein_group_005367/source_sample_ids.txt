@@ -1,0 +1,1 @@
+PDBbind2020:5myx:accepted_pseudo_chainA

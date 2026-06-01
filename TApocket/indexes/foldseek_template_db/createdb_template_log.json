@@ -1,0 +1,12 @@
+{
+  "command": [
+    "foldseek",
+    "createdb",
+    "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/staging/template_foldseek_inputs",
+    "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/indexes/foldseek_template_db/template_db"
+  ],
+  "returncode": 0,
+  "stdout": "createdb /media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/staging/template_foldseek_inputs /media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/indexes/foldseek_template_db/template_db \n\nMMseqs Version:        \t1cb3a80d9566820bc223bdf4d34d30d85ffbc4f4\nChain name mode        \t0\nWrite mapping file     \t0\nMask b-factor threshold\t0\nCoord store mode       \t2\nWrite lookup file      \t1\nTar Inclusion Regex    \t.*\nTar Exclusion Regex    \t^$\nFile Inclusion Regex   \t.*\nFile Exclusion Regex   \t^$\nThreads                \t64\nVerbosity              \t3\n\nOutput file: /media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/indexes/foldseek_template_db/template_db\n[=================================================================] 15.77K 6s 238ms\nTime for merging to template_db_ss: 0h 0m 0s 96ms\nTime for merging to template_db_h: 0h 0m 0s 43ms\nTime for merging to template_db_ca: 0h 0m 0s 341ms\nTime for merging to template_db: 0h 0m 0s 91ms\nIgnore 0 out of 15766.\nToo short: 0, incorrect: 0, not proteins: 0.\nTime for processing: 0h 0m 11s 962ms\n",
+  "stderr": "",
+  "elapsed_seconds": 11.983301401138306
+}

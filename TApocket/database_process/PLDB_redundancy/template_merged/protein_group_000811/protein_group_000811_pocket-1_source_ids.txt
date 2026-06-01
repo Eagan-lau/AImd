@@ -1,0 +1,6 @@
+scPDB:2bhp_1:accepted
+scPDB:2ehq_1:accepted
+scPDB:2ehu_1:accepted
+scPDB:2eii_1:accepted
+scPDB:2eit_1:accepted
+scPDB:2j5n_1:accepted

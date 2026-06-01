@@ -1,0 +1,1 @@
+PDBbind2020:2ygu:accepted_dominant_chain

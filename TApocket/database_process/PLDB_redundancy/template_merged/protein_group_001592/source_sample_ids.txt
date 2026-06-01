@@ -1,0 +1,4 @@
+PDBbind2020:3jrs:accepted
+PDBbind2020:3nef:accepted
+PDBbind2020:3neg:accepted
+scPDB:3kdj_1:accepted_dominant_chain

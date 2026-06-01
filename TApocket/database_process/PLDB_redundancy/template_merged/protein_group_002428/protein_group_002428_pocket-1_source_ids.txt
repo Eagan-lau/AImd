@@ -1,0 +1,3 @@
+scPDB:2yld_1:accepted
+scPDB:3zwi_1:accepted
+scPDB:4cip_1:accepted

@@ -1,0 +1,4 @@
+scPDB:1axw_2:accepted_dominant_chain
+scPDB:1jtq_2:accepted_dominant_chain
+scPDB:1jut_2:accepted
+scPDB:1tlc_2:accepted

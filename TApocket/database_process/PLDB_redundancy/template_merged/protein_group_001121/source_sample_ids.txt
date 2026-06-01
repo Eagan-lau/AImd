@@ -1,0 +1,5 @@
+PDBbind2020:3srv:accepted
+PDBbind2020:5lma:accepted
+PDBbind2020:5lmb:accepted
+PDBbind2020:6hm6:accepted
+PDBbind2020:6hm7:accepted

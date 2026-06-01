@@ -1,0 +1,4 @@
+PDBbind2020:3m57:accepted
+PDBbind2020:3m58:accepted
+PDBbind2020:3m59:accepted
+PDBbind2020:3m5a:accepted

@@ -1,0 +1,8 @@
+PDBbind2020:2r3i:accepted
+PDBbind2020:2r3j:accepted
+PDBbind2020:2r3k:accepted
+PDBbind2020:2r3m:accepted
+PDBbind2020:2r3o:accepted
+PDBbind2020:2r3p:accepted
+PDBbind2020:4erw:accepted
+PDBbind2020:4nj3:accepted

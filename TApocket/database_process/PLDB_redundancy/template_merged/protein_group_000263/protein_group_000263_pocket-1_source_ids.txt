@@ -1,0 +1,15 @@
+PDBbind2020:2itk:accepted
+PDBbind2020:2xp4:accepted
+PDBbind2020:2xp5:accepted
+PDBbind2020:2xp7:accepted
+PDBbind2020:2xp8:accepted
+PDBbind2020:2xpa:accepted
+PDBbind2020:2xpb:accepted
+PDBbind2020:3kab:accepted
+PDBbind2020:3kag:accepted
+PDBbind2020:3kah:accepted
+PDBbind2020:3kai:accepted
+PDBbind2020:3kce:accepted
+PDBbind2020:3ntp:accepted
+PDBbind2020:3odk:accepted
+PDBbind2020:3tc5:accepted

@@ -1,0 +1,3 @@
+scPDB:4awo_2:accepted
+scPDB:4awp_2:accepted
+scPDB:4awq_1:accepted

@@ -1,0 +1,3 @@
+PDBbind2020:1pu7:accepted
+PDBbind2020:1pu8:accepted
+scPDB:1pu8_2:accepted

@@ -1,0 +1,2 @@
+scPDB:1j1z_4:accepted_dominant_chain
+scPDB:1kor_4:accepted

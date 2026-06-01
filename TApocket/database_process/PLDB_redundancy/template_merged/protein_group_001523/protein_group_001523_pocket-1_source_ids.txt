@@ -1,0 +1,3 @@
+scPDB:1isg_1:accepted
+scPDB:1isj_1:accepted
+scPDB:1ism_1:accepted

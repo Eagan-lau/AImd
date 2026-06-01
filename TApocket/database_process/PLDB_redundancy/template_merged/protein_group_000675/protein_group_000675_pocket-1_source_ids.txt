@@ -1,0 +1,5 @@
+scPDB:3jx4_2:accepted_dominant_chain
+scPDB:3jx5_2:accepted_dominant_chain
+scPDB:3nlp_2:accepted_dominant_chain
+scPDB:3nlr_2:accepted_dominant_chain
+scPDB:4cx3_2:accepted_dominant_chain

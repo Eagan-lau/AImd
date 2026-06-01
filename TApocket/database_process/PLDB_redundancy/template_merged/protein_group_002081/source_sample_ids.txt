@@ -1,0 +1,3 @@
+PDBbind2020:1hdq:accepted
+PDBbind2020:2ctc:accepted
+PDBbind2020:3kgq:accepted

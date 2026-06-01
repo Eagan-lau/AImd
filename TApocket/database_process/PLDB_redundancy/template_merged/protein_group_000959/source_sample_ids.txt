@@ -1,0 +1,5 @@
+PDBbind2020:4yuw:accepted
+PDBbind2020:4yux:accepted_dominant_chain
+PDBbind2020:4yuy:accepted_dominant_chain
+PDBbind2020:4yv0:accepted_pseudo_chainA
+PDBbind2020:5b1s:accepted

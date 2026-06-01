@@ -1,0 +1,3 @@
+scPDB:3p9c_1:accepted
+scPDB:3p9k_3:accepted_dominant_chain
+scPDB:3p9k_5:accepted

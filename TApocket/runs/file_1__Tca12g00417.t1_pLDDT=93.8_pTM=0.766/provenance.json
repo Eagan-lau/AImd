@@ -1,0 +1,116 @@
+{
+  "run_id": "file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766",
+  "created_at_epoch": 1778142703.3316357,
+  "project_root": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket",
+  "config_path": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/configs/tapocket_template_v1.yaml",
+  "query_path": "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb",
+  "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "foldseek_version": "1cb3a80d9566820bc223bdf4d34d30d85ffbc4f4",
+  "extra": {
+    "mcsa_report": {
+      "mcsa_enabled": true,
+      "mcsa_hit_count": 5,
+      "mapped_active_sites": [
+        {
+          "mcsa_id": "1cbg",
+          "mcsa_hit": {
+            "query": "query.pdb",
+            "target": "1cbg.pdb",
+            "normalized_target_id": "1cbg",
+            "rank": 1,
+            "score": 0.7957,
+            "raw": {
+              "query": "query.pdb",
+              "target": "1cbg.pdb",
+              "evalue": 4.157e-12,
+              "bits": 436,
+              "alnlen": 126,
+              "qcov": 0.844,
+              "tcov": 0.257,
+              "qtmscore": 0.7957,
+              "ttmscore": 0.2344,
+              "alntmscore": 0.2344
+            }
+          },
+          "reference_protein_path": "database_process/MCSA/reference_active_sites/1cbg/1cbg_reference_clean.pdb",
+          "active_site_path": "database_process/MCSA/reference_active_sites/1cbg/1cbg_mcsa_active_site_all.pdb",
+          "mapped_active_site_path": "mcsa/mapped_active_sites/Tca12g00417.t1_pLDDT=93.8_pTM=0.766_1cbg_1cbg_mcsa_active_site_all_mapped.pdb"
+        },
+        {
+          "mcsa_id": "1myr",
+          "mcsa_hit": {
+            "query": "query.pdb",
+            "target": "1myr.pdb",
+            "normalized_target_id": "1myr",
+            "rank": 2,
+            "score": 0.7286,
+            "raw": {
+              "query": "query.pdb",
+              "target": "1myr.pdb",
+              "evalue": 1.781e-09,
+              "bits": 334,
+              "alnlen": 115,
+              "qcov": 0.787,
+              "tcov": 0.224,
+              "qtmscore": 0.7286,
+              "ttmscore": 0.212,
+              "alntmscore": 0.212
+            }
+          },
+          "reference_protein_path": "database_process/MCSA/reference_active_sites/1myr/1myr_reference_clean.pdb",
+          "active_site_path": "database_process/MCSA/reference_active_sites/1myr/1myr_mcsa_active_site_all.pdb",
+          "mapped_active_site_path": "mcsa/mapped_active_sites/Tca12g00417.t1_pLDDT=93.8_pTM=0.766_1myr_1myr_mcsa_active_site_all_mapped.pdb"
+        },
+        {
+          "mcsa_id": "1cz1",
+          "mcsa_hit": {
+            "query": "query.pdb",
+            "target": "1cz1.pdb",
+            "normalized_target_id": "1cz1",
+            "rank": 5,
+            "score": 0.4023,
+            "raw": {
+              "query": "query.pdb",
+              "target": "1cz1.pdb",
+              "evalue": 0.3157,
+              "bits": 40,
+              "alnlen": 127,
+              "qcov": 0.759,
+              "tcov": 0.299,
+              "qtmscore": 0.4023,
+              "ttmscore": 0.1664,
+              "alntmscore": 0.1664
+            }
+          },
+          "reference_protein_path": "database_process/MCSA/reference_active_sites/1cz1/1cz1_reference_clean.pdb",
+          "active_site_path": "database_process/MCSA/reference_active_sites/1cz1/1cz1_mcsa_active_site_all.pdb",
+          "mapped_active_site_path": "mcsa/mapped_active_sites/Tca12g00417.t1_pLDDT=93.8_pTM=0.766_1cz1_1cz1_mcsa_active_site_all_mapped.pdb"
+        }
+      ],
+      "matches": [
+        {
+          "mcsa_target": "1pbg.pdb_A",
+          "error": "not_found_in_mcsa_manifest"
+        },
+        {
+          "mcsa_target": "1pbg.pdb_B",
+          "error": "not_found_in_mcsa_manifest"
+        }
+      ],
+      "active_site_in_candidate_pocket": false,
+      "filter_action": "keep_all_pockets"
+    },
+    "dedup_report": {
+      "enabled": true,
+      "cluster_count": 0,
+      "clusters": []
+    },
+    "ai_report": {
+      "enabled": true,
+      "used": true,
+      "trigger_reason": "no_final_pocket",
+      "predicted_pocket_count": 1
+    }
+  }
+}

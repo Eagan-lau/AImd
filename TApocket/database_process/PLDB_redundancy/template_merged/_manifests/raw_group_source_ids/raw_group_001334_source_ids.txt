@@ -1,0 +1,4 @@
+scPDB:2gv8_3:accepted
+scPDB:2gv8_4:accepted
+scPDB:2gvc_2:accepted
+scPDB:2gvc_5:accepted

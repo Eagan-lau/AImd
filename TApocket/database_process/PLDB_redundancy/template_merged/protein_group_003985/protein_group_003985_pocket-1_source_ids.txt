@@ -1,0 +1,2 @@
+PDBbind2020:3coh:accepted
+PDBbind2020:4prj:accepted

@@ -1,0 +1,4 @@
+scPDB:1bmk_1:accepted
+scPDB:4loo_1:accepted
+scPDB:4lop_1:accepted_dominant_chain
+scPDB:4loq_1:accepted_dominant_chain

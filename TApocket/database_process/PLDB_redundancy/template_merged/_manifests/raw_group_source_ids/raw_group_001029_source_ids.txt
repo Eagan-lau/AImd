@@ -1,0 +1,5 @@
+scPDB:2vzm_2:accepted
+scPDB:2whw_1:accepted
+scPDB:2wi9_1:accepted
+scPDB:3zk5_2:accepted
+scPDB:4b7s_1:accepted

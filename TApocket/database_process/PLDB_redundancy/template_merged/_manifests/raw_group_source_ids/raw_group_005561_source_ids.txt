@@ -1,0 +1,1 @@
+scPDB:2v19_8:accepted_pseudo_chainA

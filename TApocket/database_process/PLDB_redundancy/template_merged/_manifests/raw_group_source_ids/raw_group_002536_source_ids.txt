@@ -1,0 +1,2 @@
+scPDB:2fhj_5:accepted
+scPDB:2fhk_3:accepted_pseudo_chainA

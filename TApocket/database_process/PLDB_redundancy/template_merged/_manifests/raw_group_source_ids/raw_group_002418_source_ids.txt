@@ -1,0 +1,3 @@
+scPDB:4qyp_1:accepted_dominant_chain
+scPDB:4qzt_1:accepted
+scPDB:4qzu_2:accepted

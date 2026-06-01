@@ -1,0 +1,17 @@
+PDBbind2020:2yjw:accepted
+PDBbind2020:2yjx:accepted
+PDBbind2020:2yk9:accepted
+PDBbind2020:2ykb:accepted
+PDBbind2020:2ykc:accepted
+PDBbind2020:2yke:accepted
+PDBbind2020:2yki:accepted
+PDBbind2020:2ykj:accepted
+scPDB:2yjw_1:accepted
+scPDB:2yjx_1:accepted
+scPDB:2yk2_1:accepted
+scPDB:2yk2_2:accepted
+scPDB:2ykb_1:accepted
+scPDB:2ykc_1:accepted
+scPDB:2yke_1:accepted
+scPDB:2yki_1:accepted
+scPDB:2ykj_1:accepted

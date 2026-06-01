@@ -1,0 +1,2 @@
+scPDB:3t4l_1:accepted
+scPDB:3t4q_1:accepted

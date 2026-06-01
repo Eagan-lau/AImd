@@ -1,0 +1,2 @@
+PDBbind2020:1yda:accepted
+scPDB:1yda_1:accepted

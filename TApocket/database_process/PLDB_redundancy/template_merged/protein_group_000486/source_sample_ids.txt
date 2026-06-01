@@ -1,0 +1,10 @@
+PDBbind2020:3i97:accepted
+PDBbind2020:5ijr:accepted
+PDBbind2020:5iyy:accepted
+PDBbind2020:5j1x:accepted
+PDBbind2020:5jgi:accepted
+PDBbind2020:5jgq:accepted
+PDBbind2020:5jhk:accepted
+PDBbind2020:6fmc:accepted
+PDBbind2020:6fmf:accepted
+scPDB:3i97_1:accepted

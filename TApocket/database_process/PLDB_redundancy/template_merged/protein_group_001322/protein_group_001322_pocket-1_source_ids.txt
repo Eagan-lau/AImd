@@ -1,0 +1,3 @@
+scPDB:4g9k_2:accepted
+scPDB:4gap_1:accepted
+scPDB:4gav_2:accepted

@@ -1,0 +1,7 @@
+scPDB:1g4s_2:accepted
+scPDB:1g67_1:accepted
+scPDB:1g67_2:accepted
+scPDB:1g69_1:accepted
+scPDB:1g69_2:accepted
+scPDB:1g6c_1:accepted
+scPDB:1g6c_2:accepted

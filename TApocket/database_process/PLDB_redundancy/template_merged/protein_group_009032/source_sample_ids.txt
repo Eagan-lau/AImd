@@ -1,0 +1,1 @@
+scPDB:1m6e_1:accepted

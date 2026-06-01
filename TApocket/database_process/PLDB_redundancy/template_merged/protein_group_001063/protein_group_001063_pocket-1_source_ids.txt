@@ -1,0 +1,5 @@
+PDBbind2020:2bal:accepted
+PDBbind2020:3e92:accepted
+PDBbind2020:3e93:accepted
+PDBbind2020:4aa5:accepted
+PDBbind2020:4r3c:accepted

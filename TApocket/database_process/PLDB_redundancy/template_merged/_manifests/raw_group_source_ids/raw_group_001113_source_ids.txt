@@ -1,0 +1,5 @@
+PDBbind2020:5ceo:accepted
+PDBbind2020:5cep:accepted
+PDBbind2020:5ceq:accepted
+PDBbind2020:5vo1:accepted
+PDBbind2020:5vo2:accepted

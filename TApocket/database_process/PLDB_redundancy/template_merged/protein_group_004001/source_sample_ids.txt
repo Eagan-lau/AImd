@@ -1,0 +1,2 @@
+scPDB:4kpu_2:accepted_dominant_chain
+scPDB:4l2i_2:accepted_dominant_chain

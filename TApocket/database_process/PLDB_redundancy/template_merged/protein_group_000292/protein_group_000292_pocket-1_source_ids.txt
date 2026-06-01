@@ -1,0 +1,15 @@
+PDBbind2020:1ttv:accepted
+PDBbind2020:4ipf:accepted
+PDBbind2020:4j3e:accepted
+PDBbind2020:4j74:accepted
+PDBbind2020:4j7d:accepted
+PDBbind2020:4j7e:accepted
+PDBbind2020:4jrg:accepted
+PDBbind2020:4jsc:accepted
+PDBbind2020:4lwt:accepted
+PDBbind2020:4lwu:accepted
+PDBbind2020:4lwv:accepted
+scPDB:1ttv_1:accepted
+scPDB:4j7d_1:accepted
+scPDB:4jrg_2:accepted
+scPDB:4jsc_1:accepted

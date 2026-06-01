@@ -1,0 +1,3 @@
+scPDB:1eqy_1:accepted
+scPDB:2aso_1:accepted
+scPDB:2hmp_1:accepted_dominant_chain

@@ -1,0 +1,2 @@
+protein_group_id,global_sample_id,sample_id,source_dataset,source_status,sample_type,protein_pdb,pocket_pdb,mapped_pocket_residue_count
+protein_group_004775,scPDB:1tf7_4:accepted_pseudo_chainA,1tf7_4,scPDB,accepted_pseudo_chainA,accepted_pseudo_chainA,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_pseudo_chainA_from_rejected_debug/1tf7_4/1tf7_4_protein_pseudo_chainA.pdb,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_pseudo_chainA_from_rejected_debug/1tf7_4/1tf7_4_pocket_pseudo_chainA.pdb,42

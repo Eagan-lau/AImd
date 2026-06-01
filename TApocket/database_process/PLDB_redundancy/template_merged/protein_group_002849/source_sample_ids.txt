@@ -1,0 +1,2 @@
+scPDB:1pf9_2:accepted
+scPDB:1sx4_1:accepted

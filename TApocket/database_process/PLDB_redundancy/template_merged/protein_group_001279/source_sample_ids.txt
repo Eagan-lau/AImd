@@ -1,0 +1,4 @@
+scPDB:1cx2_2:accepted
+scPDB:3pgh_2:accepted
+scPDB:4cox_1:accepted
+scPDB:6cox_1:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:3dej:accepted_pseudo_chainA
+scPDB:3dek_1:accepted_dominant_chain

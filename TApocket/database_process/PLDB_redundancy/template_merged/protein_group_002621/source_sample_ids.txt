@@ -1,0 +1,2 @@
+scPDB:1gax_2:accepted
+scPDB:1ivs_2:accepted

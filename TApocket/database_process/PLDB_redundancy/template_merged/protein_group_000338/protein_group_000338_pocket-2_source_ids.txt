@@ -1,0 +1,2 @@
+scPDB:2x4z_1:accepted
+scPDB:4app_1:accepted

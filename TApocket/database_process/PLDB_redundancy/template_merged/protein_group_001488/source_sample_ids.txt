@@ -1,0 +1,4 @@
+PDBbind2020:1nyx:accepted
+PDBbind2020:2q8s:accepted
+PDBbind2020:4xta:accepted
+PDBbind2020:5u5l:accepted

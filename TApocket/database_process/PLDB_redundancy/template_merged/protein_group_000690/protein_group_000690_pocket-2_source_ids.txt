@@ -1,0 +1,2 @@
+scPDB:2wba_4:accepted
+scPDB:2wow_4:accepted_dominant_chain

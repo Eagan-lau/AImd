@@ -1,0 +1,3 @@
+scPDB:1vce_1:accepted_dominant_chain
+scPDB:1wng_1:accepted_dominant_chain
+scPDB:2dek_1:accepted_dominant_chain

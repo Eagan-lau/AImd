@@ -1,0 +1,4 @@
+scPDB:3nun_1:accepted
+scPDB:3nus_1:accepted
+scPDB:3nuu_1:accepted
+scPDB:3nuy_1:accepted

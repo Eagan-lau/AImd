@@ -1,0 +1,6 @@
+PDBbind2020:3nii:accepted
+PDBbind2020:3nij:accepted
+PDBbind2020:3nik:accepted
+PDBbind2020:3nil:accepted
+PDBbind2020:3nim:accepted
+PDBbind2020:3nin:accepted_dominant_chain

@@ -1,0 +1,12 @@
+PDBbind2020:4ly9:accepted
+PDBbind2020:4mqu:accepted
+PDBbind2020:4mro:accepted
+PDBbind2020:4msu:accepted
+PDBbind2020:4ohk:accepted
+PDBbind2020:4ohm:accepted
+PDBbind2020:4oho:accepted
+PDBbind2020:4ohp:accepted
+PDBbind2020:4olh:accepted
+PDBbind2020:4op1:accepted
+PDBbind2020:4op2:accepted
+PDBbind2020:4op3:accepted

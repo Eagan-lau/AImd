@@ -1,0 +1,7 @@
+scPDB:1ftl_2:accepted
+scPDB:1fw0_1:accepted
+scPDB:2cmo_1:accepted
+scPDB:3b7d_1:accepted
+scPDB:3h03_2:accepted
+scPDB:3h06_2:accepted
+scPDB:4gxs_2:accepted_dominant_chain

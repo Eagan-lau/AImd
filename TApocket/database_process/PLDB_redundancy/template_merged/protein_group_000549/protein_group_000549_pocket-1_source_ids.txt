@@ -1,0 +1,5 @@
+PDBbind2020:4hct:accepted
+PDBbind2020:4hcu:accepted
+PDBbind2020:4hcv:accepted
+PDBbind2020:4m0y:accepted
+PDBbind2020:4m14:accepted

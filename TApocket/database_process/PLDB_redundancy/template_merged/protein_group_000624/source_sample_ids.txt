@@ -1,0 +1,8 @@
+PDBbind2020:1riw:accepted_pseudo_chainA
+scPDB:1d3d_1:accepted
+scPDB:1d3p_1:accepted
+scPDB:1d3q_1:accepted
+scPDB:1d3t_1:accepted
+scPDB:1d4p_1:accepted
+scPDB:1riw_1:accepted_pseudo_chainA
+scPDB:2bdy_1:accepted

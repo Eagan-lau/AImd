@@ -1,0 +1,9 @@
+PDBbind2020:1zom:accepted
+PDBbind2020:1zpb:accepted
+PDBbind2020:1zpc:accepted
+PDBbind2020:2fda:accepted
+PDBbind2020:4cr5:accepted
+PDBbind2020:4cr9:accepted
+PDBbind2020:4cra:accepted
+PDBbind2020:4crb:accepted
+PDBbind2020:4crf:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:4k8a:accepted
+PDBbind2020:4kao:accepted

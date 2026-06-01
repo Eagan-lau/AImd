@@ -1,0 +1,2 @@
+PDBbind2020:2iw6:accepted
+scPDB:2iw6_2:accepted

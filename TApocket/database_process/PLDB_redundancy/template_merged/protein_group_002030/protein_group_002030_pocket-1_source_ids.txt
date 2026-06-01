@@ -1,0 +1,2 @@
+PDBbind2020:1yid:accepted
+scPDB:1yid_1:accepted

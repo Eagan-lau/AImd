@@ -1,0 +1,19 @@
+workflow: full_iterative_metaboclip
+name: RGPC → TApocket → broad DockingHub → ClusterScore → refined DockingHub → MetaBoClip
+
+paths:
+  aimd_root: .
+  rgpc_config: configs/RGPC/rgpc.yaml
+  tapocket_batch_config: configs/TApocket/tapocket_batch.yaml
+  broad_docking_config: configs/Docking/docking.yaml
+  clusterscore_config: configs/Scoring/cluster_score.yaml
+  refinement_config: configs/Refinement/refine_from_clusterscore.yaml
+  metaboclip_bridge_config: configs/MetaBoClip/metaboclip_bridge.yaml
+
+workflow:
+  run_rgpc: true
+  run_tapocket: true
+  run_broad_docking: true
+  run_clusterscore: true
+  run_refinement: true
+  run_metaboclip: true

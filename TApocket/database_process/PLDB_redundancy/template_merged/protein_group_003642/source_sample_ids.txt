@@ -1,0 +1,2 @@
+PDBbind2020:6oh2:accepted
+PDBbind2020:6oh3:accepted

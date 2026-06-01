@@ -1,0 +1,9 @@
+PDBbind2020:1efy:accepted
+PDBbind2020:2pax:accepted
+PDBbind2020:3pax:accepted
+PDBbind2020:4pax:accepted
+PDBbind2020:6i8m:accepted
+PDBbind2020:6i8t:accepted
+scPDB:1a26_1:accepted
+scPDB:1efy_1:accepted
+scPDB:1pax_1:accepted

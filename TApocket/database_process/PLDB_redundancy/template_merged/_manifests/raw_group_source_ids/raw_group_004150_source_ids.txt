@@ -1,0 +1,2 @@
+PDBbind2020:1lyx:accepted
+PDBbind2020:1lzo:accepted_dominant_chain

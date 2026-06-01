@@ -1,0 +1,6 @@
+PDBbind2020:5dy5:accepted_dominant_chain
+PDBbind2020:5mar:accepted
+PDBbind2020:5mat:accepted_dominant_chain
+PDBbind2020:5yql:accepted
+PDBbind2020:5yqn:accepted
+PDBbind2020:5yqo:accepted

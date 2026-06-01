@@ -1,0 +1,7 @@
+PDBbind2020:1gvu:accepted
+PDBbind2020:1gvw:accepted
+PDBbind2020:1gvx:accepted
+PDBbind2020:3uri:accepted
+scPDB:1gvw_1:accepted
+scPDB:2jji_1:accepted
+scPDB:2jjj_1:accepted

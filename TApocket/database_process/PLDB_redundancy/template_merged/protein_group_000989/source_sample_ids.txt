@@ -1,0 +1,5 @@
+PDBbind2020:5tyk:accepted
+PDBbind2020:5tyl:accepted
+PDBbind2020:5tyn:accepted
+PDBbind2020:5tyo:accepted
+PDBbind2020:5typ:accepted

@@ -1,0 +1,2 @@
+scPDB:3hyv_6:accepted
+scPDB:3hyx_4:accepted

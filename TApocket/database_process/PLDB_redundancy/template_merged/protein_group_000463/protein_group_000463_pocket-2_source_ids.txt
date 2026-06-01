@@ -1,0 +1,4 @@
+scPDB:1han_1:accepted
+scPDB:1kmy_1:accepted
+scPDB:1knd_1:accepted
+scPDB:1lgt_1:accepted

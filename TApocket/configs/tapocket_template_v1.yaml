@@ -1,0 +1,215 @@
+project:
+  # Keep this as "." so every path is resolved relative to the TApocket root folder.
+  root: "."
+
+paths:
+  template_root: "database_process/PLDB_redundancy/template_merged"
+  mcsa_root: "database_process/MCSA/reference_active_sites"
+
+  template_manifest: "work/manifests/template_manifest.jsonl"
+  mcsa_manifest: "work/manifests/mcsa_manifest.jsonl"
+
+  foldseek_template_db: "indexes/foldseek_template_db/template_db"
+  foldseek_mcsa_db: "indexes/foldseek_mcsa_db/mcsa_db"
+
+  staging_template_inputs: "work/staging/template_foldseek_inputs"
+  staging_mcsa_inputs: "work/staging/mcsa_foldseek_inputs"
+  run_root: "runs"
+
+template_db:
+  group_pattern: "protein_group_*"
+  protein_suffix: "_protein.pdb"
+  pocket_pattern: "*_pocket-*.pdb"
+  union_pocket_pattern: "*_pocket_union.pdb"
+  use_union_pocket: false
+  union_pocket_as_fallback: true
+
+mcsa_db:
+  reference_pattern: "*_reference_clean.pdb"
+  active_site_pattern: "*_mcsa_active_site_all.pdb"
+
+foldseek:
+  binary: "foldseek"
+  tmp_dir: "work/tmp/foldseek"
+  # Foldseek can return more hits than we finally map. This keeps recall but mapping remains fast.
+  max_seqs: 50
+  format_output:
+    - query
+    - target
+    - evalue
+    - bits
+    - alnlen
+    - qcov
+    - tcov
+    - qtmscore
+    - ttmscore
+    - alntmscore
+  extra_args: []
+
+template_selection:
+  min_qtmscore: 0.45
+  min_ttmscore: 0.45
+  min_alntmscore: 0.45
+  # Default top10 for speed; increase to 20/50 for recall benchmarking.
+  keep_top_k: 10
+
+template_deduplication:
+  enabled: true
+  keep_best_per_template: true
+
+pocket_mapping:
+  aligner: "pymol"
+  save_alignment_sessions: false
+  residue_extraction:
+    # Match the original script logic: template pocket CA -> nearest query CA.
+    method: "ca_distance"
+    ca_distance_cutoff_angstrom: 2.0
+    distance_cutoff_angstrom: 4.5
+    include_hydrogen: false
+  quality_control:
+    enabled: true
+    min_mapping_coverage: 0.40
+    min_query_residue_count: 5
+    low_quality_action: "drop"
+
+pocket_deduplication:
+  enabled: true
+  method: "query_residue_overlap"
+  overlap_threshold: 0.70
+  representative: "best_score"
+
+docking_box:
+  # Used for final box output and for M-CSA box matching.
+  padding_angstrom: 2.0
+
+mcsa:
+  enabled: true
+  max_seqs: 20
+  keep_top_k: 10
+  min_qtmscore: 0.40
+  min_ttmscore: 0.40
+  min_alntmscore: 0.40
+  active_site_match:
+    # Active-site atoms only need to fall into the candidate pocket docking box.
+    method: "box_overlap"   # box_overlap | box_or_distance | atom_distance
+    box_padding_angstrom: 2.0
+    min_active_site_atoms_in_box: 1
+    min_active_site_fraction_in_box: 0.10
+    distance_cutoff_angstrom: 4.5
+    min_matched_atoms: 5
+  filtering_policy:
+    if_active_site_in_pocket: "keep_matching_pockets_only"
+    if_no_active_site_in_pocket: "keep_all_pockets"
+    if_no_mcsa_hit: "keep_all_pockets"
+
+ai_models:
+  # Disabled by default because model weights/scripts are user-specific.
+  # Enable after putting DeepPocket-DB scripts/checkpoints in the paths below. For PocketMiner variants, clone gvp-pocket_pred into third_party/gvp-pocket_pred.
+  enabled: true
+  mode: "fallback_only"   # fallback_only | always | rerank | merge
+  device: "cuda"
+  trigger:
+    no_template_hit: true
+    no_final_pocket: true
+    min_final_pocket_count: 1
+    low_mapping_quality: false
+    min_mean_mapping_coverage: 0.40
+
+  predictors:
+    # Native DeepPocket-DB adapter: basic31 model, no PocketMiner required.
+    - name: "deeppocket_db_basic31"
+      type: "deeppocket_db"
+      enabled: true
+      variant: "basic31"      # basic31 | pocketminer_score | pocketminer_hidden
+      input_dim: 31
+      device: "cuda"
+      checkpoint: "models/deeppocket_db/basic31/best.pt"
+      model_config: "models/deeppocket_db/basic31/config.yaml"
+      feature:
+        type: "basic31"
+        require_pocketminer: false
+        cache_dir: "work/ai_features/basic31"
+      inference:
+        script: "third_party/DeepPocket-DB/scripts/predict.py"
+        output_parser: "tapocket_json"
+        output_json: "tapocket_ai_pockets.json"
+        # Optional: override the default command if your predict.py has different CLI arguments.
+        # command: []
+        extra_args: []
+
+    # Native DeepPocket-DB adapter: basic31 + PocketMiner residue score, input dim 32.
+    - name: "deeppocket_db_pocketminer_score"
+      type: "deeppocket_db"
+      enabled: false
+      variant: "pocketminer_score"
+      input_dim: 32
+      device: "cuda"
+      checkpoint: "models/deeppocket_db/pocketminer_score/best.pt"
+      model_config: "models/deeppocket_db/pocketminer_score/config.yaml"
+      feature:
+        type: "basic31_plus_pocketminer_score"
+        require_pocketminer: true
+        pocketminer_mode: "score"
+        pocketminer_root: "third_party/gvp-pocket_pred/src"
+        pocketminer_checkpoint: "third_party/gvp-pocket_pred/models/pocketminer"
+        cache_dir: "work/ai_features/pocketminer_score"
+        # Optional independent PocketMiner feature precompute command.
+        # If omitted, the DeepPocket-DB predict.py is expected to call PocketMiner internally.
+        # command: []
+      inference:
+        script: "third_party/DeepPocket-DB/scripts/predict.py"
+        output_parser: "tapocket_json"
+        output_json: "tapocket_ai_pockets.json"
+        extra_args: []
+
+    # Native DeepPocket-DB adapter: basic31 + PocketMiner hidden vector, input dim 131.
+    - name: "deeppocket_db_pocketminer_hidden"
+      type: "deeppocket_db"
+      enabled: false
+      variant: "pocketminer_hidden"
+      input_dim: 131
+      device: "cuda"
+      checkpoint: "models/deeppocket_db/pocketminer_hidden/best.pt"
+      model_config: "models/deeppocket_db/pocketminer_hidden/config.yaml"
+      feature:
+        type: "basic31_plus_pocketminer_hidden"
+        require_pocketminer: true
+        pocketminer_mode: "hidden"
+        pocketminer_hidden_dim: 100
+        pocketminer_root: "third_party/gvp-pocket_pred/src"
+        pocketminer_checkpoint: "third_party/gvp-pocket_pred/models/pocketminer"
+        cache_dir: "work/ai_features/pocketminer_hidden"
+        # command: []
+      inference:
+        script: "third_party/DeepPocket-DB/scripts/predict.py"
+        output_parser: "tapocket_json"
+        output_json: "tapocket_ai_pockets.json"
+        extra_args: []
+
+    # Generic script adapter for any other AI model. It only needs to output tapocket_ai_pockets.json.
+    - name: "custom_ai_model"
+      type: "script"
+      enabled: false
+      device: "cuda"
+      command:
+        - "python"
+        - "third_party/CustomModel/predict.py"
+        - "--input-pdb"
+        - "{query_pdb}"
+        - "--out-dir"
+        - "{output_dir}"
+        - "--device"
+        - "{device}"
+      output_parser: "tapocket_json"
+      output_json: "tapocket_ai_pockets.json"
+
+output:
+  # compact is the default for normal usage; detailed preserves every intermediate/debug file.
+  mode: "compact"   # compact | detailed
+  compact:
+    keep_intermediate: false
+  detailed:
+    save_foldseek_raw: true
+    save_mapping_debug: true
+    save_mcsa_debug: true
+    save_ai_debug: true

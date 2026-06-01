@@ -1,0 +1,13 @@
+scPDB:2g1n_1:accepted
+scPDB:2g1o_1:accepted
+scPDB:2g1r_1:accepted
+scPDB:2g1s_1:accepted
+scPDB:2g1y_1:accepted
+scPDB:2g20_1:accepted
+scPDB:2g22_1:accepted
+scPDB:2i4q_1:accepted
+scPDB:2iko_1:accepted
+scPDB:2iku_1:accepted
+scPDB:2il2_1:accepted
+scPDB:3vsw_1:accepted
+scPDB:3vsx_1:accepted

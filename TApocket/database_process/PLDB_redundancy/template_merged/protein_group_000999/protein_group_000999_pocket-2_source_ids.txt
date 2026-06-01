@@ -1,0 +1,4 @@
+scPDB:3inv_1:accepted
+scPDB:3irm_3:accepted
+scPDB:3irn_3:accepted
+scPDB:3iro_1:accepted

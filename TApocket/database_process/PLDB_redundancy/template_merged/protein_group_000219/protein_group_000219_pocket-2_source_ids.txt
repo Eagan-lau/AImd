@@ -1,0 +1,12 @@
+PDBbind2020:5orr:accepted
+PDBbind2020:5ort:accepted
+PDBbind2020:5orv:accepted
+PDBbind2020:5orw:accepted
+PDBbind2020:5orx:accepted
+PDBbind2020:5ory:accepted
+PDBbind2020:5orz:accepted
+PDBbind2020:5os0:accepted
+PDBbind2020:5os1:accepted
+PDBbind2020:5os3:accepted
+PDBbind2020:5os4:accepted
+PDBbind2020:5os5:accepted

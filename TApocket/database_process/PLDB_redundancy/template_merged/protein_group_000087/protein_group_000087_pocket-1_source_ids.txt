@@ -1,0 +1,17 @@
+PDBbind2020:2v58:accepted
+PDBbind2020:2v59:accepted
+PDBbind2020:2v5a:accepted
+PDBbind2020:2w6m:accepted
+PDBbind2020:2w6n:accepted
+PDBbind2020:2w6o:accepted
+PDBbind2020:2w6p:accepted
+PDBbind2020:2w6q:accepted
+PDBbind2020:2w6z:accepted
+PDBbind2020:2w70:accepted
+PDBbind2020:2w71:accepted
+PDBbind2020:3jzf:accepted
+PDBbind2020:3jzi:accepted
+PDBbind2020:6oi9:accepted
+scPDB:3g8c_3:accepted
+scPDB:3jzf_1:accepted
+scPDB:3jzi_1:accepted

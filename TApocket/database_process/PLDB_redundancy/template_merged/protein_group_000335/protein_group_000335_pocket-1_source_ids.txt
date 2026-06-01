@@ -1,0 +1,4 @@
+PDBbind2020:2ovx:accepted
+PDBbind2020:2ovz:accepted
+PDBbind2020:2ow0:accepted
+PDBbind2020:2ow1:accepted

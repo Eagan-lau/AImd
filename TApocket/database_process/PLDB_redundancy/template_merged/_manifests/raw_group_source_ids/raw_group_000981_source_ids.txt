@@ -1,0 +1,5 @@
+scPDB:2bxi_1:accepted
+scPDB:2bxq_3:accepted
+scPDB:2xsi_2:accepted
+scPDB:2xvv_2:accepted
+scPDB:2xvw_2:accepted

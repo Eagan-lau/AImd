@@ -1,0 +1,16 @@
+PDBbind2020:5oh1:accepted
+PDBbind2020:5oh2:accepted
+PDBbind2020:5oh3:accepted
+PDBbind2020:5oh4:accepted
+PDBbind2020:5oh7:accepted
+PDBbind2020:5oh9:accepted
+PDBbind2020:5oha:accepted
+PDBbind2020:6r0v:accepted
+PDBbind2020:6r11:accepted
+PDBbind2020:6r13:accepted
+PDBbind2020:6r18:accepted
+PDBbind2020:6r1a:accepted
+PDBbind2020:6r1c:accepted
+PDBbind2020:6r1d:accepted
+PDBbind2020:6r1k:accepted
+PDBbind2020:6r1w:accepted

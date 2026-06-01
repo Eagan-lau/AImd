@@ -1,0 +1,3 @@
+PDBbind2020:3su3:accepted
+PDBbind2020:3sud:accepted
+scPDB:3sud_4:accepted

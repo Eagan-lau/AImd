@@ -1,0 +1,14 @@
+PDBbind2020:3dbu:accepted
+PDBbind2020:3dc3:accepted
+PDBbind2020:3dcc:accepted
+PDBbind2020:3dcs:accepted
+PDBbind2020:3dcw:accepted
+PDBbind2020:3oik:accepted
+PDBbind2020:3oil:accepted
+PDBbind2020:3okv:accepted
+scPDB:3dbu_1:accepted
+scPDB:3dc3_1:accepted
+scPDB:3dcc_1:accepted
+scPDB:3dcs_1:accepted
+scPDB:3dcw_1:accepted
+scPDB:3oik_1:accepted

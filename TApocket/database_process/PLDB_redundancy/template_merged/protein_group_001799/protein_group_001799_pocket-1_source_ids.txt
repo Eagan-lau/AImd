@@ -1,0 +1,2 @@
+PDBbind2020:2wij:accepted
+PDBbind2020:2wik:accepted

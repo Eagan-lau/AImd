@@ -1,0 +1,6 @@
+PDBbind2020:6ps0:accepted
+PDBbind2020:6ps1:accepted
+PDBbind2020:6ps3:accepted
+PDBbind2020:6ps4:accepted
+PDBbind2020:6ps5:accepted
+PDBbind2020:6ps6:accepted

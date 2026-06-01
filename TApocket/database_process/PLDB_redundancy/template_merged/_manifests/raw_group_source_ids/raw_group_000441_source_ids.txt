@@ -1,0 +1,10 @@
+scPDB:2yoj_2:accepted
+scPDB:3lkh_2:accepted
+scPDB:3ska_1:accepted
+scPDB:3ske_1:accepted
+scPDB:3skh_2:accepted
+scPDB:3tyv_2:accepted
+scPDB:3u4o_2:accepted
+scPDB:3u4r_2:accepted
+scPDB:3uph_2:accepted
+scPDB:3upi_1:accepted

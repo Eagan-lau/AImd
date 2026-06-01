@@ -1,0 +1,4 @@
+scPDB:2ync_1:accepted
+scPDB:2yne_3:accepted
+scPDB:4a95_2:accepted
+scPDB:4bbh_3:accepted

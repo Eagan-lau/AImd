@@ -1,0 +1,3 @@
+scPDB:1dor_2:accepted
+scPDB:1jue_1:accepted
+scPDB:2bsl_2:accepted

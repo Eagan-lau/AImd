@@ -1,0 +1,11 @@
+scPDB:2g6p_1:accepted
+scPDB:2nq7_1:accepted
+scPDB:4fli_1:accepted
+scPDB:4flj_1:accepted
+scPDB:4flk_1:accepted
+scPDB:4fll_1:accepted
+scPDB:4hxx_1:accepted
+scPDB:4ikr_1:accepted
+scPDB:4iks_1:accepted
+scPDB:4ikt_1:accepted
+scPDB:4iku_1:accepted

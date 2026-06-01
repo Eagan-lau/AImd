@@ -1,0 +1,2 @@
+scPDB:4fgr_2:accepted
+scPDB:4nye_2:accepted

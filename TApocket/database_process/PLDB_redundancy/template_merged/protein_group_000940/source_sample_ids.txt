@@ -1,0 +1,6 @@
+PDBbind2020:184l:accepted
+PDBbind2020:185l:accepted
+PDBbind2020:186l:accepted
+PDBbind2020:187l:accepted
+PDBbind2020:188l:accepted
+PDBbind2020:1l83:accepted

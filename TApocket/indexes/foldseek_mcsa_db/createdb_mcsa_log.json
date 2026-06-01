@@ -1,0 +1,12 @@
+{
+  "command": [
+    "foldseek",
+    "createdb",
+    "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/staging/mcsa_foldseek_inputs",
+    "/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/indexes/foldseek_mcsa_db/mcsa_db"
+  ],
+  "returncode": 0,
+  "stdout": "createdb /media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/work/staging/mcsa_foldseek_inputs /media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/indexes/foldseek_mcsa_db/mcsa_db \n\nMMseqs Version:        \t1cb3a80d9566820bc223bdf4d34d30d85ffbc4f4\nChain name mode        \t0\nWrite mapping file     \t0\nMask b-factor threshold\t0\nCoord store mode       \t2\nWrite lookup file      \t1\nTar Inclusion Regex    \t.*\nTar Exclusion Regex    \t^$\nFile Inclusion Regex   \t.*\nFile Exclusion Regex   \t^$\nThreads                \t64\nVerbosity              \t3\n\nOutput file: /media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/TApocket/indexes/foldseek_mcsa_db/mcsa_db\n[=================================================================] 946 0s 536ms\nTime for merging to mcsa_db_ss: 0h 0m 0s 47ms\nTime for merging to mcsa_db_h: 0h 0m 0s 33ms\nTime for merging to mcsa_db_ca: 0h 0m 0s 58ms\nTime for merging to mcsa_db: 0h 0m 0s 39ms\nIgnore 4749 out of 7183.\nToo short: 4745, incorrect: 0, not proteins: 4.\nTime for processing: 0h 0m 1s 74ms\n",
+  "stderr": "",
+  "elapsed_seconds": 1.109424114227295
+}

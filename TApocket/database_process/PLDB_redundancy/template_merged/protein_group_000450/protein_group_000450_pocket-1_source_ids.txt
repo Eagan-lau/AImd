@@ -1,0 +1,6 @@
+scPDB:4lwa_1:accepted
+scPDB:4lwb_1:accepted
+scPDB:4ug5_2:accepted
+scPDB:4ug7_2:accepted
+scPDB:4ug9_1:accepted
+scPDB:4uga_2:accepted

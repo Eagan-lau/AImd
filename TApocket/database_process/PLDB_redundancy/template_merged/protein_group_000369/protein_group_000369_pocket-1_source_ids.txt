@@ -1,0 +1,5 @@
+scPDB:3buv_1:accepted
+scPDB:3bv7_2:accepted
+scPDB:3caq_1:accepted
+scPDB:3dop_2:accepted
+scPDB:3g1r_2:accepted

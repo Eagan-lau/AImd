@@ -1,0 +1,6 @@
+PDBbind2020:6bhv:accepted
+PDBbind2020:6nrf:accepted
+PDBbind2020:6nrg:accepted
+PDBbind2020:6nrh:accepted
+PDBbind2020:6nri:accepted
+PDBbind2020:6nrj:accepted

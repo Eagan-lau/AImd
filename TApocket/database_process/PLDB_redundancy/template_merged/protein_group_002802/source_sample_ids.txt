@@ -1,0 +1,2 @@
+scPDB:4m1e_1:accepted
+scPDB:4m1e_2:accepted_pseudo_chainA

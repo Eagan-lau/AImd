@@ -1,0 +1,2 @@
+scPDB:3ukk_1:accepted
+scPDB:3ukk_4:accepted

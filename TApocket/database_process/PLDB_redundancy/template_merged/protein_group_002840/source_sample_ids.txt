@@ -1,0 +1,2 @@
+scPDB:1qti_1:accepted
+scPDB:1vot_1:accepted

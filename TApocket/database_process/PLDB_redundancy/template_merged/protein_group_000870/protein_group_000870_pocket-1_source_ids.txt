@@ -1,0 +1,5 @@
+PDBbind2020:4btk:accepted
+PDBbind2020:4btm:accepted
+scPDB:4btj_1:accepted
+scPDB:4btj_2:accepted
+scPDB:4nfn_1:accepted

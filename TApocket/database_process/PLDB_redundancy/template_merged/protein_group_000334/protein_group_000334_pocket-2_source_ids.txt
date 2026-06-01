@@ -1,0 +1,9 @@
+scPDB:1ihi_2:accepted
+scPDB:4jq1_1:accepted
+scPDB:4jq2_1:accepted
+scPDB:4jq3_1:accepted
+scPDB:4jqa_2:accepted
+scPDB:4jtq_2:accepted
+scPDB:4jtr_1:accepted
+scPDB:4jtr_2:accepted
+scPDB:4xo7_1:accepted

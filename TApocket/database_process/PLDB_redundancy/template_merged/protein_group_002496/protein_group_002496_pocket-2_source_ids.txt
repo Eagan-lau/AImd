@@ -1,0 +1,1 @@
+scPDB:1hwl_6:accepted_dominant_chain

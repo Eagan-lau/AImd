@@ -1,0 +1,8 @@
+scPDB:2ibs_1:accepted
+scPDB:2ibt_1:accepted
+scPDB:2ih2_2:accepted
+scPDB:2ih4_2:accepted
+scPDB:2ih5_1:accepted
+scPDB:2jg3_1:accepted
+scPDB:2np6_2:accepted
+scPDB:2np7_1:accepted

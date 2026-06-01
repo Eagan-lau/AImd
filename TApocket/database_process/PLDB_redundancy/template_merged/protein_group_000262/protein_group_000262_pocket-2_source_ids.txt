@@ -1,0 +1,2 @@
+scPDB:3pgp_1:accepted
+scPDB:4kub_1:accepted

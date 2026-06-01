@@ -1,0 +1,6 @@
+PDBbind2020:4bhn:accepted
+PDBbind2020:4bib:accepted
+PDBbind2020:4bic:accepted
+PDBbind2020:4bid:accepted
+PDBbind2020:4bie:accepted
+PDBbind2020:6oyw:accepted_dominant_chain

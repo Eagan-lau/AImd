@@ -1,0 +1,6 @@
+PDBbind2020:4mwq:accepted
+PDBbind2020:4mwr:accepted
+PDBbind2020:4mwu:accepted
+PDBbind2020:4mwv:accepted
+PDBbind2020:5l15:accepted
+PDBbind2020:5l17:accepted

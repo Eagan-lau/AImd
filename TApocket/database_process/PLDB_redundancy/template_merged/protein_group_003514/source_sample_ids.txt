@@ -1,0 +1,2 @@
+PDBbind2020:3aje:accepted
+scPDB:3aje_1:accepted

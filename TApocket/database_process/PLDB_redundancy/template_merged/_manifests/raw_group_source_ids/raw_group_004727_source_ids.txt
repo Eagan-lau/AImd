@@ -1,0 +1,2 @@
+PDBbind2020:1om2:accepted
+PDBbind2020:3ax5:accepted

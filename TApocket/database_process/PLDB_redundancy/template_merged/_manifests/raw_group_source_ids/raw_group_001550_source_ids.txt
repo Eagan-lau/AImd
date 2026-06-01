@@ -1,0 +1,4 @@
+PDBbind2020:3iof:accepted
+PDBbind2020:3iog:accepted
+scPDB:3iof_1:accepted
+scPDB:3iog_1:accepted

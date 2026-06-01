@@ -1,0 +1,2 @@
+scPDB:2vta_1:accepted
+scPDB:2vth_1:accepted

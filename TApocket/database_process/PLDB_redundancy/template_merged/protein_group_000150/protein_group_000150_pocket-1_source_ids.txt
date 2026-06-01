@@ -1,0 +1,14 @@
+PDBbind2020:1yc1:accepted
+PDBbind2020:1yc4:accepted
+PDBbind2020:1yet:accepted
+PDBbind2020:2ccs:accepted
+PDBbind2020:2cct:accepted
+PDBbind2020:2ccu:accepted
+PDBbind2020:2qf6:accepted
+PDBbind2020:2qg2:accepted
+PDBbind2020:2xhx:accepted
+PDBbind2020:2xjg:accepted
+PDBbind2020:3ow6:accepted
+PDBbind2020:3owb:accepted
+PDBbind2020:3owd:accepted
+scPDB:2ccu_1:accepted

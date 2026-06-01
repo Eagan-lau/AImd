@@ -1,0 +1,1 @@
+scPDB:1muu_2:accepted_pseudo_chainA

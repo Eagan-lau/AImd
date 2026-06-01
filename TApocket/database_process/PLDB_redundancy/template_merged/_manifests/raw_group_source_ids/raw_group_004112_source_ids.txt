@@ -1,0 +1,2 @@
+scPDB:2io6_1:accepted
+scPDB:3biz_1:accepted

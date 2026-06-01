@@ -1,0 +1,4 @@
+PDBbind2020:4iic:accepted
+PDBbind2020:4iid:accepted
+PDBbind2020:4iie:accepted
+PDBbind2020:4iif:accepted

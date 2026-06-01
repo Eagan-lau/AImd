@@ -1,0 +1,2 @@
+PDBbind2020:4wri:accepted
+scPDB:4wri_1:accepted

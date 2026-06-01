@@ -1,0 +1,10 @@
+PDBbind2020:4km0:accepted
+PDBbind2020:4km2:accepted
+PDBbind2020:4kne:accepted
+scPDB:1df7_1:accepted
+scPDB:1dg5_1:accepted
+scPDB:1dg7_1:accepted
+scPDB:1dg8_1:accepted
+scPDB:4kl9_1:accepted
+scPDB:4kne_1:accepted
+scPDB:4m2x_1:accepted

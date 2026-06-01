@@ -1,0 +1,10 @@
+PDBbind2020:2v2q:accepted
+PDBbind2020:2v2v:accepted
+scPDB:2v2q_2:accepted
+scPDB:2v2v_1:accepted
+scPDB:2v2z_2:accepted
+scPDB:2v2z_3:accepted
+scPDB:2v34_1:accepted
+scPDB:2v8p_2:accepted
+scPDB:2v8p_3:accepted
+scPDB:2vf3_2:accepted

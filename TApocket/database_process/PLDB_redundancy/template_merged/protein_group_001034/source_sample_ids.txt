@@ -1,0 +1,5 @@
+PDBbind2020:5aqz:accepted
+PDBbind2020:5ar0:accepted
+PDBbind2020:5mkr:accepted
+PDBbind2020:5mks:accepted
+scPDB:5aqz_1:accepted

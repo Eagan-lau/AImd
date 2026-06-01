@@ -1,0 +1,2 @@
+PDBbind2020:1vyq:accepted_pseudo_chainA
+scPDB:1vyq_2:accepted_dominant_chain

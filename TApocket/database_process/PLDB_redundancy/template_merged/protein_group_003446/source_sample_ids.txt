@@ -1,0 +1,2 @@
+scPDB:1kif_5:accepted
+scPDB:1ve9_2:accepted

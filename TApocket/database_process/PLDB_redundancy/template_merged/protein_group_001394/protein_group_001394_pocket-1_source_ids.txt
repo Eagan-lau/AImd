@@ -1,0 +1,4 @@
+PDBbind2020:3ip5:accepted
+PDBbind2020:3ip6:accepted
+PDBbind2020:3ip9:accepted
+PDBbind2020:3ipa:accepted

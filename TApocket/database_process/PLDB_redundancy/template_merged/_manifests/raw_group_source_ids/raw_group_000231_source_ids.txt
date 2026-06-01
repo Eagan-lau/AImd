@@ -1,0 +1,17 @@
+PDBbind2020:5i9x:accepted
+PDBbind2020:5i9y:accepted
+PDBbind2020:5i9z:accepted
+PDBbind2020:5ia2:accepted
+PDBbind2020:5ia4:accepted
+PDBbind2020:5ia5:accepted
+PDBbind2020:5nk2:accepted
+PDBbind2020:5nk3:accepted
+PDBbind2020:5nk4:accepted
+PDBbind2020:5nk6:accepted
+PDBbind2020:5nk7:accepted
+PDBbind2020:5nk9:accepted
+PDBbind2020:5nkb:accepted
+PDBbind2020:5nkc:accepted
+PDBbind2020:5nkd:accepted
+PDBbind2020:5nkg:accepted
+PDBbind2020:5nkh:accepted

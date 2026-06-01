@@ -1,0 +1,2 @@
+PDBbind2020:3l3a:accepted
+scPDB:2wjo_1:accepted

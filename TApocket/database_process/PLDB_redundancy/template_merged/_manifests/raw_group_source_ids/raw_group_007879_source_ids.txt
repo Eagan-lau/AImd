@@ -1,0 +1,1 @@
+scPDB:1m8d_1:accepted

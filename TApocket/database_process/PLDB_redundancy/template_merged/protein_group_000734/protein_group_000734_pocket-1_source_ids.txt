@@ -1,0 +1,5 @@
+PDBbind2020:2flu:accepted
+PDBbind2020:4xmb:accepted
+PDBbind2020:5x54:accepted
+PDBbind2020:6fmp:accepted_dominant_chain
+scPDB:3vnh_1:accepted

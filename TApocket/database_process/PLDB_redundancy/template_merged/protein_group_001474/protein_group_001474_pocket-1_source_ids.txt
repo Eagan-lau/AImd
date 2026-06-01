@@ -1,0 +1,2 @@
+PDBbind2020:2aou:accepted
+scPDB:2aou_1:accepted

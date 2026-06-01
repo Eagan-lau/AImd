@@ -1,0 +1,3 @@
+scPDB:1pl6_3:accepted
+scPDB:1pl6_5:accepted
+scPDB:1pl8_4:accepted

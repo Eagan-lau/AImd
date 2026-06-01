@@ -1,0 +1,4 @@
+PDBbind2020:1zhy:accepted
+scPDB:1zhw_1:accepted
+scPDB:1zhy_1:accepted
+scPDB:1zhz_1:accepted

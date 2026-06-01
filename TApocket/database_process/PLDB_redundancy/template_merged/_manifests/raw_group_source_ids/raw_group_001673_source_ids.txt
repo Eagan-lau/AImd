@@ -1,0 +1,3 @@
+scPDB:4tnp_5:accepted_pseudo_chainA
+scPDB:4to0_3:accepted
+scPDB:4to1_6:accepted

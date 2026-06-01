@@ -1,0 +1,3 @@
+scPDB:1ddt_1:accepted
+scPDB:1dtp_1:accepted
+scPDB:1mdt_1:accepted

@@ -1,0 +1,2 @@
+scPDB:2vez_1:accepted
+scPDB:2vxk_1:accepted

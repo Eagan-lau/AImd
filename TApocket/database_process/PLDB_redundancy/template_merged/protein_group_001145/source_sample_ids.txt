@@ -1,0 +1,5 @@
+scPDB:4ojb_1:accepted
+scPDB:4okb_1:accepted
+scPDB:4okw_1:accepted
+scPDB:4okx_1:accepted
+scPDB:4olm_1:accepted

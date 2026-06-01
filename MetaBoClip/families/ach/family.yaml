@@ -1,0 +1,143 @@
+version: 1
+family:
+  key: ach
+  plugin: ach
+  runner: ach
+  name: ACH
+  version: 2.0.1
+  description: ACH family spec aligned to the original dAC gating logic, with template alignment enabled.
+input:
+  protein_extension: .pdbqt
+  ligand_extension: .pdbqt
+  ligand_pattern: '{ligand_id}@{protein_name}{ligand_extension}'
+  out_pattern: '{ligand_id}_{protein_name}_cavity_1.out'
+  protein_object: prot
+  ligand_object: ligand
+  affinity_threshold: -3.0
+aggregation:
+  total_confs: 6
+  cover_t: 70.0
+  alpha: 0.3
+output:
+  save_pse: true
+  row_fields:
+    - name: carbon_index
+      ref: carbon_index
+    - name: carbon_id
+      ref: carbonyl_c
+      attr: atom_id
+    - name: selection_name
+      ref: selection_name
+    - name: ligand_atom_ids
+      ref: ligand_atom_ids
+resources:
+  template:
+    path: examples/templates/dAC-T.pdb
+    object: A1
+    align_to_protein: true
+    align_method: super
+    alignment_required: true
+    mobile_selector: '{template_obj} and name CA'
+    target_selector: '{protein_obj} and name CA'
+globals:
+  template_ser171_ca:
+    op: select_first_atom
+    selector: '{template_obj} and resn SER and resi 171 and name CA'
+  mapped_ser_residue:
+    op: select_nearest_residue
+    candidate_selector: '{protein_obj} and byres (({template_obj} and resn SER and resi 171) around 2) and resn SER'
+    reference: template_ser171_ca
+    residue_atom_name: CA
+  ser_og:
+    op: select_atom_from_residue
+    residue: mapped_ser_residue
+    atom_name: OG
+  his_ne2_candidates:
+    op: select_atoms_within
+    candidate_selector: '{protein_obj} and resn HIS and name NE2'
+    reference: ser_og
+    radius: 5.0
+  his_ne2:
+    op: select_nearest_from_collection
+    collection: his_ne2_candidates
+    reference: ser_og
+    max_distance: 5.0
+pose:
+  add_hydrogens: false
+  objects:
+    carbonyl_sites:
+      op: collect_carbonyl_sites
+      neighbor_cutoff: 2.0
+      min_oxygens: 2
+      exact_oxygens: 2
+      oxygen_count_mode: exact
+      require_o_bond_neighbor: true
+candidates:
+  op: source
+  collection: carbonyl_sites
+features:
+  - name: dist_to_SerOG_A
+    op: distance
+    a: ser_og
+    b: carbonyl_c
+  - name: dist_SerOG_HisNE2_A
+    op: distance
+    a: ser_og
+    b: his_ne2
+  - name: bd_angle_deg
+    op: angle
+    a: ser_og
+    b: carbonyl_c
+    c: carbonyl_o
+gating:
+  logic: all
+  rules:
+    - feature: dist_to_SerOG_A
+      op: <=
+      value: 5.0
+    - feature: dist_SerOG_HisNE2_A
+      op: <=
+      value: 5.0
+scoring:
+  transforms:
+    - name: affinity_score
+      op: energy_linear
+      source: affinity_kcal
+      full: -7.0
+      zero: -3.0
+    - name: d1_score
+      op: distance_piecewise
+      source: dist_to_SerOG_A
+      best: 3.2
+      cutoff: 5.0
+    - name: d2_score
+      op: distance_piecewise
+      source: dist_SerOG_HisNE2_A
+      best: 3.2
+      cutoff: 5.0
+    - name: angle_score
+      op: gaussian
+      source: bd_angle_deg
+      target: 107.0
+      sigma: 20.0
+      flat: 0.0
+      fold180: false
+  intermediates:
+    - name: D_score
+      op: weighted_sum
+      scale: 1.0
+      terms:
+        - source: d1_score
+          weight: 0.9
+        - source: d2_score
+          weight: 0.1
+  pose_score:
+    op: weighted_sum
+    scale: 100.0
+    terms:
+      - source: affinity_score
+        weight: 0.3
+      - source: D_score
+        weight: 0.5
+      - source: angle_score
+        weight: 0.2

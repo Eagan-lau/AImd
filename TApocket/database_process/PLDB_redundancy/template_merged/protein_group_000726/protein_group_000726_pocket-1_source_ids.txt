@@ -1,0 +1,7 @@
+PDBbind2020:2jbo:accepted
+PDBbind2020:2jbp:accepted
+PDBbind2020:3a2c:accepted
+PDBbind2020:3fpm:accepted
+PDBbind2020:3kc3:accepted
+PDBbind2020:3r2b:accepted
+PDBbind2020:3wi6:accepted_dominant_chain

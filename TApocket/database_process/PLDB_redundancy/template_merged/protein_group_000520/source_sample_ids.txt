@@ -1,0 +1,9 @@
+PDBbind2020:2y1d:accepted
+PDBbind2020:2y1g:accepted
+PDBbind2020:3zhx:accepted
+PDBbind2020:3zhz:accepted
+PDBbind2020:3zi0:accepted
+scPDB:2jcv_1:accepted
+scPDB:2jd1_1:accepted
+scPDB:3ras_2:accepted
+scPDB:4aic_1:accepted

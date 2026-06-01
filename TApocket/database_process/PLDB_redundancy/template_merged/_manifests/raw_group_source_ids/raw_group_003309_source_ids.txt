@@ -1,0 +1,2 @@
+PDBbind2020:3u78:accepted
+scPDB:3u78_1:accepted

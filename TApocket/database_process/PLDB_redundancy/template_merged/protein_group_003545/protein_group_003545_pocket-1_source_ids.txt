@@ -1,0 +1,2 @@
+PDBbind2020:1xoz:accepted
+PDBbind2020:1xp0:accepted

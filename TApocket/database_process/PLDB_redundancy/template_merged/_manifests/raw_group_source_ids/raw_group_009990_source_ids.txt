@@ -1,0 +1,1 @@
+PDBbind2020:2i0e:accepted_dominant_chain

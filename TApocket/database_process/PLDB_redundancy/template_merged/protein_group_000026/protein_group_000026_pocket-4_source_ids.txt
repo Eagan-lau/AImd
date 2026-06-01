@@ -1,0 +1,6 @@
+scPDB:3pcz_1:accepted
+scPDB:3pld_1:accepted
+scPDB:3pll_1:accepted
+scPDB:3t6i_1:accepted
+scPDB:3t6i_3:accepted
+scPDB:4y35_1:accepted

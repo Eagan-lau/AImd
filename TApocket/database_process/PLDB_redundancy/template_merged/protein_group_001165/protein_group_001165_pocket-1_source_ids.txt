@@ -1,0 +1,4 @@
+PDBbind2020:4avg:accepted_dominant_chain
+PDBbind2020:4awf:accepted
+PDBbind2020:4awg:accepted
+scPDB:4awg_3:accepted

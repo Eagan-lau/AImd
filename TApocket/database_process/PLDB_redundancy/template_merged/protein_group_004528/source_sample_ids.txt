@@ -1,0 +1,2 @@
+scPDB:1g16_3:accepted
+scPDB:1g17_2:accepted

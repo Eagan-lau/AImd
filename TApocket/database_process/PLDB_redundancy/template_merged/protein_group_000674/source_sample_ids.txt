@@ -1,0 +1,7 @@
+PDBbind2020:2vjx:accepted
+PDBbind2020:2vl4:accepted
+PDBbind2020:2vmf:accepted
+PDBbind2020:2vo5:accepted
+PDBbind2020:2vot:accepted
+PDBbind2020:2vqt:accepted
+PDBbind2020:2vr4:accepted

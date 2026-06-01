@@ -1,0 +1,6 @@
+PDBbind2020:3uj9:accepted
+PDBbind2020:3ujb:accepted
+PDBbind2020:4fgz:accepted
+scPDB:3uj7_1:accepted
+scPDB:3uj8_1:accepted
+scPDB:4fgz_6:accepted

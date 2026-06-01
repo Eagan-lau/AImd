@@ -1,0 +1,6 @@
+scPDB:1tgv_1:accepted_dominant_chain
+scPDB:1tgy_1:accepted_dominant_chain
+scPDB:1u1c_3:accepted_dominant_chain
+scPDB:1u1d_5:accepted_dominant_chain
+scPDB:1u1f_4:accepted_dominant_chain
+scPDB:1u1g_6:accepted_dominant_chain

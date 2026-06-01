@@ -1,0 +1,1 @@
+scPDB:1h48_9:accepted_dominant_chain

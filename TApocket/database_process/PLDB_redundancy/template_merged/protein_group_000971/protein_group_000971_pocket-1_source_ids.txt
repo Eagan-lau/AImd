@@ -1,0 +1,4 @@
+PDBbind2020:2vw1:accepted
+PDBbind2020:2vw2:accepted
+PDBbind2020:4fpf:accepted
+PDBbind2020:4fpk:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:3tcy:accepted
+PDBbind2020:4jpy:accepted

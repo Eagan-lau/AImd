@@ -1,0 +1,2 @@
+scPDB:1hna_1:accepted
+scPDB:1hnc_2:accepted_dominant_chain

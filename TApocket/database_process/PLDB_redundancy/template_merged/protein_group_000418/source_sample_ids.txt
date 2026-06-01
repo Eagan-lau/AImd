@@ -1,0 +1,11 @@
+scPDB:3w1q_1:accepted
+scPDB:3w1r_1:accepted
+scPDB:3w1t_1:accepted
+scPDB:3w1x_2:accepted
+scPDB:3w23_2:accepted
+scPDB:3w2j_2:accepted
+scPDB:3w2l_2:accepted_dominant_chain
+scPDB:3w2m_2:accepted
+scPDB:3w2n_1:accepted
+scPDB:3w2u_2:accepted
+scPDB:3w3o_2:accepted

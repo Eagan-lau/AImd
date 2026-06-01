@@ -1,0 +1,6 @@
+scPDB:3icr_3:accepted_dominant_chain
+scPDB:3ics_3:accepted
+scPDB:3ics_4:accepted_dominant_chain
+scPDB:3ict_1:accepted_dominant_chain
+scPDB:3ict_2:accepted_pseudo_chainA
+scPDB:3ict_5:accepted

@@ -1,0 +1,2 @@
+scPDB:1gsq_1:accepted
+scPDB:2gsq_1:accepted

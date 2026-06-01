@@ -1,0 +1,12 @@
+PDBbind2020:3o9l:accepted_pseudo_chainA
+scPDB:2g27_2:accepted
+scPDB:3d91_2:accepted
+scPDB:3g6z_2:accepted
+scPDB:3g70_1:accepted
+scPDB:3g72_1:accepted
+scPDB:3k1w_1:accepted
+scPDB:3o9l_2:accepted_dominant_chain
+scPDB:3oad_1:accepted_dominant_chain
+scPDB:3oag_1:accepted_dominant_chain
+scPDB:3vye_2:accepted
+scPDB:3vyf_1:accepted

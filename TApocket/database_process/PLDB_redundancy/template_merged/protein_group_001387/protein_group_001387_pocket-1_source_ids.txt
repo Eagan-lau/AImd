@@ -1,0 +1,3 @@
+PDBbind2020:4cg8:accepted
+PDBbind2020:5ftg:accepted
+scPDB:4cg8_1:accepted

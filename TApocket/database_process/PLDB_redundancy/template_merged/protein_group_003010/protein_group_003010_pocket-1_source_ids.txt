@@ -1,0 +1,2 @@
+scPDB:2yg3_2:accepted
+scPDB:2yg4_2:accepted

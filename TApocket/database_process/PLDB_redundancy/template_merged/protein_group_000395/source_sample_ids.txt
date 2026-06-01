@@ -1,0 +1,11 @@
+PDBbind2020:1pwp:accepted
+PDBbind2020:1yqy:accepted
+PDBbind2020:4dv8:accepted
+PDBbind2020:4pkr:accepted
+PDBbind2020:4pkt:accepted
+PDBbind2020:4pkv:accepted
+PDBbind2020:4wf6:accepted
+PDBbind2020:4xm7:accepted
+PDBbind2020:4xm8:accepted
+PDBbind2020:5d1s:accepted
+scPDB:1yqy_1:accepted

@@ -1,0 +1,3 @@
+scPDB:3zcx_1:accepted
+scPDB:3zdf_2:accepted_dominant_chain
+scPDB:4boy_2:accepted

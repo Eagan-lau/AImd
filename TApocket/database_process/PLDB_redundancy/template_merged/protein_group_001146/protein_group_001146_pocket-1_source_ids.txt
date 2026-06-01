@@ -1,0 +1,5 @@
+PDBbind2020:1laf:accepted
+PDBbind2020:1lag:accepted
+PDBbind2020:1lah:accepted
+PDBbind2020:1lst:accepted
+PDBbind2020:6mle:accepted

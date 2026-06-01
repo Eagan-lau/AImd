@@ -1,0 +1,11 @@
+PDBbind2020:4crl:accepted
+PDBbind2020:5bnj:accepted
+PDBbind2020:5cei:accepted
+PDBbind2020:5hbe:accepted
+PDBbind2020:5hbh:accepted
+PDBbind2020:5hbj:accepted
+PDBbind2020:5hvy:accepted_dominant_chain
+PDBbind2020:5i5z:accepted
+PDBbind2020:5icp:accepted
+PDBbind2020:5xqx:accepted
+PDBbind2020:5xs2:accepted

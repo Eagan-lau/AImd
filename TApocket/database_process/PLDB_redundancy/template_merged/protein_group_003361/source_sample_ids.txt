@@ -1,0 +1,2 @@
+PDBbind2020:4ocv:accepted
+scPDB:4ocv_1:accepted

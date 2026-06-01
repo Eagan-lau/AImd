@@ -1,0 +1,6 @@
+PDBbind2020:4ra1:accepted
+PDBbind2020:4zeb:accepted
+PDBbind2020:4zec:accepted
+PDBbind2020:4zed:accepted
+PDBbind2020:4zei:accepted
+PDBbind2020:4zek:accepted

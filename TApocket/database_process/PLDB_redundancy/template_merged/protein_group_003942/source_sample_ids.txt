@@ -1,0 +1,2 @@
+PDBbind2020:2v7a:accepted
+scPDB:2v7a_1:accepted

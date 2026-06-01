@@ -1,0 +1,2 @@
+PDBbind2020:4iax:accepted
+scPDB:4iax_1:accepted

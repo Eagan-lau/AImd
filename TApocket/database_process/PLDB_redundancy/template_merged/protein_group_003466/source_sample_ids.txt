@@ -1,0 +1,2 @@
+scPDB:3own_1:accepted
+scPDB:3vyd_1:accepted

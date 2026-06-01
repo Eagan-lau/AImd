@@ -1,0 +1,2 @@
+PDBbind2020:2m3z:accepted
+scPDB:2m3z_2:accepted

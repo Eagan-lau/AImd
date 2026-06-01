@@ -1,0 +1,4 @@
+PDBbind2020:3old:accepted
+PDBbind2020:3ole:accepted
+PDBbind2020:3olg:accepted
+PDBbind2020:3oli:accepted

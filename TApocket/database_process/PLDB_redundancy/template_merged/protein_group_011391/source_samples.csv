@@ -1,0 +1,2 @@
+protein_group_id,global_sample_id,sample_id,source_dataset,source_status,sample_type,protein_pdb,pocket_pdb,mapped_pocket_residue_count
+protein_group_011391,scPDB:4mzq_5:accepted_pseudo_chainA,4mzq_5,scPDB,accepted_pseudo_chainA,accepted_pseudo_chainA,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_pseudo_chainA_from_rejected_debug/4mzq_5/4mzq_5_protein_pseudo_chainA.pdb,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_pseudo_chainA_from_rejected_debug/4mzq_5/4mzq_5_pocket_pseudo_chainA.pdb,35

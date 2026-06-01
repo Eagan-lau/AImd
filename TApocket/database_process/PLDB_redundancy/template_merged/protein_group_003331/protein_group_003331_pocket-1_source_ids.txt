@@ -1,0 +1,2 @@
+scPDB:2gej_1:accepted
+scPDB:2gek_1:accepted

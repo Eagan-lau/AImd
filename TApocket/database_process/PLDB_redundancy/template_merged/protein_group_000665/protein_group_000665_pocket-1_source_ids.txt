@@ -1,0 +1,5 @@
+PDBbind2020:1anf:accepted
+PDBbind2020:1dmb:accepted
+PDBbind2020:1ez9:accepted
+PDBbind2020:3mbp:accepted
+PDBbind2020:4mbp:accepted

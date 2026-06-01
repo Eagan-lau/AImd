@@ -1,0 +1,10 @@
+PDBbind2020:4wop:accepted_dominant_chain
+PDBbind2020:6cve:accepted_dominant_chain
+PDBbind2020:6cvf:accepted_dominant_chain
+PDBbind2020:6cvv:accepted_dominant_chain
+PDBbind2020:6czb:accepted_dominant_chain
+PDBbind2020:6czc:accepted_dominant_chain
+PDBbind2020:6czd:accepted_dominant_chain
+PDBbind2020:6cze:accepted_dominant_chain
+PDBbind2020:6e05:accepted_dominant_chain
+PDBbind2020:6e06:accepted_dominant_chain

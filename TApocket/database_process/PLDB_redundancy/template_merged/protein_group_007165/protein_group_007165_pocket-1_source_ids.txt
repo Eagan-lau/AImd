@@ -1,0 +1,1 @@
+scPDB:1vpm_2:accepted_pseudo_chainA

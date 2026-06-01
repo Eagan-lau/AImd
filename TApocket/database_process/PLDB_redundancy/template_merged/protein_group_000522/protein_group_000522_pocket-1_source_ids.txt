@@ -1,0 +1,9 @@
+PDBbind2020:3tdu:accepted
+PDBbind2020:3tdz:accepted
+PDBbind2020:5ufi:accepted
+PDBbind2020:5v83:accepted
+PDBbind2020:6b5q:accepted_dominant_chain
+PDBbind2020:6bg3:accepted
+PDBbind2020:6bg5:accepted
+PDBbind2020:6p5v:accepted
+PDBbind2020:6p5w:accepted

@@ -1,0 +1,3 @@
+scPDB:1fnb_1:accepted
+scPDB:1fnc_1:accepted
+scPDB:1fnd_2:accepted

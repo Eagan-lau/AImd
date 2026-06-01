@@ -1,0 +1,2 @@
+PDBbind2020:5x5o:accepted
+PDBbind2020:6jut:accepted

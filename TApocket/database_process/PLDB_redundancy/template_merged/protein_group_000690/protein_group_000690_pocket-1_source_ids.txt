@@ -1,0 +1,4 @@
+scPDB:2wba_1:accepted_dominant_chain
+scPDB:2wow_5:accepted_dominant_chain
+scPDB:2wp5_5:accepted_dominant_chain
+scPDB:4nev_2:accepted_dominant_chain

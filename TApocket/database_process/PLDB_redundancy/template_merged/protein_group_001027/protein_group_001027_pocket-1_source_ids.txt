@@ -1,0 +1,5 @@
+scPDB:1m9j_2:accepted
+scPDB:1m9k_2:accepted
+scPDB:1m9m_1:accepted
+scPDB:1m9q_1:accepted
+scPDB:1m9r_3:accepted

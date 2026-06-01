@@ -1,0 +1,3 @@
+PDBbind2020:1dub:accepted_dominant_chain
+scPDB:1dub_4:accepted_dominant_chain
+scPDB:1ey3_2:accepted_dominant_chain

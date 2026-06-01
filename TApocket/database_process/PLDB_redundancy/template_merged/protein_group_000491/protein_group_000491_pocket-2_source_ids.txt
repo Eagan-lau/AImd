@@ -1,0 +1,3 @@
+scPDB:1gpu_2:accepted_pseudo_chainA
+scPDB:1tka_2:accepted_pseudo_chainA
+scPDB:1trk_2:accepted_pseudo_chainA

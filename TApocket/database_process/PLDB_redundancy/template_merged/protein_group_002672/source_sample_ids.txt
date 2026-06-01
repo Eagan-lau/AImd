@@ -1,0 +1,2 @@
+scPDB:1w29_2:accepted_pseudo_chainA
+scPDB:1w29_4:accepted_pseudo_chainA

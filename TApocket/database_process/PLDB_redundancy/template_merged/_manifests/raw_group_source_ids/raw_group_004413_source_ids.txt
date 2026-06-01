@@ -1,0 +1,2 @@
+PDBbind2020:4q1x:accepted_pseudo_chainA
+scPDB:4q1x_1:accepted_pseudo_chainA

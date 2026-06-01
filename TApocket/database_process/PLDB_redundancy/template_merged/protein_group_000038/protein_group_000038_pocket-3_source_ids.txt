@@ -1,0 +1,6 @@
+scPDB:1eve_1:accepted
+scPDB:1gqs_1:accepted
+scPDB:2cek_1:accepted
+scPDB:2j3q_1:accepted
+scPDB:3zv7_1:accepted
+scPDB:5bwc_1:accepted

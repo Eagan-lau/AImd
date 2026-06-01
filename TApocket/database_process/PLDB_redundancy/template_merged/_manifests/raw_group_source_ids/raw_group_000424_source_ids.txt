@@ -1,0 +1,11 @@
+PDBbind2020:1hn4:accepted_pseudo_chainA
+PDBbind2020:3qlm:accepted
+scPDB:2azy_1:accepted
+scPDB:2azz_1:accepted
+scPDB:2b00_1:accepted
+scPDB:2b01_1:accepted
+scPDB:2b03_1:accepted
+scPDB:3hsw_1:accepted
+scPDB:3o4m_1:accepted
+scPDB:4dbk_1:accepted
+scPDB:4o1y_1:accepted

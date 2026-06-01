@@ -1,0 +1,2 @@
+scPDB:2eud_1:accepted
+scPDB:2eud_2:accepted

@@ -1,0 +1,7 @@
+PDBbind2020:1dtq:accepted_dominant_chain
+PDBbind2020:1rev:accepted_dominant_chain
+PDBbind2020:1tkx:accepted_dominant_chain
+PDBbind2020:1vrt:accepted_dominant_chain
+PDBbind2020:1vru:accepted_dominant_chain
+scPDB:1klm_1:accepted_dominant_chain
+scPDB:1rt7_1:accepted_dominant_chain

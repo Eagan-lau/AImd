@@ -1,0 +1,1 @@
+scPDB:6gsx_1:accepted_dominant_chain

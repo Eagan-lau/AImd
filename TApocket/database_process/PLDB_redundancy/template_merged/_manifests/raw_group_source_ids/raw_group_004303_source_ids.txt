@@ -1,0 +1,2 @@
+PDBbind2020:1npz:accepted
+PDBbind2020:1nqc:accepted

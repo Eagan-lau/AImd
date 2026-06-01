@@ -1,0 +1,5 @@
+scPDB:2xdo_2:accepted
+scPDB:4a6n_5:accepted
+scPDB:4a99_5:accepted_pseudo_chainA
+scPDB:4a99_9:accepted
+scPDB:4guv_4:accepted

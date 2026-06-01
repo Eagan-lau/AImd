@@ -1,0 +1,1 @@
+scPDB:2isk_7:accepted_pseudo_chainA

@@ -1,0 +1,4 @@
+PDBbind2020:3dxm:accepted_dominant_chain
+PDBbind2020:3rse:accepted_dominant_chain
+PDBbind2020:3ukr:accepted_pseudo_chainA
+scPDB:3ule_3:accepted

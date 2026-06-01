@@ -1,0 +1,6 @@
+scPDB:3b3o_1:accepted_pseudo_chainA
+scPDB:3b3p_1:accepted_pseudo_chainA
+scPDB:3nlz_1:accepted_pseudo_chainA
+scPDB:3pnf_1:accepted_pseudo_chainA
+scPDB:3png_1:accepted_pseudo_chainA
+scPDB:3tyl_1:accepted_pseudo_chainA

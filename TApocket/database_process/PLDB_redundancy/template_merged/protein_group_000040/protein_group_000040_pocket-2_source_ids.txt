@@ -1,0 +1,2 @@
+scPDB:4h30_1:accepted_pseudo_chainA
+scPDB:4h49_1:accepted_pseudo_chainA

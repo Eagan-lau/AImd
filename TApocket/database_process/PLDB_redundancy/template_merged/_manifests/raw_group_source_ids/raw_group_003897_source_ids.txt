@@ -1,0 +1,2 @@
+PDBbind2020:6eg9:accepted
+PDBbind2020:6ega:accepted

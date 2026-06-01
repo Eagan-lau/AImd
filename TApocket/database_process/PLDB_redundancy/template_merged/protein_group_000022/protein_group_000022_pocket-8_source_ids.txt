@@ -1,0 +1,3 @@
+scPDB:3ftw_3:accepted
+scPDB:3fu5_3:accepted
+scPDB:3fum_3:accepted

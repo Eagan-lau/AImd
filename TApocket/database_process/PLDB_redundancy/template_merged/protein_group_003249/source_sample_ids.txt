@@ -1,0 +1,2 @@
+PDBbind2020:2bo4:accepted
+scPDB:2bo8_4:accepted

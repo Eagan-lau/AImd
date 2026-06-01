@@ -1,0 +1,3 @@
+PDBbind2020:5jog:accepted
+PDBbind2020:5joh:accepted
+PDBbind2020:5m5q:accepted

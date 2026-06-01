@@ -1,0 +1,3 @@
+PDBbind2020:5afj:accepted_dominant_chain
+PDBbind2020:5afk:accepted_dominant_chain
+PDBbind2020:5afl:accepted_dominant_chain

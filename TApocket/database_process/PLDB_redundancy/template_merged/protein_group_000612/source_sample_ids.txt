@@ -1,0 +1,8 @@
+PDBbind2020:1q95:accepted_dominant_chain
+PDBbind2020:2fzc:accepted_dominant_chain
+PDBbind2020:2fzg:accepted_dominant_chain
+PDBbind2020:2fzk:accepted_dominant_chain
+PDBbind2020:2h3e:accepted_dominant_chain
+PDBbind2020:2ipo:accepted_dominant_chain
+scPDB:1r0c_1:accepted
+scPDB:2air_1:accepted

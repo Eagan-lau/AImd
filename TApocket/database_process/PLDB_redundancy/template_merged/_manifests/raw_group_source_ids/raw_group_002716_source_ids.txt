@@ -1,0 +1,2 @@
+scPDB:2p2b_1:accepted
+scPDB:2p2b_3:accepted

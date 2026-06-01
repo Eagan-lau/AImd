@@ -1,0 +1,2 @@
+scPDB:2itt_1:accepted
+scPDB:2itv_1:accepted

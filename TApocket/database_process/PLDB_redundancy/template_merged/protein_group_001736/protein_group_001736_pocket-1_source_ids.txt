@@ -1,0 +1,3 @@
+scPDB:2xef_1:accepted
+scPDB:2xeg_1:accepted
+scPDB:2xej_1:accepted

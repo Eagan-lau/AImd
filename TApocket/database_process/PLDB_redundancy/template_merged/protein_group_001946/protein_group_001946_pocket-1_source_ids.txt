@@ -1,0 +1,2 @@
+PDBbind2020:3eks:accepted
+scPDB:3eks_1:accepted

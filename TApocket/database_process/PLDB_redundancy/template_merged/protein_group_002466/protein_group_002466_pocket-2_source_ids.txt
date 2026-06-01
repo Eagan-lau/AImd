@@ -1,0 +1,1 @@
+scPDB:1ni4_1:accepted_dominant_chain

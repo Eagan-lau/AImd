@@ -1,0 +1,4 @@
+scPDB:3arp_1:accepted
+scPDB:3arw_1:accepted
+scPDB:3ary_1:accepted
+scPDB:3arz_1:accepted

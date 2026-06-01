@@ -1,0 +1,2 @@
+PDBbind2020:1gux:accepted
+PDBbind2020:1n4m:accepted

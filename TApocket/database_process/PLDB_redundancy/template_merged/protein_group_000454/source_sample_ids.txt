@@ -1,0 +1,10 @@
+scPDB:3lu1_2:accepted
+scPDB:3lu1_5:accepted
+scPDB:3ru7_3:accepted_dominant_chain
+scPDB:3ru9_4:accepted
+scPDB:3rua_2:accepted_dominant_chain
+scPDB:3rud_3:accepted_dominant_chain
+scPDB:3rue_1:accepted_dominant_chain
+scPDB:3ruf_1:accepted
+scPDB:3ruh_4:accepted
+scPDB:3ruh_5:accepted_dominant_chain

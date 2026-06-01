@@ -1,0 +1,4 @@
+PDBbind2020:2v96:accepted
+PDBbind2020:6g4m:accepted
+PDBbind2020:6g4n:accepted
+scPDB:1u65_1:accepted

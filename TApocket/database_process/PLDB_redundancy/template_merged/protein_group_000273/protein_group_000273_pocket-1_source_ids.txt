@@ -1,0 +1,8 @@
+PDBbind2020:1sqb:accepted
+PDBbind2020:1sqp:accepted_dominant_chain
+PDBbind2020:1sqq:accepted
+scPDB:1pp9_1:accepted_dominant_chain
+scPDB:1ppj_3:accepted_dominant_chain
+scPDB:1sqb_1:accepted
+scPDB:1sqp_1:accepted
+scPDB:1sqx_1:accepted

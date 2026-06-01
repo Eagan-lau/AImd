@@ -1,0 +1,2 @@
+scPDB:1ju2_1:accepted
+scPDB:3gdp_1:accepted

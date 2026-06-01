@@ -1,0 +1,4 @@
+PDBbind2020:1rdi:accepted
+PDBbind2020:1rdj:accepted
+PDBbind2020:1rdl:accepted
+PDBbind2020:1rdn:accepted

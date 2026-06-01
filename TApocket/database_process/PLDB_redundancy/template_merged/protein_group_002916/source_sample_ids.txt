@@ -1,0 +1,2 @@
+PDBbind2020:1pg2:accepted
+scPDB:1pg2_1:accepted

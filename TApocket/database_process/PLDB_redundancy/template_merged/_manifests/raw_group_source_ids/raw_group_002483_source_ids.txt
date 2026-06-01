@@ -1,0 +1,2 @@
+PDBbind2020:2y3p:accepted_pseudo_chainA
+scPDB:2y3p_1:accepted

@@ -1,0 +1,2 @@
+scPDB:4aos_1:accepted
+scPDB:4aos_2:accepted

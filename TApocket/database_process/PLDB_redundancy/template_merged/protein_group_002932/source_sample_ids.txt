@@ -1,0 +1,2 @@
+scPDB:2vtb_10:accepted
+scPDB:2vtb_4:accepted_dominant_chain

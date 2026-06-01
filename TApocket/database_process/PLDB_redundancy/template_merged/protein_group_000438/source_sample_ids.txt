@@ -1,0 +1,10 @@
+scPDB:1zzr_4:accepted_dominant_chain
+scPDB:1zzu_4:accepted
+scPDB:3dqr_4:accepted
+scPDB:3jx2_1:accepted_pseudo_chainA
+scPDB:3jx2_2:accepted_dominant_chain
+scPDB:3jx3_4:accepted_dominant_chain
+scPDB:3n61_3:accepted_dominant_chain
+scPDB:3n63_2:accepted_dominant_chain
+scPDB:3nlq_4:accepted_dominant_chain
+scPDB:4cx4_4:accepted_dominant_chain

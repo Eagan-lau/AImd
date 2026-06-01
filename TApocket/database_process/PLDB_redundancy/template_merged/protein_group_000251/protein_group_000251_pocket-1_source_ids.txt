@@ -1,0 +1,13 @@
+PDBbind2020:1py5:accepted
+PDBbind2020:1rw8:accepted
+PDBbind2020:1vjy:accepted
+PDBbind2020:2wot:accepted
+PDBbind2020:2wou:accepted
+PDBbind2020:2x7o:accepted
+PDBbind2020:3faa:accepted
+PDBbind2020:3hmm:accepted
+PDBbind2020:3kcf:accepted
+PDBbind2020:3tzm:accepted
+PDBbind2020:5qim:accepted
+PDBbind2020:5usq:accepted
+scPDB:2wot_1:accepted

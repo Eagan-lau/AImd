@@ -1,0 +1,5 @@
+scPDB:4kvd_2:accepted
+scPDB:4kvi_3:accepted
+scPDB:4kvw_4:accepted
+scPDB:4kvy_3:accepted
+scPDB:4kwd_4:accepted

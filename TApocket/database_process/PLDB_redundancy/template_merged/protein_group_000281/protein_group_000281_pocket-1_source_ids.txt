@@ -1,0 +1,11 @@
+PDBbind2020:3iu7:accepted
+PDBbind2020:3iu8:accepted
+PDBbind2020:3iu9:accepted
+PDBbind2020:3pka:accepted_dominant_chain
+PDBbind2020:3pkb:accepted
+PDBbind2020:3pkc:accepted
+PDBbind2020:3pkd:accepted
+scPDB:3pka_1:accepted
+scPDB:3pkc_1:accepted
+scPDB:3pkd_1:accepted
+scPDB:3pke_1:accepted

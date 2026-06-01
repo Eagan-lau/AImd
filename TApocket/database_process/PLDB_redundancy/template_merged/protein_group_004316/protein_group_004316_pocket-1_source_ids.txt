@@ -1,0 +1,2 @@
+PDBbind2020:4x8o:accepted
+scPDB:4x8o_1:accepted

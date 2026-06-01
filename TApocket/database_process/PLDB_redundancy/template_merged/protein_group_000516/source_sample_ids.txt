@@ -1,0 +1,9 @@
+PDBbind2020:1me3:accepted
+PDBbind2020:1me4:accepted
+PDBbind2020:1u9q:accepted
+PDBbind2020:2oz2:accepted_pseudo_chainA
+PDBbind2020:3i06:accepted
+PDBbind2020:3kku:accepted
+PDBbind2020:3lxs:accepted
+PDBbind2020:4klb:accepted
+scPDB:4klb_2:accepted_dominant_chain

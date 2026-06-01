@@ -1,0 +1,4 @@
+PDBbind2020:2bmc:accepted_dominant_chain
+PDBbind2020:3r21:accepted
+PDBbind2020:3r22:accepted
+PDBbind2020:4dhf:accepted

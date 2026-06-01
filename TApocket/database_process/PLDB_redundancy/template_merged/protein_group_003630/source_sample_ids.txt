@@ -1,0 +1,2 @@
+scPDB:4ef8_1:accepted
+scPDB:4ef9_2:accepted

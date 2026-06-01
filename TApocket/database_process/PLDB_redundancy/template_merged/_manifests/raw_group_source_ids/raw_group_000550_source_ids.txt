@@ -1,0 +1,9 @@
+PDBbind2020:2zns:accepted
+PDBbind2020:2znt:accepted
+PDBbind2020:2znu:accepted
+PDBbind2020:3fuz:accepted
+PDBbind2020:3fv1:accepted
+PDBbind2020:3fv2:accepted
+PDBbind2020:3fvg:accepted
+PDBbind2020:3fvk:accepted
+PDBbind2020:3fvn:accepted

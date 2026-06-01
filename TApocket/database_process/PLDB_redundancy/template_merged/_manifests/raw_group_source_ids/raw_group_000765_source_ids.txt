@@ -1,0 +1,7 @@
+PDBbind2020:4gee:accepted
+PDBbind2020:4gfn:accepted
+PDBbind2020:4ggl:accepted
+scPDB:4gee_1:accepted
+scPDB:4gfn_1:accepted
+scPDB:4ggl_1:accepted
+scPDB:4ksh_1:accepted

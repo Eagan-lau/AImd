@@ -1,0 +1,12 @@
+scPDB:3bur_2:accepted
+scPDB:3buv_1:accepted
+scPDB:3bv7_2:accepted
+scPDB:3caq_1:accepted
+scPDB:3cas_2:accepted
+scPDB:3cav_1:accepted
+scPDB:3cmf_2:accepted
+scPDB:3cot_1:accepted
+scPDB:3dop_1:accepted
+scPDB:3dop_2:accepted
+scPDB:3g1r_1:accepted
+scPDB:3g1r_2:accepted

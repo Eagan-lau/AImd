@@ -1,0 +1,10 @@
+PDBbind2020:4j44:accepted
+PDBbind2020:4j45:accepted
+PDBbind2020:4j46:accepted
+PDBbind2020:4j47:accepted
+PDBbind2020:4j48:accepted
+PDBbind2020:4kju:accepted
+PDBbind2020:4kjv:accepted_dominant_chain
+PDBbind2020:4wvs:accepted
+PDBbind2020:4wvt:accepted
+PDBbind2020:4wvu:accepted

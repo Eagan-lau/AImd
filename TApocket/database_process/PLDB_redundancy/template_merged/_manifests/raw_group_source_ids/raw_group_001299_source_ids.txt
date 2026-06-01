@@ -1,0 +1,4 @@
+scPDB:1dgb_5:accepted
+scPDB:1dgf_5:accepted
+scPDB:1dgg_5:accepted
+scPDB:1dgh_2:accepted

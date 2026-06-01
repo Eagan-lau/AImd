@@ -1,0 +1,15 @@
+PDBbind2020:5zyg:accepted
+PDBbind2020:5zyh:accepted
+PDBbind2020:5zyi:accepted
+PDBbind2020:5zyj:accepted
+PDBbind2020:5zyk:accepted
+PDBbind2020:5zyl:accepted
+PDBbind2020:5zym:accepted
+PDBbind2020:6iez:accepted
+PDBbind2020:6if0:accepted
+PDBbind2020:6j0o:accepted
+PDBbind2020:6j81:accepted
+scPDB:3h3q_1:accepted
+scPDB:3h3r_2:accepted
+scPDB:3h3s_2:accepted
+scPDB:3h3t_1:accepted

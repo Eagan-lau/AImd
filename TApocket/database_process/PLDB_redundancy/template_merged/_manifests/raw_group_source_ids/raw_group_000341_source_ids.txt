@@ -1,0 +1,13 @@
+scPDB:1zlt_1:accepted
+scPDB:2br1_1:accepted
+scPDB:2brb_1:accepted
+scPDB:2brn_1:accepted
+scPDB:2bro_1:accepted
+scPDB:2c3k_1:accepted
+scPDB:2cgu_1:accepted
+scPDB:2cgv_1:accepted
+scPDB:2cgx_1:accepted
+scPDB:2hxl_1:accepted
+scPDB:2hxq_1:accepted
+scPDB:2x8e_1:accepted
+scPDB:4hyi_1:accepted

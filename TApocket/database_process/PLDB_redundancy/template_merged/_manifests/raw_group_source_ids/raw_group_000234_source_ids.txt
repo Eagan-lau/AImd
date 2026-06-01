@@ -1,0 +1,17 @@
+PDBbind2020:1nde:accepted
+PDBbind2020:1u3q:accepted
+PDBbind2020:1u3r:accepted
+PDBbind2020:1u9e:accepted
+PDBbind2020:1x76:accepted
+PDBbind2020:1x78:accepted
+PDBbind2020:1x7b:accepted
+PDBbind2020:1yy4:accepted
+PDBbind2020:1yye:accepted
+PDBbind2020:2giu:accepted
+PDBbind2020:2i0g:accepted
+PDBbind2020:2jj3:accepted
+PDBbind2020:2nv7:accepted
+PDBbind2020:2qtu:accepted
+PDBbind2020:2z4b:accepted
+PDBbind2020:4j24:accepted
+PDBbind2020:4j26:accepted

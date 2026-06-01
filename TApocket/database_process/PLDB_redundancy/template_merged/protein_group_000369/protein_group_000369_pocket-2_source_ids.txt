@@ -1,0 +1,4 @@
+scPDB:3bur_2:accepted
+scPDB:3cas_2:accepted
+scPDB:3dop_1:accepted
+scPDB:3g1r_1:accepted

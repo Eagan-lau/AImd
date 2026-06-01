@@ -1,0 +1,1 @@
+scPDB:17gs_1:accepted_dominant_chain

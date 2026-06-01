@@ -1,0 +1,2 @@
+PDBbind2020:2gvv:accepted
+scPDB:2gvv_1:accepted

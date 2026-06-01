@@ -1,0 +1,1 @@
+PDBbind2020:5g17:accepted_dominant_chain

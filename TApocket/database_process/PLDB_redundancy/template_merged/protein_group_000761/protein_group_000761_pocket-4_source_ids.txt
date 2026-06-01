@@ -1,0 +1,1 @@
+scPDB:2uxi_2:accepted_dominant_chain

@@ -1,0 +1,13 @@
+PDBbind2020:2bok:accepted
+PDBbind2020:2jkh:accepted
+PDBbind2020:2vvc:accepted
+PDBbind2020:2vvu:accepted
+PDBbind2020:2vvv:accepted
+PDBbind2020:2vwl:accepted
+PDBbind2020:2vwm:accepted
+PDBbind2020:2vwn:accepted
+PDBbind2020:2vwo:accepted
+PDBbind2020:2xbv:accepted
+PDBbind2020:2y5f:accepted
+PDBbind2020:2y5g:accepted
+PDBbind2020:2y5h:accepted

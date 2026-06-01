@@ -1,0 +1,3 @@
+PDBbind2020:3f9n:accepted
+PDBbind2020:3jvr:accepted
+PDBbind2020:3jvs:accepted

@@ -1,0 +1,2 @@
+scPDB:1dap_2:accepted
+scPDB:1f06_1:accepted

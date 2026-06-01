@@ -1,0 +1,2 @@
+scPDB:4ihj_1:accepted_dominant_chain
+scPDB:5bmv_1:accepted_pseudo_chainA

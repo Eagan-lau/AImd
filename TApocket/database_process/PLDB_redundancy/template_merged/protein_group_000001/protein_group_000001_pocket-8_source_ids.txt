@@ -1,0 +1,8 @@
+scPDB:1if4_1:accepted
+scPDB:1if8_1:accepted
+scPDB:2osf_1:accepted
+scPDB:2osm_1:accepted
+scPDB:2weg_1:accepted
+scPDB:2wej_1:accepted
+scPDB:3daz_1:accepted
+scPDB:5flt_1:accepted

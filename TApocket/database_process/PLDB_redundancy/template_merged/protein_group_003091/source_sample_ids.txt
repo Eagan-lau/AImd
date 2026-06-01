@@ -1,0 +1,2 @@
+PDBbind2020:6ffh:accepted
+PDBbind2020:6ffi:accepted

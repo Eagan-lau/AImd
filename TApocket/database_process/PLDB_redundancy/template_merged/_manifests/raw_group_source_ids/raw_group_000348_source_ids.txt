@@ -1,0 +1,13 @@
+PDBbind2020:1dzj:accepted
+PDBbind2020:1dzk:accepted
+PDBbind2020:1dzm:accepted
+PDBbind2020:1dzp:accepted
+PDBbind2020:1e00:accepted
+PDBbind2020:1e02:accepted
+PDBbind2020:1e06:accepted
+scPDB:1dzk_2:accepted
+scPDB:1dzm_1:accepted
+scPDB:1dzp_2:accepted
+scPDB:1e00_2:accepted
+scPDB:1e06_2:accepted
+scPDB:1hqp_1:accepted

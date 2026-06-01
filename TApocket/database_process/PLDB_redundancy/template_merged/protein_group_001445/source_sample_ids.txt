@@ -1,0 +1,4 @@
+PDBbind2020:3pwh:accepted
+PDBbind2020:3rey:accepted
+PDBbind2020:3uza:accepted
+PDBbind2020:3uzc:accepted

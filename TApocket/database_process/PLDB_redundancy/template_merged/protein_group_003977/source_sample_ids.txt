@@ -1,0 +1,2 @@
+scPDB:1zpt_5:accepted
+scPDB:1zpt_6:accepted

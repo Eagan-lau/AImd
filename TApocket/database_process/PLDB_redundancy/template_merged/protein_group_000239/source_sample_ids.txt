@@ -1,0 +1,17 @@
+PDBbind2020:1ex8:accepted
+PDBbind2020:3udv:accepted
+PDBbind2020:4f7v:accepted
+PDBbind2020:4m5g:accepted
+PDBbind2020:4m5h:accepted
+PDBbind2020:4m5i:accepted
+PDBbind2020:4m5j:accepted
+PDBbind2020:4m5k:accepted
+PDBbind2020:4m5l:accepted
+PDBbind2020:4m5m:accepted
+PDBbind2020:4m5n:accepted
+PDBbind2020:5etk:accepted
+PDBbind2020:5etl:accepted
+PDBbind2020:5etm:accepted
+PDBbind2020:5etn:accepted
+PDBbind2020:5eto:accepted
+PDBbind2020:5etp:accepted

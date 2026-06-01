@@ -1,0 +1,10 @@
+PDBbind2020:5o0e:accepted
+PDBbind2020:5ol3:accepted
+PDBbind2020:5oua:accepted
+PDBbind2020:6egw:accepted
+PDBbind2020:6em7:accepted
+PDBbind2020:6ema:accepted
+PDBbind2020:6eru:accepted
+PDBbind2020:6erv:accepted
+PDBbind2020:6erw:accepted
+PDBbind2020:6esa:accepted

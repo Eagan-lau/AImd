@@ -1,0 +1,11 @@
+PDBbind2020:1h2k:accepted_dominant_chain
+PDBbind2020:1yci:accepted
+PDBbind2020:2w0x:accepted
+PDBbind2020:2wa3:accepted
+PDBbind2020:2wa4:accepted
+PDBbind2020:2yc0:accepted
+PDBbind2020:2yde:accepted
+PDBbind2020:4bio:accepted
+PDBbind2020:5op6:accepted
+PDBbind2020:5op8:accepted
+PDBbind2020:5opc:accepted

@@ -1,0 +1,3 @@
+scPDB:1rej_1:accepted
+scPDB:2erz_1:accepted_dominant_chain
+scPDB:3ow3_1:accepted_dominant_chain

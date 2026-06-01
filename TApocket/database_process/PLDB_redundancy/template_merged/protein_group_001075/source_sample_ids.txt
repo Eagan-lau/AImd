@@ -1,0 +1,5 @@
+PDBbind2020:3wcf:accepted_dominant_chain
+PDBbind2020:3wch:accepted
+PDBbind2020:3wci:accepted_dominant_chain
+PDBbind2020:3wcl:accepted_dominant_chain
+scPDB:3wcd_4:accepted

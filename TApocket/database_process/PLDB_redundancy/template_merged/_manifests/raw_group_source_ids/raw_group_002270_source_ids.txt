@@ -1,0 +1,3 @@
+PDBbind2020:5jek:accepted
+PDBbind2020:5jeo:accepted_dominant_chain
+PDBbind2020:5jer:accepted_dominant_chain

@@ -1,0 +1,12 @@
+scPDB:1bmf_4:accepted_dominant_chain
+scPDB:1e1q_4:accepted_dominant_chain
+scPDB:1e79_4:accepted_dominant_chain
+scPDB:1h8h_1:accepted_pseudo_chainA
+scPDB:1h8h_4:accepted_dominant_chain
+scPDB:1nbm_4:accepted_dominant_chain
+scPDB:2jiz_6:accepted_dominant_chain
+scPDB:2jiz_7:accepted_dominant_chain
+scPDB:2jj1_6:accepted_dominant_chain
+scPDB:2jj2_6:accepted_dominant_chain
+scPDB:2jj2_7:accepted_dominant_chain
+scPDB:2v7q_4:accepted_dominant_chain

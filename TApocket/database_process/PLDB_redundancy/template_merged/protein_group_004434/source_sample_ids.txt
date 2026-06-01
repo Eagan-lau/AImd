@@ -1,0 +1,2 @@
+PDBbind2020:1y19:accepted
+PDBbind2020:2k00:accepted

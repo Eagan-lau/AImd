@@ -1,0 +1,4 @@
+scPDB:1hrk_1:accepted
+scPDB:2hrc_2:accepted
+scPDB:2hrc_5:accepted
+scPDB:3w1w_1:accepted

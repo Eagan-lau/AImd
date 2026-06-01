@@ -1,0 +1,2 @@
+scPDB:1gia_1:accepted
+scPDB:1gp2_1:accepted

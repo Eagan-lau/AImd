@@ -1,0 +1,2 @@
+PDBbind2020:6hgz:accepted
+PDBbind2020:6hh5:accepted

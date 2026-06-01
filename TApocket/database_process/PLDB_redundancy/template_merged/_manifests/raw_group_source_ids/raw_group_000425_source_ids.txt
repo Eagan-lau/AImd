@@ -1,0 +1,11 @@
+PDBbind2020:5ntk:accepted_dominant_chain
+PDBbind2020:5ntp:accepted
+PDBbind2020:5ntq:accepted
+PDBbind2020:5ntw:accepted
+PDBbind2020:5nu1:accepted_dominant_chain
+PDBbind2020:6fzu:accepted_dominant_chain
+PDBbind2020:6g07:accepted
+PDBbind2020:6q6m:accepted
+PDBbind2020:6q6o:accepted
+PDBbind2020:6q7a:accepted
+PDBbind2020:6q7h:accepted

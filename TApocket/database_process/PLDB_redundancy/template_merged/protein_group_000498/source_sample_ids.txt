@@ -1,0 +1,9 @@
+scPDB:3cgb_1:accepted_dominant_chain
+scPDB:3cgb_2:accepted_pseudo_chainA
+scPDB:3cgc_1:accepted_dominant_chain
+scPDB:3cgd_1:accepted_dominant_chain
+scPDB:3cgd_3:accepted_dominant_chain
+scPDB:3cgd_5:accepted_dominant_chain
+scPDB:3cge_1:accepted_dominant_chain
+scPDB:3cge_3:accepted_dominant_chain
+scPDB:3cge_5:accepted_pseudo_chainA

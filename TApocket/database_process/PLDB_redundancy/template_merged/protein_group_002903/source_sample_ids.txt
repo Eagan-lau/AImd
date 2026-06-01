@@ -1,0 +1,2 @@
+scPDB:4py2_3:accepted
+scPDB:5k0s_1:accepted

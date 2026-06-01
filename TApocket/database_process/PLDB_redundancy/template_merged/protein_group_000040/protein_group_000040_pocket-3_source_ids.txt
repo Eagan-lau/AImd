@@ -1,0 +1,4 @@
+scPDB:2oxw_1:accepted
+scPDB:3tsk_1:accepted
+scPDB:4guy_1:accepted
+scPDB:4h76_1:accepted

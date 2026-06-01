@@ -1,0 +1,2 @@
+scPDB:3nyc_1:accepted
+scPDB:3sm8_1:accepted

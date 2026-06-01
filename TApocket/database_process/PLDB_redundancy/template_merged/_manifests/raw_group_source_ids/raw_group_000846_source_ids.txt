@@ -1,0 +1,6 @@
+scPDB:4dko_1:accepted
+scPDB:4dkp_2:accepted
+scPDB:4dku_2:accepted
+scPDB:4dkv_2:accepted
+scPDB:4dvv_2:accepted
+scPDB:4i54_1:accepted

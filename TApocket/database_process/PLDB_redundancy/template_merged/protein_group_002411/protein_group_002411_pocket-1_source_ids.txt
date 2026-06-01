@@ -1,0 +1,3 @@
+PDBbind2020:2g78:accepted
+PDBbind2020:2g79:accepted
+scPDB:2g78_1:accepted

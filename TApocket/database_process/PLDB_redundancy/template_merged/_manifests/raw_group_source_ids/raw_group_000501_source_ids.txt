@@ -1,0 +1,9 @@
+PDBbind2020:2j47:accepted
+PDBbind2020:2j4g:accepted
+PDBbind2020:2jiw:accepted
+PDBbind2020:2vvs:accepted
+PDBbind2020:2w4x:accepted
+PDBbind2020:2wca:accepted
+PDBbind2020:5abg:accepted
+PDBbind2020:5fl0:accepted
+PDBbind2020:5fl1:accepted

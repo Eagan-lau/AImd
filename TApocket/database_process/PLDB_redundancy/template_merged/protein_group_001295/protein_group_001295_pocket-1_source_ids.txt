@@ -1,0 +1,4 @@
+scPDB:4mmb_1:accepted
+scPDB:4mmc_1:accepted
+scPDB:4mmd_1:accepted
+scPDB:4mme_2:accepted

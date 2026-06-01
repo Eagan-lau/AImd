@@ -1,0 +1,2 @@
+PDBbind2020:1oth:accepted_dominant_chain
+scPDB:1fvo_2:accepted

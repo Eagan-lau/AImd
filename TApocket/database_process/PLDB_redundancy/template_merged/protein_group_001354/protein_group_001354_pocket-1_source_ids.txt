@@ -1,0 +1,3 @@
+scPDB:1egy_2:accepted
+scPDB:1jin_1:accepted
+scPDB:1oxa_1:accepted

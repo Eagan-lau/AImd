@@ -1,0 +1,3 @@
+protein_group_id,global_sample_id,sample_id,source_dataset,source_status,sample_type,protein_pdb,pocket_pdb,mapped_pocket_residue_count
+protein_group_003839,scPDB:1kpg_8:accepted,1kpg_8,scPDB,accepted,accepted,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_process/1kpg_8/1kpg_8_protein_clean_single_chain.pdb,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_process/1kpg_8/1kpg_8_pocket_clean_single_chain.pdb,38
+protein_group_003839,scPDB:1kph_4:accepted,1kph_4,scPDB,accepted,accepted,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_process/1kph_4/1kph_4_protein_clean_single_chain.pdb,/public/share/yanjianbin/liuyugeng/PLDB/scPDB_process/1kph_4/1kph_4_pocket_clean_single_chain.pdb,36

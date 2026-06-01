@@ -1,0 +1,11 @@
+scPDB:3br9_2:accepted
+scPDB:3bsa_2:accepted
+scPDB:3bsc_2:accepted
+scPDB:3cde_1:accepted
+scPDB:3cvk_2:accepted
+scPDB:3cwj_1:accepted
+scPDB:3d28_2:accepted
+scPDB:3e51_2:accepted
+scPDB:3gyn_2:accepted
+scPDB:3h2l_1:accepted
+scPDB:3igv_2:accepted

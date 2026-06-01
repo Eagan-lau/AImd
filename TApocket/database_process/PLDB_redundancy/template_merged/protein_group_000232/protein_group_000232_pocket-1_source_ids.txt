@@ -1,0 +1,15 @@
+PDBbind2020:3unz:accepted
+PDBbind2020:3uo4:accepted
+PDBbind2020:3uo5:accepted
+PDBbind2020:3uo6:accepted
+PDBbind2020:3uod:accepted
+PDBbind2020:3uoh:accepted
+PDBbind2020:3uoj:accepted
+PDBbind2020:3uok:accepted
+PDBbind2020:3uol:accepted
+PDBbind2020:3up2:accepted
+PDBbind2020:3up7:accepted
+PDBbind2020:4dea:accepted
+PDBbind2020:4deb:accepted
+PDBbind2020:4ded:accepted
+scPDB:4dee_1:accepted

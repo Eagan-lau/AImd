@@ -1,0 +1,3 @@
+scPDB:3gfx_2:accepted
+scPDB:3gg0_2:accepted
+scPDB:3gg1_2:accepted

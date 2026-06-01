@@ -1,0 +1,5 @@
+PDBbind2020:4fmu:accepted
+PDBbind2020:5lss:accepted
+PDBbind2020:5lsx:accepted
+PDBbind2020:5lsy:accepted
+PDBbind2020:5lt6:accepted

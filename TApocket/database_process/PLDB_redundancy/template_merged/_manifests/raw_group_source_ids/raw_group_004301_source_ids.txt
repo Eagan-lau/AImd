@@ -1,0 +1,2 @@
+scPDB:1aky_2:accepted
+scPDB:2aky_1:accepted

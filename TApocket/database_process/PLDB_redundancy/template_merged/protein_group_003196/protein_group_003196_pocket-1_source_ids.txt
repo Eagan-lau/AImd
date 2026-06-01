@@ -1,0 +1,2 @@
+scPDB:1did_2:accepted
+scPDB:1xli_1:accepted

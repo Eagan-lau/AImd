@@ -1,0 +1,3 @@
+scPDB:3gb4_2:accepted
+scPDB:3gob_1:accepted
+scPDB:3gts_2:accepted

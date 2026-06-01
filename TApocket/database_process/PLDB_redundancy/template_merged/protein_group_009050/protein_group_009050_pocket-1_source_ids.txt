@@ -1,0 +1,1 @@
+scPDB:4e70_1:accepted_dominant_chain

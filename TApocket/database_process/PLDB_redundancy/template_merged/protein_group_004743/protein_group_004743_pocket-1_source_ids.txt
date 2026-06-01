@@ -1,0 +1,2 @@
+PDBbind2020:2m0o:accepted
+PDBbind2020:4hcz:accepted

@@ -1,0 +1,5 @@
+PDBbind2020:1uho:accepted
+PDBbind2020:2h42:accepted
+PDBbind2020:2h44:accepted
+PDBbind2020:3bjc:accepted
+scPDB:2h44_1:accepted

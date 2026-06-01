@@ -1,0 +1,4 @@
+scPDB:4ogh_1:accepted
+scPDB:4oh5_1:accepted
+scPDB:4oha_1:accepted
+scPDB:4oil_1:accepted

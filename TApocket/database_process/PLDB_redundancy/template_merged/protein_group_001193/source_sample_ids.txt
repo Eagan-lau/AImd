@@ -1,0 +1,5 @@
+PDBbind2020:1qy1:accepted
+PDBbind2020:1qy2:accepted
+scPDB:1jv4_1:accepted
+scPDB:1qy1_1:accepted
+scPDB:1qy2_1:accepted

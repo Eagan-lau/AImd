@@ -1,0 +1,2 @@
+scPDB:5ccy_1:accepted
+scPDB:5cgv_1:accepted

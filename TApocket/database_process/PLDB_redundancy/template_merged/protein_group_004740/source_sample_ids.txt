@@ -1,0 +1,2 @@
+PDBbind2020:2kbr:accepted
+PDBbind2020:2lsr:accepted

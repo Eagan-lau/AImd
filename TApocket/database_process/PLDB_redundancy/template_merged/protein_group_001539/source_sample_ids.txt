@@ -1,0 +1,4 @@
+PDBbind2020:6ior:accepted
+PDBbind2020:6ios:accepted
+PDBbind2020:6iot:accepted
+PDBbind2020:6iou:accepted

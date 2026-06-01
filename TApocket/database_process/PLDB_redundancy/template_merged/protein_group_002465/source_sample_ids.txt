@@ -1,0 +1,2 @@
+scPDB:2vig_5:accepted_dominant_chain
+scPDB:2vig_6:accepted_pseudo_chainA

@@ -1,0 +1,2 @@
+PDBbind2020:3lvw:accepted
+scPDB:3ig8_1:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:2vxa:accepted_pseudo_chainA
+scPDB:2vxa_12:accepted_pseudo_chainA

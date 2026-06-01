@@ -1,0 +1,57 @@
+experiment:
+  name: basic31_graph
+  seed: 2026
+data:
+  feature_mode: basic
+  expected_basic_dim: 31
+  expected_score_dim: 1
+  expected_hidden_dim: 100
+  label_threshold: 0.5
+  graph_radius_A: 10.0
+  max_neighbors: 32
+  edge_eps: 1.0e-06
+  cache_graphs: false
+model:
+  type: graph
+  hidden_dim: 256
+  num_layers: 4
+  dropout: 0.2
+  edge_dim: 1
+loss:
+  type: focal_bce
+  focal_gamma: 2.0
+  auto_pos_weight: true
+  pos_weight: 1.0
+  smoothness_weight: 0.05
+  smoothness_tau_A: 6.0
+train:
+  batch_size: 4
+  epochs: 80
+  lr: 0.0003
+  weight_decay: 0.0001
+  num_workers: 4
+  amp: true
+  grad_clip_norm: 1.0
+  patience: 15
+  best_metric: auprc
+  log_every: 20
+infer:
+  batch_size: 4
+cluster:
+  core_threshold: 0.45
+  border_threshold: 0.25
+  border_radius_A: 6.0
+  eps_A: auto
+  eps_auto_k: 4
+  eps_auto_factor: 1.15
+  eps_min_A: 4.0
+  eps_max_A: 10.0
+  min_samples: 2
+  min_cluster_size: 4
+  score: sum_prob_sq
+  export_pdb: true
+eval:
+  threshold: 0.5
+  ece_bins: 15
+  pocket_hit_iou: 0.3
+  pocket_hit_recall: 0.5

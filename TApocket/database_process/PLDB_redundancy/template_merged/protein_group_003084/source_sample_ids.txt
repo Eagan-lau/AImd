@@ -1,0 +1,2 @@
+scPDB:3hyw_5:accepted_dominant_chain
+scPDB:3hyw_9:accepted

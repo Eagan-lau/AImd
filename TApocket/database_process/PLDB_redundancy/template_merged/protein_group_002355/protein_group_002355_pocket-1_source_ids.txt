@@ -1,0 +1,3 @@
+scPDB:3apv_2:accepted
+scPDB:3apw_2:accepted
+scPDB:3apx_1:accepted

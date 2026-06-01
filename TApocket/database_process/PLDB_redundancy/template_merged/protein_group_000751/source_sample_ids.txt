@@ -1,0 +1,7 @@
+PDBbind2020:1x8b:accepted
+PDBbind2020:2in6:accepted
+PDBbind2020:2io6:accepted
+PDBbind2020:3bi6:accepted
+PDBbind2020:3biz:accepted
+scPDB:1x8b_1:accepted
+scPDB:3bi6_1:accepted

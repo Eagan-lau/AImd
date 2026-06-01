@@ -1,0 +1,10 @@
+scPDB:1b38_1:accepted
+scPDB:1b39_1:accepted
+scPDB:1e1v_1:accepted
+scPDB:1e1x_1:accepted
+scPDB:1pxk_1:accepted
+scPDB:1pxl_1:accepted
+scPDB:1pxm_1:accepted
+scPDB:2vtl_1:accepted
+scPDB:2vtm_1:accepted
+scPDB:3igg_1:accepted

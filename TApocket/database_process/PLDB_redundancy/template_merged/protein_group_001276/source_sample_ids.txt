@@ -1,0 +1,4 @@
+PDBbind2020:3ahn:accepted
+PDBbind2020:3aho:accepted
+scPDB:3ahn_1:accepted
+scPDB:3aho_2:accepted

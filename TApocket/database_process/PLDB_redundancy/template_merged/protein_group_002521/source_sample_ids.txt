@@ -1,0 +1,2 @@
+PDBbind2020:1fpi:accepted_dominant_chain
+PDBbind2020:1kz8:accepted_pseudo_chainA

@@ -1,0 +1,2 @@
+pocket_id	query_id	source	final_score	query_residue_count	mapping_coverage	mapping_method	supporting_pocket_count	supporting_template_count	mcsa_matched	mcsa_match_basis	mcsa_atoms_in_box	mcsa_fraction_in_box	mcsa_min_distance_angstrom	box_center	box_size	mapped_pocket_path
+AI_P1	Tca12g00417.t1_pLDDT=93.8_pTM=0.766	deeppocket_db_basic31	25.871686	93		ai_model	1	1						[-0.47, 0.117, -3.72]	[93.0, 93.0, 93.0]	final_pockets.pdb

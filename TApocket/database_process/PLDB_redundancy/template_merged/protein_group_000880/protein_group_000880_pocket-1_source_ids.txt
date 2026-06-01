@@ -1,0 +1,5 @@
+PDBbind2020:3dy6:accepted
+PDBbind2020:3gwx:accepted
+PDBbind2020:3tkm:accepted
+PDBbind2020:5xmx:accepted
+PDBbind2020:5zxi:accepted

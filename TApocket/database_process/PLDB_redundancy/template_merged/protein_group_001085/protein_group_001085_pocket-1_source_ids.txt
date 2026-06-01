@@ -1,0 +1,5 @@
+PDBbind2020:4ag8:accepted
+PDBbind2020:4agc:accepted
+PDBbind2020:4agd:accepted
+PDBbind2020:4asd:accepted
+PDBbind2020:4ase:accepted

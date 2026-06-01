@@ -1,0 +1,6 @@
+PDBbind2020:2h23:accepted
+scPDB:1mlv_2:accepted
+scPDB:1ozv_2:accepted_dominant_chain
+scPDB:1p0y_3:accepted
+scPDB:2h23_3:accepted
+scPDB:2h2j_2:accepted

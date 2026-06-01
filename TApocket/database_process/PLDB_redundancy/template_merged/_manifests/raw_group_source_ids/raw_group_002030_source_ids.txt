@@ -1,0 +1,3 @@
+PDBbind2020:1yid:accepted
+PDBbind2020:2a4m:accepted
+scPDB:1yid_1:accepted

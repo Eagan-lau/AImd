@@ -1,0 +1,2 @@
+PDBbind2020:6gmx:accepted_dominant_chain
+PDBbind2020:6hax:accepted_pseudo_chainA

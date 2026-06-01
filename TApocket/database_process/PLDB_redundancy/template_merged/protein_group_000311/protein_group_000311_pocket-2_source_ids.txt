@@ -1,0 +1,4 @@
+scPDB:2rfi_2:accepted
+scPDB:3fpd_3:accepted
+scPDB:3hna_1:accepted
+scPDB:3swc_2:accepted_dominant_chain

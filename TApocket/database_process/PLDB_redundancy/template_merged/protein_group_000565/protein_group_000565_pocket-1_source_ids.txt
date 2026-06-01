@@ -1,0 +1,8 @@
+PDBbind2020:6g25:accepted
+PDBbind2020:6g27:accepted
+PDBbind2020:6g29:accepted
+PDBbind2020:6g2b:accepted
+PDBbind2020:6g2c:accepted
+PDBbind2020:6g2e:accepted
+PDBbind2020:6g2f:accepted
+PDBbind2020:6g2o:accepted

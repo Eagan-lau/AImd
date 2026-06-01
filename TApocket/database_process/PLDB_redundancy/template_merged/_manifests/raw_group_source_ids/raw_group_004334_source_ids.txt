@@ -1,0 +1,2 @@
+PDBbind2020:2j9h:accepted_dominant_chain
+scPDB:2j9h_1:accepted_dominant_chain

@@ -1,0 +1,2 @@
+scPDB:1fko_1:accepted_dominant_chain
+scPDB:1fkp_1:accepted_dominant_chain

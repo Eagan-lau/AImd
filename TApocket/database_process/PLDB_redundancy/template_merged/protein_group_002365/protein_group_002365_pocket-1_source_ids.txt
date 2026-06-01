@@ -1,0 +1,3 @@
+scPDB:3nmp_1:accepted
+scPDB:3nmt_1:accepted
+scPDB:3nmv_1:accepted_dominant_chain

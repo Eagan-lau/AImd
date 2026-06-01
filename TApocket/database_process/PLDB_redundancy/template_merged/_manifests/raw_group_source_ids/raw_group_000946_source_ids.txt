@@ -1,0 +1,6 @@
+PDBbind2020:2hmu:accepted_dominant_chain
+PDBbind2020:2hmv:accepted_dominant_chain
+PDBbind2020:2hmw:accepted_dominant_chain
+scPDB:1lsu_1:accepted_dominant_chain
+scPDB:2hms_4:accepted_dominant_chain
+scPDB:2hmv_2:accepted_dominant_chain

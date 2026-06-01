@@ -1,0 +1,1 @@
+PDBbind2020:5yum:accepted_pseudo_chainA

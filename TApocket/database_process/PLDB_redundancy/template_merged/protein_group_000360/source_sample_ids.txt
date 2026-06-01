@@ -1,0 +1,12 @@
+PDBbind2020:4uit:accepted
+PDBbind2020:4uiu:accepted
+PDBbind2020:4uiv:accepted
+PDBbind2020:4uiw:accepted
+PDBbind2020:4yy6:accepted
+PDBbind2020:5i40:accepted
+PDBbind2020:5i7x:accepted
+PDBbind2020:5i7y:accepted
+PDBbind2020:5ji8:accepted
+PDBbind2020:5mky:accepted
+PDBbind2020:5twx:accepted_pseudo_chainA
+PDBbind2020:6bqa:accepted

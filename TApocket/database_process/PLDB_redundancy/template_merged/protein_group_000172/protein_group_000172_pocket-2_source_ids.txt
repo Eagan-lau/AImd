@@ -1,0 +1,10 @@
+scPDB:2x90_1:accepted
+scPDB:2x91_1:accepted
+scPDB:2x92_1:accepted
+scPDB:2x93_1:accepted
+scPDB:2x94_1:accepted
+scPDB:2x95_1:accepted
+scPDB:2x96_1:accepted
+scPDB:2x97_1:accepted
+scPDB:4ca7_1:accepted
+scPDB:4ca8_1:accepted

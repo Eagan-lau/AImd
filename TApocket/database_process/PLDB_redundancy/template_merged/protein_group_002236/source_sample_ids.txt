@@ -1,0 +1,3 @@
+scPDB:3dha_1:accepted
+scPDB:3dhb_1:accepted
+scPDB:3dhc_1:accepted

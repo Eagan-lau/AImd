@@ -1,0 +1,11 @@
+PDBbind2020:4x60:accepted
+PDBbind2020:4x61:accepted
+PDBbind2020:4x63:accepted
+PDBbind2020:5emj:accepted
+PDBbind2020:5emk:accepted
+PDBbind2020:5eml:accepted
+PDBbind2020:5emm:accepted
+PDBbind2020:6ckc:accepted
+PDBbind2020:6k1s:accepted
+scPDB:4gqb_1:accepted_dominant_chain
+scPDB:5fa5_1:accepted

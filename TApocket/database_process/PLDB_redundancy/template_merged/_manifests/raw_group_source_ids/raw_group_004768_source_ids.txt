@@ -1,0 +1,2 @@
+PDBbind2020:2pnx:accepted
+PDBbind2020:2vnf:accepted

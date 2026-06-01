@@ -1,0 +1,3 @@
+PDBbind2020:3aya:accepted
+PDBbind2020:3ayc:accepted
+PDBbind2020:3ayd:accepted

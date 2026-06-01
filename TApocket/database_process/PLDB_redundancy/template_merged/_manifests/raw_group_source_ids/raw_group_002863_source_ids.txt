@@ -1,0 +1,2 @@
+PDBbind2020:3mp1:accepted
+PDBbind2020:3mp6:accepted

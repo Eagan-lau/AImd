@@ -1,0 +1,2 @@
+scPDB:3qfr_4:accepted
+scPDB:3qfr_6:accepted

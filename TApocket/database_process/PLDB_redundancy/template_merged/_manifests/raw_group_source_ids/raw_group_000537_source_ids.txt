@@ -1,0 +1,9 @@
+scPDB:3nf6_2:accepted
+scPDB:3nf7_1:accepted
+scPDB:3nf9_2:accepted
+scPDB:3nfa_1:accepted
+scPDB:4ah9_1:accepted_pseudo_chainA
+scPDB:4cho_2:accepted_dominant_chain
+scPDB:4chp_4:accepted
+scPDB:4chz_1:accepted
+scPDB:4cjw_2:accepted

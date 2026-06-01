@@ -1,0 +1,4 @@
+PDBbind2020:2uy3:accepted
+PDBbind2020:2uy4:accepted
+PDBbind2020:2uy5:accepted
+PDBbind2020:4txe:accepted

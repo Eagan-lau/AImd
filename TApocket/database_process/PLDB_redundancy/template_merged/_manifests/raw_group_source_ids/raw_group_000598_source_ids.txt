@@ -1,0 +1,8 @@
+PDBbind2020:1bji:accepted
+PDBbind2020:1f8b:accepted
+PDBbind2020:1f8c:accepted
+PDBbind2020:1f8d:accepted
+PDBbind2020:1nnb:accepted
+PDBbind2020:1xoe:accepted
+PDBbind2020:1xog:accepted
+PDBbind2020:4dgr:accepted

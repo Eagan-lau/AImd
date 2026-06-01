@@ -1,0 +1,16 @@
+scPDB:1bwc_1:accepted
+scPDB:1gra_1:accepted
+scPDB:1grb_1:accepted
+scPDB:1gre_1:accepted
+scPDB:1grh_1:accepted
+scPDB:2gh5_1:accepted_dominant_chain
+scPDB:3djg_1:accepted
+scPDB:3djj_1:accepted
+scPDB:3dk4_1:accepted
+scPDB:3dk4_2:accepted
+scPDB:3dk8_1:accepted
+scPDB:3dk9_1:accepted
+scPDB:3grs_1:accepted
+scPDB:3sqp_1:accepted_dominant_chain
+scPDB:4gr1_1:accepted
+scPDB:4gr1_2:accepted

@@ -1,0 +1,14 @@
+PDBbind2020:4pmm:accepted
+PDBbind2020:4pmp:accepted
+PDBbind2020:4pms:accepted
+PDBbind2020:4pmt:accepted
+PDBbind2020:4yne:accepted
+PDBbind2020:4yps:accepted
+PDBbind2020:5h3q:accepted
+PDBbind2020:6dkb:accepted
+PDBbind2020:6dkg:accepted
+PDBbind2020:6dki:accepted
+PDBbind2020:6j5l:accepted
+PDBbind2020:6nsp:accepted
+PDBbind2020:6nss:accepted
+PDBbind2020:6pl3:accepted

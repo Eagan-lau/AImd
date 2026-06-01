@@ -1,0 +1,2 @@
+scPDB:2ybt_8:accepted_dominant_chain
+scPDB:2ybu_8:accepted_dominant_chain

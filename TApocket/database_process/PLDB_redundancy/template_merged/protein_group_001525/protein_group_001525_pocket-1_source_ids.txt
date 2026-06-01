@@ -1,0 +1,4 @@
+PDBbind2020:3pjt:accepted
+PDBbind2020:3pju:accepted
+scPDB:3pjt_1:accepted
+scPDB:3pju_1:accepted

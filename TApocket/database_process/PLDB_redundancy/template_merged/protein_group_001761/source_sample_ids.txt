@@ -1,0 +1,3 @@
+PDBbind2020:4nmx:accepted
+PDBbind2020:5vlp:accepted
+PDBbind2020:6u26:accepted_dominant_chain

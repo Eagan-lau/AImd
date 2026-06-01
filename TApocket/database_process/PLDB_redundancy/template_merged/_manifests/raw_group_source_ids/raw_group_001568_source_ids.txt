@@ -1,0 +1,4 @@
+PDBbind2020:1xk9:accepted
+PDBbind2020:2zit:accepted_dominant_chain
+scPDB:1zm4_3:accepted
+scPDB:2zit_3:accepted

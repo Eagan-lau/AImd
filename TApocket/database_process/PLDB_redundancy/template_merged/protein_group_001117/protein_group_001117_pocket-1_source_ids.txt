@@ -1,0 +1,5 @@
+scPDB:5auv_1:accepted
+scPDB:5aux_1:accepted
+scPDB:5av0_1:accepted
+scPDB:5av2_1:accepted
+scPDB:5av3_1:accepted

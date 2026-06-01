@@ -1,0 +1,2 @@
+PDBbind2020:2xpk:accepted_dominant_chain
+scPDB:2xpk_1:accepted_dominant_chain

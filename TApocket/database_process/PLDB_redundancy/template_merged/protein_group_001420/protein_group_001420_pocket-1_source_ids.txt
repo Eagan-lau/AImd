@@ -1,0 +1,4 @@
+PDBbind2020:1xlx:accepted
+PDBbind2020:1xot:accepted
+PDBbind2020:1y2h:accepted
+PDBbind2020:1y2j:accepted

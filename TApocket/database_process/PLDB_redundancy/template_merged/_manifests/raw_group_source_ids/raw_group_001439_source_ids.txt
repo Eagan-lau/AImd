@@ -1,0 +1,4 @@
+scPDB:2xir_1:accepted
+scPDB:4ag8_1:accepted
+scPDB:4agc_1:accepted
+scPDB:4agd_1:accepted

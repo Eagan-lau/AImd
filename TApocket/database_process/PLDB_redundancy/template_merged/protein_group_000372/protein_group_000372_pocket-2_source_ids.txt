@@ -1,0 +1,10 @@
+scPDB:1raa_2:accepted
+scPDB:1rab_1:accepted
+scPDB:1rac_1:accepted
+scPDB:1rae_2:accepted
+scPDB:1raf_2:accepted
+scPDB:1rag_2:accepted
+scPDB:1za1_2:accepted_dominant_chain
+scPDB:2fzg_4:accepted
+scPDB:2fzk_3:accepted
+scPDB:4fyx_4:accepted

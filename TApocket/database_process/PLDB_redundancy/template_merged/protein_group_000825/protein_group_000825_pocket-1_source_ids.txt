@@ -1,0 +1,3 @@
+PDBbind2020:5ccl:accepted
+PDBbind2020:5ccm:accepted
+PDBbind2020:5v37:accepted

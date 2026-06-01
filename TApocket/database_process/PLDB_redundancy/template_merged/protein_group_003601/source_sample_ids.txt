@@ -1,0 +1,2 @@
+PDBbind2020:1tsy:accepted_dominant_chain
+scPDB:1tsy_1:accepted

@@ -1,0 +1,5 @@
+PDBbind2020:1upf:accepted_dominant_chain
+scPDB:1bd4_3:accepted_dominant_chain
+scPDB:1jls_3:accepted_dominant_chain
+scPDB:1upf_3:accepted_dominant_chain
+scPDB:1upu_2:accepted_dominant_chain

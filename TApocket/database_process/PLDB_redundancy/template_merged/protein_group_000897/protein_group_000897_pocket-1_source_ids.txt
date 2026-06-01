@@ -1,0 +1,6 @@
+PDBbind2020:2fou:accepted
+PDBbind2020:2fov:accepted
+PDBbind2020:2nng:accepted
+PDBbind2020:2nno:accepted
+PDBbind2020:2nns:accepted
+PDBbind2020:2nnv:accepted

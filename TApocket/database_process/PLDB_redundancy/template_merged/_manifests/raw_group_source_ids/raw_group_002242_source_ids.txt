@@ -1,0 +1,3 @@
+PDBbind2020:1nhz:accepted_dominant_chain
+PDBbind2020:1p93:accepted
+scPDB:4udc_2:accepted

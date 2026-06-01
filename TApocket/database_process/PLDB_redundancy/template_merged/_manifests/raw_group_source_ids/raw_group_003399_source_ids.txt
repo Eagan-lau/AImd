@@ -1,0 +1,2 @@
+PDBbind2020:3d7z:accepted
+scPDB:3d7z_1:accepted

@@ -1,0 +1,4 @@
+scPDB:3bfa_1:accepted
+scPDB:3bfb_1:accepted
+scPDB:3bjh_1:accepted
+scPDB:3cz1_2:accepted_dominant_chain

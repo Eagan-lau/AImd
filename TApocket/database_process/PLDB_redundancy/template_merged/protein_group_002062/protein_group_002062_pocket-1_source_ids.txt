@@ -1,0 +1,3 @@
+scPDB:2agt_1:accepted
+scPDB:2pdf_1:accepted
+scPDB:2pdh_1:accepted

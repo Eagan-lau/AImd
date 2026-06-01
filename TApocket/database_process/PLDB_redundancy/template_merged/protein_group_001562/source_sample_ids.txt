@@ -1,0 +1,4 @@
+scPDB:1ake_1:accepted
+scPDB:1ank_2:accepted
+scPDB:2eck_1:accepted
+scPDB:3hpq_1:accepted

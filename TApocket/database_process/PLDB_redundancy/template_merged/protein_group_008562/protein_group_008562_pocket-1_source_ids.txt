@@ -1,0 +1,1 @@
+scPDB:1nve_1:accepted_dominant_chain

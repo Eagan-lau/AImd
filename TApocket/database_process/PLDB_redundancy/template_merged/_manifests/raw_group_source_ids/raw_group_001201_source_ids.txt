@@ -1,0 +1,5 @@
+PDBbind2020:1ugw:accepted_dominant_chain
+PDBbind2020:1ugx:accepted_dominant_chain
+PDBbind2020:1ugy:accepted_dominant_chain
+PDBbind2020:1ws4:accepted_dominant_chain
+PDBbind2020:1ws5:accepted_dominant_chain

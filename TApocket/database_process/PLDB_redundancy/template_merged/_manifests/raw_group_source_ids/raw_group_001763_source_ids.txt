@@ -1,0 +1,3 @@
+PDBbind2020:3lpf:accepted_dominant_chain
+PDBbind2020:3lpg:accepted_dominant_chain
+PDBbind2020:4jhz:accepted_dominant_chain

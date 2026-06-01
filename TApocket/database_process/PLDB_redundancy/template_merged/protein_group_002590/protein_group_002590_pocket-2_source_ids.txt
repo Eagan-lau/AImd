@@ -1,0 +1,1 @@
+scPDB:2amt_3:accepted_pseudo_chainA

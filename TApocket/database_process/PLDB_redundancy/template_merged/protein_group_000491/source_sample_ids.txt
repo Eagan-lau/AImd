@@ -1,0 +1,9 @@
+PDBbind2020:1tka:accepted_pseudo_chainA
+PDBbind2020:1tkb:accepted_pseudo_chainA
+PDBbind2020:1tkc:accepted_pseudo_chainA
+scPDB:1gpu_2:accepted_pseudo_chainA
+scPDB:1ngs_1:accepted_pseudo_chainA
+scPDB:1tka_2:accepted_pseudo_chainA
+scPDB:1tkb_1:accepted_pseudo_chainA
+scPDB:1tkc_1:accepted_pseudo_chainA
+scPDB:1trk_2:accepted_pseudo_chainA

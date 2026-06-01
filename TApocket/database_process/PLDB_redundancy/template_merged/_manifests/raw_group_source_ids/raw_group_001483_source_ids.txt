@@ -1,0 +1,4 @@
+scPDB:3gu4_1:accepted
+scPDB:3gu5_1:accepted
+scPDB:3gu6_1:accepted
+scPDB:3gu7_1:accepted

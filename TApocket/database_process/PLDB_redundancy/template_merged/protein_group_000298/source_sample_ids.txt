@@ -1,0 +1,14 @@
+PDBbind2020:1onp:accepted
+PDBbind2020:1t1r:accepted_dominant_chain
+PDBbind2020:1t1s:accepted
+PDBbind2020:3r0i:accepted
+scPDB:1jvs_2:accepted
+scPDB:1onp_2:accepted
+scPDB:1q0q_1:accepted
+scPDB:1t1r_2:accepted
+scPDB:1t1s_2:accepted
+scPDB:2egh_1:accepted
+scPDB:3anl_1:accepted
+scPDB:3anl_3:accepted
+scPDB:3anm_2:accepted
+scPDB:3anm_3:accepted

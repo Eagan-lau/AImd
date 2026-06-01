@@ -1,0 +1,8 @@
+scPDB:1mo9_1:accepted_dominant_chain
+scPDB:1mo9_3:accepted_dominant_chain
+scPDB:1mok_3:accepted_dominant_chain
+scPDB:2c3c_3:accepted_dominant_chain
+scPDB:2c3c_4:accepted_dominant_chain
+scPDB:2c3d_1:accepted_dominant_chain
+scPDB:2c3d_5:accepted_dominant_chain
+scPDB:3q6j_1:accepted_dominant_chain

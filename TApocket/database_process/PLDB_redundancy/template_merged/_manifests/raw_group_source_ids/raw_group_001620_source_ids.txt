@@ -1,0 +1,4 @@
+scPDB:2x1z_3:accepted
+scPDB:2x20_3:accepted
+scPDB:2x21_3:accepted
+scPDB:3iis_3:accepted

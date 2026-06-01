@@ -1,0 +1,5 @@
+PDBbind2020:4aom:accepted
+PDBbind2020:4mzj:accepted
+PDBbind2020:4mzk:accepted
+PDBbind2020:4mzl:accepted
+PDBbind2020:4r1e:accepted

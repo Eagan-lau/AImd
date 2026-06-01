@@ -1,0 +1,6 @@
+PDBbind2020:1bhf:accepted
+PDBbind2020:1lcj:accepted
+PDBbind2020:1lkk:accepted
+PDBbind2020:1lkl:accepted
+scPDB:1x27_1:accepted_dominant_chain
+scPDB:1x27_3:accepted_dominant_chain

@@ -1,0 +1,2 @@
+scPDB:3kzo_1:accepted
+scPDB:3kzo_2:accepted

@@ -1,0 +1,6 @@
+scPDB:4ho2_1:accepted
+scPDB:4ho3_1:accepted
+scPDB:4ho5_3:accepted_dominant_chain
+scPDB:4ho6_1:accepted
+scPDB:4ho8_1:accepted_dominant_chain
+scPDB:4ho9_3:accepted_dominant_chain

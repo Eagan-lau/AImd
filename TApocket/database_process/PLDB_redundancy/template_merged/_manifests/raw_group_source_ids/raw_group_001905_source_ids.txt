@@ -1,0 +1,3 @@
+scPDB:1aka_1:accepted_dominant_chain
+scPDB:1akb_1:accepted
+scPDB:1akc_1:accepted

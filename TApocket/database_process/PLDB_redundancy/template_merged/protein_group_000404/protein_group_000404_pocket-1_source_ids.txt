@@ -1,0 +1,9 @@
+PDBbind2020:2c0o:accepted
+PDBbind2020:2hk5:accepted
+PDBbind2020:3vry:accepted
+PDBbind2020:3vs3:accepted
+PDBbind2020:5h09:accepted
+PDBbind2020:5h0b:accepted
+PDBbind2020:5h0e:accepted
+PDBbind2020:5h0g:accepted
+PDBbind2020:5h0h:accepted

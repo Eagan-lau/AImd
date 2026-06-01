@@ -1,0 +1,7 @@
+scPDB:4fu8_1:accepted
+scPDB:4fub_1:accepted
+scPDB:4fud_1:accepted
+scPDB:4fue_1:accepted
+scPDB:4fuf_1:accepted
+scPDB:4fui_1:accepted
+scPDB:4fuj_1:accepted

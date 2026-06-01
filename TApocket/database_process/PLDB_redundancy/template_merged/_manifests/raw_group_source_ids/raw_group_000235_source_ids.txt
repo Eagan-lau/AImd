@@ -1,0 +1,17 @@
+PDBbind2020:1bma:accepted
+PDBbind2020:1e34:accepted
+PDBbind2020:1e37:accepted
+PDBbind2020:1eas:accepted
+PDBbind2020:1eat:accepted
+PDBbind2020:1ela:accepted
+PDBbind2020:1elb:accepted
+PDBbind2020:1elc:accepted
+PDBbind2020:1eld:accepted
+PDBbind2020:1ele:accepted
+PDBbind2020:1gvk:accepted
+PDBbind2020:1h9l:accepted
+PDBbind2020:1inc:accepted
+PDBbind2020:1okx:accepted
+PDBbind2020:4est:accepted
+PDBbind2020:4gvu:accepted
+PDBbind2020:5est:accepted

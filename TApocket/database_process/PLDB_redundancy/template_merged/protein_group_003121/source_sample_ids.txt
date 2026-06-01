@@ -1,0 +1,2 @@
+scPDB:2wsa_1:accepted
+scPDB:2wsa_2:accepted

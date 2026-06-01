@@ -1,0 +1,4 @@
+PDBbind2020:4wzv:accepted
+PDBbind2020:4xct:accepted
+PDBbind2020:5cuh:accepted
+PDBbind2020:5i12:accepted

@@ -1,0 +1,149 @@
+version: 1
+family:
+  key: act
+  plugin: act
+  runner: act
+  name: ACT
+  version: 2.0.0
+  description: Pure YAML family spec for acyltransferases.
+input:
+  protein_extension: .pdbqt
+  ligand_extension: .pdbqt
+  ligand_pattern: '{ligand_id}@{protein_name}{ligand_extension}'
+  out_pattern: '{ligand_id}_{protein_name}_cavity_1.out'
+  protein_object: protein1
+  ligand_object: ligand
+  affinity_threshold: -3.0
+aggregation:
+  total_confs: 6
+  cover_t: 70.0
+  alpha: 0.3
+output:
+  save_pse: true
+  row_fields:
+    - name: nu_type
+      ref: nucleophile_atom
+      attr: symbol
+    - name: nu_atom_id
+      ref: nucleophile_atom
+      attr: atom_id
+    - name: ne2_atom_id
+      ref: his_ne2
+      attr: atom_id
+resources:
+  coa:
+    path: examples/templates/acetyl-CoA.pdb
+    object: coa
+globals:
+  donor_c:
+    op: select_first_atom_any
+    selectors:
+      - 'coa and resn H5L and name C9'
+      - 'coa and resn MLC and name CM1'
+  donor_o:
+    op: select_first_atom_any
+    selectors:
+      - 'coa and resn H5L and name O10'
+      - 'coa and resn MLC and name OM2'
+  donor_s:
+    op: select_first_atom_any
+    selectors:
+      - 'coa and resn H5L and name S1P'
+      - 'coa and resn MLC and name S1P'
+  his_ne2_candidates:
+    op: select_atoms_within
+    candidate_selector: '{protein_obj} and resn HIS+HIE+HID+HIP and name NE2'
+    reference: donor_c
+    radius: 10.0
+pose:
+  add_hydrogens: false
+  objects:
+    nucleophile_sites:
+      op: collect_protic_nucleophiles
+      elements: [O, N, S]
+    pose_clash:
+      op: pose_clash
+      cutoff: 2.0
+candidates:
+  op: cartesian_product
+  members:
+    his_ne2: his_ne2_candidates
+    nucleophile_atom: nucleophile_sites
+features:
+  - name: dist_NE2_Nu
+    op: distance
+    a: his_ne2
+    b: nucleophile_atom
+  - name: dist_Nu_C
+    op: distance
+    a: donor_c
+    b: nucleophile_atom
+  - name: dist_Nu_S
+    op: distance
+    a: donor_s
+    b: nucleophile_atom
+  - name: BD_angle_deg
+    op: angle
+    a: nucleophile_atom
+    b: donor_c
+    c: donor_o
+  - name: clash_flag
+    op: alias
+    source: pose_clash
+gating:
+  logic: all
+  rules:
+    - feature: dist_NE2_Nu
+      op: <=
+      value: 5.0
+    - feature: dist_Nu_C
+      op: <=
+      value: 5.0
+    - feature: dist_Nu_S
+      op: <=
+      value: 6.0
+    - feature: BD_angle_deg
+      op: between
+      min: 85.0
+      max: 125.0
+    - feature: clash_flag
+      op: ==
+      value: false
+scoring:
+  transforms:
+    - name: affinity_score
+      op: energy_linear
+      source: affinity_kcal
+      full: -7.0
+      zero: -3.0
+    - name: d1_score
+      op: distance_piecewise
+      source: dist_NE2_Nu
+      best: 3.2
+      cutoff: 5.0
+    - name: d2_score
+      op: distance_piecewise
+      source: dist_Nu_C
+      best: 3.2
+      cutoff: 5.0
+    - name: angle_score
+      op: piecewise_linear
+      source: BD_angle_deg
+      points:
+        - [85.0, 0.0]
+        - [100.0, 1.0]
+        - [110.0, 1.0]
+        - [125.0, 0.0]
+  intermediates: []
+  pose_score:
+    op: weighted_sum
+    scale: 100.0
+    terms:
+      - source: affinity_score
+        weight: 0.3
+      - source: d1_score
+        weight: 0.2
+      - source: d2_score
+        weight: 0.2
+      - source: angle_score
+        weight: 0.3

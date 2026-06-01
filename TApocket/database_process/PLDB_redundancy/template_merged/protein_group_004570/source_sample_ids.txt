@@ -1,0 +1,2 @@
+PDBbind2020:4jal:accepted_dominant_chain
+scPDB:4jal_1:accepted_dominant_chain

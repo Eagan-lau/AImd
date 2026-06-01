@@ -1,0 +1,10 @@
+scPDB:1ry0_2:accepted
+scPDB:1ry8_2:accepted
+scPDB:1s1p_1:accepted
+scPDB:1s1r_1:accepted
+scPDB:1s2c_1:accepted
+scPDB:2f38_1:accepted
+scPDB:4dbs_4:accepted
+scPDB:4dbu_2:accepted
+scPDB:4dbw_3:accepted
+scPDB:4fam_1:accepted

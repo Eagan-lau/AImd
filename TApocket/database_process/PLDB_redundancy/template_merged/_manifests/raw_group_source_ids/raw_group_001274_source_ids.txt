@@ -1,0 +1,4 @@
+PDBbind2020:1yvf:accepted
+PDBbind2020:1z4u:accepted
+scPDB:1yvf_1:accepted
+scPDB:1z4u_1:accepted

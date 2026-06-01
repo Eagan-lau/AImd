@@ -1,0 +1,5 @@
+PDBbind2020:3dnd:accepted_dominant_chain
+PDBbind2020:3dne:accepted_dominant_chain
+scPDB:3dnd_1:accepted_dominant_chain
+scPDB:3dne_1:accepted
+scPDB:4yxs_1:accepted

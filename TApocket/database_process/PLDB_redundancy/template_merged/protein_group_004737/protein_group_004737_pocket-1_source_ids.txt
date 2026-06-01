@@ -1,0 +1,2 @@
+PDBbind2020:5gmu:accepted
+PDBbind2020:5go2:accepted

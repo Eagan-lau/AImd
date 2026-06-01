@@ -1,0 +1,3 @@
+PDBbind2020:1oxr:accepted
+PDBbind2020:1td7:accepted
+scPDB:1oxr_1:accepted

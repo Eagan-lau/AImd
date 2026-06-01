@@ -1,0 +1,2 @@
+PDBbind2020:1imx:accepted
+PDBbind2020:1pmx:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:3fal:accepted
+scPDB:2acl_8:accepted

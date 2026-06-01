@@ -1,0 +1,9 @@
+PDBbind2020:3zrc:accepted
+PDBbind2020:3ztc:accepted
+PDBbind2020:3ztd:accepted
+PDBbind2020:4b95:accepted
+PDBbind2020:6bvb:accepted
+PDBbind2020:6gfx:accepted_dominant_chain
+PDBbind2020:6hay:accepted_pseudo_chainA
+PDBbind2020:6haz:accepted_dominant_chain
+scPDB:3zrc_1:accepted_dominant_chain

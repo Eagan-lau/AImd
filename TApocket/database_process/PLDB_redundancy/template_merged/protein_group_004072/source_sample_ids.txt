@@ -1,0 +1,2 @@
+PDBbind2020:1gmy:accepted
+PDBbind2020:3ai8:accepted

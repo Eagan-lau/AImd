@@ -1,0 +1,14 @@
+PDBbind2020:3ftv:accepted
+PDBbind2020:3ftw:accepted
+PDBbind2020:3fty:accepted
+PDBbind2020:3fu0:accepted
+PDBbind2020:3fu5:accepted
+PDBbind2020:3fu6:accepted
+PDBbind2020:3fue:accepted
+scPDB:3chr_1:accepted
+scPDB:3chs_2:accepted
+scPDB:3fui_1:accepted
+scPDB:3ful_1:accepted
+scPDB:3fum_1:accepted
+scPDB:3fun_1:accepted
+scPDB:4rsy_1:accepted

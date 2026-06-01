@@ -1,0 +1,10 @@
+PDBbind2020:1o6i:accepted
+PDBbind2020:1w1p:accepted
+PDBbind2020:1w1t:accepted
+PDBbind2020:1w1v:accepted
+PDBbind2020:1w1y:accepted
+scPDB:1o6i_1:accepted
+scPDB:1w1p_1:accepted
+scPDB:1w1t_4:accepted_dominant_chain
+scPDB:1w1v_1:accepted
+scPDB:1w1y_6:accepted_dominant_chain

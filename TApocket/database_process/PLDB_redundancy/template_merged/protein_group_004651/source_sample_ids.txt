@@ -1,0 +1,2 @@
+PDBbind2020:1ogz:accepted
+scPDB:1ogz_1:accepted

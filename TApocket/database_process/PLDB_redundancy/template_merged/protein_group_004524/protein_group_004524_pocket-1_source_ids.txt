@@ -1,0 +1,2 @@
+scPDB:1ix1_2:accepted
+scPDB:1lry_1:accepted

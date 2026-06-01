@@ -1,0 +1,2 @@
+scPDB:2xls_7:accepted
+scPDB:2xls_8:accepted

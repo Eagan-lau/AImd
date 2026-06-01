@@ -1,0 +1,2 @@
+scPDB:3r34_1:accepted_pseudo_chainA
+scPDB:3r35_1:accepted_pseudo_chainA

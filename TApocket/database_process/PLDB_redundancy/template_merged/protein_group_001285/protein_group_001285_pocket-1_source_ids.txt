@@ -1,0 +1,4 @@
+scPDB:2gyu_2:accepted
+scPDB:2gyw_1:accepted
+scPDB:4ara_2:accepted
+scPDB:4arb_2:accepted

@@ -1,0 +1,9 @@
+PDBbind2020:4gih:accepted
+PDBbind2020:4gii:accepted
+PDBbind2020:4gj2:accepted
+PDBbind2020:4gj3:accepted
+PDBbind2020:5wal:accepted
+scPDB:4gih_1:accepted
+scPDB:4gii_1:accepted
+scPDB:4gj2_1:accepted
+scPDB:4gj3_1:accepted

@@ -1,0 +1,17 @@
+PDBbind2020:4e34:accepted
+PDBbind2020:4e35:accepted
+PDBbind2020:4joe:accepted
+PDBbind2020:4jof:accepted
+PDBbind2020:4jog:accepted
+PDBbind2020:4joh:accepted
+PDBbind2020:4joj:accepted
+PDBbind2020:4jok:accepted
+PDBbind2020:4k6y:accepted
+PDBbind2020:4k76:accepted
+PDBbind2020:4nmo:accepted
+PDBbind2020:4nmp:accepted
+PDBbind2020:4nmq:accepted
+PDBbind2020:4nmr:accepted
+PDBbind2020:4nms:accepted
+PDBbind2020:4nmt:accepted
+PDBbind2020:4nmv:accepted

@@ -1,0 +1,11 @@
+PDBbind2020:1uk0:accepted
+PDBbind2020:1uk1:accepted
+PDBbind2020:1wok:accepted
+PDBbind2020:2rcw:accepted
+PDBbind2020:4pjt:accepted
+PDBbind2020:4zzz:accepted
+PDBbind2020:5a00:accepted
+PDBbind2020:5ha9:accepted
+scPDB:1uk0_1:accepted
+scPDB:1uk1_2:accepted
+scPDB:2rcw_1:accepted

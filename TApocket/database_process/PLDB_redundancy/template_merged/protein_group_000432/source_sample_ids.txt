@@ -1,0 +1,11 @@
+PDBbind2020:4ght:accepted
+PDBbind2020:5c1x:accepted
+PDBbind2020:5c1y:accepted
+PDBbind2020:5c20:accepted
+PDBbind2020:5dp4:accepted
+PDBbind2020:5dp5:accepted
+PDBbind2020:5dp6:accepted
+PDBbind2020:5dp7:accepted
+PDBbind2020:5dp8:accepted
+PDBbind2020:5dp9:accepted
+PDBbind2020:5dpa:accepted

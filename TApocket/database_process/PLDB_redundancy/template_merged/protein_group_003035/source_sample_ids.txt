@@ -1,0 +1,2 @@
+PDBbind2020:1yei:accepted_pseudo_chainA
+PDBbind2020:1yej:accepted_pseudo_chainA

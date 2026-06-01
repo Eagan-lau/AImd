@@ -1,0 +1,3 @@
+scPDB:2yj4_1:accepted
+scPDB:2yj5_2:accepted
+scPDB:2yj6_2:accepted

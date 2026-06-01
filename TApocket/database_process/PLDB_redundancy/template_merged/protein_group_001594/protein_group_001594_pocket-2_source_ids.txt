@@ -1,0 +1,3 @@
+scPDB:2fzj_1:accepted
+scPDB:3d80_1:accepted
+scPDB:3k47_1:accepted

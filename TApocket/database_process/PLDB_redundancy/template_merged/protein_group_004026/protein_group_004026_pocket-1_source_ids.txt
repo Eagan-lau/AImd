@@ -1,0 +1,2 @@
+PDBbind2020:3fas:accepted
+PDBbind2020:3fat:accepted

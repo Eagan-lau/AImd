@@ -1,0 +1,7 @@
+PDBbind2020:4u6w:accepted
+PDBbind2020:4u6z:accepted
+PDBbind2020:4u70:accepted
+PDBbind2020:4u71:accepted
+PDBbind2020:4u73:accepted
+PDBbind2020:5ykp:accepted
+PDBbind2020:5yr4:accepted

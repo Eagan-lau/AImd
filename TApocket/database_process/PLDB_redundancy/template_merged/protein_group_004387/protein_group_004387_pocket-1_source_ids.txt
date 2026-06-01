@@ -1,0 +1,2 @@
+PDBbind2020:1ody:accepted_pseudo_chainA
+scPDB:1ody_1:accepted_pseudo_chainA

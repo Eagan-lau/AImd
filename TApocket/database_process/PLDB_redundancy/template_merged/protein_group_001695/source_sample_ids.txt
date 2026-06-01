@@ -1,0 +1,3 @@
+PDBbind2020:4fkk:accepted
+PDBbind2020:4ou3:accepted
+scPDB:4fkk_1:accepted

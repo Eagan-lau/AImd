@@ -1,0 +1,3 @@
+scPDB:1nas_1:accepted
+scPDB:1oaa_1:accepted
+scPDB:1sep_1:accepted

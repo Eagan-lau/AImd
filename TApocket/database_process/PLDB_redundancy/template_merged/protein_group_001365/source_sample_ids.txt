@@ -1,0 +1,4 @@
+PDBbind2020:2zym:accepted
+PDBbind2020:2zyn:accepted
+scPDB:2zym_1:accepted
+scPDB:2zyn_1:accepted

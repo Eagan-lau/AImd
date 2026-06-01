@@ -1,0 +1,6 @@
+PDBbind2020:3wzu:accepted
+PDBbind2020:6ib0:accepted
+PDBbind2020:6qft:accepted
+PDBbind2020:6qg4:accepted
+PDBbind2020:6qg7:accepted
+PDBbind2020:6qho:accepted

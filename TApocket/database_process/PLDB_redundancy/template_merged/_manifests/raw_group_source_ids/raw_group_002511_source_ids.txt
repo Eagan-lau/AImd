@@ -1,0 +1,2 @@
+PDBbind2020:1v11:accepted_pseudo_chainA
+scPDB:1v11_1:accepted_dominant_chain

@@ -1,0 +1,2 @@
+PDBbind2020:1oz0:accepted_pseudo_chainA
+scPDB:1oz0_2:accepted_pseudo_chainA

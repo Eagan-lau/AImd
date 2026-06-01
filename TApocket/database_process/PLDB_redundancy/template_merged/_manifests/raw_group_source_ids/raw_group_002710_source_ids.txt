@@ -1,0 +1,2 @@
+scPDB:2bpo_3:accepted
+scPDB:2bpo_4:accepted

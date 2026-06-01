@@ -1,0 +1,4 @@
+scPDB:1s9p_3:accepted
+scPDB:2gpu_1:accepted
+scPDB:2gpv_1:accepted_dominant_chain
+scPDB:2p7z_1:accepted

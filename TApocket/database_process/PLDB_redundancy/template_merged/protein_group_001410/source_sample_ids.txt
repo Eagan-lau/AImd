@@ -1,0 +1,4 @@
+PDBbind2020:2o48:accepted
+PDBbind2020:2poq:accepted
+scPDB:2o48_1:accepted
+scPDB:2poq_1:accepted

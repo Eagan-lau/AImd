@@ -1,0 +1,2 @@
+scPDB:1oip_1:accepted
+scPDB:1r5l_1:accepted

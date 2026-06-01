@@ -1,0 +1,4 @@
+PDBbind2020:1waw:accepted
+PDBbind2020:1wb0:accepted
+PDBbind2020:5nr8:accepted
+PDBbind2020:5nra:accepted

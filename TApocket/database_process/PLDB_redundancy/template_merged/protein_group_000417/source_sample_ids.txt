@@ -1,0 +1,11 @@
+scPDB:10mh_1:accepted
+scPDB:1mht_1:accepted
+scPDB:1skm_1:accepted
+scPDB:2c7q_1:accepted
+scPDB:2hmy_1:accepted
+scPDB:3mht_1:accepted
+scPDB:4mht_1:accepted
+scPDB:5mht_1:accepted
+scPDB:7mht_1:accepted
+scPDB:8mht_1:accepted
+scPDB:9mht_1:accepted

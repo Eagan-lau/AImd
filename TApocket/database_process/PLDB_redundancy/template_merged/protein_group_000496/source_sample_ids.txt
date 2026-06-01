@@ -1,0 +1,9 @@
+PDBbind2020:2yem:accepted_dominant_chain
+PDBbind2020:5t35:accepted_pseudo_chainA
+PDBbind2020:5u2c:accepted_dominant_chain
+PDBbind2020:5ueu:accepted_dominant_chain
+PDBbind2020:5uex:accepted
+PDBbind2020:5uey:accepted
+PDBbind2020:5uez:accepted
+PDBbind2020:5uf0:accepted
+scPDB:2yem_1:accepted

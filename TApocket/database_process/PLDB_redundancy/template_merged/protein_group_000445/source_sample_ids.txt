@@ -1,0 +1,10 @@
+PDBbind2020:1yvh:accepted
+PDBbind2020:3bum:accepted
+PDBbind2020:3bun:accepted
+PDBbind2020:3buo:accepted
+PDBbind2020:3buw:accepted
+PDBbind2020:3bux:accepted
+PDBbind2020:3ob1:accepted
+PDBbind2020:3ob2:accepted
+PDBbind2020:4a4c:accepted
+PDBbind2020:4gpl:accepted_dominant_chain

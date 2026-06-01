@@ -1,0 +1,2 @@
+PDBbind2020:1xjd:accepted
+scPDB:1xjd_1:accepted

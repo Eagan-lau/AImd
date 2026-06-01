@@ -1,0 +1,6 @@
+PDBbind2020:4fev:accepted
+scPDB:4ej7_1:accepted
+scPDB:4few_1:accepted_dominant_chain
+scPDB:4fex_1:accepted_dominant_chain
+scPDB:4gkh_9:accepted_dominant_chain
+scPDB:4gki_12:accepted_dominant_chain

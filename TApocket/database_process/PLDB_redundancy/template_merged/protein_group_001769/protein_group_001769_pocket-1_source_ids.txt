@@ -1,0 +1,2 @@
+scPDB:2gmh_1:accepted
+scPDB:2gmj_8:accepted

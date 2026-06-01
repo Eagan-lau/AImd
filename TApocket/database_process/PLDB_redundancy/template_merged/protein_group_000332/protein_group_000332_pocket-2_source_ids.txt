@@ -1,0 +1,2 @@
+scPDB:2uvy_1:accepted_dominant_chain
+scPDB:2vnw_1:accepted_dominant_chain

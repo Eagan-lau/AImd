@@ -1,0 +1,4 @@
+scPDB:1n5q_1:accepted_dominant_chain
+scPDB:1n5s_1:accepted_dominant_chain
+scPDB:1n5t_1:accepted_dominant_chain
+scPDB:1n5v_1:accepted

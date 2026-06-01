@@ -1,0 +1,2 @@
+scPDB:1xef_3:accepted_pseudo_chainA
+scPDB:2fgj_3:accepted_pseudo_chainA

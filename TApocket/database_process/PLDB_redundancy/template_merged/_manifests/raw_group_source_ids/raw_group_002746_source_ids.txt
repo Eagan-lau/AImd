@@ -1,0 +1,2 @@
+scPDB:4loc_1:accepted
+scPDB:4loc_2:accepted

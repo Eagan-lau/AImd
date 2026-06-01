@@ -1,0 +1,4 @@
+scPDB:5kf1_2:accepted
+scPDB:5kf2_1:accepted
+scPDB:5kf8_2:accepted
+scPDB:5kf9_2:accepted

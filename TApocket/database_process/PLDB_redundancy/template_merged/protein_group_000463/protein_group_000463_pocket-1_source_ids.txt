@@ -1,0 +1,3 @@
+PDBbind2020:1kmy:accepted
+PDBbind2020:1lgt:accepted
+scPDB:1lkd_1:accepted

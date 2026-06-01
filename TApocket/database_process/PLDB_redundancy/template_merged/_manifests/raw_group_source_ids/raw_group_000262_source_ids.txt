@@ -1,0 +1,16 @@
+PDBbind2020:4klv:accepted
+PDBbind2020:4kot:accepted
+PDBbind2020:4kov:accepted
+PDBbind2020:4kow:accepted
+PDBbind2020:4kox:accepted
+scPDB:3pgp_1:accepted
+scPDB:4klv_1:accepted
+scPDB:4kos_1:accepted
+scPDB:4kot_1:accepted
+scPDB:4kou_1:accepted
+scPDB:4kov_1:accepted
+scPDB:4kow_1:accepted
+scPDB:4kox_1:accepted
+scPDB:4koy_1:accepted
+scPDB:4kub_1:accepted
+scPDB:4oad_1:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:4wmc:accepted
+PDBbind2020:5faq:accepted
+PDBbind2020:5fas:accepted
+PDBbind2020:5fat:accepted

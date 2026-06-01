@@ -1,0 +1,10 @@
+scPDB:2v58_2:accepted
+scPDB:2v59_2:accepted
+scPDB:2v5a_1:accepted
+scPDB:2w6m_1:accepted
+scPDB:2w6n_1:accepted
+scPDB:2w6o_2:accepted
+scPDB:2w6p_1:accepted
+scPDB:2w6q_1:accepted
+scPDB:2w6z_1:accepted
+scPDB:2w71_1:accepted

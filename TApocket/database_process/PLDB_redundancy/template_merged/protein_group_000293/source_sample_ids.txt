@@ -1,0 +1,14 @@
+scPDB:4bzb_1:accepted
+scPDB:4qfx_6:accepted
+scPDB:4qfy_2:accepted
+scPDB:4qfz_2:accepted
+scPDB:4qg0_5:accepted
+scPDB:4qg1_1:accepted
+scPDB:4tny_3:accepted
+scPDB:4tnz_4:accepted
+scPDB:4to2_4:accepted
+scPDB:4to3_1:accepted
+scPDB:4to4_1:accepted
+scPDB:4to4_5:accepted_pseudo_chainA
+scPDB:4to5_4:accepted
+scPDB:4to6_4:accepted

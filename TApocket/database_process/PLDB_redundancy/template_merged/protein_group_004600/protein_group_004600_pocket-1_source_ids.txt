@@ -1,0 +1,2 @@
+PDBbind2020:1ddm:accepted
+PDBbind2020:2nmb:accepted

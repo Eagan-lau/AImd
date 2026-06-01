@@ -1,0 +1,3 @@
+scPDB:1ges_1:accepted_dominant_chain
+scPDB:1geu_2:accepted_dominant_chain
+scPDB:1geu_3:accepted_dominant_chain

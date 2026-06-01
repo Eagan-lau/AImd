@@ -1,0 +1,2 @@
+PDBbind2020:6pya:accepted
+PDBbind2020:6pyb:accepted

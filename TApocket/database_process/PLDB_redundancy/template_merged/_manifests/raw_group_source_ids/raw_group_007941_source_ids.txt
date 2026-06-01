@@ -1,0 +1,1 @@
+scPDB:1uw6_15:accepted_pseudo_chainA

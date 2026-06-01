@@ -1,0 +1,2 @@
+scPDB:3uoy_1:accepted
+scPDB:3up5_1:accepted

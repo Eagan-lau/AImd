@@ -1,0 +1,1 @@
+scPDB:3zyb_3:accepted_pseudo_chainA

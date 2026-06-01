@@ -1,0 +1,2 @@
+PDBbind2020:4lvt:accepted
+scPDB:4lvt_2:accepted

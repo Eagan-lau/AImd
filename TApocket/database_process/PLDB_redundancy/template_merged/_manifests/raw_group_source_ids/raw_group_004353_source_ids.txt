@@ -1,0 +1,2 @@
+scPDB:1hdo_1:accepted
+scPDB:1he5_1:accepted

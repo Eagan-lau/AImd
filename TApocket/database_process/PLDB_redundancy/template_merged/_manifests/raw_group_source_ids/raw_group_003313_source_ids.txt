@@ -1,0 +1,2 @@
+PDBbind2020:1soj:accepted
+scPDB:1soj_7:accepted

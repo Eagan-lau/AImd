@@ -1,0 +1,3 @@
+scPDB:3s8a_1:accepted
+scPDB:3s8c_1:accepted
+scPDB:3s8c_2:accepted

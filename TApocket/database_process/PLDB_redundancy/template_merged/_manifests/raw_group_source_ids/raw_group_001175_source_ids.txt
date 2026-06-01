@@ -1,0 +1,5 @@
+PDBbind2020:4em7:accepted
+PDBbind2020:4lpb:accepted
+PDBbind2020:4mbc:accepted
+PDBbind2020:4mot:accepted
+scPDB:4lpb_1:accepted

@@ -1,0 +1,3 @@
+PDBbind2020:2wij:accepted
+PDBbind2020:2wik:accepted
+PDBbind2020:5nn0:accepted

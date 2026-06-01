@@ -1,0 +1,2 @@
+scPDB:3mo0_1:accepted
+scPDB:3mo0_3:accepted

@@ -1,0 +1,2 @@
+scPDB:1sez_2:accepted
+scPDB:1sez_4:accepted

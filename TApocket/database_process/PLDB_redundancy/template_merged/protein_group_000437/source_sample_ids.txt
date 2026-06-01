@@ -1,0 +1,10 @@
+scPDB:2c31_3:accepted
+scPDB:2ji6_1:accepted_pseudo_chainA
+scPDB:2ji6_2:accepted_dominant_chain
+scPDB:2ji6_5:accepted
+scPDB:2ji7_1:accepted_dominant_chain
+scPDB:2ji7_3:accepted
+scPDB:2ji8_2:accepted_dominant_chain
+scPDB:2ji9_4:accepted
+scPDB:2jib_1:accepted_pseudo_chainA
+scPDB:2jib_5:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:6g28:accepted
+PDBbind2020:6g2a:accepted

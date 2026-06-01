@@ -1,0 +1,7 @@
+scPDB:1wpg_7:accepted
+scPDB:3ar4_2:accepted
+scPDB:3ar5_2:accepted
+scPDB:3fgo_3:accepted
+scPDB:3fpb_2:accepted
+scPDB:4bew_3:accepted
+scPDB:4xou_1:accepted

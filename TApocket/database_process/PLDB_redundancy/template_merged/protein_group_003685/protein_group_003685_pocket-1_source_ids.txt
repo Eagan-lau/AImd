@@ -1,0 +1,2 @@
+PDBbind2020:3w2o:accepted
+scPDB:3w2o_1:accepted

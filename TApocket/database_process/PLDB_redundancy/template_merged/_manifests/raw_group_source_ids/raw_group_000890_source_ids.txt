@@ -1,0 +1,6 @@
+PDBbind2020:1nxy:accepted
+PDBbind2020:1ny0:accepted
+PDBbind2020:1nym:accepted
+PDBbind2020:1nyy:accepted
+PDBbind2020:1pzo:accepted
+scPDB:1pzo_2:accepted

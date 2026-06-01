@@ -1,0 +1,5 @@
+PDBbind2020:5j6l:accepted_dominant_chain
+PDBbind2020:5j6m:accepted_dominant_chain
+PDBbind2020:5j6n:accepted_dominant_chain
+PDBbind2020:5j8m:accepted_dominant_chain
+PDBbind2020:5j8u:accepted_dominant_chain

@@ -1,0 +1,2 @@
+scPDB:1qg0_1:accepted_dominant_chain
+scPDB:3mhp_1:accepted

@@ -1,0 +1,7 @@
+PDBbind2020:2fxu:accepted
+PDBbind2020:6qri:accepted
+scPDB:1atn_1:accepted
+scPDB:1j6z_1:accepted
+scPDB:2a41_1:accepted_dominant_chain
+scPDB:4pkg_1:accepted
+scPDB:4pki_1:accepted

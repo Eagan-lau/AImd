@@ -1,0 +1,2 @@
+scPDB:1v93_1:accepted
+scPDB:3apy_3:accepted

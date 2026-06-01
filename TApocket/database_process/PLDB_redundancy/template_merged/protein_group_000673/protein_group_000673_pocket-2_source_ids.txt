@@ -1,0 +1,2 @@
+scPDB:1oon_2:accepted_pseudo_chainA
+scPDB:1ylu_1:accepted_pseudo_chainA

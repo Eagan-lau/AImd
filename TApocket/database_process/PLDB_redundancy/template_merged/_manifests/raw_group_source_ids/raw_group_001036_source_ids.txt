@@ -1,0 +1,5 @@
+PDBbind2020:4mww:accepted
+PDBbind2020:4mwx:accepted
+PDBbind2020:4mwy:accepted
+PDBbind2020:4mx0:accepted
+PDBbind2020:5jyy:accepted

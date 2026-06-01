@@ -1,0 +1,1 @@
+scPDB:1pjl_16:accepted_dominant_chain

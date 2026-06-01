@@ -1,0 +1,6 @@
+scPDB:1lrj_1:accepted
+scPDB:1nah_1:accepted
+scPDB:1nai_1:accepted
+scPDB:1uda_1:accepted
+scPDB:1udb_1:accepted
+scPDB:1xel_1:accepted

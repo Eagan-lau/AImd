@@ -1,0 +1,2 @@
+scPDB:5cku_1:accepted
+scPDB:5cku_2:accepted

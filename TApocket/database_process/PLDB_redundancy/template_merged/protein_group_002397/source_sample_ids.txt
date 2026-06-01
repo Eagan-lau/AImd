@@ -1,0 +1,3 @@
+PDBbind2020:3hyf:accepted
+PDBbind2020:3qin:accepted
+PDBbind2020:3qio:accepted

@@ -1,0 +1,2 @@
+scPDB:3kai_1:accepted
+scPDB:3odk_1:accepted

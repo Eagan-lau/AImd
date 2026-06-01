@@ -1,0 +1,6 @@
+PDBbind2020:6bkx:accepted
+PDBbind2020:6bky:accepted_pseudo_chainA
+PDBbind2020:6bl1:accepted_dominant_chain
+PDBbind2020:6bl2:accepted_dominant_chain
+scPDB:1t09_1:accepted_dominant_chain
+scPDB:1t0l_4:accepted_dominant_chain

@@ -1,0 +1,6 @@
+PDBbind2020:3art:accepted
+PDBbind2020:3aru:accepted
+PDBbind2020:3as0:accepted
+PDBbind2020:3as1:accepted
+PDBbind2020:3as2:accepted
+PDBbind2020:3as3:accepted

@@ -1,0 +1,10 @@
+PDBbind2020:3ccb:accepted
+PDBbind2020:3ccc:accepted
+PDBbind2020:3g0g:accepted
+PDBbind2020:3w2t:accepted
+PDBbind2020:4pv7:accepted
+PDBbind2020:5y7h:accepted
+PDBbind2020:5y7j:accepted
+scPDB:2rgu_2:accepted
+scPDB:3f8s_2:accepted
+scPDB:3opm_1:accepted

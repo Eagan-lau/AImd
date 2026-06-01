@@ -1,0 +1,3 @@
+PDBbind2020:1agm:accepted
+PDBbind2020:1gah:accepted
+PDBbind2020:1gai:accepted

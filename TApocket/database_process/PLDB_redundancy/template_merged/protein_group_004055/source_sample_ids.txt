@@ -1,0 +1,2 @@
+PDBbind2020:2a14:accepted
+scPDB:2a14_1:accepted

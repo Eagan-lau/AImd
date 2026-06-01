@@ -1,0 +1,2 @@
+PDBbind2020:4eon:accepted
+scPDB:4eon_1:accepted

@@ -1,0 +1,3 @@
+scPDB:1euy_1:accepted
+scPDB:1gtr_1:accepted
+scPDB:1qtq_1:accepted

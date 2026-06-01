@@ -1,0 +1,13 @@
+scPDB:2giq_2:accepted
+scPDB:2gir_2:accepted
+scPDB:3fqk_2:accepted
+scPDB:3g86_2:accepted
+scPDB:3h59_1:accepted
+scPDB:3h5s_2:accepted
+scPDB:3mf5_1:accepted
+scPDB:4ih6_1:accepted
+scPDB:4ih7_2:accepted
+scPDB:4mk8_2:accepted
+scPDB:4mk9_2:accepted
+scPDB:4mka_1:accepted
+scPDB:4mkb_1:accepted

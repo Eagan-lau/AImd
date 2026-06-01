@@ -1,0 +1,2 @@
+PDBbind2020:3gur:accepted_dominant_chain
+scPDB:3gur_2:accepted_dominant_chain

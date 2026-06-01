@@ -1,0 +1,1 @@
+scPDB:3som_13:accepted_pseudo_chainA

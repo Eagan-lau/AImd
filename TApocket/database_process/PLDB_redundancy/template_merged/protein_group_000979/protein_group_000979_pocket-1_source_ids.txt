@@ -1,0 +1,3 @@
+scPDB:2y01_3:accepted
+scPDB:2y02_3:accepted
+scPDB:2y04_3:accepted

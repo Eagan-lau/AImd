@@ -1,0 +1,3 @@
+scPDB:4klv_1:accepted
+scPDB:4kou_1:accepted
+scPDB:4koy_1:accepted

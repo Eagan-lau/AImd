@@ -1,0 +1,6 @@
+PDBbind2020:6v5l:accepted
+scPDB:2msc_1:accepted
+scPDB:2msd_1:accepted
+scPDB:2mse_1:accepted
+scPDB:4lpk_2:accepted
+scPDB:4obe_1:accepted

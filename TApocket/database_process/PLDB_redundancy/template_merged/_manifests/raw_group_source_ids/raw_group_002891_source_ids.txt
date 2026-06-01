@@ -1,0 +1,2 @@
+scPDB:2pks_1:accepted_dominant_chain
+scPDB:3p70_6:accepted_pseudo_chainA

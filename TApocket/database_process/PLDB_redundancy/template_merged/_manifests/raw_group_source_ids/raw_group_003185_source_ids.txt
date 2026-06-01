@@ -1,0 +1,2 @@
+PDBbind2020:6isd:accepted
+PDBbind2020:6j63:accepted

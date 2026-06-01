@@ -1,0 +1,91 @@
+# Optional AImd tool registry.
+# The current workflow calls modules directly through their config files.
+# This registry is reserved for future adapter-based replacement of tools.
+
+protein_clustering:
+  current: rgpc_foldseek_hipmcl
+  adapters:
+    rgpc_foldseek_hipmcl:
+      module: RGPC
+      config: configs/RGPC/rgpc.yaml
+      outputs:
+        - data/protein/protein_manifest.csv
+        - data/cluster/RGPC/clusters.tsv
+    foldseek_easy_cluster:
+      status: reserved
+    mmseqs2_mcl:
+      status: reserved
+    tmalign_leiden:
+      status: reserved
+
+pocket_prediction:
+  current: tapocket
+  adapters:
+    tapocket:
+      module: TApocketBridge
+      config: configs/TApocket/tapocket_batch.yaml
+      outputs:
+        - data/pocket/pocket_manifest.csv
+    p2rank:
+      status: reserved
+    fpocket:
+      status: reserved
+    pocketminer:
+      status: reserved
+    deeppocket:
+      status: reserved
+
+ensemble_sampling:
+  current: alphaflow_command_template
+  adapters:
+    alphaflow_command_template:
+      module: DockingHub.ensemble
+      config_section: ensemble
+    md_snapshots:
+      status: reserved
+    af_cluster:
+      status: reserved
+
+cofactor_mapping:
+  current: foldseek_or_first_template_pymol
+  adapters:
+    foldseek_or_first_template_pymol:
+      module: DockingHub.cofactor
+      config_section: cofactor
+    usalign_template_mapper:
+      status: reserved
+    family_specific_mapper:
+      status: reserved
+
+docking:
+  current: vina
+  adapters:
+    vina:
+      module: DockingHub
+      config: configs/Docking/docking.yaml
+      outputs:
+        - data/docking_out/docking_result_manifest.csv
+    gnina:
+      status: reserved
+    smina:
+      status: reserved
+    unidock:
+      status: reserved
+    diffdock:
+      status: reserved
+
+cluster_scoring:
+  current: clusterscore_yaml_formula
+  adapters:
+    clusterscore_yaml_formula:
+      module: ScoringHub
+      config: configs/Scoring/cluster_score.yaml
+      formula_config_key: clusterscore.formula
+
+pose_scoring:
+  current: metaboclip_family_yaml
+  adapters:
+    metaboclip_family_yaml:
+      module: MetaBoClipBridge
+      config: configs/MetaBoClip/metaboclip_bridge.yaml
+      family_rule_location: MetaBoClip/families/*/family.yaml

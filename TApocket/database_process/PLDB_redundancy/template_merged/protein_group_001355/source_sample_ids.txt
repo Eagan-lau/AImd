@@ -1,0 +1,4 @@
+scPDB:1ivr_1:accepted
+scPDB:1map_1:accepted
+scPDB:1maq_1:accepted
+scPDB:1oxo_2:accepted_dominant_chain

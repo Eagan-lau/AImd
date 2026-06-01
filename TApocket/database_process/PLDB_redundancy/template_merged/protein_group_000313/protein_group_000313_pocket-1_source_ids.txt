@@ -1,0 +1,10 @@
+PDBbind2020:3czv:accepted
+PDBbind2020:4hu1:accepted
+PDBbind2020:4knm:accepted
+PDBbind2020:4knn:accepted
+PDBbind2020:4qiz:accepted
+PDBbind2020:4qjp:accepted
+PDBbind2020:4qjx:accepted
+PDBbind2020:5e2n:accepted
+PDBbind2020:5lla:accepted
+PDBbind2020:6g5u:accepted

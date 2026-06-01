@@ -1,0 +1,7 @@
+PDBbind2020:4mrd:accepted
+PDBbind2020:4mre:accepted
+PDBbind2020:4mrf:accepted
+PDBbind2020:4mrg:accepted
+PDBbind2020:4mrh:accepted
+PDBbind2020:4np2:accepted
+PDBbind2020:4np3:accepted

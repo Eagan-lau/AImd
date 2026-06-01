@@ -1,0 +1,2 @@
+PDBbind2020:1drv:accepted
+scPDB:1arz_1:accepted

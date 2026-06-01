@@ -1,0 +1,9 @@
+PDBbind2020:2b7f:accepted_pseudo_chainA
+PDBbind2020:4ydf:accepted_pseudo_chainA
+PDBbind2020:4ydg:accepted_pseudo_chainA
+scPDB:3lin_3:accepted_pseudo_chainA
+scPDB:3liq_1:accepted_pseudo_chainA
+scPDB:3lit_1:accepted_pseudo_chainA
+scPDB:3liv_1:accepted_pseudo_chainA
+scPDB:3lix_1:accepted_pseudo_chainA
+scPDB:3wsj_1:accepted_pseudo_chainA

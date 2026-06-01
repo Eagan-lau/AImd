@@ -1,0 +1,2 @@
+PDBbind2020:4na7:accepted
+PDBbind2020:4na8:accepted

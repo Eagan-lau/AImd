@@ -1,0 +1,2 @@
+scPDB:1ove_1:accepted
+scPDB:3gc7_1:accepted

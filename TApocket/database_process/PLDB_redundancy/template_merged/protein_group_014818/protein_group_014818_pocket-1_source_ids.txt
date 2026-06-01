@@ -1,0 +1,1 @@
+scPDB:1tu3_5:accepted_dominant_chain

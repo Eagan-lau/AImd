@@ -1,0 +1,4 @@
+PDBbind2020:1mu8:accepted
+PDBbind2020:1sb1:accepted
+PDBbind2020:1ta6:accepted
+PDBbind2020:1zgv:accepted

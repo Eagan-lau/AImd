@@ -1,0 +1,3 @@
+PDBbind2020:3gqo:accepted
+PDBbind2020:5mqx:accepted
+scPDB:3gqo_4:accepted

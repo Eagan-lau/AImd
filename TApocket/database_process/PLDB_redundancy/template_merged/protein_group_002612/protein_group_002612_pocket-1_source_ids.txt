@@ -1,0 +1,2 @@
+PDBbind2020:4ps3:accepted
+PDBbind2020:4ps7:accepted

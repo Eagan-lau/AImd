@@ -1,0 +1,5 @@
+PDBbind2020:3djo:accepted_dominant_chain
+PDBbind2020:3djp:accepted_dominant_chain
+PDBbind2020:3djq:accepted_dominant_chain
+PDBbind2020:3djv:accepted_dominant_chain
+PDBbind2020:3djx:accepted_dominant_chain

@@ -1,0 +1,5 @@
+PDBbind2020:4gdy:accepted_pseudo_chainA
+PDBbind2020:4ge4:accepted_pseudo_chainA
+PDBbind2020:4ge9:accepted_pseudo_chainA
+scPDB:4ge9_2:accepted_pseudo_chainA
+scPDB:4geb_1:accepted_dominant_chain

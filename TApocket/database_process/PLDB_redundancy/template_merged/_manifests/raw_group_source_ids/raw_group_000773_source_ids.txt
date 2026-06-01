@@ -1,0 +1,7 @@
+PDBbind2020:4bpi:accepted_dominant_chain
+PDBbind2020:4bpj:accepted_dominant_chain
+PDBbind2020:5ku9:accepted
+PDBbind2020:5mes:accepted
+PDBbind2020:5mev:accepted
+PDBbind2020:6fs0:accepted
+PDBbind2020:6fs1:accepted_dominant_chain

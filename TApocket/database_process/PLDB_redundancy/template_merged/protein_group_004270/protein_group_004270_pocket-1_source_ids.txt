@@ -1,0 +1,2 @@
+PDBbind2020:1kyn:accepted
+PDBbind2020:1t32:accepted

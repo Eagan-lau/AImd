@@ -1,0 +1,16 @@
+scPDB:1sg0_2:accepted_pseudo_chainA
+scPDB:2bzs_2:accepted_pseudo_chainA
+scPDB:2qmz_1:accepted_pseudo_chainA
+scPDB:2qx6_2:accepted_pseudo_chainA
+scPDB:2qx9_1:accepted_pseudo_chainA
+scPDB:3nhf_1:accepted_pseudo_chainA
+scPDB:3nhj_1:accepted_pseudo_chainA
+scPDB:3nhk_1:accepted_pseudo_chainA
+scPDB:3nhl_2:accepted_pseudo_chainA
+scPDB:3nhw_1:accepted_pseudo_chainA
+scPDB:3nhy_1:accepted_pseudo_chainA
+scPDB:3uxh_1:accepted_pseudo_chainA
+scPDB:4fgk_2:accepted_pseudo_chainA
+scPDB:4gqi_2:accepted_pseudo_chainA
+scPDB:4u7h_1:accepted_pseudo_chainA
+scPDB:4zvm_1:accepted_pseudo_chainA

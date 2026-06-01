@@ -1,0 +1,17 @@
+scPDB:4a2z_1:accepted
+scPDB:4a2z_2:accepted
+scPDB:4a30_1:accepted
+scPDB:4a30_2:accepted
+scPDB:4a31_1:accepted
+scPDB:4a31_2:accepted
+scPDB:4a32_1:accepted
+scPDB:4a32_2:accepted
+scPDB:4a33_1:accepted
+scPDB:4a33_2:accepted
+scPDB:4cgp_1:accepted
+scPDB:4ucn_1:accepted
+scPDB:5a27_1:accepted
+scPDB:5a28_1:accepted
+scPDB:5ag4_1:accepted
+scPDB:5ag5_1:accepted
+scPDB:5ag7_1:accepted

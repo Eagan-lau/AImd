@@ -1,0 +1,2 @@
+PDBbind2020:2zg1:accepted
+PDBbind2020:2zg3:accepted

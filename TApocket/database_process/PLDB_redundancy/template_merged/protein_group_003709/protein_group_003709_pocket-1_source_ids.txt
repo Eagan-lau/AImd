@@ -1,0 +1,2 @@
+PDBbind2020:4ibm:accepted
+scPDB:4ibm_1:accepted

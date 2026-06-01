@@ -1,0 +1,12 @@
+scPDB:1gsz_2:accepted
+scPDB:1h35_3:accepted
+scPDB:1h36_2:accepted
+scPDB:1h37_1:accepted
+scPDB:1h39_1:accepted
+scPDB:1h3a_2:accepted
+scPDB:1h3b_2:accepted
+scPDB:1h3c_3:accepted
+scPDB:1o6h_2:accepted
+scPDB:1o6q_3:accepted
+scPDB:1o6r_2:accepted
+scPDB:1o79_3:accepted

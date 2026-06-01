@@ -1,0 +1,122 @@
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2][ERROR] template=protein_group_001843: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_007006: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_007007: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_006843: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_006962: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_006837: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_006975: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_007043: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_002952: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2][ERROR] template=protein_group_002926: PyMOL mapping requires a Python-accessible PyMOL installation. Install it in the same environment, for example: conda install -c conda-forge pymol-open-source. Then verify with: python -c 'import pymol2; print("pymol2 ok")' or python -c 'import pymol; print("pymol ok")'.
+[Step 2] candidate pockets=0 after QC, raw=0
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch skipped: ai_disabled
+[Step 6] Export final results
+[TApocket] Done
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=0 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch skipped: ai_disabled
+[Step 6] Export final results
+[TApocket] Done
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=0 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch triggered: no_final_pocket
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=0 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch triggered: no_final_pocket
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=0 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch triggered: no_final_pocket
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=0 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch triggered: no_final_pocket
+[AI] running predictor=deeppocket_db_basic31 type=deeppocket_db
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=0 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch triggered: no_final_pocket
+[AI] running predictor=deeppocket_db_basic31 type=deeppocket_db
+[AI] predictor=deeppocket_db_basic31, predicted_pockets=1
+[Step 6] Export final results
+[TApocket] Done
+[TApocket] run_id=file_1__Tca12g00417.t1_pLDDT=93.8_pTM=0.766
+[TApocket] query=/media/yugengliu/DATA3/AIMD/AImd_integrated_clean_manual_v4_third_party/AImd/data/protein/file_1/Tca12g00417.t1_pLDDT=93.8_pTM=0.766.pdb
+[TApocket] output_mode=compact
+[Step 1] Foldseek search against template DB
+[Step 1] selected non-redundant template hits=10
+[Step 2] Map template pockets to query coordinate system
+[Step 2] candidate pockets=0 after QC, raw=10
+[Step 3] Pocket-level deduplication
+[Step 3] pocket clusters=0
+[Step 4] M-CSA optional catalytic box filtering
+[Step 4] mcsa_hits=5, action=keep_all_pockets, final=0
+[Step 5] AI model branch triggered: no_final_pocket
+[AI] running predictor=deeppocket_db_basic31 type=deeppocket_db
+[AI] predictor=deeppocket_db_basic31, predicted_pockets=1
+[Step 6] Export final results
+[TApocket] Done

@@ -1,0 +1,3 @@
+scPDB:1w35_1:accepted
+scPDB:1w87_1:accepted_dominant_chain
+scPDB:1w87_4:accepted_dominant_chain

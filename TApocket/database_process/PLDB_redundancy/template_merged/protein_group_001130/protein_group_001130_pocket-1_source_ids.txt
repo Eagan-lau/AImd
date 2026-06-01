@@ -1,0 +1,3 @@
+scPDB:4fog_2:accepted
+scPDB:4fox_3:accepted_dominant_chain
+scPDB:4fqs_2:accepted_dominant_chain

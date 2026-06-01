@@ -1,0 +1,3 @@
+PDBbind2020:1o5a:accepted
+PDBbind2020:1o5b:accepted
+PDBbind2020:1o5c:accepted

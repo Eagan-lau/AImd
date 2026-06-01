@@ -1,0 +1,1 @@
+scPDB:1xcb_7:accepted_dominant_chain

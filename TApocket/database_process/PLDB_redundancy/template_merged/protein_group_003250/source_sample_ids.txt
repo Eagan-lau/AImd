@@ -1,0 +1,2 @@
+PDBbind2020:3k5i:accepted
+scPDB:3k5h_2:accepted

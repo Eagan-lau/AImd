@@ -1,0 +1,2 @@
+PDBbind2020:3ipy:accepted
+scPDB:3ipy_1:accepted

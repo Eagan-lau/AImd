@@ -1,0 +1,2 @@
+scPDB:4cax_1:accepted
+scPDB:4cax_2:accepted

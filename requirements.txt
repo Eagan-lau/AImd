@@ -1,0 +1,7 @@
+PyYAML
+biopython
+pandas
+numpy
+matplotlib
+# Optional for MetaBoClip catalytic geometry execution:
+# pymol2 or a working PyMOL command-line installation

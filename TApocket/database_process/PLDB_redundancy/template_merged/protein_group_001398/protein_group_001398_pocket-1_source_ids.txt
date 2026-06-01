@@ -1,0 +1,4 @@
+scPDB:3fly_1:accepted
+scPDB:3flz_1:accepted
+scPDB:3fmh_1:accepted
+scPDB:3mpt_1:accepted

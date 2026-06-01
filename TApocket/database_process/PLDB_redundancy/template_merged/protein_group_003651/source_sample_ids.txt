@@ -1,0 +1,2 @@
+PDBbind2020:1gca:accepted
+PDBbind2020:3ga5:accepted

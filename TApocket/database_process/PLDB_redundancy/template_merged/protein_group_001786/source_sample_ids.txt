@@ -1,0 +1,3 @@
+scPDB:1ih8_1:accepted
+scPDB:1kqp_2:accepted_dominant_chain
+scPDB:1nsy_2:accepted_pseudo_chainA

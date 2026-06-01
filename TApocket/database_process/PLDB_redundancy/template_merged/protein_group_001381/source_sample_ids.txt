@@ -1,0 +1,4 @@
+PDBbind2020:1tve:accepted
+scPDB:1ebu_1:accepted
+scPDB:1q7g_1:accepted
+scPDB:1tve_2:accepted

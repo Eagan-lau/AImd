@@ -1,0 +1,4 @@
+PDBbind2020:1atl:accepted
+PDBbind2020:1dth:accepted
+scPDB:1atl_1:accepted
+scPDB:1dth_2:accepted

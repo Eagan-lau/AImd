@@ -1,0 +1,14 @@
+PDBbind2020:2wvt:accepted
+PDBbind2020:2xib:accepted
+PDBbind2020:2xii:accepted
+PDBbind2020:4j28:accepted
+PDBbind2020:4jfs:accepted
+PDBbind2020:4jft:accepted
+PDBbind2020:4jfv:accepted
+PDBbind2020:4jfw:accepted
+PDBbind2020:4pcs:accepted
+PDBbind2020:4pct:accepted
+PDBbind2020:4pee:accepted
+PDBbind2020:4wsj:accepted
+PDBbind2020:4wsk:accepted
+PDBbind2020:6hzy:accepted

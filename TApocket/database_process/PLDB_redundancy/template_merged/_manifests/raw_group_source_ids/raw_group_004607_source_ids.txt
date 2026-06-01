@@ -1,0 +1,2 @@
+PDBbind2020:2pql:accepted
+scPDB:2qeo_2:accepted

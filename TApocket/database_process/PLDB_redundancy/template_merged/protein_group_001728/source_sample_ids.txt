@@ -1,0 +1,3 @@
+scPDB:1lot_1:accepted
+scPDB:1yxq_1:accepted_pseudo_chainA
+scPDB:1yxq_2:accepted

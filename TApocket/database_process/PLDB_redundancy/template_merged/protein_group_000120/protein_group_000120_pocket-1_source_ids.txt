@@ -1,0 +1,16 @@
+PDBbind2020:2yek:accepted
+PDBbind2020:4a9i:accepted
+PDBbind2020:4a9m:accepted
+PDBbind2020:4a9n:accepted
+PDBbind2020:4akn:accepted
+PDBbind2020:4alg:accepted
+PDBbind2020:4uyf:accepted
+PDBbind2020:4uyh:accepted
+PDBbind2020:6k05:accepted
+PDBbind2020:6mo7:accepted
+PDBbind2020:6mo8:accepted
+scPDB:3aqa_1:accepted
+scPDB:4a9m_3:accepted_dominant_chain
+scPDB:4a9n_2:accepted
+scPDB:4akn_2:accepted
+scPDB:4alg_1:accepted

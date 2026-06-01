@@ -1,0 +1,1 @@
+PDBbind2020:1fpy:accepted_dominant_chain

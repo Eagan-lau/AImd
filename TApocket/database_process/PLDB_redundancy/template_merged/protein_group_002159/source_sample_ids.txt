@@ -1,0 +1,3 @@
+scPDB:1jtv_1:accepted
+scPDB:3dey_1:accepted
+scPDB:3klm_1:accepted

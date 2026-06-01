@@ -1,0 +1,4 @@
+scPDB:3d4s_1:accepted
+scPDB:3ny8_3:accepted
+scPDB:3ny9_3:accepted
+scPDB:3nya_3:accepted

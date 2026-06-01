@@ -1,0 +1,2 @@
+scPDB:1iid_1:accepted
+scPDB:2nmt_1:accepted

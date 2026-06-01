@@ -1,0 +1,3 @@
+scPDB:1v5y_2:accepted_pseudo_chainA
+scPDB:1v5z_2:accepted_pseudo_chainA
+scPDB:1vfr_2:accepted_pseudo_chainA

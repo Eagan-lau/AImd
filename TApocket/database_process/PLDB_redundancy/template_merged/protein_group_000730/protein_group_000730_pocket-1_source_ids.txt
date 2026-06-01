@@ -1,0 +1,7 @@
+PDBbind2020:5vcw:accepted
+PDBbind2020:5vcx:accepted
+PDBbind2020:5vcy:accepted
+PDBbind2020:5vcz:accepted
+PDBbind2020:5vd0:accepted
+PDBbind2020:5vd1:accepted
+PDBbind2020:5vd3:accepted

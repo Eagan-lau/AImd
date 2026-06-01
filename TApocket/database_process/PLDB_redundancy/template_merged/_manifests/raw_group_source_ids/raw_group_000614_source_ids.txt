@@ -1,0 +1,8 @@
+PDBbind2020:4g16:accepted
+PDBbind2020:4g17:accepted
+PDBbind2020:4hgl:accepted
+PDBbind2020:4hgs:accepted
+scPDB:4g16_1:accepted
+scPDB:4g17_1:accepted
+scPDB:4hgl_1:accepted
+scPDB:4hgs_1:accepted

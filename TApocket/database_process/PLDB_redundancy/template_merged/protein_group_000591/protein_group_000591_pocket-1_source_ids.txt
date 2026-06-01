@@ -1,0 +1,8 @@
+PDBbind2020:5a3n:accepted
+PDBbind2020:5a3t:accepted
+PDBbind2020:5a3w:accepted
+PDBbind2020:5fpu:accepted
+PDBbind2020:5fun:accepted
+PDBbind2020:6h50:accepted
+PDBbind2020:6h51:accepted
+PDBbind2020:6h52:accepted

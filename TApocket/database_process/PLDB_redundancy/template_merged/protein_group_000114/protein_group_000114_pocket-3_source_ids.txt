@@ -1,0 +1,5 @@
+PDBbind2020:1nhv:accepted
+PDBbind2020:2d3u:accepted
+PDBbind2020:2d3z:accepted
+PDBbind2020:2d41:accepted
+PDBbind2020:3phe:accepted

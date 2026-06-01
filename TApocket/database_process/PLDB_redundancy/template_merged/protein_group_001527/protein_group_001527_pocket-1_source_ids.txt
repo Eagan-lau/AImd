@@ -1,0 +1,4 @@
+scPDB:2wmt_1:accepted
+scPDB:2wmx_1:accepted
+scPDB:2xez_1:accepted
+scPDB:2ym5_1:accepted

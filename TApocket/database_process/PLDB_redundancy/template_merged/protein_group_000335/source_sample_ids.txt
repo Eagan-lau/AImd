@@ -1,0 +1,13 @@
+PDBbind2020:2ovx:accepted
+PDBbind2020:2ovz:accepted
+PDBbind2020:2ow0:accepted
+PDBbind2020:2ow1:accepted
+PDBbind2020:2ow2:accepted
+scPDB:2ovx_2:accepted
+scPDB:2ovz_2:accepted
+scPDB:2ow0_2:accepted
+scPDB:2ow1_2:accepted
+scPDB:2ow2_2:accepted
+scPDB:4h1q_2:accepted_dominant_chain
+scPDB:4h82_2:accepted_pseudo_chainA
+scPDB:4hma_1:accepted_pseudo_chainA

@@ -1,0 +1,4 @@
+PDBbind2020:4qhp:accepted
+PDBbind2020:4qir:accepted
+PDBbind2020:4qme:accepted
+PDBbind2020:4quo:accepted

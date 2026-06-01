@@ -1,0 +1,7 @@
+PDBbind2020:5wei:accepted
+PDBbind2020:5wf3:accepted
+PDBbind2020:5wfm:accepted
+PDBbind2020:5wfw:accepted
+PDBbind2020:5wfz:accepted
+PDBbind2020:5wg9:accepted
+scPDB:5d8u_1:accepted

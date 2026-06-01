@@ -1,0 +1,3 @@
+PDBbind2020:3uwk:accepted
+PDBbind2020:3uwo:accepted
+PDBbind2020:3uxm:accepted

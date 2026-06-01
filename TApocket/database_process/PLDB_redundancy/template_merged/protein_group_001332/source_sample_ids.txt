@@ -1,0 +1,4 @@
+scPDB:1joa_1:accepted
+scPDB:1npx_1:accepted
+scPDB:2npx_1:accepted
+scPDB:2npx_2:accepted

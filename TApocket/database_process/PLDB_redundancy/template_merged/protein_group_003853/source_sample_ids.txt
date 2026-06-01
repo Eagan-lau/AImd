@@ -1,0 +1,2 @@
+PDBbind2020:1lvu:accepted_dominant_chain
+PDBbind2020:1vfn:accepted_dominant_chain

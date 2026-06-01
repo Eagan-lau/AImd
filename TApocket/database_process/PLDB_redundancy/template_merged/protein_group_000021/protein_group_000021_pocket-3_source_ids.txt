@@ -1,0 +1,1 @@
+PDBbind2020:3mtb:accepted_pseudo_chainA

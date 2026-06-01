@@ -1,0 +1,13 @@
+PDBbind2020:1iep:accepted
+PDBbind2020:2hzn:accepted
+PDBbind2020:2qoh:accepted
+PDBbind2020:3k5v:accepted
+PDBbind2020:3kf4:accepted
+PDBbind2020:3kfa:accepted
+PDBbind2020:3ms9:accepted
+PDBbind2020:3mss:accepted
+PDBbind2020:3oxz:accepted
+PDBbind2020:6hd4:accepted
+PDBbind2020:6hd6:accepted
+scPDB:1iep_1:accepted
+scPDB:1m52_2:accepted

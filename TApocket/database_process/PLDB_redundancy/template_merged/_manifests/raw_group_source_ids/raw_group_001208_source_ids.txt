@@ -1,0 +1,5 @@
+PDBbind2020:5hlm:accepted_dominant_chain
+scPDB:3vgw_5:accepted_dominant_chain
+scPDB:3vhh_2:accepted_dominant_chain
+scPDB:3vhi_2:accepted_dominant_chain
+scPDB:3vhm_2:accepted_dominant_chain

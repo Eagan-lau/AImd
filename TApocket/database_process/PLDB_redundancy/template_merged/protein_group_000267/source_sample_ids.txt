@@ -1,0 +1,15 @@
+PDBbind2020:2wxf:accepted
+PDBbind2020:2wxh:accepted
+PDBbind2020:2wxj:accepted
+PDBbind2020:2wxm:accepted
+PDBbind2020:2wxn:accepted
+PDBbind2020:2wxo:accepted
+PDBbind2020:2wxp:accepted
+PDBbind2020:2wxq:accepted
+PDBbind2020:2x38:accepted
+PDBbind2020:5ngb:accepted
+PDBbind2020:5t28:accepted
+PDBbind2020:5t2b:accepted
+PDBbind2020:5t2d:accepted
+PDBbind2020:5t2i:accepted
+PDBbind2020:5t2m:accepted

@@ -1,0 +1,7 @@
+scPDB:1r35_1:accepted
+scPDB:1r35_2:accepted
+scPDB:2nod_2:accepted
+scPDB:3e7t_3:accepted
+scPDB:3e7t_4:accepted
+scPDB:3nod_2:accepted
+scPDB:3nw2_3:accepted

@@ -1,0 +1,5 @@
+PDBbind2020:5lqf:accepted
+PDBbind2020:6gu2:accepted
+PDBbind2020:6gu3:accepted
+PDBbind2020:6gu6:accepted
+PDBbind2020:6gu7:accepted

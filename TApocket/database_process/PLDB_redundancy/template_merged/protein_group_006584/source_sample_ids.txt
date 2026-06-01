@@ -1,0 +1,1 @@
+scPDB:1lnx_5:accepted_pseudo_chainA

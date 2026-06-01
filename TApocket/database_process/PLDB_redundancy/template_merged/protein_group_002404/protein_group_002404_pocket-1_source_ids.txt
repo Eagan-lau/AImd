@@ -1,0 +1,3 @@
+scPDB:5djt_1:accepted
+scPDB:5dju_2:accepted_dominant_chain
+scPDB:5efw_1:accepted

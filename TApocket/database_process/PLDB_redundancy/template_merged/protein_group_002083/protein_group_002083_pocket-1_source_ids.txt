@@ -1,0 +1,3 @@
+PDBbind2020:3vid:accepted
+PDBbind2020:3vnt:accepted
+PDBbind2020:3vo3:accepted

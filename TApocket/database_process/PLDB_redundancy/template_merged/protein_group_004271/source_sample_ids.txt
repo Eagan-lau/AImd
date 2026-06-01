@@ -1,0 +1,2 @@
+PDBbind2020:2hah:accepted_pseudo_chainA
+scPDB:2hah_1:accepted

@@ -1,0 +1,4 @@
+PDBbind2020:2kff:accepted
+PDBbind2020:2kfg:accepted
+PDBbind2020:2kfh:accepted
+PDBbind2020:2ksp:accepted

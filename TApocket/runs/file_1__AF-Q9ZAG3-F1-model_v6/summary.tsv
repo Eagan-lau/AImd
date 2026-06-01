@@ -1,0 +1,2 @@
+pocket_id	query_id	source	final_score	query_residue_count	mapping_coverage	mapping_method	supporting_pocket_count	supporting_template_count	mcsa_matched	mcsa_match_basis	mcsa_atoms_in_box	mcsa_fraction_in_box	mcsa_min_distance_angstrom	box_center	box_size	mapped_pocket_path
+pocket_cluster_001	AF-Q9ZAG3-F1-model_v6	foldseek_template	0.9909	76	0.987013	ca_distance	10	10	True	box_overlap	52	1.0	0.5261	[-5.1285, 4.4045, 2.6165]	[35.921, 35.095, 33.857]	final_pockets.pdb

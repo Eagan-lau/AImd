@@ -1,0 +1,2 @@
+scPDB:2mwg_1:accepted
+scPDB:2pr5_2:accepted

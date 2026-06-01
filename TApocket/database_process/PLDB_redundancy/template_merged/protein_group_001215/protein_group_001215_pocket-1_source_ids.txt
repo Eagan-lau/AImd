@@ -1,0 +1,5 @@
+PDBbind2020:1abt:accepted
+PDBbind2020:1haa:accepted
+PDBbind2020:1idg:accepted
+PDBbind2020:1jbd:accepted
+PDBbind2020:1rgj:accepted

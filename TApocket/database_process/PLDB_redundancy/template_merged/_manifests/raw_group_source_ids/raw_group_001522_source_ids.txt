@@ -1,0 +1,4 @@
+PDBbind2020:3cbp:accepted_dominant_chain
+PDBbind2020:3m53:accepted
+PDBbind2020:4jlg:accepted
+PDBbind2020:5ylt:accepted

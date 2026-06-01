@@ -1,0 +1,4 @@
+PDBbind2020:2gbf:accepted
+PDBbind2020:2gbg:accepted
+PDBbind2020:2gbi:accepted
+PDBbind2020:2i3z:accepted

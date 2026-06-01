@@ -1,0 +1,3 @@
+PDBbind2020:6npi:accepted
+PDBbind2020:6npm:accepted
+PDBbind2020:6npp:accepted

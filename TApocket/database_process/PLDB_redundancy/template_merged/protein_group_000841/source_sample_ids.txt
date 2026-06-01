@@ -1,0 +1,6 @@
+PDBbind2020:3max:accepted
+PDBbind2020:4lxz:accepted
+PDBbind2020:4ly1:accepted
+PDBbind2020:5iwg:accepted
+PDBbind2020:5ix0:accepted
+PDBbind2020:6g3o:accepted

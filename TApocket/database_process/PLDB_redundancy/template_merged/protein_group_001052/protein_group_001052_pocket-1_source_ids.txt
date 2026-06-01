@@ -1,0 +1,3 @@
+scPDB:4utk_1:accepted
+scPDB:4utl_1:accepted
+scPDB:4utm_1:accepted

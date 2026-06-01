@@ -1,0 +1,2 @@
+scPDB:2igx_1:accepted
+scPDB:2igy_1:accepted

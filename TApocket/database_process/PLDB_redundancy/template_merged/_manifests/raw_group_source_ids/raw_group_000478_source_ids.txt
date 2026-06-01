@@ -1,0 +1,10 @@
+scPDB:2rgx_1:accepted
+scPDB:4cf7_3:accepted
+scPDB:4ike_1:accepted
+scPDB:4jky_1:accepted
+scPDB:4jl5_1:accepted
+scPDB:4jl6_1:accepted
+scPDB:4jl8_2:accepted
+scPDB:4jla_4:accepted
+scPDB:4jlb_1:accepted
+scPDB:4jld_3:accepted

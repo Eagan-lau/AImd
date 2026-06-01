@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tapocket"
+version = "0.6.0"
+description = "TApocket template-first pocket pipeline with Foldseek, M-CSA box filtering, deduplication, and optional AI model adapters and gvp-pocket_pred integration hooks."
+requires-python = ">=3.9"
+dependencies = [
+  "PyYAML>=6.0"
+]
+
+[project.optional-dependencies]
+pymol = []
+
+[project.scripts]
+tapocket = "tapocket.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tapocket*"]

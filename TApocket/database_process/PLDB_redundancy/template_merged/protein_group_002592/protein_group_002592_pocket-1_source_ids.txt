@@ -1,0 +1,1 @@
+PDBbind2020:3dej:accepted_pseudo_chainA

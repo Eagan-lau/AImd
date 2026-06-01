@@ -1,0 +1,3 @@
+PDBbind2020:4eok:accepted
+PDBbind2020:4eol:accepted
+scPDB:4eol_2:accepted

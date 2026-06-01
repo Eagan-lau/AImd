@@ -1,0 +1,2 @@
+PDBbind2020:2hw2:accepted
+scPDB:2hw2_1:accepted

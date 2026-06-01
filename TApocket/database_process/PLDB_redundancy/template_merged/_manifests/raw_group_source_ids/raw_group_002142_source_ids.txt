@@ -1,0 +1,3 @@
+PDBbind2020:5ap6:accepted
+PDBbind2020:5ap7:accepted
+PDBbind2020:5o91:accepted

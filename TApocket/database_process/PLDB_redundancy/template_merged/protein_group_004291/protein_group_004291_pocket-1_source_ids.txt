@@ -1,0 +1,2 @@
+scPDB:1gul_4:accepted_dominant_chain
+scPDB:3ik7_4:accepted_dominant_chain

@@ -1,0 +1,8 @@
+PDBbind2020:3d3p:accepted
+PDBbind2020:3frg:accepted
+PDBbind2020:3gwt:accepted
+PDBbind2020:3hmv:accepted
+PDBbind2020:3o56:accepted
+PDBbind2020:3o57:accepted
+scPDB:3o56_1:accepted
+scPDB:3o57_1:accepted

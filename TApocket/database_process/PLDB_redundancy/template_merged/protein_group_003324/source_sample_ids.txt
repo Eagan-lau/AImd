@@ -1,0 +1,2 @@
+scPDB:4lis_1:accepted
+scPDB:4lis_2:accepted

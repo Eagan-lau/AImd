@@ -1,0 +1,6 @@
+PDBbind2020:3twr:accepted
+PDBbind2020:3tws:accepted
+PDBbind2020:3twu:accepted
+PDBbind2020:3twv:accepted
+PDBbind2020:3tww:accepted_pseudo_chainA
+PDBbind2020:4z68:accepted

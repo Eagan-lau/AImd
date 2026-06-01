@@ -1,0 +1,7 @@
+PDBbind2020:4x60:accepted
+PDBbind2020:4x61:accepted
+PDBbind2020:4x63:accepted
+PDBbind2020:5emj:accepted
+PDBbind2020:5emk:accepted
+PDBbind2020:5eml:accepted
+PDBbind2020:5emm:accepted

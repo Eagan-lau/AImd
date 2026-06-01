@@ -1,0 +1,1 @@
+scPDB:3wix_4:accepted_dominant_chain

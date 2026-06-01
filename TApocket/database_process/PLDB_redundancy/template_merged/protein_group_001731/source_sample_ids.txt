@@ -1,0 +1,3 @@
+scPDB:1cju_1:accepted_pseudo_chainA
+scPDB:3c14_2:accepted
+scPDB:3c16_2:accepted

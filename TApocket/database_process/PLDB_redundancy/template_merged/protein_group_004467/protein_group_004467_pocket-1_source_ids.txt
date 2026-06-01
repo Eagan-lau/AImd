@@ -1,0 +1,2 @@
+PDBbind2020:2kmx:accepted
+scPDB:2kmx_1:accepted

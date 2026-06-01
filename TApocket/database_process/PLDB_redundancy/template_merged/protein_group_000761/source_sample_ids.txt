@@ -1,0 +1,7 @@
+PDBbind2020:2uxi:accepted_dominant_chain
+PDBbind2020:2uxu:accepted_dominant_chain
+scPDB:2uxh_1:accepted
+scPDB:2uxi_2:accepted_dominant_chain
+scPDB:2uxo_1:accepted
+scPDB:2uxp_2:accepted
+scPDB:2uxu_2:accepted

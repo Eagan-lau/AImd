@@ -1,0 +1,13 @@
+scPDB:1fls_1:accepted
+scPDB:1fm1_1:accepted
+scPDB:1you_1:accepted_dominant_chain
+scPDB:2d1n_1:accepted
+scPDB:2yig_2:accepted
+scPDB:3elm_2:accepted_dominant_chain
+scPDB:3kec_1:accepted
+scPDB:3kej_1:accepted
+scPDB:3kek_1:accepted
+scPDB:3o2x_2:accepted
+scPDB:3zxh_2:accepted
+scPDB:4a7b_1:accepted
+scPDB:4a7b_2:accepted

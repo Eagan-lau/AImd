@@ -1,0 +1,5 @@
+PDBbind2020:2x2i:accepted
+PDBbind2020:4amw:accepted
+PDBbind2020:4amx:accepted
+scPDB:4amw_1:accepted
+scPDB:4amx_1:accepted

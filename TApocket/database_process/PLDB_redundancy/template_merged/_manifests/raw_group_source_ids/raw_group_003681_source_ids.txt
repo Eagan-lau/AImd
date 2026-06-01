@@ -1,0 +1,2 @@
+PDBbind2020:2itp:accepted
+scPDB:2itp_1:accepted

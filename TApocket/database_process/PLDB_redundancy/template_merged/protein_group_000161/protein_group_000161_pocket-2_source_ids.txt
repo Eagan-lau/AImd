@@ -1,0 +1,2 @@
+PDBbind2020:4pyq:accepted
+scPDB:4pyo_1:accepted

@@ -1,0 +1,2 @@
+PDBbind2020:2q64:accepted_pseudo_chainA
+scPDB:2q64_1:accepted_pseudo_chainA

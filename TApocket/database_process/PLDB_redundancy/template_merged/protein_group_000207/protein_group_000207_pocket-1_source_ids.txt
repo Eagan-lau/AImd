@@ -1,0 +1,14 @@
+PDBbind2020:3c88:accepted
+PDBbind2020:3c89:accepted
+PDBbind2020:3c8a:accepted
+PDBbind2020:3c8b:accepted
+PDBbind2020:3dda:accepted
+PDBbind2020:3ddb:accepted
+PDBbind2020:3ds9:accepted
+PDBbind2020:3qiy:accepted
+PDBbind2020:3qiz:accepted
+PDBbind2020:3qj0:accepted
+PDBbind2020:3qw5:accepted
+PDBbind2020:3qw6:accepted
+PDBbind2020:3qw7:accepted
+PDBbind2020:3qw8:accepted

@@ -1,0 +1,6 @@
+PDBbind2020:4eg7:accepted
+PDBbind2020:4ega:accepted
+PDBbind2020:4mvw:accepted
+PDBbind2020:4mvx:accepted
+PDBbind2020:4mw6:accepted
+PDBbind2020:4mwb:accepted

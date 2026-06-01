@@ -1,0 +1,3 @@
+PDBbind2020:2i2c:accepted_dominant_chain
+PDBbind2020:4dy6:accepted_dominant_chain
+PDBbind2020:5dhr:accepted_pseudo_chainA

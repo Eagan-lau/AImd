@@ -1,0 +1,2 @@
+PDBbind2020:1lev:accepted_dominant_chain
+scPDB:1lev_2:accepted

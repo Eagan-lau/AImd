@@ -1,0 +1,2 @@
+scPDB:4kug_3:accepted
+scPDB:4kuh_1:accepted_dominant_chain
