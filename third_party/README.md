@@ -24,3 +24,17 @@ tools:
 ```
 
 AImd modules should resolve tools from this registry before falling back to system PATH.
+
+## Registered HipMCL install
+
+HipMCL is used by `RGPC` as an external clustering executable. The local install can be registered directly in `third_party/tools.yaml`:
+
+```yaml
+tools:
+  hipmcl:
+    executable: /home/yugengliu/software/HipMCL/bin/hipmcl
+    check_command: "test -x {executable}"
+    example_dir: /home/yugengliu/software/HipMCL/test/small_scale_examples
+```
+
+The RGPC config follows the upstream HipMCL examples and runs HipMCL through `mpirun` with `OMP_NUM_THREADS` and `-per-process-mem`.

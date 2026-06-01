@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import shlex
 from pathlib import Path
 from typing import Dict, Any, List, Set
 
@@ -33,14 +34,25 @@ def run_hipmcl(config: Dict[str, Any], input_abc: Path) -> Path:
         print(f"[RGPC] Skip HipMCL: {output}")
         return output
 
-    template = hip_cfg.get("command_template", "{executable} -M {input} -I {inflation} -o {output} -t {threads}")
+    extra_args = hip_cfg.get("extra_args", "")
+    if isinstance(extra_args, list):
+        extra_args = " ".join(shlex.quote(str(arg)) for arg in extra_args)
+
+    template = hip_cfg.get(
+        "command_template",
+        "OMP_NUM_THREADS={threads} mpirun -np {mpi_processes} {executable} -M {input} -I {inflation} "
+        "-per-process-mem {per_process_mem_gb} -o {output} {extra_args}",
+    )
     cmd = template.format(
         executable=resolve_external_tool("hipmcl", hip_cfg.get("executable", "auto"), root, config),
         input=str(input_abc),
         inflation=hip_cfg.get("inflation", 2.0),
         output=str(output),
         threads=hip_cfg.get("threads", 1),
-    )
+        mpi_processes=hip_cfg.get("mpi_processes", 1),
+        per_process_mem_gb=hip_cfg.get("per_process_mem_gb", 0),
+        extra_args=str(extra_args).strip(),
+    ).strip()
     run_command(cmd, log_path=log, dry_run=dry_run)
     return output
 

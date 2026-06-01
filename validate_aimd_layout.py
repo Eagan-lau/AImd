@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import importlib
+import shlex
 import shutil
 import sys
 from pathlib import Path
@@ -113,6 +114,49 @@ def check_imports(root: Path) -> list[str]:
     return errors
 
 
+def _load_tool_registry(root: Path) -> dict:
+    if yaml is None:
+        return {"tools": {}}
+    path = root / "third_party" / "tools.yaml"
+    if not path.is_file():
+        return {"tools": {}}
+    try:
+        with path.open("r", encoding="utf-8") as handle:
+            return yaml.safe_load(handle) or {"tools": {}}
+    except Exception:
+        return {"tools": {}}
+
+
+def _resolve_registered_executable(root: Path, executable: str) -> str:
+    executable = str(executable or "").strip()
+    if not executable:
+        return executable
+    if any(ch.isspace() for ch in executable):
+        parts = shlex.split(executable)
+        if not parts:
+            return executable
+        first = _resolve_registered_executable(root, parts[0])
+        return executable.replace(parts[0], first, 1)
+    path = Path(executable).expanduser()
+    if path.is_absolute() and path.exists():
+        return str(path)
+    if not path.is_absolute():
+        root_candidate = root / path
+        if root_candidate.exists():
+            return str(root_candidate)
+        local_bin = root / "third_party" / "bin" / executable
+        if local_bin.exists():
+            return str(local_bin)
+    return shutil.which(executable) or executable
+
+
+def _tool_available(root: Path, registry: dict, tool: str) -> bool:
+    tool_cfg = (registry.get("tools") or {}).get(tool, {}) or {}
+    executable = _resolve_registered_executable(root, str(tool_cfg.get("executable", tool)))
+    first = shlex.split(executable)[0] if executable else tool
+    return Path(first).exists() or shutil.which(first) is not None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate AImd project layout")
     parser.add_argument("--root", default=".", help="AImd project root, default: current directory")
@@ -125,20 +169,21 @@ def main() -> None:
     errors.extend(check_yaml(root))
     errors.extend(check_imports(root))
 
-    missing_tools = [tool for tool in EXTERNAL_TOOLS if shutil.which(tool) is None]
+    registry = _load_tool_registry(root)
+    missing_tools = [tool for tool in EXTERNAL_TOOLS if not _tool_available(root, registry, tool)]
     print(f"[AImd validate] root: {root}")
     if missing_tools:
-        print("[AImd validate] external tools not found in PATH:")
+        print("[AImd validate] external tools not found through PATH or third_party/tools.yaml:")
         for tool in missing_tools:
             print(f"  - {tool}")
         if args.strict_tools:
             errors.extend([f"missing external tool: {tool}" for tool in missing_tools])
     else:
-        print("[AImd validate] all common external tools found in PATH")
+        print("[AImd validate] all common external tools found through PATH or third_party/tools.yaml")
 
-    missing_optional = [tool for tool in OPTIONAL_EXTERNAL_TOOLS if shutil.which(tool) is None]
+    missing_optional = [tool for tool in OPTIONAL_EXTERNAL_TOOLS if not _tool_available(root, registry, tool)]
     if missing_optional:
-        print("[AImd validate] optional external tools not found in PATH:")
+        print("[AImd validate] optional external tools not found through PATH or third_party/tools.yaml:")
         for tool in missing_optional:
             print(f"  - {tool}")
 

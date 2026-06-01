@@ -49,12 +49,16 @@ hipmcl:
   enabled: true
   executable: auto
   inflation: 2.0
-  threads: 32
+  # OpenMP threads per MPI process.
+  threads: 1
+  mpi_processes: 4
+  per_process_mem_gb: 2
+  extra_args: []
   input_abc: data/cluster/RGPC/graph/structure_edges.abc
   output: data/cluster/RGPC/hipmcl/hipmcl_output.txt
   log: data/cluster/RGPC/hipmcl/hipmcl.log
   # Modify this line if your HipMCL command differs.
-  command_template: "mpirun -np 4 {executable} -M {input} -I {inflation} -o {output} -t {threads}"
+  command_template: "OMP_NUM_THREADS={threads} mpirun -np {mpi_processes} {executable} -M {input} -I {inflation} -per-process-mem {per_process_mem_gb} -o {output} {extra_args}"
 
 representative:
   method: highest_mean_similarity  # highest_mean_similarity or first

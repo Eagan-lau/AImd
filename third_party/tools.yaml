@@ -11,9 +11,11 @@ tools:
   hipmcl:
     enabled: true
     required: false
-    executable: hipmcl
-    check_command: "{executable} --help"
+    executable: /home/yugengliu/software/HipMCL/bin/hipmcl
+    check_command: "test -x {executable}"
     check_timeout: 20
+    example_dir: /home/yugengliu/software/HipMCL/test/small_scale_examples
+    input_formats: [labeled_triples, matrix_market]
     used_by: [RGPC]
   vina:
     enabled: true
