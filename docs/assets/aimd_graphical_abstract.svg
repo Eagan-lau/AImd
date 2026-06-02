@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">AImd modular enzyme discovery graphical abstract</title>
+  <desc id="desc">A modular workflow connecting protein structure inputs, ligand transformation networks, ensemble docking, and MetaboClip catalytic scoring.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="48%" stop-color="#fbfcf8"/>
+      <stop offset="100%" stop-color="#fff8f4"/>
+    </linearGradient>
+    <linearGradient id="proteinGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2f7fb8"/>
+      <stop offset="100%" stop-color="#5bb4a8"/>
+    </linearGradient>
+    <linearGradient id="ligandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7607a"/>
+      <stop offset="100%" stop-color="#e3a13f"/>
+    </linearGradient>
+    <linearGradient id="scoreGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#473f9f"/>
+      <stop offset="100%" stop-color="#8f5aa7"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1a293b" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#2d6f9f"/>
+    </marker>
+    <marker id="arrowRose" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#b24e66"/>
+    </marker>
+    <marker id="arrowDark" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#273344"/>
+    </marker>
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .title { font-size: 58px; font-weight: 760; fill: #152033; }
+      .subtitle { font-size: 25px; font-weight: 440; fill: #4b5c70; }
+      .panelTitle { font-size: 25px; font-weight: 760; fill: #16243a; }
+      .panelText { font-size: 17px; font-weight: 520; fill: #435269; }
+      .tiny { font-size: 14px; font-weight: 560; fill: #5d6c7f; }
+      .badge { font-size: 14px; font-weight: 760; fill: #ffffff; }
+      .label { font-size: 19px; font-weight: 760; fill: #ffffff; }
+      .darkLabel { font-size: 18px; font-weight: 760; fill: #1d2a3c; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 15px; fill: #4d5d70; }
+      .card { fill: #ffffff; stroke: #d9e4ef; stroke-width: 1.5; rx: 8; filter: url(#softShadow); }
+      .thin { stroke: #d6e2ed; stroke-width: 1.2; fill: none; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="960" fill="url(#bg)"/>
+  <circle cx="1435" cy="120" r="170" fill="#f0d99a" opacity="0.16"/>
+  <circle cx="190" cy="835" r="210" fill="#7bc8bd" opacity="0.13"/>
+
+  <text class="font title" x="80" y="92">AImd</text>
+  <text class="font subtitle" x="80" y="132">A modular engine for ligand transformation, protein ensemble docking, and catalytic mechanism scoring</text>
+  <text class="font mono" x="80" y="166">Manifest-driven workflow | External tool adapters | Unified MetaboClip core | Heavy-atom catalytic geometry</text>
+
+  <g transform="translate(80 215)">
+    <rect class="card" width="270" height="125"/>
+    <rect x="20" y="22" width="62" height="62" rx="8" fill="url(#proteinGrad)"/>
+    <path d="M37 63 C34 44, 50 35, 63 42 C78 50, 74 76, 55 77 C46 78, 39 73, 37 63 Z" fill="#ffffff" opacity="0.9"/>
+    <circle cx="48" cy="54" r="5" fill="#2f7fb8"/>
+    <circle cx="63" cy="60" r="5" fill="#2f7fb8"/>
+    <text class="font panelTitle" x="102" y="48">Protein input</text>
+    <text class="font panelText" x="102" y="76">Structures, batches,</text>
+    <text class="font panelText" x="102" y="101">clusters, conformers</text>
+  </g>
+
+  <g transform="translate(80 382)">
+    <rect class="card" width="270" height="125"/>
+    <rect x="20" y="22" width="62" height="62" rx="8" fill="url(#ligandGrad)"/>
+    <circle cx="40" cy="55" r="8" fill="#ffffff"/>
+    <circle cx="62" cy="42" r="8" fill="#ffffff"/>
+    <circle cx="70" cy="68" r="8" fill="#ffffff"/>
+    <line x1="47" y1="51" x2="55" y2="46" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <line x1="65" y1="50" x2="68" y2="60" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <text class="font panelTitle" x="102" y="48">Ligand input</text>
+    <text class="font panelText" x="102" y="76">CSV, SMILES, 3D</text>
+    <text class="font panelText" x="102" y="101">structures, PDBQT</text>
+  </g>
+
+  <g transform="translate(80 549)">
+    <rect class="card" width="270" height="125"/>
+    <rect x="20" y="22" width="62" height="62" rx="8" fill="#596579"/>
+    <path d="M36 70 L49 39 L64 70 Z" fill="#ffffff" opacity="0.92"/>
+    <circle cx="70" cy="42" r="6" fill="#ffffff" opacity="0.92"/>
+    <text class="font panelTitle" x="102" y="48">Cofactor input</text>
+    <text class="font panelText" x="102" y="76">Template structures</text>
+    <text class="font panelText" x="102" y="101">and residue names</text>
+  </g>
+
+  <path d="M360 277 C420 277, 420 277, 475 277" stroke="#2d6f9f" stroke-width="4" fill="none" marker-end="url(#arrowBlue)"/>
+  <path d="M360 445 C420 445, 420 445, 475 445" stroke="#b24e66" stroke-width="4" fill="none" marker-end="url(#arrowRose)"/>
+  <path d="M360 612 C420 612, 420 612, 475 612" stroke="#273344" stroke-width="4" fill="none" marker-end="url(#arrowDark)"/>
+
+  <g transform="translate(485 205)">
+    <rect class="card" width="330" height="162"/>
+    <rect x="0" y="0" width="330" height="16" rx="8" fill="url(#proteinGrad)"/>
+    <text class="font panelTitle" x="28" y="55">RGPC</text>
+    <text class="font panelText" x="28" y="87">Protein clustering with Foldseek</text>
+    <text class="font panelText" x="28" y="114">and HipMCL adapters</text>
+    <text class="font tiny" x="28" y="145">Output: protein and cluster manifests</text>
+  </g>
+
+  <g transform="translate(485 394)">
+    <rect class="card" width="330" height="162"/>
+    <rect x="0" y="0" width="330" height="16" rx="8" fill="url(#ligandGrad)"/>
+    <text class="font panelTitle" x="28" y="55">MolLink + RDKit</text>
+    <text class="font panelText" x="28" y="87">Transformation networks, 3D</text>
+    <text class="font panelText" x="28" y="114">conformers, minimization, PDBQT</text>
+    <text class="font tiny" x="28" y="145">Output: ligand manifests and role inputs</text>
+  </g>
+
+  <g transform="translate(485 583)">
+    <rect class="card" width="330" height="162"/>
+    <rect x="0" y="0" width="330" height="16" rx="8" fill="#566477"/>
+    <text class="font panelTitle" x="28" y="55">Cofactor gate</text>
+    <text class="font panelText" x="28" y="87">Template transfer controlled by</text>
+    <text class="font panelText" x="28" y="114">local pocket CA RMSD</text>
+    <text class="font tiny" x="28" y="145">Heavy atoms only for pocket geometry</text>
+  </g>
+
+  <path d="M825 286 C875 286, 890 286, 940 286" stroke="#2d6f9f" stroke-width="4" fill="none" marker-end="url(#arrowBlue)"/>
+  <path d="M825 475 C875 475, 890 475, 940 475" stroke="#b24e66" stroke-width="4" fill="none" marker-end="url(#arrowRose)"/>
+  <path d="M825 664 C875 664, 890 664, 940 664" stroke="#273344" stroke-width="4" fill="none" marker-end="url(#arrowDark)"/>
+
+  <g transform="translate(950 205)">
+    <rect class="card" width="330" height="162"/>
+    <rect x="0" y="0" width="330" height="16" rx="8" fill="#4d8fbd"/>
+    <text class="font panelTitle" x="28" y="55">TApocketBridge</text>
+    <text class="font panelText" x="28" y="87">Pocket prediction and catalytic</text>
+    <text class="font panelText" x="28" y="114">box generation</text>
+    <text class="font tiny" x="28" y="145">Output: pocket manifest</text>
+  </g>
+
+  <g transform="translate(950 394)">
+    <rect class="card" width="330" height="162"/>
+    <rect x="0" y="0" width="330" height="16" rx="8" fill="#7f6ab3"/>
+    <text class="font panelTitle" x="28" y="55">DockingHub</text>
+    <text class="font panelText" x="28" y="87">Receptor preparation, Vina tasks,</text>
+    <text class="font panelText" x="28" y="114">AlphaFlow ensemble reuse</text>
+    <text class="font tiny" x="28" y="145">Output: refined docking manifest</text>
+  </g>
+
+  <g transform="translate(950 583)">
+    <rect class="card" width="330" height="162"/>
+    <rect x="0" y="0" width="330" height="16" rx="8" fill="#d47b4c"/>
+    <text class="font panelTitle" x="28" y="55">ClusterScore + Refinement</text>
+    <text class="font panelText" x="28" y="87">Cluster-level prioritization and</text>
+    <text class="font panelText" x="28" y="114">focused ensemble docking</text>
+    <text class="font tiny" x="28" y="145">Output: selected refined poses</text>
+  </g>
+
+  <path d="M1290 475 C1335 475, 1355 475, 1400 475" stroke="#273344" stroke-width="5" fill="none" marker-end="url(#arrowDark)"/>
+  <path d="M1115 373 C1115 382, 1115 385, 1115 394" stroke="#6c7890" stroke-width="3" fill="none" marker-end="url(#arrowDark)" opacity="0.55"/>
+  <path d="M1115 562 C1115 571, 1115 574, 1115 583" stroke="#6c7890" stroke-width="3" fill="none" marker-end="url(#arrowDark)" opacity="0.55"/>
+
+  <g transform="translate(1408 277)">
+    <rect x="-6" y="-6" width="128" height="396" rx="8" fill="#ffffff" stroke="#d9e4ef" stroke-width="1.5" filter="url(#softShadow)"/>
+    <rect x="11" y="14" width="88" height="88" rx="44" fill="url(#scoreGrad)"/>
+    <path d="M38 62 C38 43, 71 39, 75 59 C78 75, 45 83, 38 62 Z" fill="#ffffff" opacity="0.92"/>
+    <circle cx="54" cy="61" r="8" fill="#5c4aaa"/>
+    <text class="font darkLabel" x="11" y="146">MetaBoClip</text>
+    <text class="font tiny" x="11" y="174">Catalytic role</text>
+    <text class="font tiny" x="11" y="197">resolution</text>
+    <text class="font tiny" x="11" y="232">Pose-level</text>
+    <text class="font tiny" x="11" y="255">geometry filters</text>
+    <text class="font tiny" x="11" y="290">Protein and</text>
+    <text class="font tiny" x="11" y="313">conformer scores</text>
+    <rect x="11" y="337" width="90" height="31" rx="8" fill="#273344"/>
+    <text class="font badge" x="24" y="358">Ranking</text>
+  </g>
+
+  <g transform="translate(260 812)">
+    <rect x="0" y="0" width="1080" height="70" rx="8" fill="#ffffff" stroke="#d9e4ef" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text class="font darkLabel" x="35" y="43">Stable manifest contracts</text>
+    <text class="font tiny" x="290" y="42">protein_manifest.csv</text>
+    <text class="font tiny" x="472" y="42">pocket_manifest.csv</text>
+    <text class="font tiny" x="650" y="42">docking_result_manifest.csv</text>
+    <text class="font tiny" x="905" y="42">metaboclip_final_ranking.csv</text>
+  </g>
+
+  <g transform="translate(1255 813)">
+    <rect x="0" y="0" width="255" height="68" rx="8" fill="#152033" opacity="0.96"/>
+    <text class="font label" x="24" y="30">Final outputs</text>
+    <text class="font badge" x="24" y="54">score, coverage, geometry</text>
+  </g>
+
+  <g transform="translate(75 735)">
+    <rect x="0" y="0" width="185" height="70" rx="8" fill="#152033" opacity="0.95"/>
+    <text class="font label" x="20" y="30">Data layout</text>
+    <text class="font badge" x="20" y="54">input vs output</text>
+  </g>
+</svg>

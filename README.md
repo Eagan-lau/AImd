@@ -1,14 +1,57 @@
 # AImd
 
-AImd is a modular engineering package for ligand transformation analysis, protein clustering, pocket prediction, docking, cluster scoring, refined docking, and catalytic scoring.
+**AImd** is a modular computational discovery package for connecting small-molecule transformation analysis, protein structural clustering, pocket prediction, ensemble docking, cofactor-aware refinement, and catalytic mechanism scoring.
 
-The current workflow is:
+<p align="center">
+  <img src="docs/assets/aimd_graphical_abstract.svg" alt="AImd modular enzyme discovery graphical abstract" width="100%">
+</p>
+
+## Why AImd
+
+AImd is designed as an end-to-end, manifest-driven engineering workflow for enzyme and ligand discovery projects where both protein conformational diversity and ligand chemistry matter. The package keeps each scientific step as a separable module, but links the modules through stable CSV manifests so that results can be inspected, resumed, replaced, or extended without rewriting the whole workflow.
+
+Core highlights:
+
+- **Modular architecture:** MolLink, RGPC, TApocketBridge, DockingHub, ClusterScore, RefinementHub, and MetaBoClipBridge can be run independently or as a connected workflow.
+- **Protein-side structural intelligence:** Foldseek and HipMCL support protein similarity search and clustering; AlphaFlow can provide conformational ensembles for refined docking.
+- **Ligand-side chemistry intelligence:** MolLink records ligand sources and transformation networks; RDKit generates minimized 3D structures and prepared docking inputs.
+- **Cofactor-aware refined docking:** DockingHub can transfer cofactors only after local pocket validation, using heavy atoms for pocket detection and CA RMSD for the transfer gate.
+- **Mechanism-aware catalytic scoring:** Unified MetaboClip resolves ligand roles, protein roles, catalytic geometry, pose filters, conformation scores, and final protein rankings.
+- **Clean input/output separation:** `data/data_input` stores starting data, while `data/data_output` stores generated module outputs.
+- **Stable deliverable conventions:** AImd preserves metadata such as `protein_id`, `ligand_id`, `conformer_id`, `pocket_id`, docking scores, role-table paths, atom-map paths, and final ranking outputs.
+
+The active workflow is:
 
 ```text
 MolLink -> RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
 ```
 
-MolLink is the ligand input transformation step. MetaboClip is a core scientific component of the AImd workflow. `MetaBoClipBridge` calls the unified MetaboClip core under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
+MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` calls the unified MetaboClip core under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
+
+## Module Map
+
+| Module | Scientific role | Main inputs | Main outputs |
+| --- | --- | --- | --- |
+| `MolLink` | Ligand source handling and transformation-network construction | `data/data_input/ligand/taxane_molecules.csv` | `data/data_output/ligand_transformation/ligand_source_manifest.csv` |
+| `RGPC` | Protein structure batching, similarity search, and clustering | `data/data_input/protein/file_*/*.pdb` | `data/data_output/protein_batches/protein_manifest.csv`, cluster outputs |
+| `TApocketBridge` | Pocket prediction or template-guided catalytic box generation | protein manifest | `data/data_output/pocket/pocket_manifest.csv` |
+| `DockingHub` | Ligand preparation, receptor preparation, docking task generation, Vina execution | ligand, protein, pocket manifests | receptor, task, and docking result manifests |
+| `DockingHub` cofactor gate | Conservative cofactor transfer using local pocket validation | target structures and cofactor templates | `data/data_output/refined/cofactor_mapped/cofactor_manifest.csv` |
+| `ClusterScore` | Cluster-level docking summary and candidate prioritization | broad docking results | `data/data_output/scoring/ClusterScore/top10_clusters.csv` |
+| `RefinementHub` | Selected-cluster refined docking orchestration | ClusterScore outputs | refined DockingHub config and refined docking results |
+| `MetaBoClipBridge` | Unified MetaboClip staging, role-table handling, catalytic geometry filtering, and final scoring | refined docking manifest and ligand role assets | `data/data_output/metaboclip/results/metaboclip_final_ranking.csv` |
+
+## What AImd Produces
+
+A successful run produces inspectable artifacts at each level:
+
+- ligand transformation manifests and optional transformation networks
+- protein cluster and protein batch manifests
+- pocket manifests with docking boxes
+- ligand preparation outputs with SDF, PDB, and PDBQT structures
+- receptor manifests, docking task manifests, Vina logs, and pose PDBQT files
+- cofactor validation reports with local pocket RMSD, coverage, and transfer status
+- MetaboClip role tables, annotations, atom maps, geometry features, candidate scores, conformation scores, protein scores, and final rankings
 
 ## Quick Start
 
