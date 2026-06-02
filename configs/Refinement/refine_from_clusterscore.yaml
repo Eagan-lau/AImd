@@ -103,6 +103,14 @@ docking_overrides:
     alignment:
       pymol_executable: auto
       timeout: 3600
+      pocket_validation:
+        enabled: true
+        pocket_radius: 5.0
+        rmsd_metric: ca
+        local_rmsd_cutoff: 2.5
+        min_mapped_residues: 5
+        min_pocket_coverage: 0.70
+        require_pass_before_transfer: true
 
   receptor_preparation:
     enabled: true

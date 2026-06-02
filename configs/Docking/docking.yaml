@@ -119,6 +119,15 @@ cofactor:
   # Examples: CYP450: [HEM]; Fe2OG: [FE, AKG]; UGT donor template: [UDP, U2F]
   cofactor_residue_names:
     - HEM
+    - HEC
+    - HEME
+    - FE
+    - AKG
+    - UDP
+    - U2F
+    - H5L
+    - MLC
+    - COA
 
   foldseek:
     executable: auto
@@ -129,6 +138,14 @@ cofactor:
     # Requires PyMOL command-line executable.
     pymol_executable: auto
     timeout: 3600
+    pocket_validation:
+      enabled: true
+      pocket_radius: 5.0
+      rmsd_metric: ca
+      local_rmsd_cutoff: 2.5
+      min_mapped_residues: 5
+      min_pocket_coverage: 0.70
+      require_pass_before_transfer: true
 
 receptor_preparation:
   enabled: true
