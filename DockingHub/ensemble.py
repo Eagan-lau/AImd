@@ -114,10 +114,12 @@ def _msa_exists(msa_dir: Path, name: str) -> bool:
 
 def _env_prefix(af_cfg: dict[str, Any]) -> str:
     assignments: list[str] = []
-    cuda_visible_devices = str(af_cfg.get("cuda_visible_devices", "") or "").strip()
+    cuda_raw = af_cfg.get("cuda_visible_devices", "") or os.environ.get("ALPHAFLOW_CUDA_VISIBLE_DEVICES", "")
+    cuda_visible_devices = os.path.expandvars(str(cuda_raw)).strip()
     if cuda_visible_devices:
         assignments.append(f"CUDA_VISIBLE_DEVICES={quote(cuda_visible_devices)}")
-    alloc_conf = str(af_cfg.get("pytorch_cuda_alloc_conf", "") or "").strip()
+    alloc_raw = af_cfg.get("pytorch_cuda_alloc_conf", "") or os.environ.get("ALPHAFLOW_PYTORCH_CUDA_ALLOC_CONF", "")
+    alloc_conf = os.path.expandvars(str(alloc_raw)).strip()
     if alloc_conf:
         assignments.append(f"PYTORCH_CUDA_ALLOC_CONF={quote(alloc_conf)}")
     return " ".join(assignments) + (" " if assignments else "")

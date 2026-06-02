@@ -90,6 +90,7 @@ ensemble:
     run_prediction: true
     require_msa: true
     template_mode: copy_input
+    cuda_visible_devices: "1"
 ```
 
 `run_msa: false` expects precomputed MSA files. AlphaFlow expects MSA files at:
@@ -117,14 +118,16 @@ or:
 export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
 ```
 
-For multi-GPU machines:
+For multi-GPU machines, use a GPU id that is validated for the local AlphaFlow environment. For
+example:
 
 ```bash
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 ```
 
 The same values can also be set in `ensemble.alphaflow.cuda_visible_devices` and
-`ensemble.alphaflow.pytorch_cuda_alloc_conf`.
+`ensemble.alphaflow.pytorch_cuda_alloc_conf`. If `ensemble.alphaflow.cuda_visible_devices` is empty,
+AImd also reads `ALPHAFLOW_CUDA_VISIBLE_DEVICES`.
 
 ## Smoke Tests
 

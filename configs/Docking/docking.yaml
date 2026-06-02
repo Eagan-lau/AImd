@@ -89,6 +89,7 @@ ensemble:
     run_prediction: true
     require_msa: true
     template_mode: copy_input
+    # Set in a local config when a specific GPU is required, for example "1".
     cuda_visible_devices: ""
     pytorch_cuda_alloc_conf: "garbage_collection_threshold:0.6,max_split_size_mb:128"
     extra_args: ""
