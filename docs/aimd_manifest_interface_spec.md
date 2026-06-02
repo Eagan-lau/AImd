@@ -30,6 +30,7 @@ DockingHub broad
     data/data_output/pocket/pocket_manifest.csv
     data/data_output/ligand_preparation/ligand_manifest.csv
   outputs:
+    data/data_output/ensemble/conformer_manifest.csv
     data/data_output/docking_out/docking_result_manifest.csv
 
 ClusterScore
@@ -95,6 +96,24 @@ Optional columns used by `MetaBoClipBridge` for role-table generation:
 
 ```csv
 ligand_source_path,source_ligand_path,source_path,mol_path,mol2_path,prepared_ligand_pdbqt_path
+```
+
+## conformer_manifest.csv
+
+Source: `DockingHub.ensemble`
+
+Downstream modules: `DockingHub.receptor`, `DockingHub.tasks`
+
+Recommended columns:
+
+```csv
+protein_id,cluster_id,batch_id,conformer_id,structure_path,original_structure_path,unaligned_structure_path,coordinate_frame,alignment_status,alignment_message,source,status,message
+```
+
+Optional AlphaFlow adapter columns:
+
+```csv
+alphaflow_name,alphaflow_project_dir,alphaflow_msa_dir,alphaflow_templates_dir
 ```
 
 ## docking_result_manifest.csv

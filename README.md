@@ -119,6 +119,12 @@ DockingHub prepares the docking ligand manifest from the molecule CSV by generat
 data/data_output/ligand_preparation/ligand_manifest.csv
 ```
 
+DockingHub can optionally call AlphaFlow as a third-party conformational ensemble generator before receptor preparation and docking. Installation and configuration details are in:
+
+```text
+docs/ALPHAFLOW_INTEGRATION.md
+```
+
 ## MetaboClip Integration
 
 The active MetaboClip configuration is:

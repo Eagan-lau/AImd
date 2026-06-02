@@ -48,10 +48,13 @@ tools:
   alphaflow:
     enabled: false
     required: false
-    executable: alphaflow
-    check_command: "{executable} --help"
+    executable: python
+    check_command: "{executable} predict2.py --help"
     check_timeout: 20
-    command_template: "alphaflow predict --input {input_pdb} --out_dir {output_dir} --threads {threads}"
+    install_url: https://github.com/bjing2016/alphaflow
+    input_format: csv_with_name_seqres
+    msa_format: "{msa_dir}/{name}/a3m/{name}.a3m"
+    template_format: "{templates_dir}/{name}.pdb"
     used_by: [DockingHub.ensemble]
   tapocket:
     enabled: true

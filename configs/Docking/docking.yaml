@@ -62,8 +62,10 @@ pairing:
 
 ensemble:
   enabled: false
-  # Example; modify according to your AlphaFlow command.
-  # command_template: "alphaflow predict --input {input_pdb} --out_dir {output_dir} --threads {threads}"
+  # command | alphaflow
+  engine: alphaflow
+
+  # Generic command mode is kept for custom ensemble generators.
   command_template: ""
   threads: 1
   timeout: 86400
@@ -71,6 +73,29 @@ ensemble:
   collect_patterns:
     - "*.pdb"
   fallback_to_input: true
+
+  alphaflow:
+    # Keep these empty in the distributable config. Set them in a local config,
+    # or export ALPHAFLOW_ROOT and ALPHAFLOW_PYTHON before running AImd.
+    project_dir: ""
+    python_executable: ""
+    predict_script: predict2.py
+    mmseqs_script: scripts/mmseqs_query.py
+    weights: alphaflow_12l_md_templates_base_202406.pt
+    mode: alphafold
+    samples: 5
+    steps: 10
+    run_msa: false
+    run_prediction: true
+    require_msa: true
+    template_mode: copy_input
+    cuda_visible_devices: ""
+    pytorch_cuda_alloc_conf: "garbage_collection_threshold:0.6,max_split_size_mb:128"
+    extra_args: ""
+    paths:
+      # Leave blank to use per-protein output folders under data/data_output/ensemble.
+      msa_dir: ""
+      templates_dir: ""
 
   # Important AImd rule:
   # TApocket is run only on the original protein structure. When ensemble docking

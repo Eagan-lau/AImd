@@ -36,8 +36,13 @@ pocket_prediction:
       status: reserved
 
 ensemble_sampling:
-  current: alphaflow_command_template
+  current: alphaflow_adapter
   adapters:
+    alphaflow_adapter:
+      module: DockingHub.ensemble
+      config_section: ensemble.alphaflow
+      outputs:
+        - data/data_output/ensemble/conformer_manifest.csv
     alphaflow_command_template:
       module: DockingHub.ensemble
       config_section: ensemble

@@ -114,6 +114,14 @@ DockingHub prepares the ligand docking manifest from the same molecule CSV by ge
 data/data_output/ligand_preparation/ligand_manifest.csv
 ```
 
+DockingHub can optionally call AlphaFlow for protein conformational ensemble sampling. The adapter writes staged AlphaFlow inputs and sampled conformers under:
+
+```text
+data/data_output/ensemble/
+```
+
+See `docs/ALPHAFLOW_INTEGRATION.md` for installation, configuration, MSA, and GPU runtime notes.
+
 The refined docking manifest consumed by `MetaBoClipBridge` is:
 
 ```text
