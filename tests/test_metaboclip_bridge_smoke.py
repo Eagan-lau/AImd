@@ -4,6 +4,7 @@ import csv
 import json
 from pathlib import Path
 
+from MetaBoClipBridge.bridge import _role_groups
 from MetaBoClipBridge.main import run_metaboclip_bridge
 
 
@@ -53,6 +54,12 @@ def _write_yaml(path: Path, config: dict) -> None:
     import yaml
 
     path.write_text(yaml.safe_dump(config, sort_keys=False), encoding="utf-8")
+
+
+def test_metaboclip_bridge_accepts_empty_role_group_list() -> None:
+    assert _role_groups({"role_tables": {"groups": []}}) == []
+    assert _role_groups({"role_tables": {"groups": ""}}) is None
+    assert _role_groups({"role_tables": {"groups": ["hydroxyl", ""]}}) == ["hydroxyl"]
 
 
 def test_metaboclip_bridge_runs_unified_backend_with_tiny_fixture(tmp_path: Path) -> None:

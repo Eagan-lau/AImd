@@ -145,7 +145,7 @@ paths:
   metaboclip_project_dir: metaboclip_unified
   metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
   unified_output_dir: data/data_output/metaboclip/unified_runs
-  ligand_manifest: data/data_input/ligand/ligand_manifest.csv
+  ligand_manifest: data/data_output/ligand_preparation/ligand_manifest.csv
   ligand_source_manifest: data/data_input/ligand/ligand_source_manifest.csv
   role_table_dir: data/data_output/metaboclip/ligand_roles/role_tables
   annotation_dir: data/data_output/metaboclip/ligand_roles/annotations

@@ -18,8 +18,8 @@ paths:
   results_dir: data/data_output/metaboclip/results
 
   # Ligand role-map inputs and outputs.
-  ligand_manifest: data/data_input/ligand/ligand_manifest.csv
-  ligand_source_manifest: data/data_input/ligand/ligand_source_manifest.csv
+  ligand_manifest: data/data_output/ligand_preparation/ligand_manifest.csv
+  ligand_source_manifest: data/data_output/ligand_transformation/ligand_source_manifest.csv
   role_table_dir: data/data_output/metaboclip/ligand_roles/role_tables
   annotation_dir: data/data_output/metaboclip/ligand_roles/annotations
   atom_map_dir: data/data_output/metaboclip/ligand_roles/atom_maps
@@ -65,7 +65,7 @@ role_tables:
   # existing reuses prebuilt role tables.
   # generate builds role tables from ligand source files and prepared ligand PDBQT files.
   # auto reuses existing role tables and generates only missing ones when source inputs are available.
-  mode: existing
+  mode: auto
   rules: metaboclip_unified/rules/functional_groups.yaml
   groups: []
   ligand_source_column: ligand_source_path

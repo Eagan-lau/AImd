@@ -184,6 +184,7 @@ Downstream catalytic geometry uses heavy atoms only. Ligand hydrogen atoms may b
 Primary documents:
 
 ```text
+docs/AImd_RUN_GUIDE.md
 docs/AImd_USER_MANUAL.md
 docs/MODULE_INTERFACE_SPEC.md
 docs/aimd_manifest_interface_spec.md

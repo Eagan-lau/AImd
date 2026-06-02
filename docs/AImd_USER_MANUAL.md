@@ -70,6 +70,12 @@ python validate_aimd_layout.py --root .
 
 ## Main Commands
 
+For a detailed module-by-module run guide, see:
+
+```text
+docs/AImd_RUN_GUIDE.md
+```
+
 Run modules one step at a time:
 
 ```bash
@@ -169,7 +175,7 @@ Role-table behavior is controlled by:
 
 ```yaml
 role_tables:
-  mode: existing
+  mode: auto
 ```
 
 Allowed modes:
@@ -180,7 +186,7 @@ generate
 auto
 ```
 
-`existing` requires prebuilt role tables under `role_table_dir`. `generate` requires an original ligand source file and prepared ligand PDBQT file. `auto` reuses existing role tables and generates missing ones when the required source inputs exist.
+`existing` requires prebuilt role tables under `role_table_dir`. `generate` requires an original ligand source file and prepared ligand PDBQT file. `auto` reuses existing role tables and generates missing ones when the required source inputs exist. The default AImd bridge uses `auto` with `data/data_output/ligand_preparation/ligand_manifest.csv`.
 
 Generated or reused role assets are recorded as:
 

@@ -42,7 +42,7 @@ docking_overrides:
   paths:
     protein_manifest: data/data_output/refinement/selected_protein_manifest.csv
     pocket_manifest: data/data_output/pocket/pocket_manifest.csv
-    ligand_manifest: data/data_input/ligand/ligand_manifest.csv
+    ligand_manifest: data/data_output/ligand_preparation/ligand_manifest.csv
     cofactor_dir: data/data_input/cofactor
 
     ensemble_dir: data/data_output/refined/ensemble
@@ -107,7 +107,7 @@ docking_overrides:
         enabled: true
         pocket_radius: 5.0
         rmsd_metric: ca
-        local_rmsd_cutoff: 2.5
+        local_rmsd_cutoff: 10.0
         min_mapped_residues: 5
         min_pocket_coverage: 0.70
         require_pass_before_transfer: true

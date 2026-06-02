@@ -222,7 +222,7 @@ def _role_rules_path(config: dict[str, Any]) -> Path:
 
 def _role_groups(config: dict[str, Any]) -> list[str] | None:
     groups = config.get("role_tables", {}).get("groups")
-    if groups in {None, ""}:
+    if groups is None or groups == "":
         return None
     if isinstance(groups, str):
         return [g.strip() for g in groups.replace(";", ",").split(",") if g.strip()]
