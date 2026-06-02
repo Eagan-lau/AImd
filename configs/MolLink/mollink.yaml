@@ -1,0 +1,48 @@
+project:
+  root: .
+
+inputs:
+  molecule_table: data/data_input/ligand/taxane_molecules.csv
+  template_file:
+  annotation_table:
+
+columns:
+  smiles: smiles
+  id: source_id
+  name: molecule_name
+  sheet_name:
+  template:
+  annotation_sheet:
+  annotation_id:
+
+compute:
+  mode: csv_only
+  require_templates: false
+  profile: strict
+  prefix: transformnet
+  max_molecules:
+  max_templates:
+  duplicate_key_policy: all
+  self_loop_policy: drop
+  single_reactant_only: true
+  prefilter_substructure: true
+  quiet_rdkit: true
+  write_product_failures: true
+  write_unmatched_products: false
+
+standardization:
+  cleanup: true
+  largest_fragment: false
+  uncharge: false
+  remove_hs: false
+
+network:
+  prefix: transformnet_network
+  write_excel: false
+  write_graphs: false
+  write_html: true
+  group_column:
+  position_columns:
+
+outputs:
+  output_root: data/data_output/ligand_transformation

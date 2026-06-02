@@ -5,6 +5,12 @@ This file records the stable AImd manifest interfaces used by the integrated wor
 ## Overall Data Flow
 
 ```text
+MolLink
+  inputs:
+    data/data_input/ligand/taxane_molecules.csv
+  outputs:
+    data/data_output/ligand_transformation/ligand_source_manifest.csv
+
 RGPC
   outputs:
     data/data_output/protein_batches/protein_manifest.csv
@@ -63,6 +69,18 @@ Key columns:
 
 ```csv
 protein_id,cluster_id,batch_id,pocket_id,pocket_rank,center_x,center_y,center_z,size_x,size_y,size_z,final_score,protein_path,pocket_pdb_path,pocket_json_path,box_yaml_path,status
+```
+
+## ligand_source_manifest.csv
+
+Source: `MolLink`
+
+Downstream modules: ligand preparation; optional lookup source for `MetaBoClipBridge`
+
+Recommended columns:
+
+```csv
+ligand_id,source_id,molecule_id,molecule_name,smiles,ligand_source_type,source_table,row_index,transform_status
 ```
 
 ## ligand_manifest.csv

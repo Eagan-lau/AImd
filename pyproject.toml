@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aimd-full-integrated"
 version = "0.3.0"
-description = "AImd integrated RGPC, TApocket, DockingHub, ClusterScore, refined docking, and unified MetaboClip catalytic scoring workflow."
+description = "AImd integrated MolLink, RGPC, TApocket, DockingHub, ClusterScore, refined docking, and unified MetaboClip catalytic scoring workflow."
 requires-python = ">=3.9"
-dependencies = ["PyYAML>=6.0", "pandas>=1.5", "numpy>=1.21", "scipy>=1.8", "rdkit>=2022.9", "biopython>=1.80"]
+dependencies = ["PyYAML>=6.0", "pandas>=1.5", "numpy>=1.21", "scipy>=1.8", "rdkit>=2022.9", "biopython>=1.80", "networkx>=3.0", "tqdm>=4.66", "openpyxl>=3.1"]
 
 [project.scripts]
+aimd-mollink = "MolLink.main:main"
 aimd-rgpc = "RGPC.main:main"
 aimd-tapocket-batch = "TApocketBridge.main:main"
 aimd-docking = "DockingHub.main:main"
@@ -19,4 +20,4 @@ aimd-metaboclip-bridge = "MetaBoClipBridge.main:main"
 aimd-full-integrated = "orchestrator.full_iterative_metaboclip:main"
 
 [tool.setuptools.packages.find]
-include = ["RGPC*", "TApocketBridge*", "DockingHub*", "ScoringHub*", "RefinementHub*", "MetaBoClipBridge*", "orchestrator*"]
+include = ["MolLink*", "RGPC*", "TApocketBridge*", "DockingHub*", "ScoringHub*", "RefinementHub*", "MetaBoClipBridge*", "orchestrator*"]

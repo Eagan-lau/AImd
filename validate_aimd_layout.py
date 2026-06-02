@@ -28,7 +28,7 @@ except ImportError:
 
 
 REQUIRED_DIRS = [
-    "RGPC", "TApocket", "TApocketBridge", "DockingHub",
+    "MolLink", "RGPC", "TApocket", "TApocketBridge", "DockingHub",
     "ScoringHub", "RefinementHub", "MetaBoClipBridge",
     "orchestrator", "configs", "data", "docs", "third_party",
     "metaboclip_unified",
@@ -45,6 +45,7 @@ REQUIRED_DATA_DIRS = [
 
 REQUIRED_CONFIGS = [
     "configs/RGPC/rgpc.yaml",
+    "configs/MolLink/mollink.yaml",
     "configs/TApocket/tapocket_batch.yaml",
     "configs/Docking/docking.yaml",
     "configs/Scoring/cluster_score.yaml",
@@ -54,6 +55,7 @@ REQUIRED_CONFIGS = [
 ]
 
 IMPORT_MODULES = [
+    "MolLink.main",
     "RGPC.main",
     "TApocketBridge.main",
     "DockingHub.main",

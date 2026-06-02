@@ -29,12 +29,20 @@ def run_workflow(config_path: str | Path) -> None:
     workflow = config.get("workflow", {})
     root = Path(paths.get("aimd_root", ".")).resolve()
 
+    mollink_config = _resolve(paths.get("mollink_config", "configs/MolLink/mollink.yaml"), root)
     rgpc_config = _resolve(paths.get("rgpc_config", "configs/RGPC/rgpc.yaml"), root)
     tapocket_config = _resolve(paths.get("tapocket_batch_config", "configs/TApocket/tapocket_batch.yaml"), root)
     docking_config = _resolve(paths.get("broad_docking_config", "configs/Docking/docking.yaml"), root)
     clusterscore_config = _resolve(paths.get("clusterscore_config", "configs/Scoring/cluster_score.yaml"), root)
     refinement_config = _resolve(paths.get("refinement_config", "configs/Refinement/refine_from_clusterscore.yaml"), root)
     metaboclip_config = _resolve(paths.get("metaboclip_bridge_config", "configs/MetaBoClip/metaboclip_bridge.yaml"), root)
+
+    if bool(workflow.get("run_mollink", True)):
+        from MolLink.runner import run_mollink_from_config
+        print(f"[AImdWorkflow] Running MolLink: {mollink_config}")
+        run_mollink_from_config(mollink_config)
+    else:
+        print("[AImdWorkflow] Skip MolLink")
 
     if bool(workflow.get("run_rgpc", True)):
         from RGPC.main import run_rgpc

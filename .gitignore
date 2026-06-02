@@ -20,6 +20,7 @@ data/**
 !data/data_input/protein/file_1/.gitkeep
 !data/data_input/ligand/
 !data/data_input/ligand/.gitkeep
+!data/data_input/ligand/taxane_molecules.csv
 !data/data_input/ligand/file_1/
 !data/data_input/ligand/file_1/.gitkeep
 !data/data_input/cofactor/

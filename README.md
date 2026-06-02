@@ -1,14 +1,14 @@
 # AImd
 
-AImd is a modular engineering package for protein clustering, pocket prediction, docking, cluster scoring, refined docking, and catalytic scoring.
+AImd is a modular engineering package for ligand transformation analysis, protein clustering, pocket prediction, docking, cluster scoring, refined docking, and catalytic scoring.
 
 The current workflow is:
 
 ```text
-RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
+MolLink -> RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
 ```
 
-MetaboClip is a core scientific component of the AImd workflow. `MetaBoClipBridge` calls the unified MetaboClip core under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
+MolLink is the ligand input transformation step. MetaboClip is a core scientific component of the AImd workflow. `MetaBoClipBridge` calls the unified MetaboClip core under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
 
 ## Quick Start
 
@@ -27,7 +27,7 @@ AImd uses a strict two-part data layout:
 data/
   data_input/
     protein/       # starting protein structures
-    ligand/        # starting ligand structures and ligand manifests
+    ligand/        # starting ligand tables, structures, and ligand manifests
     cofactor/      # optional cofactor templates
     workflow/      # pair lists, family maps, and manual workflow tables
   data_output/
@@ -72,6 +72,7 @@ python run_full_iterative_metaboclip.py \
 Run modules individually:
 
 ```bash
+python run_mollink.py --config configs/MolLink/mollink.yaml
 python run_rgpc.py --config configs/RGPC/rgpc.yaml
 python run_tapocket_batch.py --config configs/TApocket/tapocket_batch.yaml
 python run_docking.py --config configs/Docking/docking.yaml
@@ -79,6 +80,34 @@ python run_clusterscore.py --config configs/Scoring/cluster_score.yaml
 python run_refinement.py --config configs/Refinement/refine_from_clusterscore.yaml
 python run_metaboclip_bridge.py --config configs/MetaBoClip/metaboclip_bridge.yaml
 ```
+
+## MolLink Integration
+
+The active MolLink configuration is:
+
+```text
+configs/MolLink/mollink.yaml
+```
+
+The bundled minimal ligand input is:
+
+```text
+data/data_input/ligand/taxane_molecules.csv
+```
+
+MolLink writes ligand source and transformation-network outputs under:
+
+```text
+data/data_output/ligand_transformation/
+```
+
+The stable ligand source manifest is:
+
+```text
+data/data_output/ligand_transformation/ligand_source_manifest.csv
+```
+
+When a reaction template file is configured and present, the wrapper calls the migrated MolLink template-based TransformNet logic. When only the molecule CSV is available, the wrapper completes in `csv_only_no_template` mode and writes an empty transformation network instead of inventing reaction edges.
 
 ## MetaboClip Integration
 

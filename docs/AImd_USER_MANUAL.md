@@ -2,12 +2,12 @@
 
 ## Overview
 
-AImd connects protein clustering, pocket prediction, docking, cluster scoring, refinement, and catalytic scoring through manifest files.
+AImd connects ligand transformation analysis, protein clustering, pocket prediction, docking, cluster scoring, refinement, and catalytic scoring through manifest files.
 
 Current workflow:
 
 ```text
-RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
+MolLink -> RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
 ```
 
 MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` is the active adapter for the unified MetaboClip backend under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
@@ -71,6 +71,7 @@ python validate_aimd_layout.py --root .
 Run modules one step at a time:
 
 ```bash
+python run_mollink.py --config configs/MolLink/mollink.yaml
 python run_rgpc.py --config configs/RGPC/rgpc.yaml
 python run_tapocket_batch.py --config configs/TApocket/tapocket_batch.yaml
 python run_docking.py --config configs/Docking/docking.yaml
@@ -88,6 +89,20 @@ python run_full_iterative_metaboclip.py --config configs/workflows/full_iterativ
 Do not use full docking or production workflows as smoke tests.
 
 ## Required Data Flow
+
+MolLink consumes the starting molecule table:
+
+```text
+data/data_input/ligand/taxane_molecules.csv
+```
+
+MolLink writes the ligand source manifest:
+
+```text
+data/data_output/ligand_transformation/ligand_source_manifest.csv
+```
+
+The molecule table is the core ligand input. If no reaction template file is configured, MolLink still completes in `csv_only_no_template` mode and writes an empty transformation network without inventing reaction edges.
 
 The refined docking manifest consumed by `MetaBoClipBridge` is:
 

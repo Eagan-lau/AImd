@@ -1,0 +1,636 @@
+source_id,smiles,molecule_name
+1,CC1(C)[C@@]2([H])C[C@H](O)C(C)=C1[C@@H](O)[C@H](O)[C@@]3(C)[C@](C([C@@H](O)CC3)=C)([H])C2,"5alpha,9alpha,10beta,13alpha-Tetrahydroxytaxa- 4(20),11-diene"
+2,CC1([C@]2(C[C@@H](C(C)=C1[C@H]([C@@H]([C@]3([C@]([H])(C2)C([C@H](CC3)OC(C)=O)=C)C)OC(C)=O)O)O)[H])C,2-Deacetoxy-5-decinnamoyltaxinine J
+3,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1O)O)C)OC(=O)C)OC(=O)C,"9alpha,10beta-Diacetoxytaxa-4(20),11-diene-5alpha,13alpha-diol"
+4,CC1(C)[C@@]2([H])C[C@H](OC(C)=O)C(C)=C1[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)[C@](C([C@@H](O)CC3)=C)([H])C2,"10beta,13alpha-Diacetoxy-taxa-4(20),11-diene-5alpha,9alpha-diol"
+5,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)C)O)O,"5alpha,13alpha-Diacetoxytaxa-4(20),11-diene-9alpha,10beta-diol"
+6,C[C@@]1([C@](C([C@@H](O)CC1[H])=C)([H])C2[H])[C@@H](OC(C)=O)[C@H](OC(C)=O)C3=C(C)[C@@H](OC(C)=O)C[C@]2([H])C3(C)C,"9alpha,10beta,13alpha-Triacetoxytaxa-4(20),11-dien-5alpha-ol"
+7,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxusin
+8,[H][C@]12C[C@H](C(C)3C)C[C@H](O)C(C)=C3[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]1(C)CC[C@H]([C@H]4[C@@H]([C@H]([C@@H]([C@@H](CO)O4)O)O)O)C2=C,"9alpha,10beta-Diacetoxy-5alpha-(beta-D-glucopyranosyl)taxa-4(20),11-dien-13alpha-ol"
+9,CC1(C)[C@]2(O)[C@@H](OC(C)=O)[C@@]3([H])[C@]([C@@H](OC(C)=O)C[C@H](O)C3=C)(C)[C@@H](OC(C)=O)[C@H](OC(C)=O)C1=C(C)[C@@H](OC(C)=O)C2,Decinnamoyl-1-hydroxytaxinine J
+10,C[C@@]1([C@](C([C@@H](OC(C)=O)C[C@@H]1OC(C)=O)=C)([H])C2[H])[C@@H](OC(C)=O)[C@H](OC(C)=O)C3=C(C)[C@@H](OC(C)=O)C[C@]2([H])C3(C)C,"7beta-Acetoxytaxusin(5alpha,7beta,9alpha,10beta,13alpha-pentaacetoxytaxa-4(20),11-diene)"
+11,CC1(C)[C@@]2([H])C[C@H](O)C(C)=C1[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)[C@](C([C@@H](OC(CO)=O)C[C@@H]3OC(C)=O)=C)(OC(C)=O)C2,"7beta,9alpha,10beta-Triacetoxy-13alpha-hydroxy-5alpha-O-beta-(D-glucopyranosyl)taxa-4(20),11-diene"
+12,C[C@@]1([C@](C([C@@H](O)CC1[H])=C)([H])[C@@H]2O)[C@@H](O)[C@H](OC(C)=O)C3=C(C)[C@@H](OC(C)=O)C[C@]2([H])C3(C)C,"10beta,13alpha-Diacetoxytaxa-4(20),11-diene-2alpha,5alpha,9alpha-triol"
+13,CC1(C)[C@@]2([H])C[C@H](O)C(C)=C1[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)[C@](C([C@@H](O)CC3)=C)(OC(C)=O)C2,"2alpha,9alpha,10beta-Triacetoxytaxa-4(20),11-diene-5alpha,13alpha-diol"
+14,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)O)C)OC(=O)C)O,"2alpha,9alpha,13alpha-Triacetoxytaxa-4(20),11-diene-5alpha,10beta-diol"
+15,CC1(C)[C@@]2([H])C[C@H](OC(C)=O)C(C)=C1[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)[C@](C([C@@H](O)CC3)=C)(OC(C)=O)C2,"2alpha,10beta,13alpha-Triacetoxytaxa-4(20),11-diene-5alpha,9alpha-diol"
+16,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)O)C)OC(=O)C)OC(=O)C,Decinnamoyltaxinine E
+17,[H][C@]12[C@H](OC(C)=O)[C@H](C(C)3C)C[C@H](O[C@H]4[C@@H]([C@H]([C@@H]([C@@H](CO)O4)O)O)O)C(C)=C3[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]1(C)CC[C@H](O)C2=C,"2alpha,9alpha,10beta-Triacetoxy-13alpha-(beta-D-gluco-pyranosyloxy)taxa-4(20),11-dien-5alpha-ol"
+18,CC1(C)[C@@]2([H])C[C@H](O)C(C)=C1[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)[C@](C([C@@H](O)C[C@@H]3O)=C)(O)C2,"10beta-Acetoxy-taxa-4(20),11-diene-2alpha,5alpha,7beta,9alpha,13alpha-pentaol"
+20,C[C@@]1([C@](C([C@@H](O)C[C@@H]1OC(C)=O)=C)([H])[C@@H]2O)[C@@H](OC(C)=O)[C@H](OC(C)=O)C3=C(C)[C@@H](OC(C)=O)C[C@]2([H])C3(C)C,2-Deacetyl-5-decinnamoyltaxinine E
+21,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)O)O)C)O)OC(=O)C,"7,9-Deacetyl-5-decinnamoyltaxinine J"
+22,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1O)OC(=O)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxezopidine F
+23,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](O)C[C@H](O)C([C@H]3[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=C,Taxumariene D
+24,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)C([C@H]3[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=C,Taxumariene E
+25,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C,Decinnamoyltaxinine J
+26,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](OC(C)=O)C([C@H]3[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=C,"2alpha,5alpha,7beta,9alpha,10beta,13alpha-Hexaacetoxy-taxa-4(20),11-diene"
+27,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)C([C@H]3C[C@](C[C@@H]1OC(C)=O)(O)C2(C)C)=C,1-Hydroxy-2-deacetoxy-5-decinnamoyl-taxinine J
+28,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@H](OC(C)=O)C([C@H]3C[C@](C[C@@H]1OC(C)=O)(O)C2(C)C)=C,Taxawallin G
+29,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)C([C@H]3C[C@](CC1)(OC(C)=O)C2(C)C)=C,"1beta,7beta,9alpha,10beta,-Tetraacetoxytaxa-4(20),11-dien-5alpha-ol"
+30,CC(C(C1(C)CO)(O)C[C@H](OC(C)=O)[C@]2(C)[C@@H](OC(C)=O)C[C@@H]3O)=C(OC(C)=O)CC1C(OC(C)=O)[C@@H]2C3=C,"2alpha,7beta,9alpha,13alpha-Tetraacetoxy-5alpha,10beta,17-trihydroxytaxa-4(20),11-diene"
+31,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](O)C([C@H]3C(OC(C4=CC=CC=C4)=O)[C@](CC1OC(C)=O)(O)C2(C)C)=C,"2alpha-Benzoyloxy-9alpha,10beta,13alpha-triacetoxy-taxa-4(20),11-diene-1beta,5alpha-diol"
+32,C[C@@]1([C@](C([C@@H](O)C[C@@H]1OC(C2=CC=CC=C2)=O)=C)([H])C3[H])[C@@H](OC(C)=O)[C@H](OC(C)=O)C4=C(C)[C@@H](OC(C)=O)C[C@]3(O)C4(C)C,13-Acetylbrevifoliol
+33,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](OC(C)=O)C([C@H]3C(OC(C)=O)[C@H](CC1OC(/C=C\C4=CC=CC=C4)=O)C2(C)C)=C,"2alpha,5alpha,9alpha,10beta-Tetraacetoxy-13alpha-(Z)-cinnamoyltaxa-4(20),11-diene"
+34,CC1=C2C(=O)C[C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)C,Taxuyunnanine D
+35,CC1=C2C(C(C3(CCC(C(=C)C3C(C(C2(C)C)CC1=O)O)O)C)OC(=O)C)O,Taxezopidine C
+36,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)O)O)C)O)OC(=O)C,Taxezopidine D
+37,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)O)O)C)OC(=O)C)OC(=O)C,Taxuspine G (2-deacetyltaxinine A)
+38,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)O)C)OC(=O)C)OC(=O)C,Taxinine A
+39,[H][C@]1(C([C@@H](O)CC[C@]1([C@@H](O)[C@H](OC(C)=O)C2=C3C)C)=C)[C@H](OC(C)=O)[C@H](C(C)2C)CC3=O,"2alpha,10beta-diacetoxy-5alpha,9alpha-dihydroxytaxa-4(20),11-dien-13-one"
+40,CC1=C2[C@H]([C@@H]([C@]3([C@H](C[C@@H](C2(C)C)CC1=O)C(=C)[C@H](C[C@@H]3OC(=O)C)O)C)OC(=O)C)OC(=O)C,Taxuspinanane K
+41,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](OC(C)=O)C([C@H]3C(OC(C)=O)[C@H](CC1=O)C2(C)C)=C,Taxinine H
+42,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)O)O)O)C)O)OC(=O)C,"10beta-Acetoxy-2alpha,5alpha,7beta,9alpha-tetrahydroxy-taxa-4(20),11-dien-13-one"
+43,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)O)C)OC(=O)C)O,"2alpha,9alpha-Diacetoxy-5alpha,10beta-dihydroxytaxa-4(20),11-dien-13-one"
+44,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)CC[C@H](O)C([C@H]3C(OC(C)=O)[C@](CC1=O)(O)C2(C)C)=C,"2,10-Diacetoxy-5-decinnamoyltaxicin I"
+45,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](O)C([C@H]3C(OC(C)=O)[C@](CC1=O)(O)C2(C)C)=C,1beta-Hydroxytaxinine A
+46,CC1=C2C(O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](OC(C)=O)C([C@H]3C(OC(C)=O)[C@](CC1=O)(O)C2(C)C)=C,"2alpha,7beta,9alpha-Triacetoxy-5alpha,10beta-dihydroxytaxa-4(20),11-dien-13-one"
+47,CC1=C2[C@H]([C@@H]([C@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxuspine F
+48,CC(C(C1(C)C)(O)C(OC(C)=O)[C@H](OC(C)=O)[C@]2(C)[C@@H](OC(C)=O)C[C@@H]3O)=C(O)CC1C(OC(C)=O)[C@@H]2C3=C,"2alpha,7beta,9alpha,13alpha-Tetraacetoxy-5alpha,10beta,17-trihydroxy-taxa-4(20),11-diene"
+49,CC1=C2[C@@H](O)[C@H](O)[C@]3(C)[C@@H](O)C[C@H](O)C([C@H]3[C@H](O)[C@H](C[C@@H]1O)C2(C)C)=C,"2alpha,5alpha,7beta,9alpha,10beta,13alpha-Hexahydroxytaxa-4(20),11-diene"
+50,CC1=C2[C@@H](O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](O)C([C@H]3C[C@](C[C@@H]1O)(O)C2(C)C)=C,7-Debenzoyloxy-10-deacetylbrevifoliol
+51,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3C[C@@]2(C[C@@H]1O)C(C)(C)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C4=CC=CC=C4,Brevifoliol
+52,C[C@@]1([C@](C([C@@H](O)C[C@@H]1OC(C)=O)=C)([H])[C@@H]2OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C3=CC=CC=C3)=O)C4=C(C)[C@@H](O)C[C@]2(O)C4(C)C,2alpha-Acetoxybrevifoliol
+53,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](O)C([C@H]3C(OC(C4=CC=CC=C4)=O)[C@](CC1O)(O)C2(C)C)=C,"2alpha-Benzoyl-9alpha,10beta-diacetoxy-taxa-taxa-4(20),11-diene-1beta,5alpha,13alpha-triol"
+54,CC1=C2[C@@H](OC(C)=O)C[C@]3(C)[C@@H](OC(C)=O)C[C@H](OC(C)=O)C([C@H]3C(OC(C(C)CC)=O)[C@H](CC1)C2(C)C)=C,"5alpha,7beta,10beta-Triacetoxy-2alpha-(alpha-methylbutyryl-oxy)taxa-4(20),11-diene"
+55,CC1=C2[C@@H](OC(C)=O)C(OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)C([C@H]3C(OC(C(C)CC)=O)[C@H](CC1)C2(C)C)=C,"2alpha-(alpha-Methylbutyryloxy)-7beta,9alpha,10beta-tri-acetoxytaxa-4(20),11-dien-5alpha-ol"
+56,CC1=C2[C@@H](OC(C)=O)C(OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](OC(C)=O)C([C@H]3C(OC(C(C)CC)=O)[C@H](CC1)C2(C)C)=C,"2alpha-(alpha-Methylbutyryloxy)-5alpha,7beta,9alpha,10beta-tetraacetoxytaxa-4(20),11-diene"
+57,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)O)OC(=O)C,Dantaxusin B
+58,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1O)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,"9alpha,10beta-Diacetoxy-5alpha-cinnamoyloxytaxa-4(20),11-dien-13alpha-ol"
+59,CC(O[C@H]1[C@@H]([C@]2(C(CC(C(C)(C)C1=C3C)C[C@@H]3OC(C)=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O)=O,"5alpha-Cinnamoyloxy-9alpha,10beta,13alpha-triacetoxy-taxa-4(20),11-diene"
+60,CC1=C2[C@H]([C@@H]([C@]3([C@H](C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)C(=C)[C@H](C[C@@H]3O)OC(=O)/C=C/C4=CC=CC=C4)C)O)OC(=O)C,"2-Deacetoxy-7,9-dideacetyltaxinine J"
+61,CC(O[C@H]1[C@@H]([C@]2(C(CC(C(C)(C)C1=C3C)C[C@@H]3OC(C)=O)C([C@H](C[C@@H]2O)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O)=O,"9alpha,10beta,13alpha-Triacetoxy-5alpha-cinnamoyloxy-taxa-4(20),11-dien-7beta-ol"
+62,CC1=C2[C@H]([C@@H]([C@]3([C@H](C[C@@H](C2(C)C)C[C@@H]1O)C(=C)[C@H](C[C@@H]3OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,Taxezopidine H
+63,CC1=C2[C@H]([C@@H]([C@]3([C@H](C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)C(=C)[C@H](C[C@@H]3OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,2-Deacetoxytaxinine J
+64,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1O)O)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,"9alpha,10beta-Diacetoxy-5alpha-cinnamoyloxytaxa-4(20),11-diene-2alpha,13alpha-diol"
+65,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,Taxezopidine G
+66,CC(O[C@H]1[C@@H]([C@]2(C([C@H](O)C(C(C)(C)C1=C3C)C[C@@H]3OC(C)=O)C([C@H](C[C@@H]2OC(C)=O)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O)=O,Taxuspinanane G
+67,[H][C@]12[C@H](OC(C)=O)[C@H](C(C)3C)C[C@H](O)C(C)=C3[C@@H](OC(C)=O)[C@H](O)[C@]1(C)CC[C@H](OC(C=CC4=CC=CC=C4)=O)C2=C,"2alpha,10beta-Diacetoxy-5alpha-cinnamoyloxytaxa-4(20),11-diene-9alpha,13alpha-diol"
+68,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)O)OC(=O)C,9-Deacetyltaxinine E
+69,[H][C@]12[C@H](OC(C)=O)[C@H](C(C)3C)C[C@H](OC(C)=O)C(C)=C3[C@@H](O)[C@H](OC(C)=O)[C@]1(C)CC[C@H](OC(C=CC4=CC=CC=C4)=O)C2=C,"2alpha,9alpha,13alpha-Triacetoxy-5alpha-cinnamoyloxy-taxa-4(20),11-dien-10beta-ol"
+70,CC(O[C@H]1[C@@H]([C@]2(C([C@H](OC(C)=O)C(C(C)(C)C1=C3C)C[C@@H]3O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O)=O,13-Deacetyltaxinine E
+71,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,7-Deacetoxytaxinine J
+72,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)O)C)OC(=O)C)OC(=O)C,Dantaxusin D
+73,C[C@@]12[C@]([C@H](OC(C)=O)[C@]3(C(C)(C)C([C@@H](OC(C)=O)[C@@H]1OC(C)=O)=C(C)[C@@H](OC(C)=O)C3)[H])(C(=C)[C@@H](OC(/C=C/C4=CC=CC=C4)=O)C[C@@H]2OC(C)=O)[H],Taxinine J
+74,CC(O[C@H]1[C@@H]([C@]2(C(CC(C(C)(C)C1=C3C)(O)C[C@@H]3OC(C)=O)C([C@H](C[C@@H]2OC(C)=O)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O)=O,Taxawallin A
+75,CC(O[C@H]1[C@@H]([C@]2(C(C(OC(C)=O)C(C(C)(C)C1=C3C)(O)C[C@@H]3OC(C)=O)C([C@H](C[C@@H]2OC(C)=O)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O)=O,Taxusumatrin
+77,O[C@H]1[C@@H]([C@]2(C(C(O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)O,"5alpha-Cinnamoyloxy-2alpha,9alpha,10beta-trihydroxy-taxa-4(20),11-dien-13-one"
+78,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H](C2(C)C)CC1=O)O)OC(=O)/C=C/C4=CC=CC=C4)C)O)OC(=O)C,5-Cinnamoyl-10-acetyltaxicin II
+79,O[C@H]1[C@@H]([C@]2(C(C(O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O,"9alpha-Acetoxy-5alpha-cinnamoyloxytaxa-2alpha,10beta-dihydroxy-4(20),11-dien-13-one"
+80,CC(O[C@H]1[C@@H]([C@]2(C(C(O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O)=O,2-Deacetyltaxinine
+81,O[C@H]1[C@@H]([C@]2(C(C(OC(C)=O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)O,"9,10-Deacetyltaxinine"
+82,CC(O[C@H]1[C@@H]([C@]2(C(C(OC(C)=O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)O)=O,9-Deacetyltaxinine
+83,O[C@H]1[C@@H]([C@]2(C(C(OC(C)=O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C)OC(C)=O,10-Deacetyltaxinine
+84,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,Taxinine
+85,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)O)OC(=O)/C=C/C4=CC=CC=C4)O)C)O)OC(=O)C,Taxezopidine E
+86,CC(O[C@H]1[C@@H]([C@]2(C(C(OC(C)=O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2O)OC(/C=C/C4=CC=CC=C4)=O)=C)C)O)=O,"7,9-Deacetyltaxinine B"
+87,CC(O[C@H]1C(O)[C@]2(C(C(OC(C)=O)C(C(C)(C)C1=C3C)CC3=O)C([C@H](CC2OC(C)=O)OC(/C=C/C4=CC=CC=C4)=O)=C)C)=O,9-Deacetyltaxinine B
+88,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)OC(=O)C)C)OC(=O)C)O,10-Deacetyltaxinine B
+89,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxinine B
+90,O[C@H]1C(O)[C@]2(C([C@H](O)C(C(C)(C)C1=C3C)(O)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C,"5alpha-Cinnamoyloxy-1beta,2alpha,9alpha,10beta-tetra-hydroxytaxa-4(20),11-dien-13-one"
+91,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)O)OC(=O)/C=C/C4=CC=CC=C4)C)O)OC(=O)C,5-cinnamoyl-10-acetyltaxicin I
+92,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)O)OC(=O)/C=C/C4=CC=CC=C4)C)O)O,O-Cinnamoyltaxicin I
+93,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)O)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,"5-Cinnamoyl-9,10-diacetyltaxicin I"
+94,O[C@H]1C(O)[C@]2(C([C@H](OC(C)=O)C(C(C)(C)C1=C3C)(O)CC3=O)C([C@H](CC2)OC(/C=C/C4=CC=CC=C4)=O)=C)C,2-O-Acetyl-5-O-cinnamoyltaxicin I
+95,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,O-Cinnamoyltaxicin I triacetate
+96,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)O)C)OC(=O)C)OC(=O)C,"1beta,7beta-Dihydroxytaxinine"
+97,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)OC(=O)C)C)OC(=O)C)OC(=O)C,1beta-hydroxy-7beta-acetoxytaxinine
+98,CC(O[C@H]1C(OC(C)=O)[C@]2(C([C@H](OC(C3=CC=CC=C3)=O)C(C(C)(C)C1=C4C)(O)CC4O)C([C@H](CC2)OC(/C=C/C5=CC=CC=C5)=O)=C)C)=O,"9alpha,10beta-Diacetoxy-2alpha-benzoyloxy-5alpha-cinnamoyloxytaxa-4(20),11-diene-1beta,13alpha-diol"
+99,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)CC(C4=CC=CC=C4)NC)C)OC(=O)C)OC(=O)C,"9alpha,10beta,13alpha-Triacetoxy-5alpha-[(R)-3'-methylamino-3'-phenylpropanoyloxy] taxa-4(20),11-diene"
+100,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C[C@H](C4=CC=CC=C4)N(C)C)C)OC(=O)C)OC(=O)C,"7,2'-Didesacetoxyaustrospicatine"
+101,CC1=C2[C@H]([C@@H]([C@]3([C@H](C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)C(=C)[C@H](C[C@@H]3OC(=O)C)OC(=O)CC(C4=CC=CC=C4)NC)C)OC(=O)C)OC(=O)C,"7beta,9alpha,10beta,13alpha-Tetraacetoxy-5alpha-[(R)-3'-methylamino-3'-phenylpropanoyloxy]taxa-4(20),11-diene"
+102,CC1=C2[C@H]([C@@H]([C@]3([C@H](C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)C(=C)[C@H](C[C@@H]3OC(=O)C)OC(=O)CC(C4=CC=CC=C4)N(C)C)C)OC(=O)C)OC(=O)C,2'beta-Deacetoxyaustrospicatine
+103,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C([C@H](O)C2C[C@@H]1OC(C)=O)C([C@@H](OC(CC(NC)C4=CC=CC=C4)=O)CC3)=C,"10beta,13alpha-Diacetoxy-5alpha-[(R)-3'-methyl-amino-3'-phenylpropanoyloxy] taxa-4(20),11-diene-2alpha,9alpha-diol"
+104,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](O)C2C[C@@H]1OC(C)=O)C([C@@H](OC(CC(NC)C4=CC=CC=C4)=O)CC3)=C,Taxezopidine O
+105,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C([C@H](O)C2C[C@@H]1OC(C)=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,13-Deoxo-13alpha-acetyloxy-1-deoxytaxine B
+106,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)OC(=O)C[C@H](C4=CC=CC=C4)N(C)C)C)OC(=O)C)OC(=O)C,Taxuspine Z
+107,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)OC(=O)C[C@H](C4=CC=CC=C4)NC)C)O)OC(=O)C,"2alpha,10beta,13alpha-Triacetoxy-5alpha-[(R)-3'-methyl-amino-3'-phenylpropanoyloxy] taxa-4(20),11-dien-9alpha-ol"
+108,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)OC(=O)CC(C4=CC=CC=C4)NC)C)OC(=O)C)OC(=O)C,"2alpha,9alpha,10beta,13alpha-Tetraacetoxy-5alpha-[(R)-3'-methylamino-3'-phenylpropanoyloxy]taxa-4(20),11-diene"
+109,CC1=C(C2(C)C)[C@@H](O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](OC(C)=O)C2C[C@@H]1OC(C)=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,"2alpha,9alpha,13alpha-Triacetoxy-5alpha-[(R)-3'-dimethyl-amino-3'-phenylpropanoyloxy] taxa-4(20),11-dien-10beta-ol"
+110,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)OC(=O)C[C@@H](C4=CC=CC=C4)N(C)C)C)O)OC(=O)C,"2alpha,10beta,13alpha-Triacetoxy-5alpha-[(R)-3'-dimethyl-amino-3'-phenylpropanoyloxy] taxa-4(20),11-dien-9alpha-ol"
+111,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](OC(C)=O)C2C[C@@H]1OC(C)=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,"2alpha-Acetoxy-2',7-dideacetoxyaustro-spicatine"
+112,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](O)C2C[C@@H]1OC(C)=O)C([C@@H](OC(C(O)C(N(C)C)C4=CC=CC=C4)=O)C[C@@H]3OC(C)=O)=C,"7beta,9alpha,10beta,13alpha-Tetraacetoxy-5alpha-[(2'R-3'S)-N,N- dimethyl-3'-phenylisoseryl-oxy]taxa-4(20),11-dien-2alpha-ol"
+113,CC1=C2[C@H](C([C@@]3([C@H](CC(C(=C)C3C([C@@H](C2(C)C)CC1OC(=O)C)OC(=O)C)OC(=O)C(C(C4=CC=CC=C4)N(C)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C,2alpha-Acetoxy-2'beta-deacetyl-austrospicatine
+114,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)CC(C4=CC=CC=C4)N(C)C)C)OC(=O)C)O,"9alpha,13alpha-Diacetoxy-5alpha-[(R)-3'-dimethyl-amino-3'-phenylpropanoyloxy] taxa-4(20),11-dien-1beta,10beta-diol"
+115,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C([C@H](O)C2(O)C[C@@H]1OC(C)=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,13-Deoxo-13alpha-acetyloxytaxine B
+116,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C)OC(=O)CC(C4=CC=CC=C4)N(C)C)C)OC(=O)C)OC(=O)C,"(+)-2alpha-Acetoxy-2',7-dideacetoxy-1-hydroxyaustrospicatine"
+117,CC1(C)[C@@]2(O)C[C@H](OC(C)=O)C(C)=C1[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)[C@](C([C@@H](OC([C@H](O)[C@@H](N(C)C)C4=CC=CC=C4)=O)C[C@@H]3OC(C)=O)=C)([H])[C@@H]2OC(C)=O,2alpha-Acetoxy-2'-deacetyl-1-hydroxy-austrospicatine
+118,CC1=C(C2(C)CO)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](O)C2C[C@@H]1OC(C)=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,"9alpha,10beta,13alpha-Triacetoxy-5alpha-[(R)-3'-dimethyl-amino-3'-phenylpropanoyloxy]taxa-4(20),11-diene-2alpha,17-diol"
+119,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)OC(=O)[C@@H]4[C@@H](N(CO4)C)C5=CC=CC=C5)C)OC(=O)C)OC(=O)C,Taxine NA-13
+120,[H][C@]12C[C@H](C(C)3C)C[C@H](OC(C)=O)C(C)=C3[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]1(C)[C@@H](OC(C)=O)C[C@H](OC(CC(N(C=O)C)C4=CC=CC=C4)=O)C2=C,"7beta,9alpha,10beta,13alpha-Tetraacetoxy-5alpha-[3'-(N-formyl-N-methylamino)-3'-phenyl-propanoyloxy]taxa-4(20),11-diene"
+121,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C(CC2CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,10beta-Acetoxy-5alpha-[(3'-dimethylamino-3'-phenyl)-propionyloxy]moiety-9alpha-hydroxy-taxa-4(20)11-dien-13-one
+122,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C([C@H](O)C2CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,2-Deacetoxy-10-acetoxytaxine B
+123,CC1=C(C2(C)C)[C@@H](O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](O)C2CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,2-Deacetoxy-9-acetoxytaxine B
+124,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](O)C2CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,2-Deacetyltaxine II
+125,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C([C@H](OC(C)=O)C2CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,1-Deoxy-2alpha-acetoxytaxine B
+126,CC1=C(C2(C)C)[C@@H](O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](OC(C)=O)C2CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,"1-Deoxy-2alpha,9alpha-diacetoxy-10-deacetyl-taxine B"
+127,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)OC(=O)[C@@H]([C@H](C4=CC=CC=C4)N(C)C)O)C)OC(=O)C)OC(=O)C,2'-Hydroxytaxine II
+128,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)CC1=O)OC(=O)C)OC(=O)C(C(C4=CC=CC=C4)N(C)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C,"2alpha,7beta,9alpha,10beta-Tetraacetoxy-5alpha-[(2'R,3'S)-N,N-dimethyl-3'-phenylisoseryloxy]taxa-4(20),11-dien-13-one"
+129,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C([C@H](O)C2(O)CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,Taxine B
+130,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@@]3(C)C([C@H](OC(C)=O)C2(O)CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,10-Acetoxytaxine B
+131,CC1=C(C2(C)C)[C@@H](O)[C@H](OC(C)=O)[C@@]3(C)C([C@H](OC(C)=O)C2(O)CC1=O)C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)CC3)=C,9-Acetoxytaxine B
+132,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)[C@H](C1)O)OC(=O)C)C)O,Taxuyunnanine J
+133,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)[C@H]([C@@H]1OC(=O)C)O)O)C)O)OC(=O)C,"10beta,13alpha-Diacetoxytaxa-4(20),11-diene-5alpha,9alpha,14beta-triol"
+134,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)[C@H]([C@@H]1OC(=O)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C,14beta-Hydroxytaxusin
+135,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)[C@H]([C@@H]1OC(=O)C)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C,"5alpha,9alpha,10beta,13alpha-Tetraacetoxy-14beta-(beta-D-glucopyranosyloxy)taxa-4(20),11-diene"
+136,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)O)O)O)C)OC(=O)C)OC(=O)C,"9alpha,10beta-Diacetoxytaxa-4(20),11-diene-2alpha,5alpha,14beta-triol"
+137,CC1=C(C2(C)C)[C@@H](O)C[C@](C3[C@H](O)C2[C@@H](O)C1)(C)CC[C@H](OC(C)=O)C3=C,"2alpha,10beta,14beta-Trihydroxy-5alpha-acetoxytaxa-4(20),11-diene"
+138,C[C@@]1([C@](C([C@@H](OC(C)=O)CC1[H])=C)([H])[C@@H]2O)C([H])[C@H](OC(C)=O)C3=C(C)C([H])C[C@]2(OC(C)=O)C3(C)C,"5alpha,10beta,14beta-Triacetoxytaxa-4(20),11-dien-2alpha-ol"
+139,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C)OC(=O)C)O)C)OC,"2alpha,14beta-Diacetoxy-10beta-methoxytaxa-11,4(20)-dien-5alpha-ol"
+140,CCO[C@H]1C[C@@]2(CC[C@@H](C(=C)[C@H]2[C@@H]([C@@H]3[C@H](CC(=C1C3(C)C)C)O)OC(=O)C)O)C,"2alpha-Acetoxy-10beta-ethoxytaxa-11,4(20)-diene-5alpha,14beta-diol"
+141,CC1=C(C2(C)C)[C@@H](O)C[C@](C3[C@H](OC(C)=O)C2[C@@H](O)C1)(C)CC[C@H](O)C3=C,"2alpha-Acetoxytaxa-4(20),11-diene-5alpha,10beta,14beta-triol"
+142,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C)OC(=O)C)O)C)O,Sinenxan H
+143,CC[C@H](C)C(=O)O[C@H]1CC(=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]1C2(C)C)OC(=O)C)O)C)O)C,Hongdoushan C
+144,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)[C@H](C)[C@H](C)O)OC(=O)C)O)C)OC(=O)C,Tasumatrol K
+145,CCC(=O)O[C@H]1CC(=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]1C2(C)C)OC(=O)C)O)C)O)C,Taxuyunnanine H
+146,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C(C)C)OC(=O)C)O)C)O,Taxuyunnanine I
+147,CC1=C(C2(C)C)[C@@H](OCC)C[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(C)=O)C1)(C)CC[C@H](O)C3=C,"2alpha,14beta-Diacetoxy-10beta-ethoxy-taxa-11,4(20)-dien-5alpha-ol"
+148,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C)OC(=O)C)O)C)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O,"2alpha,14beta-Diacetoxy-10beta-(beta-d-glucopyranosyl)-taxa-11,4(20)-dien-5alpha-ol"
+149,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(C(C)CC)=O)C1)(C)CC[C@H](O)C3=C,Taiwanxan
+150,CC[C@H](C)C(=O)O[C@H]1CC(=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]1C2(C)C)OC(=O)C)OC(=O)C)C)O)C,Hongdoushan A
+151,CCC(=O)O[C@H]1CC(=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]1C2(C)C)OC(=O)C)OC(=O)C)C)O)C,Hongdoushan B
+152,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)O)OC(=O)C)OC(=O)C)C)O,Taxuyunnanine G
+153,O[C@@H](C([H])[C@@]1(C)[C@](C([C@@H](OC(C)=O)CC1[H])=C)([H])[C@@H]2OC(C)=O)C3=C(C)C([H])C[C@]2(OC(C(C)C)=O)C3(C)C,10-Deacetylyunnanaxane
+154,CC1=C(C2(C)C)[C@@H](OC)C[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(C(C)CC)=O)C1)(C)CC[C@H](OC(C)=O)C3=C,"2alpha,5alpha-Diacetoxy-10beta-methoxy-14beta-(2-methylbutanoyloxy)taxa-4(20),11-diene"
+155,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C)OC(=O)C)OC(=O)C)C)OC(=O)C,Taxuyunnanine C
+156,CCC(C)C(=O)O[C@H]1CC(=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]1C2(C)C)OC(=O)C)OC(=O)C)C)OC(=O)C)C,"2alpha,5alpha,10beta-Triacetoxy-14beta-(2-methyl-butanoyloxy)taxa-4(20),11-diene"
+157,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C(C)C(C)O)OC(=O)C)OC(=O)C)C)OC(=O)C,Yunnanxane
+158,CC1=C(C2(C)C)[C@@H](OC(C)=O)C[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(CC)=O)C1)(C)CC[C@H](OC(C)=O)C3=C,"2alpha,5alpha,10beta-Triacetoxy-14beta-propionyloxy-taxa-4(20),11-diene"
+159,CC1=C(C2(C)C)[C@@H](OC(C)=O)C[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(C(C)C)=O)C1)(C)CC[C@H](OC(C)=O)C3=C,"2alpha,5alpha,10beta-Triacetoxytaxa-14beta-isobutyryl-oxytaxa-4(20),11-dien-7beta-ol"
+160,CC1=C2[C@H](C[C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C)OC(=O)C)OC(=O)C)C)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O,"2alpha,5alpha,14beta-Triacetoxy-10beta-(beta-D-gluco-pyranosyl)taxa-4(20),11-diene"
+161,CC1=C2[C@@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O3)C[C@]4(C)CC[C@H](OC(C)=O)C([C@H]4[C@H](OC(C)=O)[C@H]([C@@H](OC(C(CC)C)=O)C1)C2(C)C)=C,"2alpha,5alpha-Diacetoxy-10beta-(beta-D-gluco-pyranosyl)-14beta-[(S)-2'-methyl-butanoyloxy]taxa-4(20),11-diene"
+162,CC1=C2[C@@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O3)C[C@]4(C)CC[C@H](OC(C)=O)C([C@H]4[C@H](OC(C)=O)[C@H]([C@@H](OC([C@H]([C@H](O)C)C)=O)C1)C2(C)C)=C,10-Deacetyl-10beta-(beta-D-glucopyranosyl)yunnanxane
+163,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](O)[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(C(C)CC)=O)C1)(C)CC[C@H](OC(C)=O)C3=C,"2alpha,5alpha,10beta-Triacetoxy-14beta-(2-methyl-butanoyloxy)taxa-4(20),11-dien-9alpha-ol"
+164,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)O)OC(=O)C)O)C)OC(=O)C)OC(=O)C,"2alpha,9alpha,10beta-Triacetoxytaxa-4(20),11-diene-5alpha,14beta-diol"
+165,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@H](C2(C)C)[C@H](C1)OC(=O)C)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,"2alpha,5alpha,9alpha,10beta,14beta-Pentaacetoxytaxa-4(20),11-diene"
+166,CC1=C(C2(C)C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(C(C)CC)=O)C1)(C)CC[C@H](OC(C)=O)C3=C,Taxuyunnanine B
+167,CC1=C(C2(C)C)[C@@H](OC(C)=O)C[C@](C3[C@H](OC(C)=O)C2[C@@H](OC(C)=O)C1)(C)[C@@H](O)C[C@H](OC(C)=O)C3=C,"2alpha,5alpha,10beta,14beta-Tetraacetoxytaxa-4(20),11-dien-7beta-ol"
+168,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)CC[C@H](O)[C@]4(CO4)C3[C@H](O)C(C[C@@H]1OC(C)=O)C2(C)C,"10beta,13alpha-Diacetoxy-4beta,20-epoxytax-11-ene-2alpha,5alpha,9alpha-triol"
+169,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@H](OC(C)=O)[C@]4(CO4)C3[C@H](O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,"1beta-Hydroxy-2,7,9-trideacetylbaccatin I"
+170,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](O)C[C@H](O)[C@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,Taxumariene F
+171,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)[C@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,Taxumariene G
+172,CC1=C2[C@@H](O)[C@H](O)[C@]3(C)[C@@H](O)C[C@H](OC(C)=O)[C@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,Taxumairol C
+173,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@H](OC(C)=O)[C@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1O)(O)C2(C)C,"2alpha,5alpha,10beta-Triacetoxy-4beta,20-epoxytax-11-ene-1beta,7beta,9alpha,13alpha-tetraol"
+174,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C)CO4)OC(=O)C)O)C)O)OC(=O)C,Taxumairol B
+175,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@H](OC(C)=O)[C@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,"1beta-Hydroxy-2alpha,7beta-deacetylbaccatin I"
+176,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)CC(O)[C@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,Taxuspine V
+177,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]4([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C)CO4)OC(=O)C)O)C)OC(=O)C)OC(=O)C,"2alpha,5alpha,9alpha,10beta,13alpha-Pentaacetoxy-4beta,20-epoxytax-11-ene-1beta,7beta-diol"
+178,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](OC(C)=O)CC(OC(C)=O)[C@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,"2alpha,5alpha,7beta,10beta,13alpha-Pentaacetoxy-4beta,20-epoxytax-11-ene-1beta,9alpha-diol"
+179,O(C(C)=O)[C@@H]1[C@@]2([C@@]3([C@](C)([C@@H](OC(C)=O)[C@H](O)C=4C(C)(C)[C@](O)([C@H]3OC(C)=O)C[C@H](OC(C)=O)C4C)[C@@H](OC(C)=O)C1)[H])CO2,Taxumairol D
+180,O(C(C)=O)[C@@H]1[C@@]2([C@@]3([C@](C)([C@@H](OC(C)=O)[C@H](OC(C)=O)C=4C(C)(C)[C@](O)([C@H]3OC(C)=O)C[C@H](O)C4C)[C@@H](OC(C)=O)C1)[H])CO2,Taxumairol F
+181,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Baccatin I
+182,CC1=C2C(C([C@@]3(C(CC([C@]4(C3C([C@@](C2(C)C)(CC1OC(=O)C)O)OC(=O)C)CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,1beta-Hydroxybaccatin I
+183,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)[C@@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(OC(C)=O)C2(C)C,1β-Acetoxy-5α-deacetylbaccatin I
+184,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](OC(C)=O)[C@@]4(CO4)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(OC(C)=O)C2(C)C,1β-Acetoxybaccatin I
+185,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@H](O)C[C@H](OC(C)=O)[C@@]4(CO4)C3[C@H](OC(C)=O)[C@@](C[C@@H]1OC(C)=O)(O)C2(C)C,"1β,7α-Dihydroxy-7β-deacetoxybaccatin I"
+186,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@H](OC(C)=O)C[C@H](O)[C@@]4(CO4)C3[C@H](O)C([C@@H](O)[C@@H]1OC(C)=O)C2(C)C,"9α,10β-Diacetoxy-4β,20-epoxytax-11-ene-2α,5α,14β-triol"
+187,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(/C=C/C4=CC=CC=C4)=O)[C@@]5(CO5)C3[C@H](OC(C)=O)[C@@](C[C@@H]1OC(C)=O)(O)C2(C)C,"2α,7β,9α,10β,13α-Pentaacetoxy-5α-cinnamoyl-oxy-4β,20-epoxytax-11-en-1β-ol"
+188,CC1=C2[C@@H](OC(CO)=O)[C@H](OC(C)=O)[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(C)=O)[C@@]4(CO4)C3[C@H](OC(C)=O)[C@@](C[C@@H]1OC(C)=O)(O)C2(C)C,1β-Hydroxy-10β-deacetyl-10β-glycolyl-baccatin I
+189,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@H](OC(C)=O)C[C@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)[C@@]5(CO5)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)C2(C)C,"7β-Acetoxy-9-acetylspicataxineC-11,12-epoxides"
+190,C[C@]1(O2)[C@]32[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)CC[C@H](O)C(C4[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"Taxinine A-11,12-epoxide"
+191,C[C@]1(O2)[C@]32[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)[C@@H](OC(C)=O)C[C@H](O)C(C4[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"Decinnamoyltaxinine B-11,12-oxide2α,9α,10β-Triacetoxy-11,12-epoxy-5α-(β-D-glucopyranosyloxy)tax-4(20)-en-13-one"
+192,C[C@]1(O2)[C@]32[C@@H](OC(C)=O)[C@H](O)[C@]4(C)CC[C@H](OC(/C=C/C5=CC=CC=C5)=O)C(C4[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2α,10β-Diacetoxy-5α-cinnamoyloxy-11,12-epoxy-9α-hydroxytax-4(20)-en-13-one"
+193,C[C@]1(O2)[C@]32[C@@H](O)[C@H](OC(C)=O)[C@]4(C)CC[C@H](OC(/C=C/C5=CC=CC=C5)=O)C(C4[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2α,9α-Diacetoxy-5α-cinnamoyloxy-11,12-epoxy-10β-hydroxytax-4(20)-en-13-one"
+194,C[C@]1(O2)[C@]32[C@@H](O)[C@H](OC(C)=O)[C@]4(C)[C@@H](O)C[C@H](OC(/C=C/C5=CC=CC=C5)=O)C(C4[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2α,7β,9α-Triacetoxy-5α-cinnamoyloxy-11,12-10β-hydroxytax-4(20)-en-13-one"
+195,C[C@]1(O2)[C@]32[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)[C@@H](O)C[C@H](OC(/C=C/C5=CC=CC=C5)=O)C(C4[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,Dantaxusin C
+196,C[C@]1(O2)[C@]32[C@@H](OC(CO)=O)[C@H](OC(C)=O)[C@]4(C)[C@@H](OC(C)=O)C[C@H](O)C(C4[C@H](OC(C5=CC=CC=C5)=O)C(CC1=O)(O)C3(C)C)=O,"7β,9α-Diacetoxy-2α-benzoyloxy-11,12-epoxy -1β,5α-dihydroxy-10β-glycolyl- tax-4(20)-en-13-one"
+197,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(O)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)C2(C)C,1beta-Dehydroxy-4alpha-deacetyl-baccatin IV
+198,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,1-Dehydroxybaccatin IV
+199,CC1=C2[C@@H](OC(C)=O)C([C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(C[C@@H]1O)C2(C)C)=O,1-Dehydroxybaccatin III
+200,CC1=C2[C@H](C([C@@]3([C@H](CC4C(C3C([C@@H](C2(C)C)CC1OC(=O)C)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,1-Dehydroxybaccatin VI
+201,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,2-Deacetylbaccatin IV
+202,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,"7,9-Deacetylbaccatin IV"
+203,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Baccatin IV
+204,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C)(CO4)O)OC(=O)C)C)OC(=O)C)OC(=O)C,4-Deacetylbaccatin IV
+205,CC1=C2[C@@H](O)C(O)[C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,"7,9,10-Deacetylbaccatin VI"
+206,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O)O,Taxuspinanane C
+207,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O)OC(=O)C,9-Dihydrobaccatin III
+208,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O)OC(=O)C,9-Dihydro-13-acetylbaccatin III
+209,CC1=C2[C@@H](OC(C)=O)C(O)[C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(CC1=O)(O)C2(C)C,Taxuspinanane D
+210,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O,10-Deacetyl-13-oxobaccatin III
+211,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O,10-Deacetylbaccatin III
+212,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)OC(=O)C,Baccatin III
+213,CC1=C2[C@@H](OC(C)=O)C([C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(CC1=O)(O)C2(C)C)=O,13-Oxobaccatin III
+214,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)OC(=O)C)C)O)O,Taxuspine E
+215,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)OC(=O)C)C)O)OC(=O)C,9-Deacetylbaccatin VI
+216,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)O,10-Deacetylbaccatin VI
+217,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Baccatin VI
+218,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(OC(C)=O)C2(C)C,1beta-Acetylbaccatin IV
+219,CC1=C2[C@@H](O)C([C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(CC1O)(OC(C)=O)C2(C)C)=O,1beta-Acetyl-10-deacetylbaccatin III
+220,CC1=C2[C@@H](O)C(O)[C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(CC1OC(C)=O)(O)C2(C)C,"7-epi-9,10-Deacetylbaccatin VI"
+221,CC1=C2[C@H](C(=O)[C@@]3([C@@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)OC(=O)C,Baccatin V
+222,CC1=C2C(=O)C(=O)[C@@]3([C@@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C,10-Deacetyl-10-oxobaccatin V
+223,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O,13-epi-10-Deacetylbaccatin III
+224,CC1=C2[C@@H](OC(CO)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C)=O)C(C[C@@H]1OC(C)=O)(O)C2(C)C,10-Deacetyl-10beta-O-glycolyl-baccatin IV
+225,CC1=C2[C@@H](OC(C3=CC=CC=C3)=O)[C@H](OC(C)=O)[C@]4(C)[C@@H](OC(C)=O)C[C@@H]5[C@](CO5)(OC(C)=O)C4[C@H](OC(C)=O)C(C[C@@H]1OC(CC(N(C)C)C6=CC=CC=C6)=O)(O)C2(C)C,Taxuspine N
+226,CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C=CC5=CC=CC=C5)O)OC(=O)C6=CC=CC=C6)(CO4)OC(=O)C)O)C)OC(=O)C,Taxuspinanane J
+227,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@@H](C5=CC=CC=C5)O)O)O)OC(=O)C6=CC=CC=C6)(CO4)OC(=O)C)O)C)OC(=O)C,Yunnanxol
+228,CC1=C2[C@@H](OC(CC(O)C)=O)C([C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(CC1O)(O)C2(C)C)=O,10beta-(beta-Hydroxybutyrl)-10-deacetylbaccatin III
+229,CC1=C2[C@@H](OC(COC(C)=O)=O)C(OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(CC1OC(C)=O)(O)C2(C)C,(10beta-O-Acetylglycolyl)baccatin IV
+230,CC1=C2[C@@H](OC(CO)=O)C(OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C(CC1OC(C)=O)(O)C2(C)C,10-Hydroxyacetylbaccatin VI
+231,CC1=C2[C@@H](O)C([C@]3(C)[C@@H](OC4=C(C)C=CC=C4C)C[C@@H]5[C@](CO5)(OC(C)=O)C3[C@H](OC(C6=CC=CC=C6)=O)C(CC1O)(O)C2(C)C)=O,7beta-(beta-D-Xylopyranosyl)-10-deacetylbaccatin III
+232,CC1=C2[C@@H](O)C([C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(/C(C)=C/C)=O)C(CC1O)(O)C2(C)C)=O,2-Tigloyl-2-debenzoyl-10-deacetylbaccatin III
+233,CCCCCC(=O)O[C@H]1[C@H]2[C@@]([C@H](C[C@@H]3[C@]2(CO3)OC(=O)C)OC(=O)C)([C@H]([C@@H](C4=C([C@H](C[C@]1(C4(C)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C)C,Baccatin VII
+234,CC1=C2[C@@H](OC(C)=O)C(OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@@H]4C(CO4)C3[C@H](O)C(C(O)[C@@H]1OC(C)=O)C2(C)C,"2alpha,14beta-Dihydroxy-2-deacetyl-baccatin IV"
+235,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@](C2(C)C)([C@H]([C@@H]1OC(=O)C)OC(=O)C5=CC=CC=C5)O)O)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,14beta-Benzoyloxy-2-deacetyl-baccatin IV
+236,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@](C2(C)C)([C@H]([C@@H]1O)OC(=O)C5=CC=CC=C5)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,14beta-Benzoyloxy-13-deacetyl-baccatin IV
+237,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@](C2(C)C)([C@H]([C@@H]1OC(=O)C)OC(=O)C5=CC=CC=C5)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,14beta-Benzoyloxybaccatin IV
+238,CC1([C@@](C([C@@H](C(C)=C1[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]2(C)[C@H](C[C@H]3OCC3[C@@]42[H])OC(C)=O)OC(C)=O)O)([C@H]4OC(C5=CC=CC=C5)=O)[H])C,14beta-Hydroxybaccatin VI
+239,CC1([C@@](C([C@@H](C(C)=C1[C@@H](O)C2=O)O)O)([C@H]([C@@]3(C4(OC(C)=O)[C@H](OC4)C[C@@H]([C@]32C)O)[H])OC(C5=CC=CC=C5)=O)O)C,14beta-Hydroxy-10-deacetyl-baccatin III
+240,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)([C@H]([C@@H]1O)OC(=O)C5=CC=CC=C5)O)O)(CO4)OC(=O)C)O)C)O)OC(=O)C,Baccatin X
+241,CC1=C2[C@@H](O)C([C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](O)[C@]([C@@H](OC(C5=CC=CC=C5)=O)[C@@H]1O)(O)C2(C)C)=O,14beta-Benzoyloxy-2-debenzoyl-10-deacetylbaccatin III
+242,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C([C@@H](O)[C@@H]1O)(O)C2(C)C,Baccatin IX
+243,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)C3[C@H](OC(C5=CC=CC=C5)=O)C([C@@H](O)[C@@H]1OC(C)=O)(O)C2(C)C,Baccatin VIII
+244,CC1([C@@](C([C@@H](C(C)=C1[C@@H](O)[C@H](O)[C@]2(COC(C)=O)[C@H](C[C@H]3OC[C@]34OC(C)=O)O)O)O)([C@H]([C@]42[H])OC(C5=CC=CC=C5)=O)[H])C,9(betaH)-9-Dihydro-19-acetoxy-10-deacetylbaccatin III
+245,CC1([C@@](C([C@@H](C(C)=C1[C@@H](O)[C@H](O)[C@]2(COC(C)=O)[C@H](C[C@H]3OC[C@]34OC(C)=O)O)OC(C)=O)O)([C@H]([C@]42[H])OC(C5=CC=CC=C5)=O)[H])C,"19-Acetoxy-7,9,10-deacetylbaccatin VI"
+246,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)CO)OC(=O)C,19-Hydroxybaccatin III
+247,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)CO)OC(=O)C,19-Hydroxy-13-oxobaccatin III
+248,CC1=C2[C@@H](OC(C)=O)C([C@]3(CO)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](OC(C5=CC=CC=C5)=O)[C@@](CC1O)(O)C2(C)C)=O,7-epi-19-Hydroxybaccatin III
+249,C[C@@]1([C@]([C@@](CO2)(OC(C)=O)[C@H]2C[C@@H]1OC(C)=O)([H])[C@@H]3OC(C4=CC=CC=C4)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)C5=C(C)[C@@H](O)C([H])[C@]3(O)C5(C)C,13-Deacetylbaccatin VI
+250,CC1([C@@](C([C@@H](C(C)=C1[C@H]([C@@H]([C@]23C)OC(C)=O)OC(C4=CC=CC=C4)=O)OC(C)=O)[H])([C@H]([C@@]3([C@@]5(OC(C)=O)[C@H](OC5)C[C@@H]2OC(C)=O)[H])OC(C6=CC=CC=C6)=O)O)C,"4alpha,7beta,9alpha,13alpha-Tetraacetoxy-2alpha,10beta-dibenzoyloxy-5beta,20-epoxytax-11-en-1beta-ol"
+251,CC1([C@@](C([C@@H](C(C)=C1[C@H]([C@@H]([C@]23C)OC(C4=CC=CC=C4)=O)OC(C5=CC=CC=C5)=O)OC(C)=O)[H])([C@H]([C@@]3([C@@]6(OC(C)=O)[C@H](OC6)C[C@@H]2OC(C)=O)[H])OC(C7=CC=CC=C7)=O)O)C,"4alpha,7beta,13alpha-Triacetoxy-2alpha,9alpha,10beta-tribenzoyloxy-5beta,20-epoxytax-11-en-1beta-ol"
+252,CC1([C@@](C([C@@H](C(C)=C1[C@H]([C@@H]([C@]23C)OC(C)=O)OC(C)=O)OC(C)=O)[H])([C@H]([C@@]3([C@@]4(OC(C)=O)[C@H](OC4)C[C@@H]2OC(C5=CC=CC=C5)=O)[H])OC(C6=CC=CC=C6)=O)O)C,"4alpha,9alpha,10beta,13alpha-Tetraacetoxy-2alpha,7beta-dibenzoyloxy-5beta,20-epoxytax-11-en-1beta-ol"
+253,O=C(O[C@H]1CC2(O)[C@@H](OC(C3=CC=CC=C3)=O)C4[C@@](C([C@H](O)C(C2(C)C)=C1C)=O)(C)[C@@H](O)C[C@@H]5[C@@]4(OC(C)=O)CO5)[C@H](O)[C@H](C6=CC=CC=C6)NC(CC)=O,N-Debenzoyl-N-propanoyl-10-deacetylpaclitaxel
+254,O=C(O[C@H]1CC2(O)[C@@H](OC(C3=CC=CC=C3)=O)C4[C@@](C([C@H](O)C(C2(C)C)=C1C)=O)(C)[C@@H](O)C[C@@H]5[C@@]4(OC(C)=O)CO5)[C@H](O)[C@H](C6=CC=CC=C6)NC(CCC)=O,N-Debenzoyl-N-butanoyl-10-deacetylpaclitaxel
+255,O=C(O[C@H]1CC2(O)[C@@H](OC(C3=CC=CC=C3)=O)C4[C@@](C([C@H](O)C(C2(C)C)=C1C)=O)(C)[C@@H](O)C[C@@H]5[C@@]4(OC(C)=O)CO5)[C@H](O)[C@H](C6=CC=CC=C6)NC(CCCCC)=O,10-Deacetyltaxuyunnanine A
+256,O=C(O[C@H]1CC2(O)[C@@H](OC(C3=CC=CC=C3)=O)C4[C@@](C([C@H](OC(C)=O)C(C2(C)C)=C1C)=O)(C)[C@@H](O)C[C@@H]5[C@@]4(OC(C)=O)CO5)[C@H](O)[C@H](C6=CC=CC=C6)NC(C)=O,N-Acetyl-N-debenzoylpaclitaxel
+257,CCCC(=O)N[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)(C(=O)[C@@H](C(=C2C)C3(C)C)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O)O,paclitaxel D (taxcultine)
+258,CC1=C([C@@H](OC(C)=O)C([C@@]2(C)[C@]([C@@](CO3)(OC(C)=O)[C@H]3C[C@@H]2O)([H])[C@@H]4OC(C5=CC=CC=C5)=O)=O)C(C)(C)[C@@]4(O)C[C@@H]1OC([C@H](O)[C@@H](N(C(CCCCC)=O)[H])C6=CC=CC=C6)=O,paclitaxel C (taxuyunnanine)
+259,CCCCCC(=O)N(C)[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)(C(=O)[C@@H](C(=C2C)C3(C)C)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O)O,N-Methylpaclitaxel C
+260,O=C(O[C@H]1CC2(O)[C@@H](OC(C3=CC=CC=C3)=O)C4[C@@](C([C@H](OC(C)=O)C(C2(C)C)=C1C)=O)(C)[C@@H](O)C[C@@H]5[C@@]4(OC(C)=O)CO5)[C@H](O)[C@H](C6=CC=CC=C6)N(C)C(CCCCCC)=O,N-debenzoyl-N-methyl-N-heptanoyl-paclitaxel
+262,O[C@@H]1[C@H]([C@@H](CO[C@H]1O[C@H]2C[C@@H]3[C@](CO3)(OC(C)=O)[C@@]([H])([C@@H]4OC(C5=CC=CC=C5)=O)[C@@](C)2C([C@@H](C6=C([C@H](C[C@@]4(C6(C)C)O)OC([C@@H]([C@H](C7=CC=CC=C7)N([H])C(CCC)=O)O)=O)C)O)=O)O)O,7-(beta-Xylosyl)-10-deacetylpaclitaxel D
+263,O[C@@H](C([C@@]1(C)[C@]([C@@H]2OC(C3=CC=CC=C3)=O)([C@@]4(CO[C@@H]4C[C@@H]1O[C@@H]5OC[C@H]([C@@H]([C@H]5O)O)O)OC(C)=O)[H])=O)C6=C(C)[C@@H](OC([C@H](O)[C@@H](N(C(CCCCC)=O)[H])C7=CC=CC=C7)=O)C[C@]2(O)C6(C)C,7beta-(Xylosyl)-10-deacetylpaclitaxel C
+264,O[C@@H]1[C@H]([C@@H](CO[C@H]1O[C@H]2C[C@H]3OC[C@](OC(C)=O)3[C@@]([H])([C@@H]4OC(C5=CC=CC=C5)=O)[C@]2(C)C([C@@H](C6=C(C)[C@@H](OC([C@H](O)[C@@H](N(C(CCCCCC)=O)[H])C7=CC=CC=C7)=O)C[C@]4(O)C6(C)C)O)=O)O)O,7-(beta-Xylosyl)paclitaxel D
+265,O(C(C)=O)[C@]12[C@@]3([C@@](C)([C@@H](O[C@H]4[C@H](O)[C@@H](O)[C@H](O)CO4)C[C@]1(OC2)[H])C(=O)[C@H](OC(C)=O)C=5C(C)(C)[C@](O)([C@H]3OC(=O)C6=CC=CC=C6)C[C@H](OC([C@@H]([C@@H](NC(CCCCC)=O)C7=CC=CC=C7)O)=O)C5C)[H],7-(beta-Xylosyl)paclitaxel C
+266,CCCCCC(=O)N(C)[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O[C@H]6[C@@H]([C@H]([C@@H](CO6)O)O)O)(C(=O)[C@@H](C(=C2C)C3(C)C)OC(=O)C)C)OC(=O)C7=CC=CC=C7)O)O,7-(beta-Xylosyl)-N-methylpaclitaxel C
+267,CC1=C([C@@H](O)C([C@@]2(C)[C@]([C@@](CO3)(OC(C)=O)[C@H]3C[C@H]2O)([H])[C@@H]4OC(C5=CC=CC=C5)=O)=O)C(C)(C)[C@@]4(O)C[C@@H]1OC([C@H](O)[C@@H](N(C(CCCCC)=O)[H])C6=CC=CC=C6)=O,7-epi-10-Deacetyltaxuyunnanine A (taxuspinanane E)
+268,O=C(O[C@@H]1C(C)=C2C(C)(C)[C@](O)([C@H]([C@@]3([C@@]4(OC(C)=O)[C@H](OC4)C[C@H]([C@]3(C([C@@H]2OC(C)=O)=O)C)O)[H])OC(C5=CC=CC=C5)=O)C1)[C@H](O)[C@@H](N(C(CCCCC)=O)[H])C6=CC=CC=C6,7-epi-Taxuyunnanine A
+270,C/C=C(\C)/C(=O)N[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)(C(=O)[C@@H](C(=C2C)C3(C)C)O)C)OC(=O)C6=CC=CC=C6)O)O,10-Deacetylpaclitaxel B
+271,C/C=C(\C)/C(=O)N[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)(C(=O)[C@@H](C(=C2C)C3(C)C)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O)O,paclitaxel B (cephalomannine)
+272,CC1=C([C@@H](OC(C)=O)C([C@@]2(C)[C@]([C@@](CO3)(OC(C)=O)[C@H]3C[C@@H]2O)([H])[C@@H]4OC(C5=CC=CC=C5)=O)=O)C(C)(C)[C@@]4(O)C[C@@H]1OC([C@H](O)[C@@H](N(C(C(C)CC)=O)[H])C6=CC=CC=C6)=O,N-Debenzoyl-N-(2-methylbutyryl)paclitaxel
+273,CCC(C)CCC(=O)N[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)(C(=O)[C@@H](C(=C2C)C3(C)C)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O)O,Taxuspinanane A
+274,CCC(CCC(N(C)[C@H]([C@@H](O)C(O[C@H]1C[C@@]2(O)[C@@H](OC(C3=CC=CC=C3)=O)[C@H]4[C@@](C([C@H](OC(C)=O)C(C2(C)C)=C1C)=O)(C)[C@@H](O)C[C@@H]5[C@@]4(OC(C)=O)CO5)=O)C6=CC=CC=C6)=O)C,N-Debenzoyl-N-methyl-N-(4-methylhexanoyl)-paclitaxel
+275,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H](C(C5=CC(=CC=C5)C(C)(C)C)NC(=O)OC(C)(C)C)O)O)OC(=O)C6=CC=CC=C6)(CO4)C(=O)C7CC7)O)C)OC(=O)C,N-Debenzoyl-N-methyl-N-(cis-7-decenoyl)-paclitaxel
+276,O[C@H](C1=C(C)[C@@H](OC([C@H](O)[C@@H](N(C(CCC(CC)C)=O)[H])C2=CC=CC=C2)=O)C[C@@](C1(C)C)(O)[C@@H](OC(C3=CC=CC=C3)=O)[C@@]4([C@@]5(CO[C@@H]5C[C@H](O[C@@H]6OC[C@H]([C@@H]([C@H]6O)O)O)[C@]47C)OC(C)=O)[H])C7=O,7-(beta-Xylosyl)-10-deacetyltaxuspinanane A
+277,O=C([C@H](OC(C)=O)C1=C(C)[C@@H](OC([C@H](O)[C@@H](N(C(C(C=C)C)=O)[H])C2=CC=CC=C2)=O)C[C@]([C@@H](OC(C3=CC=CC=C3)=O)[C@@]4([C@]5([C@@H](C[C@@H]6O[C@@H]7OC[C@H]([C@@H]([C@H]7O)O)O)OC5)OC(C)=O)[H])(O)C1(C)C)[C@@]46C,7beta-(Xylosyl)cephalomannine
+278,C/C=C(\C)/C(=O)N[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)(C(=O)[C@@H](C(=C2C)C3(C)C)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O)O,7-epi-Cephalomannine
+279,C/C=C(\C)/C(=O)N[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@@H](CC5[C@]4(CO5)OC(=O)C)O)(C(=O)[C@@H](C(=C2C)C3(C)C)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O)OC(=O)C,2'-Acetyl-7-epi-cephalomannine
+280,C/C=C(\C)/C(=O)N[C@@H](C1=CC=CC=C1)[C@H](C(=O)O[C@H]2C[C@]3([C@H]([C@H]4[C@@]([C@@H](CC5[C@]4(CO5)OC(=O)C)O)(C(=O)C(=O)C(=C2C)C3(C)C)C)OC(=O)C6=CC=CC=C6)O)O,10-Deacetyl-10-oxo-7-epi-cephalomannine
+281,O=C(O[C@H]1C[C@@H]2[C@@H](OC(C3=CC=CC=C3)=O)[C@H]4[C@@](C([C@H](OC(C)=O)C(C2(C)C)=C1C)=O)(C)[C@H](O)CC5[C@@]4(OC(C)=O)CO5)[C@H](O)[C@H](C6=CC=CC=C6)NC(C7=CC=CC=C7)=O,1-Deoxypaclitaxel
+282,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)O,10-Deacetylpaclitaxel
+283,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,Paclitaxel
+284,CC1=C2[C@@H](OC(C)=O)C([C@]3(C)[C@@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](OC(C5=CC=CC=C5)=O)[C@@](C[C@@H]1OC([C@H](O)[C@@H](NC(/C=C/C6=CC=CC=C6)=O)C7=CC=CC=C7)=O)(O)C2(C)C)=O,N-Debenzoyl-N-cinnamoylpaclitaxel
+285,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)N(C)C(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,Taxuspinanane I
+286,CC1=C2[C@@H](O)C([C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](OC(C5=CC=CC=C5)=O)[C@@](C[C@@H]1OC([C@H](O)[C@@H](NC(C6=CC=CC=C6)=O)C7=CC=CC=C7)=O)(O)C2(C)C)=O,7beta-Acetyl-10-deacetylpaclitaxel
+287,CC1=C2C(C([C@]3(C)[C@@H](OC(C)=O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](OC(C5=CC=CC=C5)=O)[C@@](C[C@@H]1OC([C@H](O)[C@@H](NC(C6=CC=CC=C6)=O)C7=CC=CC=C7)=O)(O)C2(C)C)=O)=O,10-Deacetyl-10-dehydro-7-acetylpaclitaxel A
+288,C[C@@]1([C@@]([H])([C@@](CO2)(OC(C)=O)[C@]2(C[C@@H]1O[C@@]([H])([C@H](O)[C@H]3O)OC[C@H]3O)[H])[C@@H]4OC(C5=CC=CC=C5)=O)C([C@H](O)C6=C([C@H](C[C@@]4(C6(C)C)O)OC([C@@H]([C@@H](NC(C7=CC=CC=C7)=O)C8=CC=CC=C8)O)=O)C)=O,7-(beta-Xylosyl)-10-deacetylpaclitaxel
+289,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)C)OC(=O)C,7-(beta-Xylosyl)paclitaxel
+290,CC1=C2[C@H](C([C@@]3([C@H](C[C@@H]4[C@](OC(C)=O)([C@H]3[C@@H]([C@@](O)(C2(C)C)C[C@@H]1OC([C@@H]([C@H](C5=CC=CC=C5)NC(C6=CC=CC=C6)=O)O)=O)CC(C(C)CC)=O)CO4)O)C)=O)OC(C)=O,2-Debenzoyl-2-tigloylpaclitaxel
+291,CC1=C2[C@H](C(=O)[C@@]3([C@@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)O,7-epi-10-Deacetylpaclitaxel
+292,CC1=C2[C@H](C(=O)[C@@]3([C@@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,7-epi-paclitaxel
+293,CC1=C2[C@@H](OC(C)=O)C([C@]3(C)[C@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](OC(C5=CC=CC=C5)=O)[C@@](C[C@@H]1OC([C@H](OC(C)=O)[C@@H](NC(C6=CC=CC=C6)=O)C7=CC=CC=C7)=O)(O)C2(C)C)=O,2'-Acetoxy-7-epi-paclitaxel
+294,CC1=C2C(=O)C(=O)[C@@]3([C@@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)[C@@H]([C@H](C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C,10-Deacetyl-10-oxo-7-epi-paclitaxel
+295,CC1=C2[C@@H](OC(C)=O)C([C@]3(C)[C@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](OC(C5=CC=CC=C5)=O)[C@@](C[C@@H]1OC([C@H](O)[C@@H](NC(C6=CC=CC=C6)=O)C7=CC=CC=C7)=O)(O)C2(C)C)O,9-Deoxo-9alpha-hydroxypaclitaxel
+296,CC(O[C@@H]1[C@H]([C@@]2([C@H]([C@H]([C@@H](C[C@H]2O)OC(C)=O)CO)[C@H]([C@H](C(C)(C1=C3C)C)C[C@H]3OC(C)=O)O)C)O)=O,"5alpha,10beta,13alpha-Triacetoxytax-11-ene-2alpha,7beta,9alpha,20-tetraol"
+297,CC(O[C@@H]1[C@H]([C@@]2([C@H]([C@H]([C@@H](C[C@H]2O)OC(C)=O)COC(C)=O)[C@H]([C@H](C(C)(C1=C3C)C)C[C@H]3OC(C)=O)O)C)O)=O,"5alpha,10beta,13alpha,20-Tetraacetoxytax-11-ene-2alpha,7beta,9alpha-triol"
+298,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)CO)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxumairol E
+299,CC1=C([C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]2(C)C([C@]([H])(COC(C)=O)[C@@H](OC(C)=O)C[C@@H]2OC(C)=O)[C@@H]3O)C(C)(C)[C@@]3([H])C[C@@H]1OC(C)=O,Taxchin A
+300,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)(CO)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxumairol N
+301,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)(COC(=O)C4=CC=CC=C4)O)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxumairol A
+302,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](O)C[C@H](OC(C)=O)[C@@H](CO)[C@H]3[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C,"7,9-Deacetyltaxuspine L"
+303,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](OC(C)=O)[C@@H](CO)[C@H]3[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C,7-Deacetyltaxuspine L
+304,CC(=O)OC[C@@]12[C@H](C[C@@H](C(=C)[C@H]1[C@@H]([C@@H]3CC([C@@]4([C@@]([C@]3(CO4)C)([C@H]([C@@H]2OC(=O)C)OC(=O)C)O)C)OC(=O)C)OC(=O)C)OC(=O)/C=C/C5=CC=CC=C5)OC(=O)C,Taxuspine L
+305,CC1=C([C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]2(C)C([C@]([H])(COC(/C=C/C3=CC=CC=C3)=O)[C@@H](OC(C)=O)C[C@@H]2OC(C)=O)[C@@H]4OC(C)=O)C(C)(C)[C@@]4([H])C[C@@H]1OC(C)=O,Taxchin B
+306,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)(COC(=O)C)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxumairol L
+307,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)[C@](COC(C)=O)(O)[C@H]3[C@H](OC(C4=CC=CC=C4)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C,"7beta,9alpha,10beta,13alpha,20-Pentaacetoxy-2alpha-benzoyloxytax-11-ene-4alpha,5alpha-diol"
+308,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](OC(C)=O)[C@](CO)(O)[C@H]3[C@H](OC(C4=CC=CC=C4)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C,"5alpha,7beta,9alpha,10beta,13alpha-Pentaacetoxy-2alpha- benzoyloxytax-11-ene-4alpha,20-diol"
+309,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](OC(C)=O)C(COC(C)=O)[C@H]3[C@H](O)[C@](C[C@@H]1OC(C)=O)(O)C2(C)C,Taxuspine R
+310,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)O)(CO)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxumairol O
+311,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@H](O)C(COC(C)=O)(O)[C@H]3[C@H](OC(C)=O)[C@](C[C@@H]1OC(C)=O)(O)C2(C)C,"2,20-O-Diacetyltaxumairol N"
+312,CC1=C2[C@H](C([C@@]3([C@H](C[C@@H]([C@@](O)([C@H]3[C@@H]([C@](O)(C2(C)C)C[C@@H]1OC(C)=O)O)COC(C4=CC=CC=C4)=O)OC(C)=O)O)C)=O)OC(C)=O,Wallitaxane G
+313,CC1=C2[C@H](C([C@@]3([C@H](C[C@@H]([C@@](O)([C@H]3[C@@H]([C@](O)(C2(C)C)CC1=O)O)COC(C4=CC=CC=C4)=O)OC(C)=O)O)C)=O)O,Wallitaxane H
+314,O[C@@H]1C(C2[C@@H](C(CC([C@](OC3)([C@]4([C@H]([C@@H](C2[C@H](OC(C)=O)C1)OC(C)=O)OC(C)=O)O)C)=O)[C@@]34C)O)=C,2alpha-Deacetyl-5alpha-decinnamoyltaxagifine
+315,O[C@@H]1C(C2[C@@H](C(CC([C@](OC3)([C@]4([C@H]([C@@H]([C@]2(C)[C@H](OC(C)=O)C1)OC(C)=O)OC(C)=O)O)C)=O)[C@@]34C)OC(C)=O)=C,5alpha-Decinnamoyltaxagifine
+316,O[C@@H]1C(C2[C@@H](C(CC([C@](OC3)([C@]4([C@H]([C@@H]([C@]2(CO)[C@H](OC(C)=O)C1)OC(C)=O)OC(C)=O)OC(C)=O)C)=O)[C@@]34C)OC(C)=O)=C,5-Decinnamoyl-11-acetyl-19-hydroxyl-taxagifine
+317,CC(=O)OC[C@@]12[C@H](C[C@@H](C(=C)[C@H]1[C@@H]([C@@H]3CC(=O)[C@]4([C@@]([C@@]3(CO4)C)([C@H]([C@@H]2OC(=O)C)OC(=O)C)O)C)OC(=O)C)O)OC(=O)C,19-Debenzoyl-19-acetyltaxinine M
+318,C[C@]12[C@@]([C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(OC(C4=CC=CC=C4)=O)[C@](C([C@@H](O)C[C@@H]3OC(C)=O)=C)([H])[C@@H]5OC(C)=O)(C=O)[C@](CO2)(C)[C@@]5([H])C([H])[C@@H]1O,hypothetical intermediate
+319,CC(O[C@H]([C@]1(C)[C@H](OC(C)=O)C[C@@H]2OC(C)=C)[C@@H]([C@@]3([C@](C(CC4[C@H](C1C2=C)OC(C)=O)=O)(OC[C@]43C)C)O)OC(C)=O)=O,5alpha-Acetyl-5alpha-decinnamoyltaxagifine
+320,CC(=O)O[C@H]1C[C@@H]([C@@]2([C@@H](C1=C)[C@@H]([C@@H]3CC(=O)[C@@]4([C@@]([C@]3(CO4)C)([C@H]([C@@H]2OC(=O)C)OC(=O)C)O)C)OC(=O)C)COC(=O)C5=CC=CC=C5)OC(=O)C,Taxumairol R
+321,CC(=O)O[C@H]1C[C@@H](C(=C)[C@@H]2[C@@]1([C@H]([C@@H]([C@@]3([C@]4(CO[C@@]3(C(=O)C[C@H]4[C@H]2OC(=O)C)C)C)O)OC(=O)C)OC(=O)C)C)OC(=O)C[C@H](C5=CC=CC=C5)N(C)C,Taxezopidine N
+322,CN([C@H](CC(O[C@@H](C[C@@H]1OC(C)=O)C([C@H]2[C@@H]([C@H](CC([C@@](OC3)([C@@]4([C@H]([C@@H]([C@]12COC(C5=CC=CC=C5)=O)OC(C)=O)OC(C)=O)O)C)=O)[C@]34C)OC(C)=O)=C)=O)C6=CC=CC=C6)C,5alpha-[(R)-3'-Dimethylamino-3'-phenyl-propanoyloxy]taxinine M
+323,CC(=O)O[C@H]1C[C@@H](C(=C)[C@@H]2[C@@]1([C@H]([C@@H]([C@@]3([C@]4(CO[C@@]3(C(=O)C[C@H]4[C@H]2OC(=O)C)C)C)O)OC(=O)C)OC(=O)C)C)OC(=O)/C=C/C5=CC=CC=C5,Taxagifine
+324,CC(=O)O[C@H]1C[C@@H](C(=C)[C@@H]2[C@@]1([C@H]([C@@H]([C@@]3([C@]4(CO[C@@]3(C(=O)C[C@H]4[C@H]2OC(=O)C)C)C)O)OC(=O)C)OC(=O)C)CO)OC(=O)/C=C/C5=CC=CC=C5,Taxuspine S
+325,CC(=O)OC[C@@]12[C@H](C[C@@H](C(=C)[C@H]1[C@@H]([C@@H]3CC(=O)[C@@]4([C@@]([C@]3(CO4)C)([C@H]([C@@H]2OC(=O)C)O)O)C)OC(=O)C)OC(=O)/C=C/C5=CC=CC=C5)OC(=O)C,Taxuspine T
+326,CC(=O)OC[C@@]12[C@H](C[C@@H](C(=C)[C@H]1[C@@H]([C@@H]3CC(=O)[C@@]([C@@]4([C@@]3(CO4)C)[C@H]([C@@H]2OC(=O)C)OC(=O)C)(C)O)OC(=O)C)OC(=O)/C=C/C5=CC=CC=C5)OC(=O)C,19-Acetoxytaxagifine
+327,CC(=O)O[C@H]1C[C@@H](C(=C)[C@@H]2[C@@]1([C@H]([C@@H]([C@@]3([C@]4(CO[C@@]3(C(=O)C[C@H]4[C@H]2OC(=O)C)C)C)O)OC(=O)C)OC(=O)C)COC(=O)C5=CC=CC=C5)OC(=O)/C=C/C6=CC=CC=C6,Taxacin
+328,CC(=O)O[C@H]1C[C@@H](C(=C)[C@@H]2[C@@]1([C@H]([C@@H]([C@@]3([C@]4(CO[C@@]3(C(=O)[C@@H]([C@H]4[C@H]2OC(=O)C)CO)C)C)O)OC(=O)C)OC(=O)C)COC(=O)C5=CC=CC=C5)O,Tasumatrol L
+329,CC(=O)O[C@H]1CC2[C@@](CO2)([C@@H]3[C@@]1(C(=O)[C@@H]([C@@]4([C@]5(CO[C@@]4([C@H](C[C@H]5[C@H]3O)O)C)C)O)O)C)O,4-Deacetyltaxagifine III
+330,CC(=O)O[C@H]1CC2[C@@](CO2)([C@@H]3[C@@]1(C(=O)[C@@H]([C@@]4([C@]5(CO[C@@]4([C@H](C[C@H]5[C@H]3O)O)C)C)O)O)C)OC(=O)C,Taxagifine III
+331,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]4[C@]2(CO[C@]1(C4)O)C)OC(=O)C)OC(=O)C[C@H](C5=CC=CC=C5)N(C)C)C)OC(=O)C)OC(=O)C,Taxezopidine M
+332,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]4[C@]2(CO[C@@]1(C4)O)C)OC(=O)C)O)C)OC(=O)C)OC(=O)C,Taxezopidine A
+333,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@H]4[C@]2(CO[C@@]1(C4)O)C)OC(=O)C)OC(=O)/C=C/C5=CC=CC=C5)C)OC(=O)C)OC(=O)C,Taxezopidine J
+334,CC1=C(OC(C)=O)C[C@H]2[C@@H](OC(C)=O)[C@@H]3C([C@@H](O)C[C@H](OC(C)=O)[C@@]3(C)[C@@H](OC(C)=O)[C@H](O)[C@]1(O)C2(C)C)=C,"2alpha,9alpha,7beta,13-Tetraacetoxytaxa-4(20),12-diene-5alpha,10beta,11beta-triol"
+335,CC1=C(OC(C)=O)C[C@H]2[C@@H](OC(C)=O)[C@@H]3C([C@@H](O)C[C@H](OC(C)=O)[C@@]3(C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]1(O)C2(C)C)=C,5-Decinnamoyltaxuspine D
+336,CC1=C(OC(C)=O)C[C@H]2[C@@H](OC(C)=O)[C@@H]3C([C@@H](OC(/C=C/C4=CC=CC=C4)=O)C[C@H](O)[C@@]3(C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]1(O)C2(C)C)=C,7-Deacetoxytaxuspine D
+337,CC1=C(C[C@H]2[C@H]([C@@H]3C(=C)[C@H](C[C@@H]([C@]3([C@H]([C@@H]([C@@]1(C2(C)C)O)O)OC(=O)C)C)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)OC(=O)C)OC(=O)C,Taxezopidine K
+338,CC1=C(C[C@H]2[C@H]([C@@H]3C(=C)[C@H](C[C@@H]([C@]3([C@H]([C@@H]([C@@]1(C2(C)C)O)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)OC(=O)C)OC(=O)C,Taxuspine D
+339,CC1=C(OC(C)=O)C[C@H]2[C@@H](OC(C)=O)[C@@H]3C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)C[C@H](OC(C)=O)[C@@]3(C)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]1(O)C2(C)C)=C,Taxuspine P
+340,CC1=C(OC(C)=O)C[C@H]2[C@@H](OC(C)=O)[C@@H]3C([C@@H](OC(CC(N(C)C=O)C4=CC=CC=C4)=O)CC[C@@]3(C)[C@@H](O)[C@H](OC(C)=O)[C@]1(O)C2(C)C)=C,"2alpha,10beta,13alpha-Triacetoxy-5alpha-[3'-(N-formyl-N-methyl-amino)-3'-phenylpropanoyloxy]taxa-4(20),12-dien-9alpha-ol"
+341,CC1=C(C[C@H]2[C@H]([C@@H]3C(=C)[C@H](C[C@@H]([C@]3([C@H]([C@@H]([C@@]1(C2(C)C)O)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)[C@@H]([C@H](C4=CC=CC=C4)N(C)C)O)OC(=O)C)OC(=O)C,"2alpha,7beta,9alpha,10beta,13-Pentaacetoxy-5alpha-(2'-hydroxy-3'-N,N-dimethylamino-3'-phenylpropanoyloxy)taxa-4(20),12-dien-11beta-ol"
+342,CC1=C2C[C@H](OC(C)=O)[C@]3(C)CCC=C(CO)[C@H]3[C@H](O)[C@H](CC1=O)C2(C)C,"9alpha-Acetoxy-2alpha,20-dihydroxytaxa-4(5),11(12)-dien-13-one"
+343,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)CCC=C(CO)[C@H]3[C@H](O)[C@H](CC1=O)C2(C)C,"9alpha,10beta-Diacetoxy-2alpha,20-dihydroxytaxa-4(5),11(12)-dien-13-one"
+344,CC1=C2[C@H]([C@@H]([C@@]3(CCC=C([C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)CO)C)O)OC(=O)C,"2alpha10beta,13alpha-Triacetoxytaxa-4(5),11(12)-diene-9alpha,20-diol"
+345,CC1=C2[C@@H](OC(C)=O)[C@H](O)[C@]3(C)CCC=C(COC(/C=C/C4=CC=CC=C4)=O)[C@H]3[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C,"2alpha,10beta,13alpha-Triacetoxy-20-cinnamoyloxytaxa-4 (5),11(12)-dien-9alpha-ol"
+346,CC1=C2[C@H]([C@@H]([C@@]3(CCC=C([C@H]3[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)COC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,"2alpha,9alpha,10beta,13alpha-Tetraacetoxy-20-cinnamoyloxytaxa-4(5),11(12)-diene"
+347,C[C@]1(O2)[C@]32[C@H]([C@@H]([C@@]4(CCC=C([C@H]4[C@@H]([C@@H](C3(C)C)CC1=O)OC(C)=O)CO)C)O)OC(C)=O,"2alpha,10beta-Diacetoxy-11beta,12beta-epoxy-9alpha,20-dihydroxytaxa-4-en-13-one"
+348,C[C@]1(O2)[C@]32[C@H]([C@@H]([C@@]4(CCC=C([C@H]4[C@@H]([C@@H](C3(C)C)CC1=O)OC(C)=O)CO)C)OC(C)=O)O,"2alpha,9alpha-Diacetoxy-11beta,12beta-epoxy-10beta,20-dihydroxytaxa-4-en-13-one"
+349,C[C@]1(O2)[C@]32[C@H]([C@@H]([C@@]4(CCC=C([C@H]4[C@@H]([C@@H](C3(C)C)CC1=O)OC(C)=O)CO)C)OC(C)=O)OC(C)=O,"2alpha,9alpha,10beta-Triacetoxy-11beta,12beta-epoxy-20-hydroxytaxa-4-en-13-one"
+350,C[C@]1(O2)[C@]32[C@H]([C@@H]([C@@]4(CCC=C([C@H]4[C@@H]([C@@H](C3(C)C)CC1=O)OC(C)=O)COC(/C=C/C5=CC=CC=C5)=O)C)OC(C)=O)OC(C)=O,"2alpha,9alpha,10beta-Triacetoxy-20-cinnamoyoloxy-11beta,12beta-epoxytaxa-4-en-13-one"
+351,C[C@@H]1C(=O)C[C@H]2[C@H](C3=C([C@H](CC[C@]3([C@H]([C@@H]([C@@]1(C2(C)C)O)OC(=O)C)OC(=O)C)C)O)CO)OC(=O)C,Taxezopidine B
+352,CC(C(C[C@H]1[C@@H](OC(C)=O)C23)OC(C)=O)=C(C1(C)C)[C@@H](OC(C)=O)[C@H](O)[C@]3(C)CC=CC2=C,"2alpha,10beta,13alpha-Triacetoxytaxa-4(20),5,11-trien-9-ol"
+353,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)O)OC4)O)OC(=O)C)O)C)O)OC(=O)C,Taxuyunnanine Z
+354,CC(O[C@H]1[C@@H]([C@]2([C@@H]3[C@@H]([C@](C[C@@H]4OC(C)=O)(C(C)(C1=C4C)C)O)OC[C@@]3([C@H](C[C@@H]2OC(C)=O)O)OC(C)=O)C)OC(C)=O)=O,Taxuspine K
+355,CC1=C2C(CO3)(C)C(CC4[C@@](C)(CCC(OC(/C=C/C5=CC=CC=C5)=O)C4=C)C[C@]23OC(C)=O)CC1OC(C)=O,Taxiwallinine
+356,CC1=C2[C@H]([C@@H]([C@@]3([C@H](CC=C4[C@H]3[C@@H]([C@@](C2(C)C)(C[C@@H]1OC(=O)C)OC(=O)C)OC4=O)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxchinin N
+357,C[C@H]1[C@@]2(C[C@H]3[C@H]([C@@H]4C(=C)[C@H](CC[C@]4([C@@H](O2)[C@@H]([C@@]1(C3(C)C)O)OC(=O)C)C)OC(=O)/C=C/C5=CC=CC=C5)OC(=O)C)O,"(12alphaH)-2alpha,10beta-Diacetoxy-5alpha-cinnamoyloxy-9alpha,13alpha-epoxytax-4(20)-ene-11beta,13beta-diol"
+358,CC1=C2[C@@H](OC(C)=O)C3[C@]4(C)[C@@H](OO3)C[C@@H]5[C@](CO5)(OC(C)=O)[C@H]4[C@H](OC(C6=CC=CC=C6)=O)[C@](C[C@@H]1OC(C)=O)(O)C2(C)C,"4alpha,10beta,13alpha-Acetoxy-2alpha-benzoyloxy-7beta,9alpha-epidioxy-5beta,20-epoxytax-11-en-1beta-ol"
+359,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3(C)CC[C@@H](OC(/C=C/C4=CC=CC=C4)=O)C([C@H]3[C@H]5[C@](CC1=O)(O[C@](C)(OC)O5)C2(C)C)=O,Baccataxinine
+360,O[C@H]1[C@@H]([C@]2(C(C([C@H](CC2)O)=C)C[C@](C[C@@H]3O)(C1=C3C)C(C)(C)O)C)OC(C)=O,7-Debenzoyloxy-10-deacetylbrevifoliol
+361,O[C@H]1[C@@H]([C@]2(C(C([C@H](CC2)O)=C)C[C@](C[C@@H]3OC(C)=O)(C1=C3C)C(C)(C)O)C)OC(C)=O,"9alpha,13alpha-Diacetoxy-11(15→1)abeotaxa-4(20),11-diene-5alpha,10beta,15-triol"
+362,CC(O[C@H]1[C@@H]([C@]2(C(C([C@H](CC2)O)=C)C[C@](C[C@@H]3O)(C1=C3C)C(C)(C)O)C)OC(C)=O)=O,"9alpha,10beta-Diacetoxy-11(15→1)abeotaxa-4(20),11-diene-5alpha,13alpha,15-triol"
+363,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@]2(C[C@@H]1OC(=O)C)C(C)(C)O)O)C)OC(=O)C)OC(=O)C,"9alpha,10beta,13alpha-Triacetoxy-11(15→1)abeotaxa-4(20),11-diene-5alpha,15-diol"
+364,CC(O[C@@H](CC1=C2C)[C@]3(C(C([C@H](C[C@@H]3OC(C)=O)O)=C)C[C@@]1(CC2=O)C(C)(C)O)C)=O,"7beta,9alpha-Diacetoxy-5alpha,15-dihydroxy-11(15→1)abeotaxa-4(20),11-dien-13-one"
+365,OC1[C@@H]([C@]2(C(C([C@H](C[C@@H]2OC(C)=O)O)=C)C[C@](CC3OC(C)=O)(C1=C3C)C(C)(C)O)C)OC(C)=O,Taxawallin F
+366,CC(OC1[C@@H]([C@]2(C(C([C@H](C[C@@H]2OC(C)=O)O)=C)C[C@](CC3O)(C1=C3C)C(C)(C)O)C)OC(C)=O)=O,Taxawallin H
+367,CC(OC1[C@@H]([C@]2(C(C([C@H](C[C@@H]2OC(C)=O)O)=C)C[C@](CC3OC(C)=O)(C1=C3C)C(C)(C)O)C)OC(C)=O)=O,"7beta,9alpha,10beta,13alpha-Tetraacetoxy-11(15→1)abeotaxa-4(20),11-diene-5alpha,15-diol"
+369,O=C(O[C@H]1[C@@H]([C@]2(C(C([C@H](C[C@@H]2OC(C)=O)O)=C)C[C@](C[C@@H]3OC(C)=O)(C1=C3C)C(C)(C)O)C)OC(C)=O)C4=CC=CC=C4,13-Acetylbrevifoliol
+370,O[C@H]1[C@@H]([C@]2(C(C([C@H](C[C@@H]2OC(C)=O)O)=C)C[C@](C[C@@H]3O)(C1=C3C)C(C)(C)O)C)OC(C4=CC=CC=C4)=O,9-Deacetyl-9-benzoyl-10-debenzoylbrevifoliol
+371,CC(O[C@H]1[C@@H]([C@]2(C(C([C@H](C[C@@H]2OC(C)=O)O)=C)C[C@](C[C@@H]3OC(C)=O)(C1=C3C)C(C)(C)O)C)OC(C4=CC=CC=C4)=O)=O,Taxawallin D
+372,CC(O[C@H]1[C@@H]([C@]2(C(C([C@H](CC2)OC(C)=O)=C)C[C@](C[C@@H]3OC(C)=O)(C1=C3C)C(C)(C)O)C)OC(C)=O)=O,"5alpha,9alpha,10beta,13alpha-Tetracetoxy-11(15→1)abeotaxa-4(20),11-dien-15-ol"
+373,CC(O[C@H]1[C@@H]([C@]2(C(C([C@H](C[C@@H]2OC(C)=O)OC(C)=O)=C)C[C@](C[C@@H]3OC(C)=O)(C1=C3C)C(C)(C)O)C)OC(C)=O)=O,"5,10,13-Triacetyl-10-debenzoylbrevifoliol"
+374,O[C@H]1[C@@H]([C@]2(C(C([C@H](CC2)OC(/C=C/C3=CC=CC=C3)=O)=C)C[C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)C)O,"13alpha-Acetoxy-5alpha-cinnamoyloxy-11(15→1)abeotaxa-4(20),11-diene-9alpha,10beta,15-triol"
+375,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)O,Chinentaxunine
+377,CC(O[C@@H]([C@@H]1OC(C)=O)[C@]2([C@@H](C([C@H](CC2)OC(/C=C/C3=CC=CC=C3)=O)=C)C[C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)C)=O,7-Deacetoxytaxuspine J
+378,CC(O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3([C@@H](C([C@H](CC3)OC(/C=C/C4=CC=CC=C4)=O)=C)C[C@](C[C@@H]5OC(C)=O)(C1=C5C)C(C)(C)O)C)=O,"9alpha,13alpha-Diacetoxy-10beta-benzoyloxy-5alpha-cinnamoyloxy-11(15→1)abeotaxa- 4(20),11-dien-15-ol"
+379,O[C@H]1[C@@H]([C@]2([C@@H](C([C@H](C[C@@H]2OC(C)=O)OC(/C=C/C3=CC=CC=C3)=O)=C)C[C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)C)OC(C)=O,Taxuspine M
+380,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3C[C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)/C=C/C4=CC=CC=C4)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxuspine J
+381,CC(O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3([C@@H](C([C@H](C[C@@H]3OC(C)=O)OC(/C=C/C4=CC=CC=C4)=O)=C)C[C@](C[C@@H]5O)(C1=C5C)C(C)(C)O)C)=O,Taxchinin H
+382,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3C[C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)/C=C/C4=CC=CC=C4)OC(=O)C)C)OC(=O)C)OC(=O)C5=CC=CC=C5,Taxuspine A
+383,CC(O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3([C@@H](C([C@H](CC3)OC(CC(N(C)C)C4=CC=CC=C4)=O)=C)C[C@](C[C@@H]5OC(C)=O)(C1=C5C)C(C)(C)O)C)=O,"9alpha,13alpha-Diacetoxy-10beta-benzoyloxy-5alpha-[(R)-3'-dimethylamino-3'-phenylpropanoyloxy]-11(15→1)abeotaxa-4(20),11-dien-15-ol"
+384,CC(O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3([C@@H](C([C@H](C[C@@H]3OC(C)=O)OC(CC(N(C)C)C4=CC=CC=C4)=O)=C)C[C@](C[C@@H]5OC(C)=O)(C1=C5C)C(C)(C)O)C)=O,"7beta,9alpha,13alpha-Triacetoxy-10beta-benzoyloxy-5alpha-(3'-di-methylamino-3'-phenylpropanoyloxy)-11-(15→1)abeotaxa-4(20),11-dien-1beta-ol"
+385,O[C@H]1[C@@H]([C@]2([C@@H](C([C@H](CC2)OC(CC(N(C)C)C3=CC=CC=C3)=O)=C)C[C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)C)O,"13alpha-acetoxy-5alpha-[(R)-3'-dimethylamino-3'-phenylpropanoyloxy]-11(15→1)abeotaxa-4(20),11-diene-9alpha,10beta-diol"
+386,CC(O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3([C@@H](C([C@H](C[C@@H]3OC(C)=O)OC(CC(NC)C4=CC=CC=C4)=O)=C)C[C@](C[C@@H]5OC(C)=O)(C1=C5C)C(C)(C)O)C)=O,"7beta,9alpha,13alpha-Triacetoxy-10beta-benzoyloxy-5alpha-(3'-methyl-amino-3'-phenylpropanoyloxy)-11- (15→1)abeotaxa-4(20),11-dien-1beta-ol"
+387,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C)O)C)OC(=O)C)OC(=O)C,Teixidol
+388,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@]2(CC1=O)C(C)(C)O)OC(=O)C)O)C)OC(=O)C)OC(=O)C4=CC=CC=C4,Taxuspine Y
+389,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H](C2(CC1=O)C(C)(C)O)OC(=O)C)O)C)OC(=O)C)O,Taxacustone
+390,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)OC(=O)C)OC(=O)C)O)O)C)OC(=O)C)O,"2alpha,9alpha,15-Triacetoxy-11(15→1)abeotaxa-4(20),11-diene-5alpha,7beta,10beta,13alpha-tetraol"
+391,CC1=C2C([C@@H](OC(C)=O)[C@@](C([C@@H](O)C[C@@H]3O)=C)([H])[C@]3(C)[C@@H](OC(C)=O)[C@@H]2OC(C)=O)[C@@H](C(O)(C)C)C1=O,Taxuspine O
+392,O=C([C@@H](C12)C(C)(O)C)C(C)=C2[C@H]([C@@H]([C@]([C@H](C[C@@H](C3=C)O)O)([C@@]3([C@@H]1OC(C)=O)[H])C)OC(C4=CC=CC=C4)=O)O,"2alpha-Acetoxy-9alpha-benzoyloxy-5alpha,7beta,10beta,15-tetrahydroxy-11(15→1)abeotaxa-4(20),11-dien-13-one"
+393,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)O)OC(=O)C)C)OC(=O)C)O,10-Debenzoyl-2alpha-acetoxybrevifoliol
+394,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C)O)OC(=O)C)C)OC(=O)C)O,Taxchinin G
+395,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C4=CC=CC=C4,Taxchinin A
+396,CC1=C2C([C@@H](OC(C)=O)[C@@](C([C@@H](O)C[C@@H]3OC(C)=O)=C)([H])[C@]3(C)[C@@H](OC(C)=O)[C@@H]2OC(C4=CC=CC=C4)=O)[C@@H](C(O)(C)C)[C@@H]1OC(C)=O,Taxchinin D
+397,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@]2(CC1=O)C(C)(C)O)OC(=O)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C4=CC=CC=C4,Taxuspinanane B
+398,O=C(O[C@H]1[C@@H]([C@]2([C@@H](C([C@H](C[C@@H]2OC(C)=O)O)=C)[C@@H]([C@](CC3OC(/C=C/C4=CC=CC=C4)=O)(C1=C3C)C(C)(C)O)OC(C)=O)C)OC(C)=O)C5=CC=CC=C5,Taxchinin E
+399,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H](C(=C)[C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)O)OC(=O)C)C)OC(=O)C4=CC=CC=C4)O,9-Deacetyl-9-benzoyl-10-debenzoyltaxchinin A
+400,O[C@H]1[C@@H]([C@]2([C@@H](C([C@H](C[C@@H]2OC(C)=O)O)=C)[C@@H]([C@](C[C@@H]3OC(C)=O)(C1=C3C)C(C)(C)O)OC(C)=O)C)OC(C4=CC=CC=C4)=O,13-Acetyl-9-deacetyl-9-benzoyl-10-debenzoyltaxchinin A
+401,O=C(C)O[C@@H]([C@@H]1OC(C)=O)[C@]2([C@@H](C([C@H](CC2)OC(/C=C/C3=CC=CC=C3)=O)=C)[C@@H]([C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)OC(C)=O)C,Taxamedin A
+402,O[C@H]1[C@@H]([C@]2([C@@H](C([C@H](C[C@@H]2OC(C)=O)OC(/C=C/C3=CC=CC=C3)=O)=C)[C@@H]([C@](C[C@@H]4O)(C1=C4C)C(C)(C)O)OC(C)=O)C)OC(C5=CC=CC=C5)=O,9-Deacetyl-9-benzoyl-10-debenzoyl-5-cinnamoyltaxchinin A
+403,C[C@@]1([C@H]2OC(C)=O)CC[C@@H](C([C@H]1[C@@H]([C@]3(C([C@H]2OC(C)=O)=C([C@H](C3)OC(C)=O)C)C(C)(C)O)OC(C)=O)=C)OC(CC(N(C)C)C4=CC=CC=C4)=O,"(-)-2alpha-Acetoxy-2',7-dideacetoxy-1-hydroxy-11(15→1)abeoaustrospicatine"
+404,C[C@@]1([C@H]2OC(C)=O)[C@@H](OC(C)=O)C[C@@H](C([C@H]1[C@@H]([C@]3(C([C@H]2OC(C4=CC=CC=C4)=O)=C([C@H](C3)OC(C)=O)C)C(C)(C)O)OC(C5=CC=CC=C5)=O)=C)OC(C)=O,"2-Deacetyl-2alpha-benzoyl-5,13-diacetyltaxchinin A"
+405,O[C@H]1[C@@H]([C@]2(C([C@]3(OC3)[C@H](C[C@@H]2OC(C)=O)O)[C@@H]([C@@]4(C[C@H](O)C(C)=C41)C(C)(C)O)OC(C)=O)C)OC(C5=CC=CC=C5)=O,"2alpha,7beta-Diacetoxy-9alpha-benzoyloxy-4beta20-epoxy11(15→1)abeotax-11-ene-5alpha,10beta,13alpha,15-tetraol"
+406,C[C@]1([C@H]2OC(C)=O)C([C@]3(OC3)[C@H](C[C@@H]1OC(C)=O)OC(C)=O)[C@@H]([C@@]4(C[C@H](OC(C)=O)C(C)=C4[C@H]2OC(C)=O)C(C)(C)O)OC(C)=O,Taxuchin A
+407,C[C@@H]1[C@H](C[C@@]2(C1[C@H]([C@@H]([C@@]3([C@H](C[C@H]4[C@]([C@H]3[C@@H]2O)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C5=CC=CC=C5)O)C(C)(C)O)O,"4alpha,7beta-Diacetoxy-9alpha-benzoyloxy-5beta,20-epoxy-11(15→1)abeotax-11-ene-2alpha,10beta,13alpha,15-tetraol"
+408,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)O)C)O)O,Taxuyunnanine M (taxumairol Q)
+409,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)O)C)O)OC(=O)C5=CC=CC=C5,"7,9-Dideacetyltaxayuntin"
+410,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)O)C)OC(=O)C5=CC=CC=C5)O,Taxumairol K
+411,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)O)O,Tasumatrol B
+412,O[C@@H]([C@@H]1OC(C)=O)[C@]2(C([C@@]3(CO[C@@H]3C[C@@H]2OC(C)=O)OC(C)=O)[C@@H]([C@](C[C@@H]4O)(C1=C4C)C(C)(C)O)OC(C)=O)C,Taxumairol W
+413,O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3(C([C@@]4(CO[C@@H]4C[C@@H]3OC(C)=O)OC(C)=O)[C@@H]([C@](C[C@@H]5O)(C1=C5C)C(C)(C)O)OC(C)=O)C,13-Decinnamoyl-9-deacetyltaxchinin B
+414,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)O,"Taxacustin (10,13-deacetylabeobaccatin IV)"
+415,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C5=CC=CC=C5)O,Taxayuntin F (taxchinin L)
+416,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(CC1O)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxayuntin H
+417,C[C@]1([C@H]([C@@H]2OC(C3=CC=CC=C3)=O)OC(C)=O)C([C@@]4(CO[C@@H]4C[C@@H]1OC(C)=O)OC(C)=O)[C@@H]([C@](C[C@@H]5O)(C2=C5C)C(C)(C)O)OC(C)=O,13-Deacetylbaccatin VI (taxayuntin;taxayunnansin A)
+418,O(C(C)=O)[C@]12[C@]3([C@H](OC(C)=O)[C@@]4(C(C)(C)O)C([C@@H](OC(/C(=C/C)/C)=O)[C@H](OC(C)=O)[C@]3(C)[C@@H](OC(C)=O)C[C@]1(OC2)[H])=C(C)[C@@H](O)C4)[H],Taxuspine Q
+419,C[C@]1([C@H]([C@@H]2OC(C)=O)OC(C)=O)C([C@@]3(CO[C@@H]3C[C@@H]1OC(C)=O)O)[C@@H]([C@](C[C@@H]4OC(C)=O)(C2=C4C)C(C)(C)O)OC(C5=CC=CC=C5)=O,4-Deacetyl-11(15→1)abeobaccatin VI
+420,O[C@H]1[C@@H]([C@]2(C([C@@]3(CO[C@@H]3C[C@@H]2O)OC(C)=O)[C@@H]([C@](C[C@@H]4O)(C1=C4C)C(C)(C)O)OC(C5=CC=CC=C5)=O)C)O,"7,13-Dideacetyl-9,10-debenzoyltaxchinin C"
+421,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)COC(=O)C)O)O,Taxumairol Z
+422,CC1=C2[C@H](C(=O)[C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)CO)OC(=O)C,Tasumatrol O
+423,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)OC(=O)C)C)O)O,"Taxuspinanane F (9-deacetyltaxayuntin E)(4alpha,7beta-diacetoxy-2alpha-benzoyloxy-5beta,20-epoxy-1beta,9alpha,10beta,13alpha,15-pentahydroxy-11(15→1)abeotax-11-ene)"
+424,CC1=C2C([C@@H](OC(C3=CC=CC=C3)=O)[C@@]([C@@](CO4)(OC(C)=O)[C@H]4C[C@@H]5OC(C)=O)([H])[C@]5(C[H])[C@@H](OC(C)=O)[C@@H]2O)[C@@H](C(O)(C)C)[C@@H]1O,Taxayuntin E
+425,O=C(OC1CC2OCC2(OC(=O)C)C3C(OC(=O)C=4C=CC=CC4)C5(C(=C(C)C(O)C5)C(O)C(O)C13C)C(O)(C)C)C=6C=CC=CC6,Taxayuntin A
+426,O=C1C([C@]2(C([C@@]3(CO[C@@H]3C[C@@H]2O)OC(C)=O)[C@@H]([C@](C[C@@H]4O)(C1=C4C)C(C)(C)OC(C5=CC=CC=C5)=O)O)C)=O,15-O-Benzoyl-10-deacetyl-2-debenzoyl-10-dehydro-abeobaccatin III
+427,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Taxuyunnanine F
+428,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C5=CC=CC=C5)O,Taxchinin M
+429,O[C@H]1[C@@H]([C@]2(C([C@@]3(CO[C@@H]3C[C@@H]2OC(C)=O)OC(C)=O)[C@@H]([C@](C[C@@H]4OC(/C=C/C5=CC=CC=C5)=O)(C1=C4C)C(C)(C)O)OC(C)=O)C)OC(C6=CC=CC=C6)=O,Taxchinin J
+430,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C5=CC=CC=C5,13-Acetyl-13-decinnamoyltaxchinin B
+431,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)/C=C/C5=CC=CC=C5)C(C)(C)O)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C6=CC=CC=C6,Taxchinin B
+432,O=C(O[C@H]1[C@@H]([C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2OC(C)=O)OC(C)=O)[C@@H]([C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)OC(C)=O)C)OC(C5=CC=CC=C5)=O)C6=CC=CC=C6,Taxchinin K
+433,CC1=C2[C@@]([C@@H](OC(C)=O)[C@@]([C@@](CO3)(OC(C)=O)[C@H]3C[C@@H]4OC(C5=CC=CC=C5)=O)([H])[C@]4(C[H])[C@@H](O)[C@@H]2O)(C(C)(C)O)C[C@@H]1O,"Taxayuntin B (2alpha-debenzoyl-2alpha-acetyltaxayuntin A)(2alpha,4alpha-diacetoxy-7beta-benzoyloxy-5beta,20-epoxy-1beta,9alpha,10beta,13alpha,15-pentahydroxy-11(15→1)abeotax-11-ene)"
+434,C[C@@H]1[C@H](C[C@@]2(C1[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]2OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O)O)C(C)(C)O)OC(=O)C,"7,9,10-Trideacetylabeobaccatin VI"
+435,O=C(O[C@H]1[C@@H]([C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2O)OC(C)=O)[C@@H]([C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)OC(C5=CC=CC=C5)=O)C)OC(C6=CC=CC=C6)=O)C7=CC=CC=C7,7-deacetyltaxayuntin D
+436,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C6=CC=CC=C6,Taxayuntin C
+437,O[C@H]1[C@@H]([C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2OC(C)=O)OC(C)=O)[C@@H]([C@](C[C@@H]4O)(C1=C4C)C(C)(C)O)OC(C5=CC=CC=C5)=O)C)OC(C6=CC=CC=C6)=O,"4alpha,7beta-Diacetoxy-2alpha,9alpha-dibenzoyloxy-5beta,20-epoxy-11(15→1)abeotax-11-ene-1beta,10beta,13alpha,15-tetraol"
+438,CC1=C2[C@@]([C@@H](OC(C3=CC=CC=C3)=O)[C@@]([C@@](CO4)(OC(C)=O)[C@H]4C[C@@H]5OC(C)=O)([H])[C@]5(C[H])[C@@H](OC(C6=CC=CC=C6)=O)[C@@H]2O)(C(C)(C)O)C[C@@H]1OC(C)=O,Taxchinin I
+439,O=C(O[C@H]1[C@@H]([C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2OC(C)=O)OC(C)=O)[C@@H]([C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)O)OC(C5=CC=CC=C5)=O)C)OC(C6=CC=CC=C6)=O)C7=CC=CC=C7,Taxayuntin D (taxchinin C; 9-deacetyl-9-benzoyl-taxayuntin C)
+440,O[C@H]1[C@@H]([C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2OC(C4=CC=CC=C4)=O)OC(C)=O)[C@@H]([C@](C[C@@H]5OC(C)=O)(C1=C5C)C(C)(C)O)OC(C6=CC=CC=C6)=O)C)OC(C)=O,"2,7-Dideacetyl-2,7-dibenzoyltaxayunnanine F"
+441,O=C(C)O[C@@H]([C@@H]1OC(C)=O)[C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2OC(C4=CC=CC=C4)=O)OC(C)=O)[C@@H]([C@](C[C@@H]5OC(C)=O)(C1=C5C)C(C)(C)O)OC(C6=CC=CC=C6)=O)C,"4alpha,9alpha,10beta,13alpha-Tetraacetoxy-2alpha,7beta-dibenzoyloxy-5beta,20-epoxy-11(15→1)abeotax-11-en-1beta-ol"
+442,O=C(C)O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3([C@@H]([C@@]4(CO[C@@H]4C[C@@H]3OC(C5=CC=CC=C5)=O)OC(C)=O)[C@@H]([C@](C[C@@H]6OC(C)=O)(C1=C6C)C(C)(C)O)OC(C7=CC=CC=C7)=O)C,7-Deacetyl-7-benzoyltaxayuntin C
+443,O[C@H]1[C@@H]([C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2OC(C4=CC=CC=C4)=O)OC(C)=O)[C@@H]([C@](C[C@@H]5OC(C)=O)(C1=C5C)C(C)(C)O)OC(C6=CC=CC=C6)=O)C)OC(C7=CC=CC=C7)=O,7-Deacetyl-7-benzoyltaxchinin I
+444,O[C@@H]([C@@H]1OC(C)=O)[C@]2([C@@H]([C@@]3(CO[C@@H]3C[C@@H]2O)OC(C)=O)[C@@H]([C@](C[C@@H]4OC(C)=O)(C1=C4C)C(C)(C)OC(C5=CC=CC=C5)=O)O)C,"7,9-Di-O-acetyl-15-O-benzoyl-2-de-O-benzoyl-abeobaccatin VI"
+445,CC([C@@H](O)C1)=C([C@]1(C2(C)C)[C@@H](OC(C3=CC=CC=C3)=O)C4[C@@]5(C)[C@@H](O)C[C@@H]6[C@@]4(OC(C)=O)CO6)[C@@H](O2)C5=O,"10,15-Epoxy-11(15→1)abeo-10-deacetylbaccatin III"
+446,O=C(C)O[C@H]1[C@@H]([C@]2([C@@H]([C@@]3(COC3C[C@@H]2OC(C)=O)OC(C)=O)[C@@H]([C@@]45C(C)(O[C@H](C5)C(C)=C41)C)OC(C6=CC=CC=C6)=O)C)OC(C)=O,"13-Deacetoxy-13,15-epoxy-11(15→1)abeo-13-epi-baccatin VI"
+447,CC1=C2[C@H]([C@@H]([C@@]3([C@H](CC4[C@]([C@H]3[C@@H]([C@]25C[C@H]1OC5(C)C)OC(=O)C)(CO4)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C6=CC=CC=C6,"13,15-Epoxy-13-epi-taxayunnasin A"
+448,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)CO)O)OC(=O)C)C)OC(=O)C)O,Taxuyunnanine P
+449,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(CC1O)C(C)(C)O)O)CO)O)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxuyunnanine Q
+450,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)CO)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Taxuyunnanine N
+451,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)COC(=O)C)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Taxumairol V
+452,O[C@H]1[C@@H]([C@]2(C([C@@H]([C@H](C[C@@H]2OC(C)=O)OC(C)=O)CO)[C@@H]([C@](C[C@@H]3OC(C)=O)(C1=C3C)C(C)(C)O)O)C)OC(C)=O,Taxuyunnanine V
+453,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)O)COC(=O)C)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Taxumairol U
+454,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)CO)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C,Taxuyunnanine O
+455,CC1=C2C([C@@H](O)[C@@]([C@]([H])(COC(C)=O)[C@@H](OC(C)=O)C[C@@H]3OC(C)=O)([H])[C@]3(C)[C@@H](OC(C)=O)[C@@H]2OC(C)=O)[C@@H](C(O)(C)C)[C@@H]1O,Taxayuntin J
+456,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)COC(=O)C)OC(=O)C)OC(=O)C)C)OC(=O)C4=CC=CC=C4)O,Tasumatrol F
+457,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)CO)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Taxayuntin G
+458,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)COC(=O)C)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Taxumain A
+459,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@H]([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC(=O)C)COC(=O)C)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Taxumain B
+460,O[C@H]1[C@@H]([C@]2([C@@H]([C@](CO)([C@H](C[C@@H]2O)O)O)[C@@H]([C@](C[C@@H]3O)(C1=C3C)C(C)(C)O)O)C)O,Taxuyunnanine S
+461,O[C@@H]1C(C)=C2[C@@H](O)[C@H](O)[C@@]([C@@H](O)C[C@H](O)[C@]3(COC(C4=CC=CC=C4)=O)O)(C)[C@]3([H])[C@H](O)[C@]2(C(C)(O)C)C1,Taxuyunnanine R
+462,O[C@H]1[C@@H]([C@]2([C@@H]([C@](COC(C)=O)([C@H](C[C@@H]2O)OC(C)=O)O)[C@@H]([C@](C[C@@H]3O)(C1=C3C)C(C)(C)O)O)C)O,Taxuyunnanine T
+463,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)(COC(=O)C4=CC=CC=C4)O)OC(=O)C)O)C)O)O,Taxuyunnanine K
+464,O[C@@H]([C@@H]1OC(C2=CC=CC=C2)=O)[C@]3([C@@H]([C@](COC(C)=O)([C@H](C[C@@H]3O)OC(C)=O)O)[C@@H]([C@](C[C@@H]4O)(C1=C4C)C(C)(C)O)O)C,Taxuyunnanine U
+465,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)(COC(=O)C)O)OC(=O)C)OC(=O)C)C)OC(=O)C)OC(=O)C4=CC=CC=C4,Yunantaxusin A
+466,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)O)(COC(=O)C)O)OC(=O)C)OC(=O)C)C)OC(=O)C4=CC=CC=C4)O,Tasumatrol E
+467,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)(CCl)O)O)OC(=O)C)C)OC(=O)C4=CC=CC=C4)O,Taxuchin B
+468,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C4=CC=CC=C4)(COC(=O)C)O)O)O)C)O)O,Taxuyunnanine L
+469,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]45[C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(O4)(OC5)C)O)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O,Taxuyunnanine X
+470,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]45[C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(O4)(OC5)C)OC(=O)C)OC(=O)C)C)OC(=O)C6=CC=CC=C6)O,Taxuyunnanine W
+471,O[C@H]1[C@@H]([C@]2([C@@H]([C@@](O3)([C@H](C[C@@H]2O)OC(C)=O)CO[C@@H]3C4=CC=C(O)C=C4)[C@@H]([C@](C[C@@H]5O)(C1=C5C)C(C)(C)O)OC(C6=CC=CC=C6)=O)C)O,"5-O-Acetyl-20-O-deacetyl-4,20-(p-hydroxyl-benzylidenedioxy)-taxuyunnanine L"
+472,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC4)O)O)OC(=O)C)C)OC(=O)C)O,Taxumairol X
+473,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC4)O)O)OC(=O)C)C)OC(=O)C)O,Taxumairol Y
+474,CC1=C(C[C@@]2(C1[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]2OC4)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C)C(C)(C)OC(=O)C5=CC=CC=C5)O,Taxumairol H
+475,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)OC(=O)C)OC4)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C5=CC=CC=C5,10-O-Benzoyl-15-O-acetyltaxumairol X
+476,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC4)O)O)OC(=O)C)C)OC(=O)C5=CC=CC=C5)O,Taxuyunnanine Y
+477,CC(OC1=C(C)C2[C@H]([C@@H]([C@]3([C@@H]4[C@@H]([C@@]2(C1)C(C)(C)OC(C5=CC=CC=C5)=O)OC[C@@]4([C@H](C[C@@H]3O)O)OC(C)=O)C)O)OC(C)=O)=O,"4alpha,10beta,13alpha-Triacetoxy-15-benzoyloxy-2alpha,20beta-epoxy-11(15→1)abeotax-11-ene-5alpha,7beta,9alpha-triol"
+478,CC1=C(C[C@@]2(C1[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]2OC4)OC(=O)C)O)OC(=O)C)C)OC(=O)C)OC(=O)C)C(C)(C)OC(=O)C5=CC=CC=C5)OC(=O)C,Taxumairol G
+479,OC1=C(C)C2[C@H]([C@@H]([C@]3([C@@H]4[C@@H]([C@@]2(C1)C(C)(C)OC(C)=O)OC[C@@]4([C@H](C[C@@H]3OC(C)=O)O)OC(C)=O)C)OC(C)=O)OC(C)=O,"4alpha,7beta,9alpha,10beta,15-Pentaacetoxy-2alpha,20beta-epoxy-11(15→1)abeotax-11-ene-5alpha,13alpha-diol"
+480,CC1=C2[C@H]([C@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@]2(C[C@@H]1OC(=O)C)C(C)(C)O)OC4)OC(=O)C)O)OC(=O)C)C)OC(=O)C5=CC=CC=C5)O,Taxuyunnanine E
+481,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC4)OC(=O)C5=CC=CC=C5)OC(=O)C)OC(=O)C)C)OC(=O)C)O,Tasumatrol G
+482,CC1=C(C[C@]2(C1[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]2OC4)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C)C(=C)C)O,Taxumairol J
+483,CC1=C(C[C@]2(C1[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]2OC4)O)O)OC(=O)C)C)OC(=O)C)OC(=O)C)C(=C)C)OC(=O)C,Taxumairol I
+484,CC(OC1=C(C)C2[C@H]([C@@H]([C@]3([C@@H]4[C@@H]([C@]2(C1)C(C)=C)OC[C@@]4([C@H](C[C@@H]3O)O)OC(C)=O)C)O)O)=O,"4alpha,13alpha-Diacetoxy-2alpha,20-epoxy-11(15→1)abeotaxa-11,15-diene-5alpha,7beta,9alpha,10beta-tetraol"
+485,CC1=C2[C@]3(CC4[C@]([C@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]([C@]4(COC(=O)C5=CC=CC=C5)O)O)O)C)[C@@H](C1)O,Tasumatrol T
+486,CC1=C2[C@]3(CC4[C@]([C@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]([C@]4(COC(=O)C5=CC=CC=C5)O)OC(=O)C)O)C)[C@@H](C1)O,Tasumatrol P
+487,CC1=C2[C@]3(CC1)[C@H](C4[C@]([C@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]([C@]4(CO)O)O)O)C)OC(=O)C5=CC=CC=C5,Tasumatrol R
+488,CC1=C2[C@]3(CC1)[C@H]([C@H]4[C@]([C@@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]([C@]4(COC(=O)C)O)O)O)C)OC(=O)C5=CC=CC=C5,Tasumatrol I
+489,CC1=C2[C@@]3([C@@H](OC(C4=CC=CC=C4)=O)[C@H]5[C@]([C@@H](O)C[C@H](O)[C@@]5(O)COC(C)=O)(C)[C@]2(O)C(OC3(C)C)=O)C[C@@H]1O,"20-Acetoxy-2alpha-benzoyloxy-4alpha,5alpha,7beta,9alpha,13alpha-pentahydroxy-11(15→1),11(10→9)bisabeotax-11-ene-10,15-lactone"
+490,CC1=C2[C@]3(C[C@@H]1O)[C@H]([C@H]4[C@]([C@@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]([C@]4(CO)O)OC(=O)C)O)C)OC(=O)C5=CC=CC=C5,Tasumatrol H
+491,CC1=C2[C@]3(CC1)[C@H]([C@H]4[C@]([C@@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)C)OC(=O)C6=CC=CC=C6,Tasumatrol J
+492,CC1=C2[C@@]3([C@@H](OC(C4=CC=CC=C4)=O)[C@H]5[C@]([C@@H](O)C[C@@H]6[C@@]5(OC(C)=O)CO6)(C)[C@]2(O)C(OC3(C)C)=O)C[C@@H]1O,Wallifoliol
+493,CC1=C2[C@@]3(C[C@@H]1OC(=O)C)[C@H]([C@H]4[C@]([C@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]5[C@]4(CO5)OC(=O)C)O)C)OC(=O)C6=CC=CC=C6,13-O-Acetylwallifoliol
+494,CC1=C2[C@@]3([C@@H](OC(C4=CC=CC=C4)=O)[C@H]5[C@]([C@@H](O)C[C@@H]6[C@@]5(OC(C)=O)CO6)(C)[C@]2(O)C(OC3(C)C)=O)CC1=O,"13-oxo-Wollifoliane-10,15-olid"
+495,CC1=C2[C@]3(C[C@@H]1O)[C@H](C4[C@]([C@]2(C(=O)OC3(C)C)O)([C@H](C[C@H]5[C@@]4(OC(O5)(C)C)COC(=O)C)O)C)OC(=O)C6=CC=CC=C6,Tasumatrol Q
+496,CC1=C2[C@]3(CC4[C@]([C@]2(C(=O)OC3(C)C)O)([C@H](C[C@@H]([C@@]45COC(O5)(C6=CC=CC=C6)O)OC(=O)C)O)C)[C@@H](C1)O,Tasumatrol S
+497,CC1=C2[C@@](C[C@@H]1O)([C@H]([C@H]3[C@]4([C@]2(C(=O)OC4)O)[C@H](C[C@@H]5[C@]3(CO5)OC(=O)C)O)OC(=O)C6=CC=CC=C6)C(C)(C)O,Tasumatrol A
+498,O[C@H]1C([C@@]2([C@H](C[C@@H](/C(C2)=C/[C@H](C(C(C)(C1=C3C)C)C[C@@H]3OC(C)=O)O)O)OC(C)=O)C)=O,"7beta,13alpha-Diacetoxy-2alpha,5alpha,10beta-trihydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+499,CC(O[C@H]1C([C@@]2([C@H](C[C@@H](/C(C2)=C/[C@H](C(C(C)(C1=C3C)C)C[C@@H]3O)O)O)OC(C)=O)C)=O)=O,"7beta,10beta-Diacetoxy-2alpha,5alpha,13alpha-trihydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+500,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@H]([C@H](C2(C)C)C[C@@H]1OC(=O)C)O)/[C@H](C[C@@H]3OC(=O)C)O)C)OC(=O)C,2-Deacetyltaxin B
+501,O[C@H]1C([C@@]2([C@H](C[C@@H](/C(C2)=C/[C@H](C(C(C)(C1=C3C)C)C[C@@H]3OC(C)=O)O)OC(/C=C/C4=CC=CC=C4)=O)O)C)=O,Taxezopidine P
+502,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)/[C@H](C[C@@H]3O)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C,"10beta,13alpha-Diacetoxy-5alpha-cinnamoyloxy-2alpha,7beta-dihydroxy-2(3→20)-abeotaxa-4(20),11-dien-9-one"
+503,CC(O[C@H]1C([C@@]2([C@H](C[C@@H](/C(C2)=C/[C@H](C(C(C)(C1=C3C)C)C[C@@H]3OC(C)=O)O)OC(/C=C/C4=CC=CC=C4)=O)O)C)=O)=O,2-Decacetyltaxuspine B
+504,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)/[C@H](C[C@@H]3OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C,"7beta,10beta,13alpha-Triacetoxy-5alpha-cinnamoyloxy-2alpha-hydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+505,O[C@H]1C([C@@]2([C@H](C[C@@H](/C(C2)=C/[C@H](C(C(C)(C1=C3C)C)C[C@@H]3OC(C)=O)O)OC(C(O)C(N(C)C)C4=CC=CC=C4)=O)O)C)=O,Taxine C (2-deacetlytaxine A)
+506,CC(O[C@H]1C([C@@]2([C@H](C[C@@H](/C(C2)=C/[C@H](C(C(C)(C1=C3C)C)C[C@@H]3OC(C)=O)O)OC(C(O)C(N(C)C)C4=CC=CC=C4)=O)OC(C)=O)C)=O)=O,"7beta,10beta,13alpha-Triacetoxy-5alpha-(3'-dimethylamino-3'-phenylpropanoyl-oxy)-2'-hydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+507,CC1([C@@H](O)C[C@@H]/2O)CC2=C([H])/C(OC(C)=O)[C@@]3([H])C[C@@H](OC(C)=O)C(C)=C([C@H](O)C1=O)C(C)3C,Deaminoacyltaxine A
+508,CC1=C2C(=O)[C@@H]([C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)O)C)O,"2alpha,7beta,13alpha-Triacetoxy-5alpha,9alpha-dihydroxy-2(3→20)abeotaxa-4(20),11-dien-10-one"
+509,CC1=C2[C@@H](O)C([C@@]3(C)C/C([C@@H](O)C[C@@H]3OC(C)=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1O)C2(C)C)=O,"2alpha,7beta-Diacetoxy-5alpha,10beta,13alpha-trihydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+510,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)O)C)O,Taxuspine W
+511,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1O)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)O)C)OC(=O)C,"2alpha,7beta,10beta-Triacetoxy-5alpha,13alpha-dihydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+512,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)O)C)OC(=O)C,"Taxin B (5alpha-hydroxy-2alpha,7beta,10beta,13alpha-tetraacetoxy-2(3→20)abeotaxa-4(20),11-dien-9-one)"
+513,CC1=C2[C@@H](OC(C)=O)C([C@@]3(C)C/C([C@@H](O)C[C@@H]3OC(C)=O)=C\[C@H](OC(C)=O)[C@H](CC1=O)C2(C)C)=O,"2alpha,7beta,10alpha-Triacetoxy-5alpha-hydroxy-2(3→20)abeotaxa-4(20),11-dien-9,13-dione"
+514,CC1=C2[C@@H](O)C([C@@]3(C)C/C([C@@H](O)C[C@@H]3OC(C)=O)=C\[C@H](OC(C)=O)[C@H](CC1OC(C)=O)C2(C)C)=O,"2alpha,5alpha,13alpha-Triacetoxy-7beta,10beta-dihydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+515,CC1=C2[C@@H](O)C([C@@]3(C)C/C([C@@H](OC(C)=O)C[C@@H]3O)=C\[C@H](OC(C)=O)[C@H](CC1OC(C)=O)C2(C)C)=O,"2alpha,5alpha,13alpha-Triacetoxy-7beta-hydroxy-2(3→20)abeotaxa-4(20),11-diene-9,10-dione"
+516,CC1=C2C(=O)[C@@H]([C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)OC(=O)C)C)O,"2alpha,5alpha,7beta,13alpha-Tetraacetoxy-10beta-hydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+517,CC1=C2[C@@H](OC(C)=O)C([C@@]3(C)C/C([C@@H](OC(/C=C/C4=CC=CC=C4)=O)CC3)=C\[C@H](OC(C)=O)[C@H](CC1OC(C)=O)C2(C)C)=O,"7-Deacetoxy-5-O-cinnamoyltaxin B (5alpha-cinnamoyloxy-2alpha,10beta,13alpha-triacetoxy-2(3→20)abeotaxa-3(4),11-dien-9-one)"
+518,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3O)OC(=O)/C=C/C4=CC=CC=C4)C)O,Taxuspinanane H (deaminoacylcinnamoyltaxine A)
+519,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)O,Taxuspine B
+520,CC1=C2[C@@H](OC(C)=O)C([C@@]3(C)C/C([C@@H](OC(/C=C/C4=CC=CC=C4)=O)C[C@H]3OC(C)=O)=C\[C@H](OC(C)=O)[C@H](CC1OC(C)=O)C2(C)C)=O,"5alpha-O-Cinnamoyltaxin B (5alpha-cinnamoyloxy-2alpha,7beta,10beta,13alpha-tetra-acetoxy-2(3→20)abeotaxa-4(20),11-dien-9-one)"
+521,CC1=C2C(=O)C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C,Dantaxusin A
+522,CC1=C2C(O)C([C@@]3(C)C/C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)C[C@H]3OC(C)=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=O,"2alpha,7beta,13alpha-Triacetoxy-5alpha-[(2'R,3'S)-N,N-dimethyl-3'-phenyl-propanoyloxy]-10beta-hydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+523,CC1=C2C(C([C@@]3(C)C/C([C@@H](OC(CC(N(C)C)C4=CC=CC=C4)=O)C[C@H]3OC(C)=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=O)=O,"2alpha,7beta,13alpha-Triacetoxy-5alpha-[(2'R,3'S)-N,N-dimethyl- 3'-phenyl-propanoyloxy]-2(3→20)abeotaxa-4(20),11-diene-9,10-dione"
+524,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3O)OC(=O)[C@@H]([C@H](C4=CC=CC=C4)N(C)C)O)C)O,Taxine A
+525,CC1=C2[C@@H](C(=O)[C@@]3(C/C(=C\[C@H]([C@@H](C2(C)C)C[C@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@H]3OC(=O)C)OC(=O)[C@H](C(C4=CC=CC=C4)N(C)C)O)C)O,7-O-Acetyltaxine A
+526,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/[C@H](C[C@@H]3OC(=O)C)OC(=O)C(C(C4=CC=CC=C4)N(C)C)O)C)OC(=O)C,"2alpha,7beta,10beta,13alpha-Tetraacetoxy-5alpha-[(2'R,3'S)-N,N-dimethyl-3'-phenylisoseryloxy]-2(3→20)abeotaxa-4(20),11-dien-9-one"
+527,O=C([C@@H]1O)[C@@]2(C)C/C([C@@H](O)C[C@@H]2OC(C)=O)=C\[C@H](OC(C)=O)[C@]3([H])C[C@@H](O)C(C)=C1C3(C)C,"2alpha,7beta-Diacetoxy-5alpha,10beta,13beta-trihydroxy-2(3→20)abeotaxa-4(20),11-dien-9-one"
+528,CC1=C2[C@@H](OC(C)=O)C([C@@]3(C)C/C(C=CC3=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=O,"2alpha,10beta,13alpha-Triacetoxy-2(3→20)abeotaxa-4(20),5,11-triene-7,9-dione"
+529,CC1=C2[C@@H](O)C([C@@]3(C)C/C(C=CC3=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=O,"2alpha,13alpha-Diacetoxy-10beta-hydroxy-2(3→20)abeotaxa-4(20),5,11-triene-7,9-dione"
+530,CC1=C2[C@H](C(=O)[C@]3(C/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/C(=O)C=C3)C)OC(=O)C,Taxumairone A
+531,CC1=C2[C@@H](O)C([C@@]3(C)C/C(C(C=C3)=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C)=O,"2alpha,13alpha-Diacetoxy-10beta-hydroxy-2(3→20)abeotaxa-4(20),6,11-triene-5,9-dione"
+532,CC1[C@]23[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42CC(CC1=O)C3(C)C)=O,"9alpha,10beta-Diacetoxy-5alpha-cinnamoyloxy-3,11-cyclotax-4(20)-en-13-one"
+533,C=C1[C@H](CC[C@@](C)([C@H]([C@@H]([C@](C(C)([C@]2(CC3=O)[H])C)4[C@@H]3C)OC(C)=O)O)[C@]14[C@@H]2O)O,"10beta-Acetoxy-2alpha,5alpha,9alpha-trihydroxy-3,11-cyclotax-4(20)-en-13-one"
+534,CC1[C@]23[C@@H](O)[C@H](O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](O)C(CC1=O)C3(C)C)=O,5-Cinnamoylphototaxicin II
+535,CC1[C@]23[C@@H](OC(C)=O)[C@H](O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](O)C(CC1=O)C3(C)C)=O,"10beta-Acetoxy-5alpha-cinnamoyloxy-2alpha,9alpha-dihydroxy-3,11-cyclotax-4(20)-en-13-one"
+536,CC1[C@]23[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)CC[C@H](OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](O)C(CC1=O)C3(C)C)=O,"9alpha,10beta-Diacetoxy-5alpha-cinnamoyloxy-2alpha-hydroxy-3,11-cyclotax-4(20)-en-13-one"
+537,CC1[C@]23[C@@H](O)[C@H](O)[C@]4(C)CC=C(O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2alpha-Acetoxy-5alpha,9alpha,10beta-trihydroxy-3,11-cyclotax-4(20)-en-13-one"
+538,CC1[C@]23[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)CC=C(O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,Taxinine K
+539,CC1[C@]23[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)CC=C(OC(C)=O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,Taxinine L
+540,C[C@@H]1C(=O)C[C@H]2[C@H]([C@@]34[C@]1(C2(C)C)[C@H]([C@@H]([C@@]3(CC[C@@H](C4=C)OC(=O)/C=C/C5=CC=CC=C5)C)O)O)OC(=O)C,"2alpha-Acetoxy-5alpha-cinnamoyloxy-9alpha,10beta-dihydroxy-3,11-cyclotax-4(20)-en-13-one"
+541,CC1[C@]23[C@@H](OC(C)=O)[C@H](O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2,10-Diacetyl-5-cinnamoylphototaxicin II (2alpha,10beta-diacetoxy-5alpha-cinnamoyloxy-9alpha-hydroxy-3,11-cyclotax-4(20)-en-13-one)"
+542,CC1[C@]23[C@@H](O)[C@H](OC(C)=O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2,9-Diacetyl-5-cinnamoylphototaxicin II"
+543,C[C@@H]1C(=O)C[C@H]2[C@H]([C@@]34[C@@]1(C2(C)C)[C@H]([C@@H]([C@@]3(CC[C@@H](C4=C)OC(=O)/C=C/C5=CC=CC=C5)C)OC(=O)C)OC(=O)C)OC(=O)C,Taxuspine C
+544,CC1[C@]23[C@@H](OC(C)=O)[C@H](O)[C@]4(C)[C@H](O)C=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2,10-Diacetyl-5-cinnamoyl-7beta-hydroxyphototaxicin II 3,11-cyclotax-4(20)-en-13-one"
+545,CC1[C@]23[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)[C@H](OC(C)=O)C=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,7beta-Acetoxytaxuspine C
+546,CC1[C@]23[C@@H](OC(C)=O)[C@H](O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](O)[C@@](CC1=O)(O)C3(C)C)=O,"10beta-Acetoxy-5alpha-cinnamoyloxy-1beta,2alpha,9alpha-trihydroxy-3,11-cyclotax-4(20)-en-13-one"
+548,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3[C@@H]([C@@](C2(C)C)(CC1=O)O)O)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)O,5-Cinnamoyl-9-acetylphototaxicin I
+549,CC1[C@]23[C@@H](OC(C)=O)[C@H](O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](OC(C)=O)[C@@](CC1=O)(O)C3(C)C)=O,"2alpha,10beta-Diacetoxy-5alpha-cinnamoyloxy-1beta,9alpha-dihydroxy-3,11-cyclotax-4(20)-en-13-one"
+550,CC1[C@]23[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]4(C)CC=C(OC(/C=C/C5=CC=CC=C5)=O)C([C@@]42[C@H](OC(C)=O)[C@@](CC1=O)(O)C3(C)C)=O,1beta-Hydroxytaxuspine C
+551,CC1[C@]23[C@@H](OC(C)=O)[C@H](O)[C@]4(C)CC=C(OC(/C=C\C5=CC=CC=C5)=O)C([C@@]42[C@H](OC(C)=O)C(CC1=O)C3(C)C)=O,"2,10-Diacetyl-5-[(Z)-cinnamoyl]phototaxicin II"
+552,C[C@@H]1C(=O)C[C@H]2[C@H]([C@@]34[C@]1(C2(C)C)[C@H]([C@@H]([C@@]3(CC[C@@H](C4=C)OC(=O)C[C@H](C5=CC=CC=C5)N(C)C)C)O)OC(=O)C)OC(=O)C,"2alpha,10beta-Diacetoxy-9alpha-hydroxy-5alpha-(3'-dimethylamino-3'-phenylpropanoyloxy)-3,11-cyclotax-4(20)-en-13-one"
+553,CC(O[C@H]1[C@]23C([C@H](CC[C@]2([C@H]([C@@H]([C@]([C@@H]4C)3C(C)([C@H]1CC4=O)C)OC(C)=O)OC(C)=O)C)OC(C[C@H](C5=CC=CC=C5)N(C)C)=O)=C)=O,Taxuspine H
+554,C[C@@H]1C(=O)C[C@H]2[C@H]([C@@]34[C@]1(C2(C)C)[C@H]([C@@H]([C@@]3([C@@H](C[C@@H](C4=C)OC(=O)/C=C/C5=CC=CC=C5)OC(=O)C)C)O)OC(=O)C)OC(=O)C,"2alpha,7alpha,10beta-Triacetoxy-5alpha-cinnamoyloxy-9alpha-hydroxy-3,11-cyclotax-4(20)-en-13-one"
+555,C[C@@H]1C(=O)C[C@H]2C[C@@]34[C@]1(C2(C)C)[C@H]([C@@H]([C@@]3([C@H](C=CC4=C)OC(=O)C)C)O)OC(=O)C,"7beta,10beta-Diacetoxy-9alpha-hydroxy-3,11-cyclotax-4(20),5-dien-13-one"
+556,C[C@@H]1C(C[C@H]2C[C@@]34[C@@]1([C@@H](OC(C)=O)C[C@]3(C)[C@@H](OC(C)=O)C=C(OC(C)=O)C4=C)C2(C)C)=O,"3alpha,11alpha-cyclotaxinine NN-1"
+557,C[C@@H]1C(=O)C[C@H]2[C@H]([C@@]34[C@]1(C2(C)C)[C@H]([C@@H]([C@@]3([C@H](C=C(C4=C)OC(=O)/C=C/C5=CC=CC=C5)OC(=O)C)C)O)OC(=O)C)OC(=O)C,"2alpha,7beta,10beta-Triacetoxy-5-cinnamyloxy-9alpha-hydroxy-3alpha,11alpha-cyclotaxa-4(20),5-dien-13-one"
+558,CC1[C@]2(O)[C@@H](O)[C@H](OC(C)=O)[C@]3(C)CC[C@H](OC(/C=C/C4=CC=CC=C4)=O)C(C5)=C3[C@H](OC(C)=O)C([C@H]5C1=O)C2(C)C,"2alpha,9alpha-Diacetoxy-5alpha-cinnamoyloxy-10beta,11beta-dihydroxy-14beta,20-cyclotax-3-en-13-one"
+559,CC(=O)O[C@@H]1[C@@H]2CC(=O)[C@@]3(C[C@H]4[C@@]15[C@]3(C2(C)C)[C@H]([C@@H]([C@@]5(CC[C@@H]4O)C)OC(=O)C)OC(=O)C)C,"2alpha,9alpha,10beta-Triacetoxy-5alpha-hydroxy-3,11-cyclo-12,20-cyclotaxa-13-one"
+560,C[C@@]12[C@]34[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]5(C)CC[C@H](O)C(O6)(C2)[C@@]53[C@H](O)C([C@H]6[C@@H]1O)C4(C)C,Dipropellane B
+561,C[C@@]12[C@]34[C@@H](OC(C)=O)[C@H](O)[C@]5(C)CC[C@H](O)C(O6)(C2)[C@@]53[C@H](OC(C)=O)C([C@H]6[C@@H]1O)C4(C)C,Dipropellane A
+562,C[C@@]12[C@]34[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]5(C)CC[C@H](O)C(O6)(C2)[C@@]53[C@H](OC(C)=O)C([C@H]6[C@@H]1O)C4(C)C,Dipropellane C
+563,CC(=O)O[C@@H]1[C@@H]2C[C@]3([C@@]4([C@@]5([C@@]16[C@@]4(C2(C)C)[C@H]([C@@H]([C@@]6(CC[C@@H]5O)C)O)OC(=O)C)CO3)C)O,Taxpropellane A
+564,C[C@@]12[C@]34[C@@H](OC(C)=O)[C@H](O)[C@]5(C)CC[C@H](O)C([C@@H]6O)(C2)[C@@]53[C@H](OC(C)=O)C([C@H]6C1=O)C4(C)C,"Canataxpropellane (2alpha,10beta-diacetoxy-5alpha,9alpha,20alpha-trihydroxy-3alpha,11alpha;4alpha,12alpha;14alpha,20-tricyclotaxan-13-one"
+565,C/C/1=C(/[C@@H](C2=C([C@H](C[C@H](C2(C)C)[C@H](/C=C(\[C@H](C[C@H]1O)O)/COC(=O)C)O)OC(=O)C)C)OC(=O)C)\OC(=O)C,Tasumatrol M
+566,CC1=C2[C@H](/C(=C(/[C@H](C[C@@H](/C(=C/[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)/CO)O)OC(=O)C)\C)/OC(=O)C)OC(=O)C,5-Deacetyltaxachitriene B
+567,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(COC(C)=O)=C/[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)O)O)OC(C)=O)\C)=O,2-Deacetyltaxachitriene A
+568,C/C/1=C(/[C@@H](C2=C(C(=O)C[C@H](C2(C)C)[C@H](/C=C(\[C@H](C[C@@H]1OC(=O)C)O)/CO)O)C)OC(=O)C)\OC(=O)C,"(3E,8E)-7beta,9,10beta-Triacetoxy-2alpha,5alpha,20-trihydroxy-3,8-secotaxa-3,8,11-trien-13-one"
+569,C/C/1=C(/[C@@H](C2=C([C@H](C[C@H](C2(C)C)[C@H](/C=C(/[C@H](C[C@@H]1O)OC(=O)C)\CO)O)OC(=O)C)C)OC(=O)C)\OC(=O)C,Taxuspine U
+570,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(CO)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)O)OC(C)=O)OC(C)=O)\C)=O,Taxachitriene B
+571,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(COC(C)=O)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)O)OC(/C=C/C3=CC=CC=C3)=O)O)\C)=O,"2,7-Dideacetyltaxuspine X"
+572,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(CO)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)O)OC(/C=C/C3=CC=CC=C3)=O)O)\C)=O,"(3E,8E)-9,10beta,13alpha-Triacetoxy-2alpha,7beta,20-trihydroxy-5alpha-[(E)-cinnamoyloxy]-3,8-secotaxa-3,8,11-triene"
+573,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(CO)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)O)OC(/C=C/C3=CC=CC=C3)=O)OC(C)=O)\C)=O,"2,20-Dideacetyltaxuspine X"
+574,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(COC(C)=O)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)O)OC(/C=C/C3=CC=CC=C3)=O)OC(C)=O)\C)=O,2-Deacetyltaxuspine X
+575,CC1=C2[C@H](/C(=C(\[C@@H](CC(=O)/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)O)/COC(=O)C)O)/C)/OC(=O)C)OC(=O)C,Tasumatrol N
+576,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(CO)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)OC(C)=O)O)O)\C)=O,7-Deacetylcanadensene
+577,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(COC(C)=O)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)OC(C)=O)O)O)\C)=O,"7-Deacetyltaxachitrine A ((3E,8E)-2alpha,9,10beta,13alpha,20-penta-acetoxy-5alpha,7beta-dihydroxy-3,8-secotaxa-3,8,11-triene)"
+578,CC(O[C@H]1/C(O)=C([C@H](C[C@@H](/C(CO)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)OC(C)=O)O)OC(C)=O)\C)=O,13-Deacetylcanadensene
+579,CC(O[C@H]1/C(O)=C([C@H](C[C@@H](/C(COC(C)=O)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)OC(C)=O)O)OC(C)=O)\C)=O,13-Deacetyltaxachitrine A
+580,CC1=C2[C@H](/C(=C(/[C@H](C[C@@H](/C(=C/[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/CO)O)OC(=O)C)\C)/OC(=O)C)OC(=O)C,5-epi-Canadensene
+581,CC1=C2[C@H](/C(=C(/[C@H](C[C@@H](/C(=C/[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/COC(=O)C)O)OC(=O)C)\C)/OC(=O)C)OC(=O)C,Taxachitriene A
+582,CC(O[C@H]1/C(OC(C)=O)=C([C@H](C[C@@H](/C(COC(/C=C/C2=CC=CC=C2)=O)=C\[C@@H]([C@@H](C(C)(C1=C3C)C)C[C@@H]3OC(C)=O)OC(C)=O)O)OC(C)=O)\C)=O,20-O-Cinnamoyl-5-epi-canadensene
+583,CC(O[C@H]1C(C([C@H](C[C@@H](/C(COC(C)=O)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)OC(C)=O)O)OC(C)=O)=C)=O)=O,"(3E,8E)-2alpha,7beta-9,10beta,20-Pentaacetoxy-5alpha-hydroxy-3,8-secotaxa-3,8,11-trien-13-one"
+584,CC(O[C@H]1C(C([C@H](C[C@@H](/C(CO)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)OC(C)=O)OC(C)=O)OC(C)=O)=C)OC(C)=O)=O,"(3E,8E)-2alpha,5alpha,7beta,9,10beta,13alpha-Hexaacetoxy-20-hydroxy-3,8-secotaxa-3,8,11-triene"
+585,CC(O[C@H]1C(C([C@H](CC(/C(COC(C)=O)=C\[C@@H]([C@@H](C(C)(C1=C2C)C)C[C@@H]2OC(C)=O)OC(C)=O)=O)O)=C)OC(C)=O)=O,"(3E,8E)-2alpha,9,10beta,13alpha,20-Penta-acetoxy-7beta-hydroxy-3,8-secotaxa-3,8,11-trien-13-one"
+586,CC1=C2[C@H](/C(=C(\[C@H](C[C@@H](/C(=C\[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/CO)OC(=O)/C=C/C3=CC=CC=C3)OC(=O)C)/C)/OC(=O)C)OC(=O)C,5-epi-O-Cinnamoylcanadensene
+587,CC1=C2[C@H](/C(=C(/[C@H](C[C@@H](/C(=C/[C@@H]([C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)C)/COC(=O)C)OC(=O)/C=C/C3=CC=CC=C3)OC(=O)C)\C)/OC(=O)C)OC(=O)C,Taxuspine X
+588,CC1=C2[C@@H](OC(C)=O)/C(OC(C)=O)=C(C)/[C@@H](OC(C)=O)C[C@H](OC(/C=C(OC(C)=O)/C3=CC=CC=C3)=O)/C(COC(C)=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C,"(3E,8E)-2alpha,7beta,9,10beta,13alpha,20-Hexaacetoxy-5-[2'-acetoxy-cinnamoyloxy]-3,8-secotaxa-3,8,11-triene"
+589,CC1=C2[C@@H](OC(C)=O)/C(OC(C)=O)=C(C)/[C@@H](OC(C)=O)C[C@H](OC([C@@H](O)[C@H](N(C)C)C3=CC=CC=C3)=O)/C(COC(C)=O)=C\[C@H](OC(C)=O)[C@H](C[C@@H]1OC(C)=O)C2(C)C,13-ace-tyl-9-deacetyl-9-benzoyl-10-debenzoyltaxchinin-A
+590,O=C(C)O[C@@H]1C2=C(C)[C@H](C[C@@H]([C@@H](/C=C([C@H](C[C@@H](/C(C)=C1\O)OC(C)=O)O)/COC(C)=O)OC(C)=O)C2(C)C)OC(C)=O,Canadensene (20-deacetyltaxachitriene A)
+591,CC1=C2[C@H](/C(=C(\[C@H](C[C@@H](/C(=C\[C@@H]([C@@H]([C@@]2(C)CO)C[C@@H]1OC(=O)C)OC(=O)C)/COC(=O)C)O)OC(=O)C)/C)/OC(=O)C)OC(=O)C,Taxumairol M
+592,CC(O[C@H]1/C(OC(C)=O)=C(C)\[C@H](C[C@@H](/C(COC(C)=O)=C\[C@@H](C2C[C@@H]3C(C)=C1[C@]2(CO3)C)O)O)OC(C)=O)=O,Canataxpyran A
+593,C/C/1=C\C[C@@H](/C(=C/[C@@H]([C@@H]2C[C@@H](C(=C(C2(C)C)[C@H](C1=O)OC(=O)C)C)OC(=O)C)O)/CO)O,"(3E,7E)-10beta,13alpha-Diacetoxy-2alpha,5alpha,20-trihydroxy- 3,8-secotaxa-3,7,11-trien-9-one"
+594,O[C@@H](C/C=C1\C)/C(CO)=C/[C@@H]([C@H]2C(C)(C([C@H](C1=O)OC(C)=O)=C([C@H](C2)O)C)C)OC(C)=O,"(3E,7E)-2alpha,10beta-Diacetoxy-5alpha,13alpha,20-trihydroxy-3,8-secotaxa-3,7,11-trien-9-one"
+595,C/C/1=C\C[C@@H](/C(=C/[C@@H]([C@@H]2C[C@@H](C(=C(C2(C)C)[C@H](C1=O)OC(=O)C)C)OC(=O)C)OC(=O)C)/CO)O,"(3E,7E)-2alpha,10beta,13alpha-Triacetoxy-5alpha,20-dihydroxy-3,8- secotaxa-3,7,11-trien-9-one"
+596,C/C/1=C\C[C@@H](/C(=C/[C@@H]([C@@H]2C[C@@H](C(=C(C2(C)C)[C@H](C1=O)OC(=O)C)C)OC(=O)C)OC(=O)C)/COC(=O)C)O,"(3E,7E)-2alpha,10beta,13alpha,20-Tetraacetoxy-5alpha-hydroxy-3,8-secotaxa-3,7,11-trien-9-one"
+597,C/C/1=C\C[C@@H](/C(=C/[C@@H]([C@@H]2C[C@@H](C(=C(C2(C)C)[C@H](C1=O)OC(=O)C)C)OC(=O)C)OC(=O)C)/CO)OC(=O)C,"(3E,7E)-2alpha,5alpha,10alphabeta,13alpha-Tetraacetoxy-20-hydroxy-3,8- secotaxa-3,7,11-trien-9-one"
+598,CC(O[C@@H](C/C=C1\C)/C(COC(C)=O)=C/[C@@H]([C@H]2C(C)(C([C@H](C1=O)OC(C)=O)=C([C@H](C2)OC(C)=O)C)C)OC(C)=O)=O,"(3E,7E)-2alpha,5alpha,10beta,13alpha,20-Pentaacetoxy-3,8-secotaxa-3,7,11-trien-9-one"
+599,O[C@@H](/C=C(C)\C[C@@H](O)/C=C1\C)[C@H]2C(C)(C(C(CC2)=C)CC1O)C,"(11alphaH)-3,8-Secotaxa-3,7,12(18)-triene-2alpha,6alpha,9beta-triol"
+600,C[C@H](C(=O)C[C@H]1[C@H]([C@@H]2C(=C)[C@H](C[C@@H]([C@]2([C@H]([C@@H](C(=O)C1(C)C)OC(=O)C)OC(=O)C)C)OC(=O)C)O)OC(=O)C)O,Taxusecone
+601,O=C1C2([C@H](/C=C3[C@H](CC1(C(O)=C(C2=O)C(C4=CC=CC=C4)=C)C)CCC(C)(C\3)C)[C@H]5C(C)(O5)C)C/C=C(C)\C,"(4aS,11S,Z)-11-((S)-3,3-dimethyloxiran-2-yl)-7-hydroxy-2,2,6-trimethyl-10-(3-methylbut-2-en-1-yl)-8-(1-phenylvinyl)-2,3,4,4a,5,6,10,11-octahydro-6,10-methanobenzo[10]annulene-9,13(1H)-dione"
+602,O=C1C(C[C@H](O2)C(O)(C)C)([C@H](/C=C3[C@H](CC1(C4=O)C)CCC(C)(C\3)C)[C@H]5C(C)(O5)C)C2=C4C(C6=CC=CC=C6)=O,"(2S,7aS,13S,Z)-4-benzoyl-13-((S)-3,3-dimethyloxiran-2-yl)-2-(2-hydroxypropan-2-yl)-6,10,10-trimethyl-1,2,6,7,7a,8,9,10,11,13-decahydro-5H-6,13a-methanobenzo[5,6]cyclodeca[1,2-b]furan-5,14-dione"
+603,O[C@@H](C(O[C@H](C(C)=C1[C@H]2OC)C[C@]([C@@H](OC(C3=CC=CC=C3)=O)[C@]4([H])[C@@]5(CO[C@]5([H])C[C@H](OC(N(C)C)=O)[C@@]4(C)C2=O)OC(C)=O)(O)C1(C)C)=O)[C@H](/C=C(F)\F)NC(OC(C)(C)C)=O,"(2aR,4S,4aS,6R,9S,11S,12S,12aR,12bS)-12b-acetoxy-9-(((2R,3S)-3-((tert-butoxycarbonyl)amino)-5,5-difluoro-2-hydroxypent-4-enoyl)oxy)-4-((dimethylcarbamoyl)oxy)-11-hydroxy-6-methoxy-4a,8,13,13-tetramethyl-5-oxo-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-1H-7,11-methanocyclodeca[3,4]benzo[1,2-b]oxet-12-yl benzoate"
+604,O[C@@H](C(O[C@H](C(C)=C1[C@H]2OC)C[C@]([C@@H](OC(C3=CC=CC=C3)=O)[C@]4([H])[C@@]5(CO[C@]5([H])C[C@H](OC(OC)=O)[C@@]4(C)C2=O)OC(C)=O)(O)C1(C)C)=O)[C@H](/C=C(F)\F)NC(OC(C)(C)C)=O,"(2aR,4S,4aS,6R,9S,11S,12S,12aR,12bS)-12b-acetoxy-9-(((2R,3S)-3-((tert-butoxycarbonyl)amino)-5,5-difluoro-2-hydroxypent-4-enoyl)oxy)-11-hydroxy-6-methoxy-4-((methoxycarbonyl)oxy)-4a,8,13,13-tetramethyl-5-oxo-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-1H-7,11-methanocyclodeca[3,4]benzo[1,2-b]oxet-12-yl benzoate"
+605,O[C@@H](C(O[C@H](C(C)=C1[C@H]2OC(N(C)C)=O)C[C@]([C@@H](OC(C3=CC=CC=C3)=O)[C@]4([H])[C@@]5(CO[C@]5([H])C[C@H](OC)[C@@]4(C)C2=O)OC(C)=O)(O)C1(C)C)=O)[C@H](/C=C(F)\F)NC(OC(C)(C)C)=O,"(2aR,4S,4aS,6R,9S,11S,12S,12aR,12bS)-12b-acetoxy-9-(((2R,3S)-3-((tert-butoxycarbonyl)amino)-5,5-difluoro-2-hydroxypent-4-enoyl)oxy)-6-((dimethylcarbamoyl)oxy)-11-hydroxy-4-methoxy-4a,8,13,13-tetramethyl-5-oxo-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-1H-7,11-methanocyclodeca[3,4]benzo[1,2-b]oxet-12-yl benzoate"
+606,O[C@@H](C(O[C@H](C(C)=C1[C@H]2OC(OC)=O)C[C@]([C@@H](OC(C3=CC=CC=C3)=O)[C@]4([H])[C@@]5(CO[C@]5([H])C[C@H](OC)[C@@]4(C)C2=O)OC(C)=O)(O)C1(C)C)=O)[C@H](/C=C(F)\F)NC(OC(C)(C)C)=O,"(2aR,4S,4aS,6R,9S,11S,12S,12aR,12bS)-12b-acetoxy-9-(((2R,3S)-3-((tert-butoxycarbonyl)amino)-5,5-difluoro-2-hydroxypent-4-enoyl)oxy)-11-hydroxy-4-methoxy-6-((methoxycarbonyl)oxy)-4a,8,13,13-tetramethyl-5-oxo-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-1H-7,11-methanocyclodeca[3,4]benzo[1,2-b]oxet-12-yl benzoate"
+607,O[C@@H](C(O[C@H](C(C)=C1[C@H]2OC)C[C@]([C@@H](OC(C3=CC=CC=C3)=O)[C@]4([H])[C@@]5(CO[C@]5([H])CC([H])[C@@]4(C)C2=O)OC(C)=O)(O)C1(C)C)=O)[C@H](/C=C(F)\F)NC(OC(C)(C)C)=O,"(2aR,4aR,6R,9S,11S,12S,12aR,12bS)-12b-acetoxy-9-(((2R,3S)-3-((tert-butoxycarbonyl)amino)-5,5-difluoro-2-hydroxypent-4-enoyl)oxy)-11-hydroxy-6-methoxy-4a,8,13,13-tetramethyl-5-oxo-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-1H-7,11-methanocyclodeca[3,4]benzo[1,2-b]oxet-12-yl benzoate"
+608,O[C@@H](C(O[C@H](C(C)=C1[C@H]2OC(N(C)C)=O)[C@H](O3)[C@]([C@@H](OC(C4=CC=CC=C4)=O)[C@]5([H])[C@@]6(CO[C@]6([H])C[C@H](OC)[C@@]5(C)C2=O)OC(C)=O)(OC3=O)C1(C)C)=O)[C@H](/C=C(F)\F)NC(OC(C)(C)C)=O,"(2aR,4S,4aS,6R,9R,9aS,12aS,13S,13aR,13bS)-13b-acetoxy-9-(((2R,3S)-3-((tert-butoxycarbonyl)amino)-5,5-difluoro-2-hydroxypent-4-enoyl)oxy)-6-((dimethylcarbamoyl)oxy)-4-methoxy-4a,8,14,14-tetramethyl-5,11-dioxo-1,2a,3,4,4a,5,6,9,9a,13,13a,13b-dodecahydro-7,12a-methanooxeto[2'',3'':5',6']benzo[1',2':4,5]cyclodeca[1,2-d][1,3]dioxol-13-yl benzoate"
+609,CC1=C(CC[C@@]2(C)[C@](C(C)=CCC2)([H])C3)C(C)(C)[C@@]3([H])CC1,taxadiene
+610,CC1=C(CC[C@@]2(C)[C@](C([C@@H](O)CC2)=C)([H])C3)C(C)(C)[C@@]3([H])CC1,taxadiene-5α-ol
+611,CC1=C(CC[C@@]2(C)[C@](C([C@@H](OC(C)=O)CC2)=C)([H])C3)C(C)(C)[C@@]3([H])CC1,taxadiene-5α-yl acetate
+612,CC1=C([C@@H](O)C[C@@]2(C)[C@](C([C@@H](OC(C)=O)CC2)=C)([H])C3)C(C)(C)[C@@]3([H])C[C@@H]1O,"taxadiene-5α,10β,13α-triol 5-acetate"
+613,CC1=C(CC[C@@]2(C)[C@](C([C@@H](OC(C)=O)CC2)=C)([H])C3)C(C)(C)[C@@]3([H])C[C@@H]1O,"taxadiene-5α,13α-diol 5-acetate"
+614,CC1=C2[C@@H](O)C[C@]3([C@]([H])(C[C@]([H])(C[C@@H]1O)C2(C)C)C([C@H](CC3)O)=C)C,"(3S,4aS,6R,8S,11S,12aS)-9,12a,13,13-tetramethyl-4-methylene-1,2,3,4,4a,5,6,7,8,11,12,12a-dodecahydro-6,10-methanobenzo[10]annulene-3,8,11-triol"
+616,CC1=C2[C@@H](O)C[C@]3([C@]([H])(C[C@]([H])(C[C@@H]1OC(C)=O)C2(C)C)C([C@H](CC3)O)=C)C,"(3S,4aS,6R,8S,11S,12aS)-3,11-dihydroxy-9,12a,13,13-tetramethyl-4-methylene-1,2,3,4,4a,5,6,7,8,11,12,12a-dodecahydro-6,10-methanobenzo[10]annulen-8-yl acetate"
+617,CC1=C2[C@@H](O)C[C@]3([C@]([H])(C[C@]([H])(C[C@@H]1OC(C)=O)C2(C)C)C([C@H](CC3)OC(C)=O)=C)C,"(3S,4aS,6R,8S,11S,12aS)-11-hydroxy-9,12a,13,13-tetramethyl-4-methylene-1,2,3,4,4a,5,6,7,8,11,12,12a-dodecahydro-6,10-methanobenzo[10]annulene-3,8-diyl diacetate"
+618,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3([C@]([H])([C@H](OC(C4=CC=CC=C4)=O)[C@]([H])(C[C@@H]1OC(C)=O)C2(C)C)C([C@H](C[C@@H]3OC(C)=O)OC(C)=O)=C)C,"(1S,3S,4aR,5R,6R,8S,11R,12R,12aS)-5-(benzoyloxy)-9,12a,13,13-tetramethyl-4-methylene-1,2,3,4,4a,5,6,7,8,11,12,12a-dodecahydro-6,10-methanobenzo[10]annulene-1,3,8,11,12-pentayl pentaacetate"
+619,CC1=C2[C@H]([C@@H]([C@@]3(C)[C@]([C@@H]([C@](C[C@@H]1OC(C)=O)(C2(C)C)[H])OC(C4=CC=CC=C4)=O)([C@]5([C@H](OC5)C[C@@H]3OC(C)=O)C(C)=O)[H])OC(C)=O)OC(C)=O,"(2aR,4S,4aS,5R,6R,9S,11R,12R,12aR,12bS)-12-(benzoyloxy)-4a,8,13,13-tetramethyl-12b-(methyl(oxo)-l4-oxidaneyl)-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-1H-7,11-methanocyclodeca[3,4]benzo[1,2-b]oxete-4,5,6,9-tetrayl tetraacetate"
+620,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@]3([C@]([H])([C@H](OC(C4=CC=CC=C4)=O)[C@]([H])(C[C@@H]1OC(C)=O)C2(C)C)[C@@]5(CO5)[C@H](C[C@@H]3OC(C)=O)OC(C)=O)C,"(1'S,2R,3'S,4a'R,5'R,6'R,8'S,11'R,12'R,12a'S)-5'-(benzoyloxy)-9',12a',13',13'-tetramethyl-2',3',4a',5',6',7',8',11',12',12a'-decahydro-1'H-spiro[oxirane-2,4'-[6,10]methanobenzo[10]annulene]-1',3',8',11',12'-pentayl pentaacetate"
+621,CC1=CCC[C@]2(C)[C@]1([H])C[C@@]3([H])[C@@](C(C)=CC3)(C(C)(O)C)CC2,"2-((3aS,4aS,8aS,10aS)-1,5,8a-trimethyl-3a,4,4a,7,8,8a,9,10-octahydrobenzo[f]azulen-10a(3H)-yl)propan-2-ol"
+622,C=C1[C@]2(O)CC[C@]3([C@]([H])(C[C@]([H])(CC1)C2(C)C)C(C)=CCC3)C,"(4aS,6S,10R,12aS)-4,12a,13,13-tetramethyl-9-methylene-1,4a,5,6,7,8,9,11,12,12a-decahydro-6,10-methanobenzo[10]annulen-10(2H)-ol"
+623,CC1=CCC[C@](CC2)(C)[C@]1([H])C[C@H](C(C)=C)CCC(C2=O)=C,"(4aS,11R,12aS)-1,4a-dimethyl-8-methylene-11-(prop-1-en-2-yl)-4,4a,5,6,8,9,10,11,12,12a-decahydrobenzo[10]annulen-7(3H)-one"
+624,O[C@@H](C(O[C@H](C(C)=C1[C@H]2OC(C)=O)C[C@]([C@@H](OC(C3=CC=CC=C3)=O)[C@]4([H])[C@@]5(CO[C@@H]5C[C@H]6[C@]4(C6)C2=O)OC(C)=O)(O)C1(C)C)=O)[C@H](CC(C)C)NC(OC(C)(C)C)=O,TM2
+625,CC1=C2[C@@H](O)C[C@]3(C)CC[C@H](OC(C)=O)C([C@H]3[C@H](OC(C)=O)[C@H]([C@@H](OC([C@@H]([C@@H](O)C)C)=O)C1)C2(C)C)=C,10-Deacetylyunnanxane
+626,CC1=C2C(C(C3(C(CC(C2(C)C)CC1OC(=O)C)C(=C)C(CC3OC(=O)C)O)C)OC(=O)C)OC(=O)C,2-Deacetoxydecinnamoyltaxinine J
+627,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]([C@@]4([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C)CO4)O)OC(=O)C)C)OC(=O)C5=CC=CC=C5)O,"9-Deacetyl-9-benzoyl- 10-debenzoyl-4β,20-epoxytaxchinin A"
+628,CC1=C2C(C(C3(C(CC4C(C3C(C2(CC1O)C(C)(C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)C)O)O,"7,13-Dideacetyl-9,10-didebenzoyltaxchinin C"
+629,CC(=O)OC[C@@]12[C@H](C[C@@H](C(=C)[C@H]1[C@@H]([C@@H]3CC(=O)[C@@]4([C@@]([C@]3(CO4)C)([C@H]([C@@H]2OC(=O)C)OC(=O)C)O)C)OC(=O)C)OC(=O)/C=C/C5=CC=CC=C5)OC(=O)C,Taxezopidine L
+630,CC1=C2[C@H]([C@@H]([C@@]3([C@H](C[C@@H]4[C@]([C@H]3[C@@H]([C@@]2(C[C@@H]1O)C(C)(C)O)OC(=O)C5=CC=CC=C5)(CO4)OC(=O)C)O)COC(=O)C)O)O,13-O-Deacetyltaxumairol Z
+631,C/C=C(\C)C(=O)N[C@@H](c1ccccc1)[C@@H](O)C(=O)O[C@H]1C[C@@]2(O)[C@@H](OC(=O)c3ccccc3)[C@@H]3[C@]4(OC(C)=O)CO[C@@H]4C[C@H](O[C@@H]4OC[C@@H](O)[C@H](O)[C@H]4O)[C@@]3(C)C(=O)[C@H](O)C(=C1C)C2(C)C,7-Xylosyl-10-deacetylpaclitaxel B
+632,CC1=C2[C@H]([C@@H]([C@@]3(CC[C@@H](C(=C)[C@H]3C[C@@H](C2(C)C)C[C@@H]1OC(=O)C)OC(=O)/C=C/C4=CC=CC=C4)C)OC(=O)C)OC(=O)C,"2,7-Dideacetoxytaxinine J"
+633,CC1=C2[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@]3(C)[C@@H](C([C@@H](OC(/C=C/C4=CC=CC=C4)=O)C[C@@H]3OC(C)=O)=C)C[C@H](CC1=O)C2(C)C,2-Deacetoxytaxinine B
+634,CC1=C2[C@@H](O)C([C@]3(C)[C@H](O)C[C@@H]4[C@](CO4)(OC(C)=O)[C@H]3[C@H](OC(C5=CC=CC=C5)=O)[C@@](C[C@@H]1O)(O)C2(C)C)=O,7-epi-10-Deacetyl Baccatin III
+635,CC1=C2C(C)(C)[C@@]([C@@H](OC(C3=CC=CC=C3)=O)[C@@]([C@@](CO4)(OC(C)=O)[C@H]4C[C@@H]5O)([H])[C@]5(C)C([C@@H]2OC(C)=O)=O)(O)C[C@@H]1OC([C@H](O)[C@H](C6=CC=CC=C6)N)=O,3'-N-debenzoylpaclitaxel
+636,CC1=C2C(C)(C)[C@@]([C@@H](OC(C3=CC=CC=C3)=O)[C@@]([C@@](CO4)(OC(C)=O)[C@H]4C[C@@H]5O)([H])[C@]5(C)C([C@@H]2OC(C)=O)=O)(O)C[C@@H]1OC(C[C@H](C6=CC=CC=C6)N)=O,3'-N-debenzoyl-2'-deoxypaclitaxel
+637,CC1=C2C(C)(C)[C@@]([C@@H](O)[C@@](C([C@@H](OC(C)=O)C[C@@H]3O)=C)([H])[C@]3(C)[C@@H](O)[C@@H]2O)(O)C[C@@H]1O,taxane intermediate
+638,CC1=C2C(C)(C)[C@@]([C@@H](O)[C@@]([C@@](CO3)(OC(C)=O)[C@H]3C[C@@H]4O)([H])[C@]4(C)C([C@@H]2O)=O)(O)C[C@@H]1O,taxane intermediate
+640,CC1=C2C(C)(C)C(C[C@@](C([C@@H](O)CC3)=C)([H])[C@]3(C)CC2)C[C@@H]1O,"taxadiene-5α,13α-diol"
+641,CC1=C2C(C)(C)C(C[C@@](C([C@@H](OC(C)=O)CC3)=C)([H])[C@]3(C)C[C@@H]2O)CC1,"taxadiene-5α,10β-diol 5-acetate"
+642,CC1=C2C(C)(C)C(C[C@@](C(CCC3)=C)([H])[C@]3(C)CC2)CC1,isotaxadiene
+645,C[C@@]12[C@@]([C@](OC(C)=O)([C@@]3(C([C@@](O)(C[C@@]4(OC(C)=O)[H])[H])=C)[H])[H])([H])CC([C@](OC1)([C@@]2([C@]([H])([C@@]([H])([C@@]34COC(C5=CC=CC=C5)=O)OC(C)=O)OC(C)=O)O)C)=O,Taxinine M
+646,CC(O[C@H]1C([C@@]2([C@H](C[C@H]3OC[C@]3([C@H]2[C@@H]([C@@]4(C[C@@H](C(C)=C1C4(C)C)O)O)OC(c5ccccc5)=O)OC(C)=O)O[C@@H]6OC[C@H]([C@@H]([C@H]6O)O)O)C)=O)=O,7-(β-xylopyranozyl)baccatin III

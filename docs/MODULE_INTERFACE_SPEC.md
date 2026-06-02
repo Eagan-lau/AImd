@@ -5,6 +5,8 @@ This document defines the stable manifest interfaces between AImd modules. Inter
 ## Workflow
 
 ```text
+MolLink
+  -> ligand preparation
 RGPC
   -> TApocketBridge
   -> DockingHub
@@ -15,6 +17,18 @@ RGPC
 ```
 
 MetaboClip is a core scientific component of the workflow. The active backend is `metaboclip_unified`, called through `MetaBoClipBridge`; the old implementation is not part of the clean deliverable package.
+
+## ligand_source_manifest.csv
+
+Source: `MolLink`
+
+Downstream modules: ligand preparation; optional lookup source for `MetaBoClipBridge`
+
+Recommended columns:
+
+```csv
+ligand_id,source_id,molecule_id,molecule_name,smiles,ligand_source_type,source_table,row_index,transform_status
+```
 
 ## protein_manifest.csv
 
