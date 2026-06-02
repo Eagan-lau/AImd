@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import shlex
 import subprocess
+import sys
 import time
 from pathlib import Path
 from typing import Any
@@ -36,6 +37,7 @@ class ScriptAIPredictor:
             "device": self.device,
             "run_id": run_id or "",
             "project_root": str(self.config.root),
+            "python_executable": sys.executable,
         }
         return [str(part).format(**values) for part in command]
 

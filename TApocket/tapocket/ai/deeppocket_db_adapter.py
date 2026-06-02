@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import shlex
 import subprocess
+import sys
 import time
 from pathlib import Path
 from typing import Any
@@ -165,11 +166,12 @@ class DeepPocketDBPredictor:
             "pocketminer_checkpoint": self.spec.get("pocketminer_checkpoint", ""),
             "pocketminer_mode": str(self.spec.get("pocketminer_mode") or ""),
             "pocketminer_hidden_dim": str(self.spec.get("pocketminer_hidden_dim", "")),
+            "python_executable": sys.executable,
         }
 
     def _default_inference_command(self, values: dict[str, str]) -> list[str]:
         command = [
-            "python",
+            values["python_executable"],
             values["script"],
             "--input-pdb",
             values["query_pdb"],
@@ -203,9 +205,43 @@ class DeepPocketDBPredictor:
         command.extend(self._format_sequence(extra_args, values))
         return command
 
-    def _run_command(self, command: list[str], output_dir: Path, label: str) -> dict[str, Any]:
+    @staticmethod
+    def _timeout_seconds(stage_cfg: dict[str, Any]) -> int | None:
+        value = stage_cfg.get("timeout")
+        if value in {None, "", 0, "0"}:
+            return None
+        return int(value)
+
+    @staticmethod
+    def _timeout_output(value: Any) -> str:
+        if value is None:
+            return ""
+        if isinstance(value, bytes):
+            return value.decode(errors="replace")
+        return str(value)
+
+    def _run_command(self, command: list[str], output_dir: Path, label: str, timeout: int | None = None) -> dict[str, Any]:
         started = time.time()
-        completed = subprocess.run(command, cwd=str(self.root), capture_output=True, text=True)
+        try:
+            completed = subprocess.run(command, cwd=str(self.root), capture_output=True, text=True, timeout=timeout)
+        except subprocess.TimeoutExpired as exc:
+            elapsed = time.time() - started
+            log = {
+                "predictor": self.name,
+                "variant": self.variant,
+                "stage": label,
+                "command": command,
+                "returncode": "timeout",
+                "stdout": self._timeout_output(exc.stdout),
+                "stderr": self._timeout_output(exc.stderr),
+                "elapsed_seconds": elapsed,
+                "timeout_seconds": timeout,
+            }
+            (output_dir / f"{label}_command_log.json").write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
+            raise TimeoutError(
+                f"DeepPocket-DB {self.name} {label} timed out after {timeout}s. "
+                f"Command: {' '.join(command)}"
+            ) from exc
         elapsed = time.time() - started
         log = {
             "predictor": self.name,
@@ -216,6 +252,7 @@ class DeepPocketDBPredictor:
             "stdout": completed.stdout,
             "stderr": completed.stderr,
             "elapsed_seconds": elapsed,
+            "timeout_seconds": timeout,
         }
         (output_dir / f"{label}_command_log.json").write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
         if completed.returncode != 0:
@@ -235,13 +272,13 @@ class DeepPocketDBPredictor:
         precompute_command = self._format_sequence(feature_cfg.get("command"), values)
         command_logs: list[dict[str, Any]] = []
         if precompute_command:
-            command_logs.append(self._run_command(precompute_command, output_dir, "feature_precompute"))
+            command_logs.append(self._run_command(precompute_command, output_dir, "feature_precompute", timeout=self._timeout_seconds(feature_cfg)))
 
         inference_cfg = self.predictor_cfg.get("inference", {}) or {}
         inference_command = self._format_sequence(inference_cfg.get("command"), values)
         if not inference_command:
             inference_command = self._default_inference_command(values)
-        command_logs.append(self._run_command(inference_command, output_dir, "inference"))
+        command_logs.append(self._run_command(inference_command, output_dir, "inference", timeout=self._timeout_seconds(inference_cfg)))
 
         meta = {
             "predictor": self.name,

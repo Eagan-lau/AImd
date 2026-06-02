@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 Core unified MetaboClip scoring requires Python imports for PyYAML, NumPy, SciPy, and RDKit. PyMOL is not required for core scoring; it is optional for visualization/export features or other modules that explicitly call it.
 
-TApocket template mapping requires PyMOL to be importable from the Python environment used to run `run_tapocket_batch.py`. If the AI fallback is enabled, make sure `python` resolves to Python 3 in that shell; ADFRsuite's Python 2 executable cannot run the DeepPocket fallback scripts.
+TApocket template mapping requires PyMOL to be importable from the Python environment used to run `run_tapocket_batch.py`. The DeepPocket-DB fallback uses the same Python executable that runs AImd by default; custom AI commands should use the `{python_executable}` placeholder instead of a hard-coded `python`. The packaged AI fallback defaults to CPU for portable execution; set the TApocket AI device to `cuda` only on a compatible GPU runtime.
 
 Validate the repository layout:
 
@@ -85,6 +85,8 @@ python run_metaboclip_bridge.py --config configs/MetaBoClip/metaboclip_bridge.ya
 Run the full workflow only after all inputs are prepared:
 
 ```bash
+conda deactivate
+conda activate aimd
 python run_full_iterative_metaboclip.py --config configs/workflows/full_iterative_metaboclip.yaml
 ```
 

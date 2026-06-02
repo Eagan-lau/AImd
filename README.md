@@ -65,6 +65,8 @@ PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified \
 Run the full workflow only after all required inputs and external tools are available:
 
 ```bash
+conda deactivate
+conda activate aimd
 python run_full_iterative_metaboclip.py \
   --config configs/workflows/full_iterative_metaboclip.yaml
 ```
@@ -81,7 +83,7 @@ python run_refinement.py --config configs/Refinement/refine_from_clusterscore.ya
 python run_metaboclip_bridge.py --config configs/MetaBoClip/metaboclip_bridge.yaml
 ```
 
-TApocket template mapping requires PyMOL to be importable from the Python environment that runs `run_tapocket_batch.py`. If the AI fallback is enabled, make sure `python` resolves to Python 3 in that shell; ADFRsuite's Python 2 executable cannot run the DeepPocket fallback scripts.
+TApocket template mapping requires PyMOL to be importable from the Python environment that runs `run_tapocket_batch.py`. The DeepPocket-DB fallback uses the same Python executable that runs AImd by default; custom AI commands should use the `{python_executable}` placeholder instead of a hard-coded `python`. The packaged AI fallback defaults to CPU for portable execution; set the TApocket AI device to `cuda` only on a compatible GPU runtime.
 
 ## MolLink Integration
 
