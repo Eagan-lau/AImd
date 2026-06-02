@@ -31,6 +31,13 @@ tools:
     check_command: "{executable} -h"
     check_timeout: 20
     used_by: [DockingHub]
+  prepare_ligand:
+    enabled: true
+    required: false
+    executable: prepare_ligand
+    check_command: "{executable} -h"
+    check_timeout: 20
+    used_by: [DockingHub]
   pymol:
     enabled: true
     required: false

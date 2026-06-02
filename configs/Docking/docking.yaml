@@ -10,8 +10,8 @@ paths:
   # Inputs from upstream modules.
   protein_manifest: data/data_output/protein_batches/protein_manifest.csv
   pocket_manifest: data/data_output/pocket/pocket_manifest.csv
-  ligand_manifest: data/data_input/ligand/ligand_manifest.csv
-  ligand_dir: data/data_input/ligand
+  ligand_manifest: data/data_output/ligand_preparation/ligand_manifest.csv
+  ligand_dir: data/data_output/ligand_preparation/pdbqt
 
   # Optional cofactor template library. Use one folder per batch: data/data_input/cofactor/file_1/*.pdb
   cofactor_dir: data/data_input/cofactor
@@ -26,6 +26,28 @@ paths:
 
 input:
   require_existing_files: true
+
+ligand_preparation:
+  enabled: true
+  source_csv: data/data_input/ligand/taxane_molecules.csv
+  output_dir: data/data_output/ligand_preparation
+  batch_id: file_1
+  max_ligands: 5
+  smiles_column: smiles
+  id_column: source_id
+  name_column: molecule_name
+  overwrite: false
+  rdkit:
+    random_seed: 61453
+    max_attempts: 20
+    optimize: true
+    force_field: MMFF
+    max_iters: 500
+  pdbqt:
+    executable: auto
+    command_template: "{executable} -l {input_pdb} -o {output_pdbqt} {extra_options}"
+    extra_options: ""
+    timeout: 3600
 
 selection:
   # all | representatives_only
@@ -100,7 +122,7 @@ docking:
     timeout: 3600
 
 execution:
-  threads: 32
+  threads: 8
   workers: null
   continue_on_error: true
 

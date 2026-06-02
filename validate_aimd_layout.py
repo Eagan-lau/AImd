@@ -66,7 +66,7 @@ IMPORT_MODULES = [
 ]
 
 EXTERNAL_TOOLS = [
-    "foldseek", "hipmcl", "prepare_receptor", "vina",
+    "foldseek", "hipmcl", "prepare_ligand", "prepare_receptor", "vina",
 ]
 
 OPTIONAL_EXTERNAL_TOOLS = [

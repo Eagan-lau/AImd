@@ -28,7 +28,7 @@ DockingHub broad
   inputs:
     data/data_output/protein_batches/protein_manifest.csv
     data/data_output/pocket/pocket_manifest.csv
-    data/data_input/ligand/ligand_manifest.csv
+    data/data_output/ligand_preparation/ligand_manifest.csv
   outputs:
     data/data_output/docking_out/docking_result_manifest.csv
 
@@ -88,13 +88,13 @@ ligand_id,source_id,molecule_id,molecule_name,smiles,ligand_source_type,source_t
 Recommended columns:
 
 ```csv
-ligand_id,batch_id,ligand_path,smiles,name,status
+ligand_id,batch_id,ligand_path,pdbqt_path,source_csv,source_row,smiles,name,sdf_path,pdb_path,embedding_status,optimization_status,prepare_ligand_return_code,status,message
 ```
 
 Optional columns used by `MetaBoClipBridge` for role-table generation:
 
 ```csv
-ligand_source_path,source_ligand_path,source_path,sdf_path,mol_path,mol2_path,prepared_ligand_pdbqt_path,pdbqt_path
+ligand_source_path,source_ligand_path,source_path,mol_path,mol2_path,prepared_ligand_pdbqt_path
 ```
 
 ## docking_result_manifest.csv

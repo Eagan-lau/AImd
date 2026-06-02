@@ -81,6 +81,8 @@ python run_refinement.py --config configs/Refinement/refine_from_clusterscore.ya
 python run_metaboclip_bridge.py --config configs/MetaBoClip/metaboclip_bridge.yaml
 ```
 
+TApocket template mapping requires PyMOL to be importable from the Python environment that runs `run_tapocket_batch.py`. If the AI fallback is enabled, make sure `python` resolves to Python 3 in that shell; ADFRsuite's Python 2 executable cannot run the DeepPocket fallback scripts.
+
 ## MolLink Integration
 
 The active MolLink configuration is:
@@ -108,6 +110,12 @@ data/data_output/ligand_transformation/ligand_source_manifest.csv
 ```
 
 When a reaction template file is configured and present, the wrapper calls the migrated MolLink template-based TransformNet logic. When only the molecule CSV is available, the wrapper completes in `csv_only_no_template` mode and writes an empty transformation network instead of inventing reaction edges.
+
+DockingHub prepares the docking ligand manifest from the molecule CSV by generating RDKit 3D conformers, minimizing them with MMFF or UFF, and converting the prepared molecules to PDBQT:
+
+```text
+data/data_output/ligand_preparation/ligand_manifest.csv
+```
 
 ## MetaboClip Integration
 

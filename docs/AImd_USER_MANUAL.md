@@ -60,6 +60,8 @@ pip install -r requirements.txt
 
 Core unified MetaboClip scoring requires Python imports for PyYAML, NumPy, SciPy, and RDKit. PyMOL is not required for core scoring; it is optional for visualization/export features or other modules that explicitly call it.
 
+TApocket template mapping requires PyMOL to be importable from the Python environment used to run `run_tapocket_batch.py`. If the AI fallback is enabled, make sure `python` resolves to Python 3 in that shell; ADFRsuite's Python 2 executable cannot run the DeepPocket fallback scripts.
+
 Validate the repository layout:
 
 ```bash
@@ -103,6 +105,12 @@ data/data_output/ligand_transformation/ligand_source_manifest.csv
 ```
 
 The molecule table is the core ligand input. If no reaction template file is configured, MolLink still completes in `csv_only_no_template` mode and writes an empty transformation network without inventing reaction edges.
+
+DockingHub prepares the ligand docking manifest from the same molecule CSV by generating RDKit 3D conformers, running energy minimization, and converting the minimized ligand structures to PDBQT:
+
+```text
+data/data_output/ligand_preparation/ligand_manifest.csv
+```
 
 The refined docking manifest consumed by `MetaBoClipBridge` is:
 

@@ -9,6 +9,7 @@ from pathlib import Path
 from .cofactor import build_cofactor_manifest
 from .ensemble import build_conformer_manifest
 from .manifest import load_ligands, load_pockets, load_proteins
+from .ligand import prepare_ligands
 from .postprocess import summarize_results
 from .receptor import prepare_receptors
 from .tasks import build_docking_tasks
@@ -22,6 +23,7 @@ def run_dockinghub(config_path: str | Path) -> Path:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
     print(f"[DockingHub] AImd root: {root}")
     proteins = load_proteins(config)
+    prepare_ligands(config)
     ligands = load_ligands(config)
     pockets = load_pockets(config)
     print(f"[DockingHub] inputs: proteins={len(proteins)}, ligands={len(ligands)}, pockets={len(pockets)}")
