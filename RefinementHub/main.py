@@ -13,7 +13,7 @@ from .utils import deep_merge, dump_yaml, load_yaml, resolve_path, write_json
 def _build_refined_docking_config(config: dict[str, Any], selected_manifest: Path) -> Path:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
     base_path = resolve_path(config.get("paths", {}).get("base_docking_config", "configs/Docking/docking.yaml"), root)
-    out_config = resolve_path(config.get("paths", {}).get("generated_docking_config", "data/refinement/refined_docking.generated.yaml"), root)
+    out_config = resolve_path(config.get("paths", {}).get("generated_docking_config", "data/data_output/refinement/refined_docking.generated.yaml"), root)
     if base_path is None or not base_path.exists():
         raise FileNotFoundError(f"Base DockingHub config not found: {base_path}")
     assert out_config is not None
@@ -22,15 +22,15 @@ def _build_refined_docking_config(config: dict[str, Any], selected_manifest: Pat
         "paths": {
             "aimd_root": str(root),
             "protein_manifest": str(selected_manifest),
-            "pocket_manifest": "data/pocket/pocket_manifest.csv",
-            "ligand_manifest": "data/ligand/ligand_manifest.csv",
-            "cofactor_dir": "data/cofactor",
-            "ensemble_dir": "data/refined/ensemble",
-            "cofactor_mapped_dir": "data/refined/cofactor_mapped",
-            "receptor_dir": "data/refined/receptor",
-            "docking_config_dir": "data/refined/docking_configs",
-            "docking_task_dir": "data/refined/docking_tasks",
-            "docking_out_dir": "data/refined/docking_out",
+            "pocket_manifest": "data/data_output/pocket/pocket_manifest.csv",
+            "ligand_manifest": "data/data_input/ligand/ligand_manifest.csv",
+            "cofactor_dir": "data/data_input/cofactor",
+            "ensemble_dir": "data/data_output/refined/ensemble",
+            "cofactor_mapped_dir": "data/data_output/refined/cofactor_mapped",
+            "receptor_dir": "data/data_output/refined/receptor",
+            "docking_config_dir": "data/data_output/refined/docking_configs",
+            "docking_task_dir": "data/data_output/refined/docking_tasks",
+            "docking_out_dir": "data/data_output/refined/docking_out",
         },
         "selection": {
             "protein_mode": "all",
@@ -77,7 +77,7 @@ def run_refinement(config_path: str | Path) -> Path:
         result = run_dockinghub(docking_config)
     else:
         result = Path(docking_config)
-    out_report = resolve_path(config.get("paths", {}).get("report_json", "data/refinement/refinement_report.json"), root)
+    out_report = resolve_path(config.get("paths", {}).get("report_json", "data/data_output/refinement/refinement_report.json"), root)
     assert out_report is not None
     write_json(out_report, {
         "selected_protein_manifest": str(selected_manifest),

@@ -6,23 +6,23 @@ paths:
   aimd_root: .
 
   # Input from RefinementHub / refined DockingHub.
-  refined_docking_manifest: data/refined/docking_out/docking_result_manifest.csv
+  refined_docking_manifest: data/data_output/refined/docking_out/docking_result_manifest.csv
 
   # Unified MetaboClip backend and profile.
   metaboclip_project_dir: metaboclip_unified
   metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
 
   # Bridge-generated staging layout, unified outputs, and final AImd-facing outputs.
-  staging_dir: data/metaboclip/staging
-  unified_output_dir: data/metaboclip/unified_runs
-  results_dir: data/metaboclip/results
+  staging_dir: data/data_output/metaboclip/staging
+  unified_output_dir: data/data_output/metaboclip/unified_runs
+  results_dir: data/data_output/metaboclip/results
 
   # Ligand role-map inputs and outputs.
-  ligand_manifest: data/ligand/ligand_manifest.csv
-  ligand_source_manifest: data/ligand/ligand_source_manifest.csv
-  role_table_dir: data/metaboclip/ligand_roles/role_tables
-  annotation_dir: data/metaboclip/ligand_roles/annotations
-  atom_map_dir: data/metaboclip/ligand_roles/atom_maps
+  ligand_manifest: data/data_input/ligand/ligand_manifest.csv
+  ligand_source_manifest: data/data_input/ligand/ligand_source_manifest.csv
+  role_table_dir: data/data_output/metaboclip/ligand_roles/role_tables
+  annotation_dir: data/data_output/metaboclip/ligand_roles/annotations
+  atom_map_dir: data/data_output/metaboclip/ligand_roles/atom_maps
 
 filtering:
   require_success_status: true
@@ -47,7 +47,7 @@ family_assignment:
 
   # Used when mode = cluster_family_map.
   # Format: cluster_id,family   or cluster_id,families
-  cluster_family_map_csv: data/input/cluster_family_map.csv
+  cluster_family_map_csv: data/data_input/workflow/cluster_family_map.csv
   fallback_to_all_when_unmapped: false
 
   # Used when mode = column.

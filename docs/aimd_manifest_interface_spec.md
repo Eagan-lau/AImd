@@ -7,46 +7,46 @@ This file records the stable AImd manifest interfaces used by the integrated wor
 ```text
 RGPC
   outputs:
-    data/protein/protein_manifest.csv
-    data/cluster/RGPC/clusters.tsv
-    data/cluster/RGPC/representatives.tsv
+    data/data_output/protein_batches/protein_manifest.csv
+    data/data_output/cluster/RGPC/clusters.tsv
+    data/data_output/cluster/RGPC/representatives.tsv
 
 TApocketBridge
   inputs:
-    data/protein/protein_manifest.csv
+    data/data_output/protein_batches/protein_manifest.csv
   outputs:
-    data/pocket/pocket_manifest.csv
-    data/pocket/tapocket_run_manifest.csv
+    data/data_output/pocket/pocket_manifest.csv
+    data/data_output/pocket/tapocket_run_manifest.csv
 
 DockingHub broad
   inputs:
-    data/protein/protein_manifest.csv
-    data/pocket/pocket_manifest.csv
-    data/ligand/ligand_manifest.csv
+    data/data_output/protein_batches/protein_manifest.csv
+    data/data_output/pocket/pocket_manifest.csv
+    data/data_input/ligand/ligand_manifest.csv
   outputs:
-    data/docking_out/docking_result_manifest.csv
+    data/data_output/docking_out/docking_result_manifest.csv
 
 ClusterScore
   inputs:
-    data/docking_out/docking_result_manifest.csv
+    data/data_output/docking_out/docking_result_manifest.csv
   outputs:
-    data/scoring/ClusterScore/clusterscore_results.xlsx
-    data/scoring/ClusterScore/top10_clusters.csv
+    data/data_output/scoring/ClusterScore/clusterscore_results.xlsx
+    data/data_output/scoring/ClusterScore/top10_clusters.csv
 
 RefinementHub
   inputs:
-    data/scoring/ClusterScore/top10_clusters.csv
-    data/protein/protein_manifest.csv
+    data/data_output/scoring/ClusterScore/top10_clusters.csv
+    data/data_output/protein_batches/protein_manifest.csv
   outputs:
-    data/refinement/selected_protein_manifest.csv
-    data/refinement/refined_docking.generated.yaml
-    data/refined/docking_out/docking_result_manifest.csv
+    data/data_output/refinement/selected_protein_manifest.csv
+    data/data_output/refinement/refined_docking.generated.yaml
+    data/data_output/refined/docking_out/docking_result_manifest.csv
 
 MetaBoClipBridge
   inputs:
-    data/refined/docking_out/docking_result_manifest.csv
+    data/data_output/refined/docking_out/docking_result_manifest.csv
   outputs:
-    data/metaboclip/results/metaboclip_final_ranking.csv
+    data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
 ## protein_manifest.csv
@@ -107,12 +107,12 @@ Required unified backend paths:
 paths:
   metaboclip_project_dir: metaboclip_unified
   metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
-  unified_output_dir: data/metaboclip/unified_runs
-  ligand_manifest: data/ligand/ligand_manifest.csv
-  ligand_source_manifest: data/ligand/ligand_source_manifest.csv
-  role_table_dir: data/metaboclip/ligand_roles/role_tables
-  annotation_dir: data/metaboclip/ligand_roles/annotations
-  atom_map_dir: data/metaboclip/ligand_roles/atom_maps
+  unified_output_dir: data/data_output/metaboclip/unified_runs
+  ligand_manifest: data/data_input/ligand/ligand_manifest.csv
+  ligand_source_manifest: data/data_input/ligand/ligand_source_manifest.csv
+  role_table_dir: data/data_output/metaboclip/ligand_roles/role_tables
+  annotation_dir: data/data_output/metaboclip/ligand_roles/annotations
+  atom_map_dir: data/data_output/metaboclip/ligand_roles/atom_maps
 ```
 
 Required mechanism mapping:
@@ -140,22 +140,22 @@ Allowed values are `existing`, `generate`, and `auto`.
 Stable final result:
 
 ```text
-data/metaboclip/results/metaboclip_final_ranking.csv
+data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
 Aggregate outputs:
 
 ```text
-data/metaboclip/results/metaboclip_protein_scores_all.csv
-data/metaboclip/results/metaboclip_conformation_scores_all.csv
-data/metaboclip/results/metaboclip_pose_scores_all.csv
-data/metaboclip/results/metaboclip_candidate_scores_all.csv
-data/metaboclip/results/metaboclip_passing_candidates_all.csv
-data/metaboclip/results/metaboclip_geometry_features_all.csv
-data/metaboclip/results/metaboclip_resolved_ligand_sites_all.csv
-data/metaboclip/results/metaboclip_resolved_protein_roles_all.csv
-data/metaboclip/results/metaboclip_run_manifest.csv
-data/metaboclip/results/metaboclip_report.json
+data/data_output/metaboclip/results/metaboclip_protein_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_conformation_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_pose_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_candidate_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_passing_candidates_all.csv
+data/data_output/metaboclip/results/metaboclip_geometry_features_all.csv
+data/data_output/metaboclip/results/metaboclip_resolved_ligand_sites_all.csv
+data/data_output/metaboclip/results/metaboclip_resolved_protein_roles_all.csv
+data/data_output/metaboclip/results/metaboclip_run_manifest.csv
+data/data_output/metaboclip/results/metaboclip_report.json
 ```
 
 Final ranking is sorted by real unified score fields when available:

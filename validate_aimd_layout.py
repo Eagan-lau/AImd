@@ -8,7 +8,8 @@ This script does not run external tools. It checks:
 3. the active unified MetaboClip backend location;
 4. YAML parseability;
 5. Python importability of AImd wrapper modules;
-6. availability of common external executables when present in PATH.
+6. canonical data_input/data_output layout;
+7. availability of common external executables when present in PATH.
 """
 
 from __future__ import annotations
@@ -31,6 +32,15 @@ REQUIRED_DIRS = [
     "ScoringHub", "RefinementHub", "MetaBoClipBridge",
     "orchestrator", "configs", "data", "docs", "third_party",
     "metaboclip_unified",
+]
+
+REQUIRED_DATA_DIRS = [
+    "data/data_input",
+    "data/data_input/protein",
+    "data/data_input/ligand",
+    "data/data_input/cofactor",
+    "data/data_input/workflow",
+    "data/data_output",
 ]
 
 REQUIRED_CONFIGS = [
@@ -71,6 +81,9 @@ def check_layout(root: Path) -> list[str]:
     for rel in REQUIRED_DIRS:
         if not (root / rel).is_dir():
             errors.append(f"missing directory: {rel}")
+    for rel in REQUIRED_DATA_DIRS:
+        if not (root / rel).is_dir():
+            errors.append(f"missing data layout directory: {rel}")
     for rel in REQUIRED_CONFIGS:
         if not (root / rel).is_file():
             errors.append(f"missing config: {rel}")

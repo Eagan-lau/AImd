@@ -8,18 +8,18 @@ paths:
   aimd_root: .
 
   # ClusterScore outputs from the first broad docking round.
-  clusterscore_top_csv: data/scoring/ClusterScore/top10_clusters.csv
-  clusterscore_all_csv: data/scoring/ClusterScore/cluster_binding_statistics.csv
+  clusterscore_top_csv: data/data_output/scoring/ClusterScore/top10_clusters.csv
+  clusterscore_all_csv: data/data_output/scoring/ClusterScore/cluster_binding_statistics.csv
 
   # Original RGPC protein manifest and selected output manifest.
-  source_protein_manifest: data/protein/protein_manifest.csv
-  selected_protein_manifest: data/refinement/selected_protein_manifest.csv
-  selected_clusters_csv: data/refinement/selected_clusters.csv
+  source_protein_manifest: data/data_output/protein_batches/protein_manifest.csv
+  selected_protein_manifest: data/data_output/refinement/selected_protein_manifest.csv
+  selected_clusters_csv: data/data_output/refinement/selected_clusters.csv
 
   # Base DockingHub config and generated refined-docking config.
   base_docking_config: configs/Docking/docking.yaml
-  generated_docking_config: data/refinement/refined_docking.generated.yaml
-  report_json: data/refinement/refinement_report.json
+  generated_docking_config: data/data_output/refinement/refined_docking.generated.yaml
+  report_json: data/data_output/refinement/refinement_report.json
 
 selection:
   # Select top N ClusterScore clusters/families for refined docking.
@@ -40,17 +40,17 @@ run:
 # These overrides are deep-merged into configs/Docking/docking.yaml.
 docking_overrides:
   paths:
-    protein_manifest: data/refinement/selected_protein_manifest.csv
-    pocket_manifest: data/pocket/pocket_manifest.csv
-    ligand_manifest: data/ligand/ligand_manifest.csv
-    cofactor_dir: data/cofactor
+    protein_manifest: data/data_output/refinement/selected_protein_manifest.csv
+    pocket_manifest: data/data_output/pocket/pocket_manifest.csv
+    ligand_manifest: data/data_input/ligand/ligand_manifest.csv
+    cofactor_dir: data/data_input/cofactor
 
-    ensemble_dir: data/refined/ensemble
-    cofactor_mapped_dir: data/refined/cofactor_mapped
-    receptor_dir: data/refined/receptor
-    docking_config_dir: data/refined/docking_configs
-    docking_task_dir: data/refined/docking_tasks
-    docking_out_dir: data/refined/docking_out
+    ensemble_dir: data/data_output/refined/ensemble
+    cofactor_mapped_dir: data/data_output/refined/cofactor_mapped
+    receptor_dir: data/data_output/refined/receptor
+    docking_config_dir: data/data_output/refined/docking_configs
+    docking_task_dir: data/data_output/refined/docking_tasks
+    docking_out_dir: data/data_output/refined/docking_out
 
   selection:
     protein_mode: all

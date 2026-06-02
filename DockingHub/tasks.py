@@ -61,9 +61,9 @@ def build_docking_tasks(
     pockets: list[PocketRecord],
 ) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    out_dir = resolve_path(config.get("paths", {}).get("docking_out_dir", "data/docking_out"), root)
-    conf_dir = resolve_path(config.get("paths", {}).get("docking_config_dir", "data/docking_configs"), root)
-    task_dir = resolve_path(config.get("paths", {}).get("docking_task_dir", "data/docking_tasks"), root)
+    out_dir = resolve_path(config.get("paths", {}).get("docking_out_dir", "data/data_output/docking_out"), root)
+    conf_dir = resolve_path(config.get("paths", {}).get("docking_config_dir", "data/data_output/docking_configs"), root)
+    task_dir = resolve_path(config.get("paths", {}).get("docking_task_dir", "data/data_output/docking_tasks"), root)
     assert out_dir is not None and conf_dir is not None and task_dir is not None
     ensure_dir(out_dir); ensure_dir(conf_dir); ensure_dir(task_dir)
     pocket_top_n = config.get("selection", {}).get("top_n_pockets_per_protein", 1)

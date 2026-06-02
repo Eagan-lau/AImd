@@ -4,6 +4,7 @@ set -euo pipefail
 # Run from AImd root:
 #   cd AImd
 
+python scripts/migrate_data_layout.py --root .
 python validate_aimd_layout.py --root .
 
 # Deterministic MetaboClip bridge smoke test

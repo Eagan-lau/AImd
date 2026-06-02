@@ -280,7 +280,7 @@ def run_tapocket_batch(config_path: str | Path) -> tuple[Path, Path]:
     config = load_yaml(config_path)
     paths = config.get("paths", {})
     root = Path(paths.get("aimd_root", ".")).resolve()
-    out_dir = resolve_path(paths.get("out_dir", "data/pocket"), root)
+    out_dir = resolve_path(paths.get("out_dir", "data/data_output/pocket"), root)
     tapocket_project_dir = resolve_path(paths.get("tapocket_project_dir", "TApocket"), root)
     tapocket_config_path = resolve_path(paths.get("tapocket_config", "TApocket/configs/tapocket_template_v1.yaml"), root)
     if out_dir is None or tapocket_project_dir is None or tapocket_config_path is None:

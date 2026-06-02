@@ -7,26 +7,27 @@ third_party:
 paths:
   # All paths can be absolute or relative to the AImd root directory.
   aimd_root: .
-  structure_dir: data/protein_structure/cleaned_pdb
-  structure_manifest: data/protein_structure/structure_manifest.csv
-  out_dir: data/cluster/RGPC
-  protein_out_dir: data/protein
+  structure_dir: data/data_input/protein
+  structure_manifest: data/data_input/protein/structure_manifest.csv
+  out_dir: data/data_output/cluster/RGPC
+  protein_out_dir: data/data_output/protein_batches
 
 input:
   file_extensions: [".pdb", ".cif", ".mmcif"]
+  recursive: true
   require_existing_files: true
 
 foldseek:
   executable: auto
   mode: all_vs_all     # all_vs_all or per_query
   threads: 32
-  tmp_dir: data/cluster/RGPC/tmp
+  tmp_dir: data/data_output/cluster/RGPC/tmp
   createdb:
     enabled: true
-    db_prefix: data/cluster/RGPC/foldseek_db/protein_db
+    db_prefix: data/data_output/cluster/RGPC/foldseek_db/protein_db
   search:
-    result_db: data/cluster/RGPC/foldseek_search/result_db
-    raw_tsv: data/cluster/RGPC/foldseek_search/all_vs_all.tsv
+    result_db: data/data_output/cluster/RGPC/foldseek_search/result_db
+    raw_tsv: data/data_output/cluster/RGPC/foldseek_search/all_vs_all.tsv
     sensitivity: null      # example: 7.5. Keep null to omit.
     require_backtrace: true  # required for qtmscore/ttmscore in many Foldseek builds
     extra_args: []         # example: ["--max-seqs", "10000"]
@@ -54,9 +55,9 @@ hipmcl:
   mpi_processes: 4
   per_process_mem_gb: 2
   extra_args: []
-  input_abc: data/cluster/RGPC/graph/structure_edges.abc
-  output: data/cluster/RGPC/hipmcl/hipmcl_output.txt
-  log: data/cluster/RGPC/hipmcl/hipmcl.log
+  input_abc: data/data_output/cluster/RGPC/graph/structure_edges.abc
+  output: data/data_output/cluster/RGPC/hipmcl/hipmcl_output.txt
+  log: data/data_output/cluster/RGPC/hipmcl/hipmcl.log
   # Modify this line if your HipMCL command differs.
   command_template: "OMP_NUM_THREADS={threads} mpirun -np {mpi_processes} {executable} -M {input} -I {inflation} -per-process-mem {per_process_mem_gb} -o {output} {extra_args}"
 

@@ -62,6 +62,6 @@ def run_vina_tasks(config: dict[str, Any], tasks: list[dict[str, Any]]) -> list[
                 rows.append(future.result())
             except Exception as exc:
                 rows.append({"job_id": "unknown", "status": "failed", "return_code": "", "message": str(exc)})
-    task_dir = Path(config.get("paths", {}).get("aimd_root", ".")).resolve() / config.get("paths", {}).get("docking_task_dir", "data/docking_tasks")
+    task_dir = Path(config.get("paths", {}).get("aimd_root", ".")).resolve() / config.get("paths", {}).get("docking_task_dir", "data/data_output/docking_tasks")
     write_csv(task_dir / "docking_run_manifest.csv", rows)
     return rows

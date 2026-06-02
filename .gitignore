@@ -8,9 +8,30 @@ venv/
 env/
 *.egg-info/
 
-data/
-data_input/
-data_output/
+data/**
+!data/
+!data/README.md
+!data/.gitkeep
+!data/data_input/
+!data/data_input/.gitkeep
+!data/data_input/protein/
+!data/data_input/protein/.gitkeep
+!data/data_input/protein/file_1/
+!data/data_input/protein/file_1/.gitkeep
+!data/data_input/ligand/
+!data/data_input/ligand/.gitkeep
+!data/data_input/ligand/file_1/
+!data/data_input/ligand/file_1/.gitkeep
+!data/data_input/cofactor/
+!data/data_input/cofactor/.gitkeep
+!data/data_input/cofactor/file_1/
+!data/data_input/cofactor/file_1/.gitkeep
+!data/data_input/workflow/
+!data/data_input/workflow/.gitkeep
+!data/data_output/
+!data/data_output/.gitkeep
+/data_input/
+/data_output/
 outputs/
 output/
 results/
@@ -28,6 +49,9 @@ cache/
 *.dcd
 *.xtc
 *.trr
+
+!metaboclip_unified/tests/data/
+!metaboclip_unified/tests/data/**
 
 *.pt
 *.pth

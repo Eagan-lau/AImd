@@ -12,7 +12,7 @@ from .utils import copy_or_link, ensure_dir, is_probably_pdbqt, quote, resolve_p
 def prepare_receptors(config: dict[str, Any], cofactor_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
     prep_cfg = config.get("receptor_preparation", {})
-    out_dir = resolve_path(config.get("paths", {}).get("receptor_dir", "data/receptor"), root)
+    out_dir = resolve_path(config.get("paths", {}).get("receptor_dir", "data/data_output/receptor"), root)
     assert out_dir is not None
     ensure_dir(out_dir)
     enabled = bool(prep_cfg.get("enabled", True))

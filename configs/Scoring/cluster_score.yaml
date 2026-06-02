@@ -5,16 +5,16 @@ paths:
   aimd_root: .
 
   # Preferred input from DockingHub.
-  docking_result_manifest: data/docking_out/docking_result_manifest.csv
+  docking_result_manifest: data/data_output/docking_out/docking_result_manifest.csv
 
-  # Fallback input: directly scan data/docking_out/file_*/*.out when manifest is absent.
-  docking_out_dir: data/docking_out
+  # Fallback input: directly scan data/data_output/docking_out/file_*/*.out when manifest is absent.
+  docking_out_dir: data/data_output/docking_out
 
   # Optional: used to fill cluster_id if docking_result_manifest does not contain it.
-  protein_manifest: data/protein/protein_manifest.csv
+  protein_manifest: data/data_output/protein_batches/protein_manifest.csv
 
   # Standard outputs.
-  clusterscore_out_dir: data/scoring/ClusterScore
+  clusterscore_out_dir: data/data_output/scoring/ClusterScore
 
 affinity_extraction:
   # Extract the first Vina pose affinity as the best binding energy.

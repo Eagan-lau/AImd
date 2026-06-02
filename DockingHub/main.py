@@ -38,8 +38,8 @@ def run_dockinghub(config_path: str | Path) -> Path:
     print(f"[DockingHub] docking tasks: {len(tasks)}")
     run_rows = run_vina_tasks(config, tasks)
     result_rows = summarize_results(config, run_rows)
-    result_manifest = root / config.get("paths", {}).get("docking_out_dir", "data/docking_out") / "docking_result_manifest.csv"
-    write_json(root / config.get("paths", {}).get("docking_out_dir", "data/docking_out") / "run_config_snapshot.json", config)
+    result_manifest = root / config.get("paths", {}).get("docking_out_dir", "data/data_output/docking_out") / "docking_result_manifest.csv"
+    write_json(root / config.get("paths", {}).get("docking_out_dir", "data/data_output/docking_out") / "run_config_snapshot.json", config)
     print(f"[DockingHub] finished: {result_manifest}")
     return result_manifest
 

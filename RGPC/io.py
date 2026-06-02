@@ -19,10 +19,11 @@ class ProteinRecord:
     status: str = "success"
 
 
-def scan_structure_dir(structure_dir: Path, extensions: List[str]) -> List[ProteinRecord]:
+def scan_structure_dir(structure_dir: Path, extensions: List[str], recursive: bool = False) -> List[ProteinRecord]:
     records: List[ProteinRecord] = []
     ext_set = {e.lower() for e in extensions}
-    for p in sorted(structure_dir.iterdir()):
+    iterator = structure_dir.rglob("*") if recursive else structure_dir.iterdir()
+    for p in sorted(iterator):
         if not p.is_file():
             continue
         if p.suffix.lower() not in ext_set:
@@ -59,13 +60,14 @@ def load_protein_records(config: Dict[str, Any]) -> List[ProteinRecord]:
     manifest = resolve_path(paths.get("structure_manifest"), root)
     require_existing = bool(input_cfg.get("require_existing_files", True))
     extensions = input_cfg.get("file_extensions", [".pdb"])
+    recursive = bool(input_cfg.get("recursive", False))
 
     if manifest and manifest.exists():
         records = read_structure_manifest(manifest, root=root, require_existing=require_existing)
     else:
         if structure_dir is None or not structure_dir.exists():
             raise FileNotFoundError(f"structure_dir not found: {structure_dir}")
-        records = scan_structure_dir(structure_dir, extensions)
+        records = scan_structure_dir(structure_dir, extensions, recursive=recursive)
 
     if not records:
         raise RuntimeError("No protein structure files found for RGPC")

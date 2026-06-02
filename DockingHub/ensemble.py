@@ -76,7 +76,7 @@ def _align_to_reference(config: dict[str, Any], mobile: Path, reference: Path, o
 def build_conformer_manifest(config: dict[str, Any], proteins: list[ProteinRecord]) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
     ens_cfg = config.get("ensemble", {})
-    out_dir = resolve_path(config.get("paths", {}).get("ensemble_dir", "data/ensemble"), root)
+    out_dir = resolve_path(config.get("paths", {}).get("ensemble_dir", "data/data_output/ensemble"), root)
     assert out_dir is not None
     ensure_dir(out_dir)
 

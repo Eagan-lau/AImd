@@ -8,21 +8,21 @@ paths:
   aimd_root: .
 
   # Inputs from upstream modules.
-  protein_manifest: data/protein/protein_manifest.csv
-  pocket_manifest: data/pocket/pocket_manifest.csv
-  ligand_manifest: data/ligand/ligand_manifest.csv
-  ligand_dir: data/ligand
+  protein_manifest: data/data_output/protein_batches/protein_manifest.csv
+  pocket_manifest: data/data_output/pocket/pocket_manifest.csv
+  ligand_manifest: data/data_input/ligand/ligand_manifest.csv
+  ligand_dir: data/data_input/ligand
 
-  # Optional cofactor template library. Use one folder per batch: data/cofactor/file_1/*.pdb
-  cofactor_dir: data/cofactor
+  # Optional cofactor template library. Use one folder per batch: data/data_input/cofactor/file_1/*.pdb
+  cofactor_dir: data/data_input/cofactor
 
   # Standard outputs.
-  ensemble_dir: data/ensemble
-  cofactor_mapped_dir: data/cofactor_mapped
-  receptor_dir: data/receptor
-  docking_config_dir: data/docking_configs
-  docking_task_dir: data/docking_tasks
-  docking_out_dir: data/docking_out
+  ensemble_dir: data/data_output/ensemble
+  cofactor_mapped_dir: data/data_output/cofactor_mapped
+  receptor_dir: data/data_output/receptor
+  docking_config_dir: data/data_output/docking_configs
+  docking_task_dir: data/data_output/docking_tasks
+  docking_out_dir: data/data_output/docking_out
 
 input:
   require_existing_files: true
@@ -36,7 +36,7 @@ selection:
 pairing:
   # all_vs_all | by_batch | explicit_pairs
   mode: all_vs_all
-  pairs_csv: data/input/docking_pairs.csv
+  pairs_csv: data/data_input/workflow/docking_pairs.csv
 
 ensemble:
   enabled: false
@@ -62,7 +62,7 @@ ensemble:
 
 cofactor:
   enabled: false
-  # If true, select the most structurally similar cofactor template by Foldseek from data/cofactor/file_*.
+  # If true, select the most structurally similar cofactor template by Foldseek from data/data_input/cofactor/file_*.
   # If false, the first template in the corresponding batch folder is used.
   use_foldseek: false
   fallback_to_first: true

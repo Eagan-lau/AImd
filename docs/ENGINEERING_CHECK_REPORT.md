@@ -7,13 +7,13 @@ The active MetaboClip integration uses `MetaBoClipBridge` as the adapter layer a
 The bridge preserves the refined docking manifest interface and writes AImd-compatible outputs under:
 
 ```text
-data/metaboclip/results/
+data/data_output/metaboclip/results/
 ```
 
 The stable final ranking file remains:
 
 ```text
-data/metaboclip/results/metaboclip_final_ranking.csv
+data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
 ## Active Backend Checks
@@ -44,7 +44,7 @@ metaboclip_ligand_roles.role_table.annotation_to_role_rows
 `MetaBoClipBridge` consumes:
 
 ```text
-data/refined/docking_out/docking_result_manifest.csv
+data/data_output/refined/docking_out/docking_result_manifest.csv
 ```
 
 Important fields preserved when present:

@@ -126,8 +126,8 @@ def map_cofactor_with_pymol(config: dict[str, Any], target_structure: Path, temp
 def build_cofactor_manifest(config: dict[str, Any], conformers: list[dict[str, Any]]) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
     cof_cfg = config.get("cofactor", {})
-    out_dir = resolve_path(config.get("paths", {}).get("cofactor_mapped_dir", "data/cofactor_mapped"), root)
-    template_root = resolve_path(config.get("paths", {}).get("cofactor_dir", "data/cofactor"), root)
+    out_dir = resolve_path(config.get("paths", {}).get("cofactor_mapped_dir", "data/data_output/cofactor_mapped"), root)
+    template_root = resolve_path(config.get("paths", {}).get("cofactor_dir", "data/data_input/cofactor"), root)
     assert out_dir is not None and template_root is not None
     ensure_dir(out_dir)
     enabled = bool(cof_cfg.get("enabled", False))

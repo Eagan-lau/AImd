@@ -34,7 +34,7 @@ def load_protein_manifest(config: dict[str, Any]) -> list[ProteinInput]:
     input_cfg = config.get("input", {})
     selection_cfg = config.get("selection", {})
     root = Path(paths.get("aimd_root", ".")).resolve()
-    manifest_path = resolve_path(paths.get("protein_manifest", "data/protein/protein_manifest.csv"), root)
+    manifest_path = resolve_path(paths.get("protein_manifest", "data/data_output/protein_batches/protein_manifest.csv"), root)
     if manifest_path is None or not manifest_path.exists():
         raise FileNotFoundError(f"Protein manifest not found: {manifest_path}")
 

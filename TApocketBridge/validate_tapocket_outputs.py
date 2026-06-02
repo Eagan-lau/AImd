@@ -40,8 +40,8 @@ def validate(pocket_manifest: str | Path, run_manifest: str | Path | None = None
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate AImd TApocketBridge outputs")
-    parser.add_argument("--pocket-manifest", default="data/pocket/pocket_manifest.csv")
-    parser.add_argument("--run-manifest", default="data/pocket/tapocket_run_manifest.csv")
+    parser.add_argument("--pocket-manifest", default="data/data_output/pocket/pocket_manifest.csv")
+    parser.add_argument("--run-manifest", default="data/data_output/pocket/tapocket_run_manifest.csv")
     args = parser.parse_args()
     result = validate(args.pocket_manifest, args.run_manifest)
     if result["missing_files"] > 0:

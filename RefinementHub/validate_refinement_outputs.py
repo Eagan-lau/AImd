@@ -10,9 +10,9 @@ def main() -> None:
     args = ap.parse_args()
     root = Path(args.root)
     required = [
-        root / "data/refinement/selected_clusters.csv",
-        root / "data/refinement/selected_protein_manifest.csv",
-        root / "data/refined/docking_out/docking_result_manifest.csv",
+        root / "data/data_output/refinement/selected_clusters.csv",
+        root / "data/data_output/refinement/selected_protein_manifest.csv",
+        root / "data/data_output/refined/docking_out/docking_result_manifest.csv",
     ]
     missing = [str(p) for p in required if not p.exists()]
     if missing:

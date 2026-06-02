@@ -15,8 +15,8 @@ def _cluster_id(row: dict[str, str]) -> str:
 def load_top_clusters(config: dict[str, Any]) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
     sel = config.get("selection", {})
-    top_csv = resolve_path(config.get("paths", {}).get("clusterscore_top_csv", "data/scoring/ClusterScore/top10_clusters.csv"), root)
-    all_csv = resolve_path(config.get("paths", {}).get("clusterscore_all_csv", "data/scoring/ClusterScore/cluster_binding_statistics.csv"), root)
+    top_csv = resolve_path(config.get("paths", {}).get("clusterscore_top_csv", "data/data_output/scoring/ClusterScore/top10_clusters.csv"), root)
+    all_csv = resolve_path(config.get("paths", {}).get("clusterscore_all_csv", "data/data_output/scoring/ClusterScore/cluster_binding_statistics.csv"), root)
     rows = read_csv(top_csv) if top_csv and top_csv.exists() else []
     if not rows:
         rows = read_csv(all_csv) if all_csv and all_csv.exists() else []
@@ -50,7 +50,7 @@ def load_top_clusters(config: dict[str, Any]) -> list[dict[str, Any]]:
 
 def select_proteins_for_refinement(config: dict[str, Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    source_manifest = resolve_path(config.get("paths", {}).get("source_protein_manifest", "data/protein/protein_manifest.csv"), root)
+    source_manifest = resolve_path(config.get("paths", {}).get("source_protein_manifest", "data/data_output/protein_batches/protein_manifest.csv"), root)
     if source_manifest is None or not source_manifest.exists():
         raise FileNotFoundError(f"Protein manifest not found: {source_manifest}")
     protein_rows = read_csv(source_manifest)
@@ -91,8 +91,8 @@ def select_proteins_for_refinement(config: dict[str, Any]) -> tuple[list[dict[st
 
 def write_refinement_selection(config: dict[str, Any]) -> tuple[Path, Path]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    out_manifest = resolve_path(config.get("paths", {}).get("selected_protein_manifest", "data/refinement/selected_protein_manifest.csv"), root)
-    out_clusters = resolve_path(config.get("paths", {}).get("selected_clusters_csv", "data/refinement/selected_clusters.csv"), root)
+    out_manifest = resolve_path(config.get("paths", {}).get("selected_protein_manifest", "data/data_output/refinement/selected_protein_manifest.csv"), root)
+    out_clusters = resolve_path(config.get("paths", {}).get("selected_clusters_csv", "data/data_output/refinement/selected_clusters.csv"), root)
     assert out_manifest is not None and out_clusters is not None
     cluster_rows, protein_rows = select_proteins_for_refinement(config)
     write_csv(out_clusters, cluster_rows)

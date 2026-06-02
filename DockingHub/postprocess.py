@@ -47,7 +47,7 @@ def parse_vina_log(path: str | Path, num_affinities: int = 9) -> dict[str, Any]:
 
 def summarize_results(config: dict[str, Any], run_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    out_dir = resolve_path(config.get("paths", {}).get("docking_out_dir", "data/docking_out"), root)
+    out_dir = resolve_path(config.get("paths", {}).get("docking_out_dir", "data/data_output/docking_out"), root)
     assert out_dir is not None
     ensure_dir(out_dir)
     num_aff = int(config.get("postprocess", {}).get("num_affinities", 9) or 9)

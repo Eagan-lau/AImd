@@ -6,7 +6,7 @@ from pathlib import Path
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Validate AImd MetaBoClipBridge outputs")
-    ap.add_argument("--out-dir", default="data/metaboclip/results")
+    ap.add_argument("--out-dir", default="data/data_output/metaboclip/results")
     ap.add_argument("--require-scored", action="store_true", help="Require scored unified aggregate outputs, not only a dry-run report")
     args = ap.parse_args()
     out = Path(args.out_dir)

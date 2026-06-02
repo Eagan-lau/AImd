@@ -12,11 +12,11 @@ from .utils import read_csv
 def validate(root: str | Path = ".") -> int:
     root = Path(root).resolve()
     required = [
-        root / "data/ensemble/conformer_manifest.csv",
-        root / "data/cofactor_mapped/cofactor_manifest.csv",
-        root / "data/receptor/receptor_manifest.csv",
-        root / "data/docking_tasks/docking_task_manifest.csv",
-        root / "data/docking_out/docking_result_manifest.csv",
+        root / "data/data_output/ensemble/conformer_manifest.csv",
+        root / "data/data_output/cofactor_mapped/cofactor_manifest.csv",
+        root / "data/data_output/receptor/receptor_manifest.csv",
+        root / "data/data_output/docking_tasks/docking_task_manifest.csv",
+        root / "data/data_output/docking_out/docking_result_manifest.csv",
     ]
     errors = []
     for fp in required:
@@ -27,7 +27,7 @@ def validate(root: str | Path = ".") -> int:
         for e in errors:
             print(" -", e)
         return 1
-    results = read_csv(root / "data/docking_out/docking_result_manifest.csv")
+    results = read_csv(root / "data/data_output/docking_out/docking_result_manifest.csv")
     print(f"[DockingHub validate] OK: {len(results)} docking result rows")
     return 0
 

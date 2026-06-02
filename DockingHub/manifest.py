@@ -58,7 +58,7 @@ def _first(row: dict[str, str], keys: list[str]) -> str:
 
 def load_proteins(config: dict[str, Any]) -> list[ProteinRecord]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    manifest_path = resolve_path(config.get("paths", {}).get("protein_manifest", "data/protein/protein_manifest.csv"), root)
+    manifest_path = resolve_path(config.get("paths", {}).get("protein_manifest", "data/data_output/protein_batches/protein_manifest.csv"), root)
     if manifest_path is None or not manifest_path.exists():
         raise FileNotFoundError(f"Protein manifest not found: {manifest_path}")
     rows = read_csv(manifest_path)
@@ -111,7 +111,7 @@ def load_proteins(config: dict[str, Any]) -> list[ProteinRecord]:
 
 def load_ligands(config: dict[str, Any]) -> list[LigandRecord]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    ligand_manifest = resolve_path(config.get("paths", {}).get("ligand_manifest", "data/ligand/ligand_manifest.csv"), root)
+    ligand_manifest = resolve_path(config.get("paths", {}).get("ligand_manifest", "data/data_input/ligand/ligand_manifest.csv"), root)
     require_existing = bool(config.get("input", {}).get("require_existing_files", True))
     records: list[LigandRecord] = []
     if ligand_manifest is not None and ligand_manifest.exists():
@@ -138,7 +138,7 @@ def load_ligands(config: dict[str, Any]) -> list[LigandRecord]:
                 )
             )
     else:
-        ligand_dir = resolve_path(config.get("paths", {}).get("ligand_dir", "data/ligand"), root)
+        ligand_dir = resolve_path(config.get("paths", {}).get("ligand_dir", "data/data_input/ligand"), root)
         if ligand_dir and ligand_dir.exists():
             for batch_dir in sorted(ligand_dir.glob("file_*")):
                 if not batch_dir.is_dir():
@@ -146,13 +146,13 @@ def load_ligands(config: dict[str, Any]) -> list[LigandRecord]:
                 for fp in sorted(batch_dir.glob("*.pdbqt")):
                     records.append(LigandRecord(ligand_id=fp.stem, batch_id=batch_dir.name, ligand_path=fp))
     if not records:
-        raise RuntimeError("No ligand PDBQT files found. Provide data/ligand/ligand_manifest.csv or data/ligand/file_*/*.pdbqt")
+        raise RuntimeError("No ligand PDBQT files found. Provide data/data_input/ligand/ligand_manifest.csv or data/data_input/ligand/file_*/*.pdbqt")
     return records
 
 
 def load_pockets(config: dict[str, Any]) -> list[PocketRecord]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    pocket_manifest = resolve_path(config.get("paths", {}).get("pocket_manifest", "data/pocket/pocket_manifest.csv"), root)
+    pocket_manifest = resolve_path(config.get("paths", {}).get("pocket_manifest", "data/data_output/pocket/pocket_manifest.csv"), root)
     if pocket_manifest is None or not pocket_manifest.exists():
         raise FileNotFoundError(f"Pocket manifest not found: {pocket_manifest}")
     rows = read_csv(pocket_manifest)

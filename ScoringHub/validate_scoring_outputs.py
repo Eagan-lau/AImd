@@ -9,7 +9,7 @@ from pathlib import Path
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate AImd ClusterScore outputs")
-    parser.add_argument("--out-dir", default="data/scoring/ClusterScore")
+    parser.add_argument("--out-dir", default="data/data_output/scoring/ClusterScore")
     args = parser.parse_args()
     out = Path(args.out_dir)
     required = [

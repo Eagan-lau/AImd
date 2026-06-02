@@ -12,6 +12,44 @@ RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined
 
 MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` is the active adapter for the unified MetaboClip backend under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
 
+## Data Layout
+
+AImd separates starting inputs from generated workflow outputs:
+
+```text
+data/
+  data_input/
+    protein/
+    ligand/
+    cofactor/
+    workflow/
+  data_output/
+    cluster/
+    protein_batches/
+    ligand_transformation/
+    pocket/
+    ensemble/
+    cofactor_mapped/
+    receptor/
+    docking_configs/
+    docking_tasks/
+    docking_out/
+    scoring/
+    refinement/
+    refined/
+    metaboclip/
+```
+
+`data_input` is reserved for user-provided starting files and manual workflow control tables. `data_output` is reserved for module-generated files.
+
+Prepare or migrate the local data layout before running modules:
+
+```bash
+python scripts/migrate_data_layout.py --root .
+```
+
+The helper copies legacy local input folders into the canonical layout and writes project-root-relative protein and ligand input manifests. It does not delete legacy folders.
+
 ## Environment
 
 Install Python dependencies:
@@ -54,7 +92,7 @@ Do not use full docking or production workflows as smoke tests.
 The refined docking manifest consumed by `MetaBoClipBridge` is:
 
 ```text
-data/refined/docking_out/docking_result_manifest.csv
+data/data_output/refined/docking_out/docking_result_manifest.csv
 ```
 
 Important columns include:
@@ -66,7 +104,7 @@ job_id,ligand_id,protein_id,cluster_id,batch_id,conformer_id,pocket_id,pocket_ra
 The stable final ranking output is:
 
 ```text
-data/metaboclip/results/metaboclip_final_ranking.csv
+data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
 ## Unified MetaboClip Configuration
@@ -84,10 +122,10 @@ backend: unified
 paths:
   metaboclip_project_dir: metaboclip_unified
   metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
-  unified_output_dir: data/metaboclip/unified_runs
-  role_table_dir: data/metaboclip/ligand_roles/role_tables
-  annotation_dir: data/metaboclip/ligand_roles/annotations
-  atom_map_dir: data/metaboclip/ligand_roles/atom_maps
+  unified_output_dir: data/data_output/metaboclip/unified_runs
+  role_table_dir: data/data_output/metaboclip/ligand_roles/role_tables
+  annotation_dir: data/data_output/metaboclip/ligand_roles/annotations
+  atom_map_dir: data/data_output/metaboclip/ligand_roles/atom_maps
 ```
 
 Family mechanisms are configured under `mechanisms`. The bridge calls the Python API `metaboclip.core.workflow.run_directory` for scoring. `run_single_pair` is detected and available, but directory execution is preferred because it preserves unified backend protein aggregation.
@@ -126,22 +164,22 @@ The atom map and downstream catalytic geometry use heavy atoms only.
 Unified backend artifacts:
 
 ```text
-data/metaboclip/unified_runs/
+data/data_output/metaboclip/unified_runs/
 ```
 
 AImd-compatible aggregate outputs:
 
 ```text
-data/metaboclip/results/metaboclip_protein_scores_all.csv
-data/metaboclip/results/metaboclip_conformation_scores_all.csv
-data/metaboclip/results/metaboclip_pose_scores_all.csv
-data/metaboclip/results/metaboclip_candidate_scores_all.csv
-data/metaboclip/results/metaboclip_passing_candidates_all.csv
-data/metaboclip/results/metaboclip_geometry_features_all.csv
-data/metaboclip/results/metaboclip_resolved_ligand_sites_all.csv
-data/metaboclip/results/metaboclip_resolved_protein_roles_all.csv
-data/metaboclip/results/metaboclip_run_manifest.csv
-data/metaboclip/results/metaboclip_report.json
+data/data_output/metaboclip/results/metaboclip_protein_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_conformation_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_pose_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_candidate_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_passing_candidates_all.csv
+data/data_output/metaboclip/results/metaboclip_geometry_features_all.csv
+data/data_output/metaboclip/results/metaboclip_resolved_ligand_sites_all.csv
+data/data_output/metaboclip/results/metaboclip_resolved_protein_roles_all.csv
+data/data_output/metaboclip/results/metaboclip_run_manifest.csv
+data/data_output/metaboclip/results/metaboclip_report.json
 ```
 
 The final ranking preserves AImd metadata and uses real unified score fields when available:

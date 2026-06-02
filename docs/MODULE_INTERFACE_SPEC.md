@@ -79,7 +79,7 @@ job_id,ligand_id,protein_id,cluster_id,batch_id,conformer_id,pocket_id,pocket_ra
 Default refined docking input:
 
 ```text
-data/refined/docking_out/docking_result_manifest.csv
+data/data_output/refined/docking_out/docking_result_manifest.csv
 ```
 
 Required for scoring rows:
@@ -103,12 +103,12 @@ backend: unified
 paths:
   metaboclip_project_dir: metaboclip_unified
   metaboclip_profile: metaboclip_unified/metaboclip/config/profiles/default_profile.yaml
-  unified_output_dir: data/metaboclip/unified_runs
-  ligand_manifest: data/ligand/ligand_manifest.csv
-  ligand_source_manifest: data/ligand/ligand_source_manifest.csv
-  role_table_dir: data/metaboclip/ligand_roles/role_tables
-  annotation_dir: data/metaboclip/ligand_roles/annotations
-  atom_map_dir: data/metaboclip/ligand_roles/atom_maps
+  unified_output_dir: data/data_output/metaboclip/unified_runs
+  ligand_manifest: data/data_input/ligand/ligand_manifest.csv
+  ligand_source_manifest: data/data_input/ligand/ligand_source_manifest.csv
+  role_table_dir: data/data_output/metaboclip/ligand_roles/role_tables
+  annotation_dir: data/data_output/metaboclip/ligand_roles/annotations
+  atom_map_dir: data/data_output/metaboclip/ligand_roles/atom_maps
 mechanisms:
   cyp450: metaboclip_unified/metaboclip/config/families/cyp450/mechanism.yaml
 ```
@@ -120,28 +120,28 @@ Role generation requires an original ligand source file and a prepared ligand PD
 Stable final output:
 
 ```text
-data/metaboclip/results/metaboclip_final_ranking.csv
+data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
 AImd-compatible aggregate outputs:
 
 ```text
-data/metaboclip/results/metaboclip_protein_scores_all.csv
-data/metaboclip/results/metaboclip_conformation_scores_all.csv
-data/metaboclip/results/metaboclip_pose_scores_all.csv
-data/metaboclip/results/metaboclip_candidate_scores_all.csv
-data/metaboclip/results/metaboclip_passing_candidates_all.csv
-data/metaboclip/results/metaboclip_geometry_features_all.csv
-data/metaboclip/results/metaboclip_resolved_ligand_sites_all.csv
-data/metaboclip/results/metaboclip_resolved_protein_roles_all.csv
-data/metaboclip/results/metaboclip_run_manifest.csv
-data/metaboclip/results/metaboclip_report.json
+data/data_output/metaboclip/results/metaboclip_protein_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_conformation_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_pose_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_candidate_scores_all.csv
+data/data_output/metaboclip/results/metaboclip_passing_candidates_all.csv
+data/data_output/metaboclip/results/metaboclip_geometry_features_all.csv
+data/data_output/metaboclip/results/metaboclip_resolved_ligand_sites_all.csv
+data/data_output/metaboclip/results/metaboclip_resolved_protein_roles_all.csv
+data/data_output/metaboclip/results/metaboclip_run_manifest.csv
+data/data_output/metaboclip/results/metaboclip_report.json
 ```
 
 Unified backend artifacts are written under:
 
 ```text
-data/metaboclip/unified_runs/
+data/data_output/metaboclip/unified_runs/
 ```
 
 The final ranking uses real unified score columns when available:

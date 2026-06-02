@@ -18,8 +18,8 @@ def count_rows(path: Path, delimiter: str = "\t", header: bool = True) -> int:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate RGPC output files")
-    parser.add_argument("--rgpc-dir", default="data/cluster/RGPC")
-    parser.add_argument("--protein-manifest", default="data/protein/protein_manifest.csv")
+    parser.add_argument("--rgpc-dir", default="data/data_output/cluster/RGPC")
+    parser.add_argument("--protein-manifest", default="data/data_output/protein_batches/protein_manifest.csv")
     args = parser.parse_args()
 
     rgpc_dir = Path(args.rgpc_dir)

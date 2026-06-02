@@ -39,7 +39,7 @@ def _read_protein_manifest(path: Path | None) -> dict[str, dict[str, str]]:
 
 def _rows_from_manifest(config: dict[str, Any]) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    docking_manifest = resolve_path(config.get("paths", {}).get("docking_result_manifest", "data/docking_out/docking_result_manifest.csv"), root)
+    docking_manifest = resolve_path(config.get("paths", {}).get("docking_result_manifest", "data/data_output/docking_out/docking_result_manifest.csv"), root)
     if docking_manifest is None or not docking_manifest.exists():
         return []
     rows = read_csv(docking_manifest)
@@ -86,7 +86,7 @@ def _parse_job_id_from_log_name(log_path: Path) -> dict[str, str]:
 
 def _rows_from_logs(config: dict[str, Any]) -> list[dict[str, Any]]:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    docking_out = resolve_path(config.get("paths", {}).get("docking_out_dir", "data/docking_out"), root)
+    docking_out = resolve_path(config.get("paths", {}).get("docking_out_dir", "data/data_output/docking_out"), root)
     if docking_out is None or not docking_out.exists():
         return []
     num_aff = int(config.get("affinity_extraction", {}).get("num_affinities", 9) or 9)
@@ -116,10 +116,10 @@ def load_affinity_rows(config: dict[str, Any]) -> list[dict[str, Any]]:
     if not rows and bool(config.get("affinity_extraction", {}).get("scan_logs_when_manifest_missing", True)):
         rows = _rows_from_logs(config)
     if not rows:
-        raise RuntimeError("No docking affinity results found from docking_result_manifest.csv or data/docking_out/file_*/*.out")
+        raise RuntimeError("No docking affinity results found from docking_result_manifest.csv or data/data_output/docking_out/file_*/*.out")
 
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    protein_manifest = resolve_path(config.get("paths", {}).get("protein_manifest", "data/protein/protein_manifest.csv"), root)
+    protein_manifest = resolve_path(config.get("paths", {}).get("protein_manifest", "data/data_output/protein_batches/protein_manifest.csv"), root)
     protein_map = _read_protein_manifest(protein_manifest)
     out: list[dict[str, Any]] = []
     for row in rows:
@@ -361,7 +361,7 @@ def write_optional_plots(config: dict[str, Any], out_dir: Path, cluster_rows: li
 
 def run_clusterscore_core(config: dict[str, Any]) -> Path:
     root = Path(config.get("paths", {}).get("aimd_root", ".")).resolve()
-    out_dir = resolve_path(config.get("paths", {}).get("clusterscore_out_dir", "data/scoring/ClusterScore"), root)
+    out_dir = resolve_path(config.get("paths", {}).get("clusterscore_out_dir", "data/data_output/scoring/ClusterScore"), root)
     assert out_dir is not None
     ensure_dir(out_dir)
 

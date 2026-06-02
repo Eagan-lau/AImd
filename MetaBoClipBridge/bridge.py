@@ -126,12 +126,12 @@ def _unified_paths(config: dict[str, Any]) -> dict[str, Path]:
             "metaboclip_profile",
             "metaboclip_unified/metaboclip/config/profiles/default_profile.yaml",
         ),
-        "role_table_dir": _resolve_config_path(config, "role_table_dir", "data/metaboclip/ligand_roles/role_tables"),
-        "annotation_dir": _resolve_config_path(config, "annotation_dir", "data/metaboclip/ligand_roles/annotations"),
-        "atom_map_dir": _resolve_config_path(config, "atom_map_dir", "data/metaboclip/ligand_roles/atom_maps"),
-        "ligand_manifest": _resolve_config_path(config, "ligand_manifest", "data/ligand/ligand_manifest.csv"),
-        "ligand_source_manifest": _resolve_config_path(config, "ligand_source_manifest", "data/ligand/ligand_source_manifest.csv"),
-        "unified_output_dir": _resolve_config_path(config, "unified_output_dir", "data/metaboclip/unified_runs"),
+        "role_table_dir": _resolve_config_path(config, "role_table_dir", "data/data_output/metaboclip/ligand_roles/role_tables"),
+        "annotation_dir": _resolve_config_path(config, "annotation_dir", "data/data_output/metaboclip/ligand_roles/annotations"),
+        "atom_map_dir": _resolve_config_path(config, "atom_map_dir", "data/data_output/metaboclip/ligand_roles/atom_maps"),
+        "ligand_manifest": _resolve_config_path(config, "ligand_manifest", "data/data_input/ligand/ligand_manifest.csv"),
+        "ligand_source_manifest": _resolve_config_path(config, "ligand_source_manifest", "data/data_input/ligand/ligand_source_manifest.csv"),
+        "unified_output_dir": _resolve_config_path(config, "unified_output_dir", "data/data_output/metaboclip/unified_runs"),
     }
 
 
@@ -262,7 +262,7 @@ def _row_path(row: dict[str, Any], key: str, root: Path) -> Path | None:
 
 def load_refined_docking_rows(config: dict[str, Any]) -> list[dict[str, Any]]:
     root = _root(config)
-    manifest = resolve_path(config.get("paths", {}).get("refined_docking_manifest", "data/refined/docking_out/docking_result_manifest.csv"), root)
+    manifest = resolve_path(config.get("paths", {}).get("refined_docking_manifest", "data/data_output/refined/docking_out/docking_result_manifest.csv"), root)
     if manifest is None or not manifest.exists():
         raise FileNotFoundError(f"Refined docking result manifest not found: {manifest}")
     rows = read_csv(manifest)
@@ -293,7 +293,7 @@ def load_refined_docking_rows(config: dict[str, Any]) -> list[dict[str, Any]]:
 
 def load_cluster_family_map(config: dict[str, Any]) -> dict[str, list[str]]:
     root = _root(config)
-    map_path = resolve_path(config.get("family_assignment", {}).get("cluster_family_map_csv", "data/input/cluster_family_map.csv"), root)
+    map_path = resolve_path(config.get("family_assignment", {}).get("cluster_family_map_csv", "data/data_input/workflow/cluster_family_map.csv"), root)
     mapping: dict[str, list[str]] = {}
     if map_path and map_path.exists():
         for row in read_csv(map_path):
@@ -352,7 +352,7 @@ def _unified_safe_name(value: Any) -> str:
 
 def stage_metaboclip_inputs(config: dict[str, Any]) -> tuple[Path, list[dict[str, Any]]]:
     root = _root(config)
-    staging_root = resolve_path(config.get("paths", {}).get("staging_dir", "data/metaboclip/staging"), root)
+    staging_root = resolve_path(config.get("paths", {}).get("staging_dir", "data/data_output/metaboclip/staging"), root)
     assert staging_root is not None
     file_action = config.get("output", {}).get("file_action", "copy")
     overwrite = bool(config.get("output", {}).get("overwrite", False))
@@ -674,7 +674,7 @@ def prepare_unified_metaboclip_runs(
     allow_generation: bool = False,
 ) -> list[dict[str, Any]]:
     root = _root(config)
-    results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/metaboclip/results"), root)
+    results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/data_output/metaboclip/results"), root)
     assert results_root is not None
     validation = validate_unified_bridge_config(config, staged_rows)
     mechanisms = {family: Path(path) for family, path in validation["mechanisms"].items()}
@@ -782,7 +782,7 @@ def execute_unified_metaboclip_runs(config: dict[str, Any], staged_rows: list[di
                 row["message"] = str(exc)
             if not continue_on_error:
                 raise
-    results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/metaboclip/results"), _root(config))
+    results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/data_output/metaboclip/results"), _root(config))
     assert results_root is not None
     write_csv(results_root / "metaboclip_run_manifest.csv", run_rows)
     return run_rows
@@ -871,7 +871,7 @@ def _sort_final_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def collect_metaboclip_outputs(config: dict[str, Any], run_rows: list[dict[str, Any]]) -> Path:
     _require_unified_backend(config)
     root = _root(config)
-    results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/metaboclip/results"), root)
+    results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/data_output/metaboclip/results"), root)
     assert results_root is not None
     write_csv(results_root / "metaboclip_run_manifest.csv", run_rows)
 
@@ -955,7 +955,7 @@ def run_metaboclip_bridge_core(config: dict[str, Any]) -> Path:
             if row.get("status") != "failed":
                 row["status"] = "not_run"
                 row["message"] = "execution.run_metaboclip=false"
-        results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/metaboclip/results"), _root(config))
+        results_root = resolve_path(config.get("paths", {}).get("results_dir", "data/data_output/metaboclip/results"), _root(config))
         assert results_root is not None
         write_csv(results_root / "metaboclip_run_manifest.csv", run_rows)
     final_path = collect_metaboclip_outputs(config, run_rows)
