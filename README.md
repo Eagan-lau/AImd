@@ -8,15 +8,16 @@
 
 ## Why AImd
 
-AImd is designed as an end-to-end, manifest-driven engineering workflow for enzyme and ligand discovery projects where both protein conformational diversity and ligand chemistry matter. The package keeps each scientific step as a separable module, but links the modules through stable CSV manifests so that results can be inspected, resumed, replaced, or extended without rewriting the whole workflow.
+AImd is designed as a plug-and-play, declarative, end-to-end engineering workflow for enzyme and ligand discovery projects where both protein conformational diversity and ligand chemistry matter. Users place starting protein and ligand inputs under `data/data_input`, choose the required modules and external tools through YAML configuration, and run the workflow from input preparation to final MetaboClip ranking with a single command. Each scientific step remains a separable module, and stable CSV manifests keep results inspectable, resumable, replaceable, and extensible.
 
 Core highlights:
 
 - **Modular architecture:** MolLink, RGPC, TApocketBridge, DockingHub, ClusterScore, RefinementHub, MetaBoClipBridge, and MetaBoClipHub can be run independently or as a connected workflow.
+- **Declarative execution:** YAML configs select inputs, plugin tools, module switches, and output locations; the same package supports one-command full runs and module-by-module debugging.
 - **Protein-side structural intelligence:** Foldseek and HipMCL support protein similarity search and clustering; AlphaFlow can provide conformational ensembles for refined docking.
 - **Ligand-side chemistry intelligence:** MolLink records ligand sources and transformation networks; RDKit generates minimized 3D structures and prepared docking inputs.
 - **Cofactor-aware refined docking:** DockingHub can transfer cofactors only after local pocket validation, using heavy atoms for pocket detection and CA RMSD for the transfer gate.
-- **Mechanism-aware catalytic scoring:** Unified MetaboClip resolves ligand roles, protein roles, catalytic geometry, pose filters, conformation scores, and final protein rankings.
+- **Mechanism-aware catalytic scoring:** MetaBoClipHub resolves ligand roles, protein roles, catalytic geometry, pose filters, conformation scores, and final protein rankings.
 - **Clean input/output separation:** `data/data_input` stores starting data, while `data/data_output` stores generated module outputs.
 - **Stable deliverable conventions:** AImd preserves metadata such as `protein_id`, `ligand_id`, `conformer_id`, `pocket_id`, docking scores, role-table paths, atom-map paths, and final ranking outputs.
 
@@ -34,7 +35,7 @@ The active workflow is:
 MolLink -> RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge -> MetaBoClipHub
 ```
 
-MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` stages refined docking outputs for the unified MetaboClip core under `metaboclip_unified`, and `MetaBoClipHub` organizes the resulting role assets, catalytic scoring tables, reports, and final rankings.
+MetaboClip is a core scientific component of AImd. `MetaBoClipHub` is the AImd-facing MetaboClip module for role assets, catalytic scoring tables, reports, and final rankings; `MetaBoClipBridge` stages refined docking outputs into this hub.
 
 ## Module Map
 
@@ -123,6 +124,8 @@ python run_full_iterative_metaboclip.py \
   --config configs/workflows/full_iterative_metaboclip.yaml
 ```
 
+The full workflow command is the intended plug-and-play entry point: provide protein structures and the ligand CSV under `data/data_input`, select the enabled tools in YAML, and let AImd write all generated artifacts under `data/data_output`.
+
 Run modules individually:
 
 ```bash
@@ -191,7 +194,7 @@ The bridge consumes the refined docking manifest:
 data/data_output/refined/docking_out/docking_result_manifest.csv
 ```
 
-It preserves AImd metadata, prepares unified backend inputs, handles ligand role tables, calls `metaboclip.core.workflow.run_directory`, and writes AImd-compatible outputs under:
+It preserves AImd metadata, prepares MetaBoClipHub inputs, handles ligand role tables, calls the MetaboClip workflow API, and writes AImd-compatible outputs under:
 
 ```text
 data/data_output/metaboclip/results/
@@ -203,7 +206,7 @@ The stable final ranking path is:
 data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
-Unified backend run artifacts are written under:
+MetaBoClipHub runtime artifacts are written under:
 
 ```text
 data/data_output/metaboclip/unified_runs/
@@ -251,4 +254,4 @@ AImd keeps external tool metadata under `third_party/`. To check command availab
 python third_party/check_tools.py --config third_party/tools.yaml --root .
 ```
 
-PyMOL is not required for core unified MetaboClip scoring. It is optional for visualization/export paths or other modules that explicitly use it.
+PyMOL is not required for MetaBoClipHub scoring. It is optional for visualization/export paths or other modules that explicitly use it.

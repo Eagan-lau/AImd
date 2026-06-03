@@ -2,7 +2,7 @@
 
 ## Current Integration State
 
-The active MetaboClip integration uses `MetaBoClipBridge` as the adapter layer and `metaboclip_unified` as the backend. `MetaBoClipHub` is the AImd-facing result hub for role assets, score tables, reports, and final rankings.
+The active MetaboClip integration uses `MetaBoClipBridge` as the adapter layer and `MetaBoClipHub` as the AImd-facing result hub for role assets, score tables, reports, and final rankings.
 
 The bridge preserves the refined docking manifest interface and writes AImd-compatible outputs under:
 
@@ -18,7 +18,7 @@ data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 
 ## Active Backend Checks
 
-Expected active backend:
+Expected runtime package path:
 
 ```text
 metaboclip_unified

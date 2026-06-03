@@ -1,6 +1,6 @@
 # AImd Manifest Interface Specification
 
-This file records the stable AImd manifest interfaces used by the integrated workflow. The unified MetaboClip backend is integrated internally through `MetaBoClipBridge`; upstream and downstream manifest paths remain stable.
+This file records the stable AImd manifest interfaces used by the integrated workflow. MetaBoClipHub is integrated through `MetaBoClipBridge`; upstream and downstream manifest paths remain stable.
 
 ## Overall Data Flow
 
@@ -145,7 +145,7 @@ Active backend:
 backend: unified
 ```
 
-Required unified backend paths:
+Required MetaBoClipHub runtime paths:
 
 ```yaml
 paths:
@@ -208,7 +208,7 @@ Final ranking is sorted by real unified score fields when available:
 protein_score,quality_score,coverage,family,ligand_id,protein_id
 ```
 
-Unavailable compatibility score columns that are not safely derivable from the unified backend are not fabricated:
+Unavailable compatibility score columns that are not safely derivable from MetaBoClipHub are not fabricated:
 
 ```csv
 protein_score_norm,max_s_r

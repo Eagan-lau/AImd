@@ -2,7 +2,7 @@
 
 ## Overview
 
-AImd connects ligand transformation analysis, protein clustering, pocket prediction, docking, cluster scoring, refinement, and catalytic scoring through manifest files.
+AImd connects ligand transformation analysis, protein clustering, pocket prediction, docking, cluster scoring, refinement, and catalytic scoring through manifest files. It is designed as a plug-and-play declarative system: place starting inputs under `data/data_input`, select modules and external tools in YAML, and run either the full workflow command or individual module commands.
 
 Current workflow:
 
@@ -10,7 +10,7 @@ Current workflow:
 MolLink -> RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge -> MetaBoClipHub
 ```
 
-MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` stages refined docking outputs for the unified MetaboClip backend under `metaboclip_unified`, and `MetaBoClipHub` organizes the role assets, score tables, reports, and final rankings used by AImd.
+MetaboClip is a core scientific component of AImd. `MetaBoClipHub` is the AImd-facing MetaboClip module for role assets, score tables, reports, and final rankings; `MetaBoClipBridge` stages refined docking outputs into this hub.
 
 ## Data Layout
 
@@ -58,7 +58,7 @@ Install Python dependencies:
 pip install -r requirements.txt
 ```
 
-Core unified MetaboClip scoring requires Python imports for PyYAML, NumPy, SciPy, and RDKit. PyMOL is not required for core scoring; it is optional for visualization/export features or other modules that explicitly call it.
+MetaBoClipHub scoring requires Python imports for PyYAML, NumPy, SciPy, and RDKit. PyMOL is not required for core scoring; it is optional for visualization/export features or other modules that explicitly call it.
 
 TApocket template mapping requires PyMOL to be importable from the Python environment used to run `run_tapocket_batch.py`. The DeepPocket-DB fallback uses the same Python executable that runs AImd by default; custom AI commands should use the `{python_executable}` placeholder instead of a hard-coded `python`. The packaged AI fallback defaults to CPU for portable execution; set the TApocket AI device to `cuda` only on a compatible GPU runtime.
 
@@ -88,13 +88,15 @@ python run_refinement.py --config configs/Refinement/refine_from_clusterscore.ya
 python run_metaboclip_bridge.py --config configs/MetaBoClip/metaboclip_bridge.yaml
 ```
 
-Run the full workflow only after all inputs are prepared:
+Run the full declarative workflow after inputs and tool paths are prepared:
 
 ```bash
 conda deactivate
 conda activate aimd
 python run_full_iterative_metaboclip.py --config configs/workflows/full_iterative_metaboclip.yaml
 ```
+
+This command is the intended end-to-end entry point for package-level execution.
 
 Do not use full docking or production workflows as smoke tests.
 
@@ -146,7 +148,7 @@ The stable final ranking output is:
 data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 ```
 
-## Unified MetaboClip Configuration
+## MetaBoClipHub Configuration
 
 The active bridge config is:
 
@@ -167,7 +169,7 @@ paths:
   atom_map_dir: data/data_output/metaboclip/ligand_roles/atom_maps
 ```
 
-Family mechanisms are configured under `mechanisms`. The bridge calls the Python API `metaboclip.core.workflow.run_directory` for scoring. `run_single_pair` is detected and available, but directory execution is preferred because it preserves unified backend protein aggregation.
+Family mechanisms are configured under `mechanisms`. The bridge calls the MetaboClip workflow API for scoring. `run_single_pair` is detected and available, but directory execution is preferred because it preserves MetaBoClipHub protein aggregation.
 
 ## Role Tables
 
@@ -235,7 +237,7 @@ protein_score_norm,max_s_r
 
 ## Minimal Smoke Test Guidance
 
-The repository includes a deterministic MetaboClip bridge smoke test that uses tiny unified-backend fixtures and writes only to pytest temporary directories:
+The repository includes a deterministic MetaboClip bridge smoke test that uses tiny MetaBoClipHub fixtures and writes only to pytest temporary directories:
 
 ```bash
 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified \
@@ -245,7 +247,7 @@ PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=.:metaboclip_unified \
 A smoke test should use tiny inputs only. It should verify:
 
 1. `MetaBoClipBridge` imports.
-2. `metaboclip_unified` can be located.
+2. the MetaBoClipHub runtime package can be located.
 3. mechanism YAML and profile YAML paths resolve.
 4. role-table paths, annotation JSON paths, and atom-map JSON paths are handled.
 5. the bridge can write an AImd-compatible final ranking or dry-run report.

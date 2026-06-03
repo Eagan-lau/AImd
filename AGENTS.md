@@ -6,7 +6,11 @@ This repository is the AImd engineering package.
 
 AImd treats MetaboClip as a core scientific component of the workflow.
 
-The active unified MetaboClip core logic is located at:
+The active AImd-facing MetaboClip module is:
+
+MetaBoClipHub
+
+The runtime package path is:
 
 metaboclip_unified
 
@@ -278,12 +282,12 @@ For bug fixing:
 
 ## Documentation requirements
 
-Documentation must describe the active MetaboClip integration and user-facing behavior.
+Documentation must describe the active MetaboClip integration, the MetaBoClipHub user-facing module name, and plug-and-play workflow behavior.
 
 README and example commands must explain:
 
 1. How AImd calls MetaBoClipBridge.
-2. How MetaBoClipBridge calls metaboclip_unified.
+2. How MetaBoClipBridge stages refined docking outputs into MetaBoClipHub.
 3. Required input files.
 4. Required configuration files.
 5. Expected output files.

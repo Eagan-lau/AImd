@@ -17,7 +17,7 @@ RGPC
   -> MetaBoClipHub
 ```
 
-MetaboClip is a core scientific component of the workflow. `MetaBoClipBridge` stages refined docking outputs for the unified MetaboClip backend under `metaboclip_unified`, and `MetaBoClipHub` exposes the role assets, score tables, reports, and final rankings as AImd outputs.
+MetaboClip is a core scientific component of the workflow. `MetaBoClipHub` is the AImd-facing MetaboClip module for role assets, score tables, reports, and final rankings; `MetaBoClipBridge` stages refined docking outputs into this hub.
 
 ## ligand_source_manifest.csv
 
@@ -67,7 +67,7 @@ Recommended columns:
 ligand_id,batch_id,ligand_path,smiles,name,status
 ```
 
-For unified MetaboClip role-table generation, the ligand manifest or ligand source manifest may also provide:
+For MetaBoClipHub role-table generation, the ligand manifest or ligand source manifest may also provide:
 
 ```csv
 ligand_source_path,source_ligand_path,source_path,sdf_path,mol_path,mol2_path,prepared_ligand_pdbqt_path,pdbqt_path
@@ -87,7 +87,7 @@ Key columns:
 job_id,ligand_id,protein_id,cluster_id,batch_id,conformer_id,pocket_id,pocket_rank,receptor_pdbqt_path,ligand_pdbqt_path,config_path,out_pose_path,log_path,center_x,center_y,center_z,size_x,size_y,size_z,status,return_code,message,best_affinity,affinities,n_affinities,grid_size,grid_space,exhaustiveness,random_seed,pose_exists
 ```
 
-`MetaBoClipBridge` preserves these fields when present and adds bridge/unified backend status fields in downstream outputs.
+`MetaBoClipBridge` preserves these fields when present and adds bridge and MetaBoClipHub status fields in downstream outputs.
 
 ## MetaBoClipBridge Inputs
 

@@ -1,6 +1,6 @@
 # AImd Run Guide
 
-This guide describes what each AImd module does, which files it consumes, which files it writes, and how to run the workflow in a controlled order.
+This guide describes what each AImd module does, which files it consumes, which files it writes, and how to run the workflow in a controlled order. AImd is intended to work as a plug-and-play declarative package: provide protein and ligand inputs, select tool plugins and module switches in YAML, and run the full workflow command when the environment is ready.
 
 ## Workflow Summary
 
@@ -295,7 +295,7 @@ If AlphaFlow conformers already exist, a controlled engineering run can reuse `d
 
 Purpose:
 
-MetaBoClipBridge stages refined docking outputs, generates or reuses ligand role assets, calls the unified MetaboClip backend, and writes AImd-compatible catalytic scoring outputs.
+MetaBoClipBridge stages refined docking outputs, generates or reuses ligand role assets, calls the MetaBoClipHub scoring layer, and writes AImd-compatible catalytic scoring outputs.
 
 Main command:
 
@@ -350,7 +350,7 @@ MetaBoClipBridge does not fabricate unavailable compatibility score columns such
 protein_score_norm,max_s_r
 ```
 
-It preserves AImd metadata and uses real unified backend fields such as:
+It preserves AImd metadata and uses real MetaBoClipHub score fields such as:
 
 ```csv
 protein_score,quality_score,coverage
@@ -360,7 +360,7 @@ protein_score,quality_score,coverage
 
 Purpose:
 
-MetaBoClipHub is the AImd-facing result hub for MetaboClip outputs. It organizes role assets, unified run folders, aggregate score tables, reports, and final rankings under:
+MetaBoClipHub is the AImd-facing result hub for MetaboClip outputs. It organizes role assets, runtime run folders, aggregate score tables, reports, and final rankings under:
 
 ```text
 data/data_output/metaboclip/
