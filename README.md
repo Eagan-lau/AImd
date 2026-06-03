@@ -18,8 +18,6 @@ Core highlights:
 - **Ligand-side chemistry intelligence:** MolLink records ligand sources and transformation networks; RDKit generates minimized 3D structures and prepared docking inputs.
 - **Cofactor-aware refined docking:** DockingHub can transfer cofactors only after local pocket validation, using heavy atoms for pocket detection and CA RMSD for the transfer gate.
 - **Mechanism-aware catalytic scoring:** MetaBoClipHub resolves ligand roles, protein roles, catalytic geometry, pose filters, conformation scores, and final protein rankings.
-- **Clean input/output separation:** `data/data_input` stores starting data, while `data/data_output` stores generated module outputs.
-- **Stable deliverable conventions:** AImd preserves metadata such as `protein_id`, `ligand_id`, `conformer_id`, `pocket_id`, docking scores, role-table paths, atom-map paths, and final ranking outputs.
 
 ## Core Module Repositories
 
