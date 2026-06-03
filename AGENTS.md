@@ -10,15 +10,13 @@ The active unified MetaboClip core logic is located at:
 
 metaboclip_unified
 
-The old MetaboClip implementation has been removed from the clean deliverable package.
-
-The task is to keep the unified MetaboClip logic integrated into AImd through MetaBoClipBridge.
+The task is to keep the unified MetaboClip logic integrated into AImd through MetaBoClipBridge and exposed through the AImd-facing MetaBoClipHub outputs.
 
 ## Source-of-truth priority
 
-When project documents, code comments, legacy documentation, or README sections conflict, use this AGENTS.md file as the highest-priority project instruction.
+When project documents, code comments, or README sections conflict, use this AGENTS.md file as the highest-priority project instruction.
 
-Old README sections, old MetaBoClip documentation, and legacy comments may describe outdated behavior. Do not restore old behavior unless explicitly instructed.
+Do not change validated scientific behavior unless explicitly instructed.
 
 ## AImd interface specification
 
@@ -28,7 +26,7 @@ If the file exists, read:
 
 docs/aimd_manifest_interface_spec.md
 
-This file defines the current AImd module interfaces and manifest schemas. The integration of the new MetaboClip backend must preserve these interfaces unless explicitly instructed.
+This file defines the current AImd module interfaces and manifest schemas. The integration of the unified MetaboClip backend must preserve these interfaces unless explicitly instructed.
 
 Internal backend replacement is allowed. Upstream and downstream manifest compatibility must be preserved.
 
@@ -42,6 +40,7 @@ The expected high-level AImd data flow is:
 4. ClusterScore consumes the broad docking results and selects candidate clusters.
 5. RefinementHub generates selected protein manifests and refined docking outputs.
 6. MetaBoClipBridge consumes refined docking results and generates MetaboClip-compatible ranking outputs.
+7. MetaBoClipHub collects the MetaboClip role assets, score tables, reports, and final rankings for AImd delivery.
 
 The current MetaBoClipBridge input is expected to be:
 
@@ -86,7 +85,7 @@ exhaustiveness
 random_seed
 pose_exists
 
-MetaBoClipBridge must preserve as much AImd metadata as possible when adapting the refined docking manifest to the new MetaboClip backend.
+MetaBoClipBridge must preserve as much AImd metadata as possible when adapting the refined docking manifest to the unified MetaboClip backend.
 
 ## Integration principle
 
@@ -98,11 +97,11 @@ Keep metaboclip_unified as a standalone core module.
 
 Do not modify metaboclip_unified unless a minimal compatibility wrapper, import fix, or packaging fix is strictly required.
 
-Do not restore or reintroduce the old MetaBoClip logic.
+Keep MetaBoClipBridge connected to the unified MetaboClip core.
 
-## New MetaboClip logic
+## MetaboClip logic
 
-The new MetaboClip logic includes:
+The unified MetaboClip logic includes:
 
 1. Ligand functional-group detection.
 2. Ligand role-table generation.
@@ -145,9 +144,9 @@ MetaBoClipBridge must preserve and correctly pass:
 
 The integrated AImd workflow must keep stable downstream output conventions unless explicitly instructed.
 
-## New backend input requirements
+## Unified backend input requirements
 
-The new MetaboClip backend may require information that is not fully present in the old AImd refined docking manifest.
+The unified MetaboClip backend may require information that is not fully present in the AImd refined docking manifest.
 
 If required inputs are missing, do not hard-code local paths. Add project-root-relative or config-driven fields.
 
@@ -168,7 +167,7 @@ When adding new config fields, update the bridge config and documentation togeth
 
 ## Output compatibility rules
 
-The new MetaboClip backend may produce output files such as:
+The unified MetaboClip backend may produce output files such as:
 
 resolved_ligand_sites.csv
 resolved_protein_roles.csv
@@ -178,17 +177,17 @@ pose_scores.csv
 merged_conformation_scores.csv
 protein_scores.csv
 
-MetaBoClipBridge must translate the new backend outputs into stable AImd-compatible outputs under:
+MetaBoClipBridge must translate the unified backend outputs into stable AImd-compatible outputs under:
 
-data/metaboclip/results/
+data/data_output/metaboclip/results/
 
 The final AImd-facing ranking file should remain:
 
-data/metaboclip/results/metaboclip_final_ranking.csv
+data/data_output/metaboclip/results/metaboclip_final_ranking.csv
 
-Do not invent legacy score columns if they cannot be mapped safely.
+Do not fabricate compatibility score columns if they cannot be mapped safely.
 
-If legacy columns such as protein_score_norm or max_s_r are required by downstream modules, explicitly document how they are derived from new backend outputs. If no valid derivation exists, preserve the raw new backend score columns and mark the legacy columns as deprecated or unavailable.
+If compatibility columns such as protein_score_norm or max_s_r are required by downstream modules, explicitly document how they are derived from unified backend outputs. If no valid derivation exists, preserve the raw unified backend score columns and mark the compatibility columns as deprecated or unavailable.
 
 ## Path and configuration rules
 
@@ -223,7 +222,7 @@ Use minimal smoke tests only.
 
 Do not run commands that may modify user data unless the user explicitly approves them.
 
-Do not recreate the removed old MetaBoClip implementation unless explicitly instructed.
+Do not add alternate MetaBoClip scoring logic unless explicitly instructed.
 
 All generated source code, comments, README text, configuration examples, YAML files, JSON files, CSV headers, plot labels, legends, titles, and documentation must be in English only.
 
@@ -235,9 +234,9 @@ For integration work:
 2. Inspect metaboclip_unified first.
 3. Do not modify files during the first analysis step.
 4. Report the current AImd MetaBoClip interface.
-5. Report the new MetaboClip CLI or Python API.
-6. Compare current AImd expectations with the new MetaboClip input and output schema.
-7. Report old MetaBoClip assumptions that remain in AImd.
+5. Report the unified MetaboClip CLI or Python API.
+6. Compare current AImd expectations with the unified MetaboClip input and output schema.
+7. Report compatibility assumptions that remain in AImd.
 8. Propose the smallest integration plan.
 9. List files that need modification before editing.
 10. Wait for explicit confirmation before editing files.
@@ -251,13 +250,13 @@ Before editing files, produce a concrete adapter design that includes:
 
 1. Current AImd call chain into MetaBoClipBridge.
 2. Current required input manifest columns for MetaBoClipBridge.
-3. Required new MetaboClip inputs.
-4. Which required new inputs are already available from AImd manifests.
-5. Which required new inputs need new config fields.
-6. Mapping from AImd refined docking manifest to new MetaboClip inputs.
-7. Mapping from new MetaboClip outputs to AImd-compatible outputs.
-8. Which legacy result columns can be safely preserved.
-9. Which legacy result columns must not be invented.
+3. Required unified MetaboClip inputs.
+4. Which required unified inputs are already available from AImd manifests.
+5. Which required unified inputs need config fields.
+6. Mapping from AImd refined docking manifest to unified MetaboClip inputs.
+7. Mapping from unified MetaboClip outputs to AImd-compatible outputs.
+8. Which compatibility result columns can be safely preserved.
+9. Which compatibility result columns must not be invented.
 10. Exact files that need modification.
 11. Minimal smoke test plan.
 
@@ -272,14 +271,14 @@ For bug fixing:
 3. Report the root cause before editing files.
 4. Propose the smallest safe fix.
 5. Modify only the necessary files.
-6. Preserve the new MetaboClip logic.
+6. Preserve the unified MetaboClip logic.
 7. Preserve the output schema unless explicitly instructed.
 8. Run the smallest possible smoke test.
 9. Summarize git diff.
 
 ## Documentation requirements
 
-Documentation must describe the current new MetaboClip integration, not the old legacy implementation.
+Documentation must describe the active MetaboClip integration and user-facing behavior.
 
 README and example commands must explain:
 

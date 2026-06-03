@@ -1,5 +1,5 @@
 workflow: full_iterative_metaboclip
-name: MolLink -> RGPC -> TApocket -> broad DockingHub -> ClusterScore -> refined DockingHub -> unified MetaboClipBridge
+name: MolLink -> RGPC -> TApocket -> broad DockingHub -> ClusterScore -> refined DockingHub -> MetaBoClipBridge -> MetaBoClipHub
 
 paths:
   aimd_root: .

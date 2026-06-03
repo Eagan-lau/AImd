@@ -7,10 +7,10 @@ AImd connects ligand transformation analysis, protein clustering, pocket predict
 Current workflow:
 
 ```text
-MolLink -> RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge
+MolLink -> RGPC -> TApocketBridge -> DockingHub -> ClusterScore -> RefinementHub -> refined DockingHub -> MetaBoClipBridge -> MetaBoClipHub
 ```
 
-MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` is the active adapter for the unified MetaboClip backend under `metaboclip_unified`; the old implementation is not part of the clean deliverable package.
+MetaboClip is a core scientific component of AImd. `MetaBoClipBridge` stages refined docking outputs for the unified MetaboClip backend under `metaboclip_unified`, and `MetaBoClipHub` organizes the role assets, score tables, reports, and final rankings used by AImd.
 
 ## Data Layout
 
@@ -48,7 +48,7 @@ Prepare or migrate the local data layout before running modules:
 python scripts/migrate_data_layout.py --root .
 ```
 
-The helper copies legacy local input folders into the canonical layout and writes project-root-relative protein and ligand input manifests. It does not delete legacy folders.
+The helper copies older local input folders into the canonical layout and writes project-root-relative protein and ligand input manifests. It does not delete the original local folders.
 
 ## Environment
 
@@ -227,7 +227,7 @@ The final ranking preserves AImd metadata and uses real unified score fields whe
 protein_score,quality_score,coverage
 ```
 
-The bridge does not fabricate unavailable legacy scientific columns:
+The bridge does not fabricate unavailable compatibility score columns:
 
 ```csv
 protein_score_norm,max_s_r

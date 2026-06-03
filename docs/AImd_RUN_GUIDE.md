@@ -12,6 +12,7 @@ MolLink
   -> ClusterScore
   -> RefinementHub and refined DockingHub
   -> MetaBoClipBridge
+  -> MetaBoClipHub
 ```
 
 The workflow separates user inputs from generated outputs:
@@ -343,7 +344,7 @@ data/data_output/metaboclip/results/metaboclip_resolved_ligand_sites_all.csv
 data/data_output/metaboclip/results/metaboclip_resolved_protein_roles_all.csv
 ```
 
-MetaBoClipBridge does not fabricate unavailable legacy columns such as:
+MetaBoClipBridge does not fabricate unavailable compatibility score columns such as:
 
 ```csv
 protein_score_norm,max_s_r
@@ -355,7 +356,19 @@ It preserves AImd metadata and uses real unified backend fields such as:
 protein_score,quality_score,coverage
 ```
 
-## 10. Validation Commands
+## 10. MetaBoClipHub
+
+Purpose:
+
+MetaBoClipHub is the AImd-facing result hub for MetaboClip outputs. It organizes role assets, unified run folders, aggregate score tables, reports, and final rankings under:
+
+```text
+data/data_output/metaboclip/
+```
+
+The MetaBoClipHub artifacts are produced by the `run_metaboclip_bridge.py` command. No separate scoring command is required for this output layer.
+
+## 11. Validation Commands
 
 Compile Python modules with the AImd Python environment:
 
@@ -378,7 +391,7 @@ python MetaBoClipBridge/validate_metaboclip_outputs.py --out-dir data/data_outpu
 
 Full-repository `pytest` may collect third-party model tests under vendored tool directories. Use the repository-owned `tests/` directory for AImd smoke testing unless the third-party test environments are explicitly configured.
 
-## 11. Practical Run Order
+## 12. Practical Run Order
 
 For a controlled engineering run from starting inputs:
 

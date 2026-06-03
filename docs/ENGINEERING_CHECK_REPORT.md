@@ -2,7 +2,7 @@
 
 ## Current Integration State
 
-The active MetaboClip integration uses `MetaBoClipBridge` as the adapter layer and `metaboclip_unified` as the backend. The old implementation has been removed from the clean deliverable package.
+The active MetaboClip integration uses `MetaBoClipBridge` as the adapter layer and `metaboclip_unified` as the backend. `MetaBoClipHub` is the AImd-facing result hub for role assets, score tables, reports, and final rankings.
 
 The bridge preserves the refined docking manifest interface and writes AImd-compatible outputs under:
 
@@ -79,7 +79,7 @@ The final ranking uses real unified score columns when present:
 protein_score,quality_score,coverage
 ```
 
-Unavailable legacy score columns are not generated:
+Unavailable compatibility score columns are not generated:
 
 ```csv
 protein_score_norm,max_s_r

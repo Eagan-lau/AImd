@@ -14,9 +14,10 @@ RGPC
   -> RefinementHub
   -> refined DockingHub
   -> MetaBoClipBridge
+  -> MetaBoClipHub
 ```
 
-MetaboClip is a core scientific component of the workflow. The active backend is `metaboclip_unified`, called through `MetaBoClipBridge`; the old implementation is not part of the clean deliverable package.
+MetaboClip is a core scientific component of the workflow. `MetaBoClipBridge` stages refined docking outputs for the unified MetaboClip backend under `metaboclip_unified`, and `MetaBoClipHub` exposes the role assets, score tables, reports, and final rankings as AImd outputs.
 
 ## ligand_source_manifest.csv
 
@@ -164,17 +165,16 @@ The final ranking uses real unified score columns when available:
 protein_score,quality_score,coverage
 ```
 
-Legacy scientific columns that cannot be safely derived are not generated:
+Unavailable compatibility score columns that cannot be safely derived are not generated:
 
 ```csv
 protein_score_norm,max_s_r
 ```
 
-## Replacement Principles
+## Interface Principles
 
 1. Preserve manifest readability.
 2. Preserve existing input column names.
 3. Use project-root-relative or explicitly configured paths.
 4. Keep failed rows visible with clear `status` and `message` fields.
-5. Do not restore the legacy MetaboClip backend as the active workflow.
-6. Do not use ligand hydrogen coordinates for downstream catalytic geometry.
+5. Do not use ligand hydrogen coordinates for downstream catalytic geometry.
